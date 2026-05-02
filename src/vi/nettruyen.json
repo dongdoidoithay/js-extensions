@@ -13,7 +13,7 @@
     "urlSelector": "h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "src"
+    "thumbnailAttribute": "data-retries"
   },
   "latest": {
     "path": "/tim-truyen?status=-1&sort=10&page={page}",
@@ -23,7 +23,7 @@
     "urlSelector": "h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "src"
+    "thumbnailAttribute": "data-retries"
   },
   "search": {
     "path": "/tim-truyen?keyword={query}&page={page}",
@@ -39,7 +39,7 @@
     "titleSelector": "h1.title-detail",
     "titleAttribute": "text",
     "thumbnailSelector": ".col-image img",
-    "thumbnailAttribute": "src",
+    "thumbnailAttribute": "data-retries",
     "authorSelector": ".author .col-xs-8",
     "authorAttribute": "text",
     "statusSelector": ".status .col-xs-8",
