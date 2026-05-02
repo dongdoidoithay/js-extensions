@@ -1,0 +1,64 @@
+{
+  "id": "meosua_vi",
+  "name": "MeoSua",
+  "lang": "vi",
+  "baseUrl": "https://meosua.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/xem-nhieu-nhat/?trang={page}",
+    "listSelector": "article.uk-panel.uk-margin-small-bottom:has(h3 a[href*=\"/truyen/\"])",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/truyen-moi-cap-nhat/?trang={page}",
+    "listSelector": "article.uk-panel.uk-margin-small-bottom:has(h3 a[href*=\"/truyen/\"])",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/?s={query}",
+    "listSelector": "article.uk-panel.uk-margin-small-bottom:has(h3 a[href*=\"/truyen/\"])",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h2#category-title, section#single-block h2, #single-block h2.uk-margin-remove-top, h2.uk-margin-remove-top",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".single-thumb img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".tab-story .uk-grid div:contains(Tác giả) + div",
+    "authorAttribute": "text",
+    "statusSelector": ".tab-story [uk-icon=\"icon: file-edit\"]",
+    "statusAttribute": "parent.text",
+    "descriptionSelector": ".tab-story .hide-long-text p",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "#chapter-list-tab .chapter-item, .tab-story .chapter-list .chapter-item",
+    "urlSelector": "a.uk-link-toggle",
+    "urlAttribute": "href",
+    "nameSelector": "h4",
+    "nameAttribute": "text",
+    "dateSelector": ".uk-article-meta [uk-icon=\"icon: calendar\"] + span",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "#view-chapter .chapter-content img, .chapter-content img, .view-comic img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "mimihentai_vi",
+  "name": "MiMiHentai",
+  "lang": "vi",
+  "baseUrl": "https://mimihentai.net",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/danh-sach?sort=-views&page={page}",
+    "listSelector": "a.group",
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/danh-sach?page={page}",
+    "listSelector": "a.group",
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem?keyword={query}&page={page}",
+    "listSelector": "a.group",
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "div.title p",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.rounded.shadow-md.w-full",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[href*='/tac-gia/']",
+    "authorAttribute": "text",
+    "statusSelector": "body",
+    "statusAttribute": "text",
+    "descriptionSelector": "div.mt-4",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.chapter-list a",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "h1",
+    "nameAttribute": "text",
+    "dateSelector": "span.timeago",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img.lazy",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

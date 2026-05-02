@@ -1,0 +1,64 @@
+{
+  "id": "fastscan_vi",
+  "name": "FastScan",
+  "lang": "vi",
+  "baseUrl": "https://fastscan.org",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/tim-kiem-nang-cao?category=&notcategory=&status=0&minchapter=0&sort=4&page={page}",
+    "listSelector": "ul.list_grid.grid > li",
+    "titleSelector": ".book_name h3 a",
+    "titleAttribute": "text",
+    "urlSelector": ".book_avatar a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/tim-kiem-nang-cao?category=&notcategory=&status=0&minchapter=0&sort=0&page={page}",
+    "listSelector": "ul.list_grid.grid > li",
+    "titleSelector": ".book_name h3 a",
+    "titleAttribute": "text",
+    "urlSelector": ".book_avatar a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem?q={query}&page={page}",
+    "listSelector": "ul.list_grid.grid > li",
+    "titleSelector": ".book_name h3 a",
+    "titleAttribute": "text",
+    "urlSelector": ".book_avatar a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": ".book_detail .book_other h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".book_info .book_avatar img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "li.author p.col-xs-9",
+    "authorAttribute": "text",
+    "statusSelector": "li.status p.col-xs-9",
+    "statusAttribute": "text",
+    "descriptionSelector": ".story-detail-info.detail-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": ".list_chapter .works-chapter-item",
+    "urlSelector": ".name-chap a",
+    "urlAttribute": "href",
+    "nameSelector": ".name-chap a",
+    "nameAttribute": "text",
+    "dateSelector": ".time-chap",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "#chapter_content .chapter_content img, .page-chapter img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

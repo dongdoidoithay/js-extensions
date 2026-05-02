@@ -1,0 +1,64 @@
+{
+  "id": "thienthaitruyen_vi",
+  "name": "ThienThaiTruyen",
+  "lang": "vi",
+  "baseUrl": "https://thienthaitruyen8.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/tim-kiem-nang-cao?sort=rating&status=all&page={page}",
+    "listSelector": "a[href*=/truyen-tranh/]:has(span.line-clamp-2)",
+    "titleSelector": "span.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img[src]",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/tim-kiem-nang-cao?sort=latest&status=all&page={page}",
+    "listSelector": "a[href*=/truyen-tranh/]:has(span.line-clamp-2)",
+    "titleSelector": "span.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img[src]",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem-nang-cao?name={query}&sort=latest&status=all&page={page}",
+    "listSelector": "a[href*=/truyen-tranh/]:has(span.line-clamp-2)",
+    "titleSelector": "span.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img[src]",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img[alt=poster]",
+    "thumbnailAttribute": "src",
+    "authorSelector": "p:contains(Tác giả) + *",
+    "authorAttribute": "text",
+    "statusSelector": "p:contains(Trạng thái) + *",
+    "statusAttribute": "text",
+    "descriptionSelector": "p.comic-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.chapter-items > a",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "p.text-sm.text-white.font-medium",
+    "nameAttribute": "text",
+    "dateSelector": "p.text-xs span",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "div.center img:not([title=banner])",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

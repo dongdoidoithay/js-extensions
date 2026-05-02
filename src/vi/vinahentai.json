@@ -1,0 +1,65 @@
+{
+  "id": "vinahentai_vi",
+  "name": "VinaHentai",
+  "lang": "vi",
+  "baseUrl": "https://vinahentai.asia",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/danh-sach?sort=views&page={page}",
+    "listSelector": "a.group[href^=/truyen-hentai/]:has(h3)",
+    "titleSelector": "h3",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/danh-sach?sort=updatedAt&page={page}",
+    "listSelector": "a.group[href^=/truyen-hentai/]:has(h3)",
+    "titleSelector": "h3",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/search?q={query}&page={page}",
+    "listSelector": "a[href^=/truyen-hentai/]:has(h2)",
+    "titleSelector": "h2",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img[alt*=Bìa], img[src*=story-images]",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[href^=/authors/]",
+    "authorAttribute": "text",
+    "statusSelector": "body",
+    "statusAttribute": "text",
+    "descriptionSelector": "#manga-description-section .text-txt-secondary",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "a.block[href^=/truyen-hentai/]",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "span",
+    "nameAttribute": "text",
+    "dateSelector": "time",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "",
+    "urlSelector": "",
+    "urlAttribute": "",
+    "regex": "https://cdn.vinahentai.asia/manga-images/[^\"'\\s\\\\]+"
+  }
+}

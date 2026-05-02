@@ -1,0 +1,64 @@
+{
+  "id": "nhentaiclub_vi",
+  "name": "NhentaiClub",
+  "lang": "vi",
+  "baseUrl": "https://nhentaiclub.site",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/genre/all?sort=view&page={page}",
+    "listSelector": "a[href^=/g/]:has(img[alt])",
+    "titleSelector": "img",
+    "titleAttribute": "alt",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/genre/all?sort=recent-update&page={page}",
+    "listSelector": "a[href^=/g/]:has(img[alt])",
+    "titleSelector": "img",
+    "titleAttribute": "alt",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/genre/all?sort=recent-update&search={query}&page={page}",
+    "listSelector": "a[href^=/g/]:has(img[alt])",
+    "titleSelector": "img",
+    "titleAttribute": "alt",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.flex.mb-8 img[alt][src*=thumbnail]",
+    "thumbnailAttribute": "src",
+    "authorSelector": "div.flex.items-center:contains(Tác giả) a, div.flex.items-center:contains(Tác giả) span:last-child",
+    "authorAttribute": "text",
+    "statusSelector": "div.flex.items-center:contains(Trạng thái) a, div.flex.items-center:contains(Trạng thái) span:last-child",
+    "statusAttribute": "text",
+    "descriptionSelector": "#introduction-wrap p",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": ".chapter-list #chapter-list-link a[href*=/read/]",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "span",
+    "nameAttribute": "text",
+    "dateSelector": "span:last-child",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img.read-image",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

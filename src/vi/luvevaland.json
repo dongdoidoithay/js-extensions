@@ -1,0 +1,64 @@
+{
+  "id": "luvevaland_vi",
+  "name": "LuvEvaLand",
+  "lang": "vi",
+  "baseUrl": "https://luvevalands2.co",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/truyen-tranh",
+    "listSelector": "#total-tab-content .comic-item",
+    "titleSelector": "a.comic-name",
+    "titleAttribute": "text",
+    "urlSelector": "a[href*=/truyen-tranh/]",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".comic-img img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/danh-sach-chuong-moi-cap-nhat?page={page}",
+    "listSelector": ".home__lg-book .book-vertical__item",
+    "titleSelector": ".book__lg-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".book__lg-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book__lg-image img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem?s={query}&page={page}",
+    "listSelector": "table.book__list tr.book__list-item",
+    "titleSelector": "td.book__list-name a",
+    "titleAttribute": "text",
+    "urlSelector": "td.book__list-name a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "td.book__list-image img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": ".book__detail-name",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".book__detail-image img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".book__detail-text:contains(Tác giả:) a",
+    "authorAttribute": "text",
+    "statusSelector": ".book__detail-text:contains(Tình trạng:)",
+    "statusAttribute": "text",
+    "descriptionSelector": "#intro-tab-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "table.list-chapter tbody tr",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "td.list-chapter__name a",
+    "nameAttribute": "text",
+    "dateSelector": "td.list-chapter__date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "#view-chapter img, #chapter-content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

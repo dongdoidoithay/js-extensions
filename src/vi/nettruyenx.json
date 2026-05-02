@@ -1,0 +1,66 @@
+{
+  "id": "nettruyenx_vi",
+  "name": "NetTruyenX",
+  "lang": "vi",
+  "baseUrl": "https://nettruyenx.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/truyen-tranh-hot?page={page}",
+    "listSelector": "div.item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-original"
+  },
+  "latest": {
+    "path": "/?page={page}",
+    "listSelector": "div.item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-original"
+  },
+  "search": {
+    "path": "/tim-truyen?keyword={query}&page={page}",
+    "listSelector": "div.item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-original"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.col-image img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "li.author p.col-xs-8",
+    "authorAttribute": "text",
+    "statusSelector": "li.status p.col-xs-8",
+    "statusAttribute": "text",
+    "genreSelector": "li.kind p.col-xs-8 a",
+    "genreAttribute": "text",
+    "descriptionSelector": "div.detail-content div.shortened",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.list-chapter li.row:not(.heading)",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": "div.col-xs-4",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "div.reading-detail div.page-chapter img",
+    "urlSelector": "",
+    "urlAttribute": "data-original"
+  }
+}

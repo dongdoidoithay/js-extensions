@@ -1,0 +1,64 @@
+{
+  "id": "tranh18_vi",
+  "name": "Tranh18",
+  "lang": "vi",
+  "baseUrl": "https://tranh18.cc",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/",
+    "listSelector": ".box-body ul li, .manga-list ul li",
+    "titleSelector": "a[title]",
+    "titleAttribute": "title",
+    "urlSelector": "a[href]",
+    "urlAttribute": "href",
+    "thumbnailSelector": "p.mh-cover, img[data-original]",
+    "thumbnailAttribute": "data-original"
+  },
+  "latest": {
+    "path": "/update?page={page}",
+    "listSelector": ".box-body ul li, .manga-list ul li",
+    "titleSelector": "a[title]",
+    "titleAttribute": "title",
+    "urlSelector": "a[href]",
+    "urlAttribute": "href",
+    "thumbnailSelector": "p.mh-cover, img[data-original]",
+    "thumbnailAttribute": "data-original"
+  },
+  "search": {
+    "path": "/search?keyword={query}&page={page}",
+    "listSelector": ".box-body ul li, .manga-list ul li",
+    "titleSelector": "a[title]",
+    "titleAttribute": "title",
+    "urlSelector": "a[href]",
+    "urlAttribute": "href",
+    "thumbnailSelector": "p.mh-cover, img[data-original]",
+    "thumbnailAttribute": "data-original"
+  },
+  "mangaDetails": {
+    "titleSelector": ".info h1, .detail-main-info-title",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".banner_detail_form .cover img, .detail-main-cover img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".subtitle:contains(Tác giả：), .detail-main-info-author:contains(Tác giả：) a",
+    "authorAttribute": "text",
+    "statusSelector": ".block:contains(Trạng thái), .detail-list-title-1",
+    "statusAttribute": "text",
+    "genreSelector": "p.tip:contains(Từ khóa) span a, .detail-main-info-class span a",
+    "genreAttribute": "text",
+    "descriptionSelector": "p.content, p.detail-desc",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "ul.detail-list-select li",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img.lazy",
+    "urlSelector": "",
+    "urlAttribute": "data-original"
+  }
+}

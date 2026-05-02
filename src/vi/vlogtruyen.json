@@ -1,0 +1,64 @@
+{
+  "id": "vlogtruyen_vi",
+  "name": "VlogTruyen",
+  "lang": "vi",
+  "baseUrl": "https://vlogtruyen69.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/the-loai/dang-hot?page={page}",
+    "listSelector": "div.content-tab ul li.commic-hover",
+    "titleSelector": "h3.title-commic-tab",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-commic-tab img.lazyload",
+    "thumbnailAttribute": "data-src"
+  },
+  "latest": {
+    "path": "/the-loai/moi-cap-nhap/?page={page}",
+    "listSelector": "div.content-tab ul li.commic-hover",
+    "titleSelector": "h3.title-commic-tab",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-commic-tab img.lazyload",
+    "thumbnailAttribute": "data-src"
+  },
+  "search": {
+    "path": "/tim-kiem?q={query}&page={page}",
+    "listSelector": "div.content-tab ul li.commic-hover",
+    "titleSelector": "h3.title-commic-tab",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-commic-tab img.lazyload",
+    "thumbnailAttribute": "data-src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1.title-commic-detail",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.image-commic-detail > a > img",
+    "thumbnailAttribute": "data-src",
+    "authorSelector": ".h5-drawer:contains(Tác Giả) + ul li a",
+    "authorAttribute": "text",
+    "statusSelector": "div.top-detail-manga > div.top-detail-manga-avatar > div.manga-status > p",
+    "statusAttribute": "text",
+    "descriptionSelector": "span.desc-commic-detail",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": ".list-chapter li",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "h3",
+    "nameAttribute": "text",
+    "dateSelector": "span",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img.image-commic",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

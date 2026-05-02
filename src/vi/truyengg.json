@@ -1,0 +1,64 @@
+{
+  "id": "truyengg_vi",
+  "name": "FoxTruyen",
+  "lang": "vi",
+  "baseUrl": "https://foxtruyen2.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/top-binh-chon/trang-{page}.html",
+    "listSelector": ".list_item_home .item_home",
+    "titleSelector": "a.book_name",
+    "titleAttribute": "text",
+    "urlSelector": "a.book_name",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-cover img",
+    "thumbnailAttribute": "data-src"
+  },
+  "latest": {
+    "path": "/truyen-moi-cap-nhat/trang-{page}.html",
+    "listSelector": ".list_item_home .item_home",
+    "titleSelector": "a.book_name",
+    "titleAttribute": "text",
+    "urlSelector": "a.book_name",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-cover img",
+    "thumbnailAttribute": "data-src"
+  },
+  "search": {
+    "path": "/tim-kiem/trang-{page}.html?q={query}",
+    "listSelector": ".list_item_home .item_home",
+    "titleSelector": "a.book_name",
+    "titleAttribute": "text",
+    "urlSelector": "a.book_name",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-cover img",
+    "thumbnailAttribute": "data-src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1[itemprop=name]",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".thumbblock img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "p:contains(Tác Giả) + p",
+    "authorAttribute": "text",
+    "statusSelector": "p:contains(Trạng Thái) + p",
+    "statusAttribute": "text",
+    "descriptionSelector": "div.story-detail-info",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "ul.list_chap > li.item_chap",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": "span.cl99",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": ".content_detail img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

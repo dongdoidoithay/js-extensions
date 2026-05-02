@@ -1,0 +1,64 @@
+{
+  "id": "sayhentai_vi",
+  "name": "SayHentai",
+  "lang": "vi",
+  "baseUrl": "https://sayhentai.sh",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/danh-sach-truyen?orderby=popular&page={page}",
+    "listSelector": ".list-truyen .item-manga",
+    "titleSelector": ".title-manga a",
+    "titleAttribute": "text",
+    "urlSelector": ".title-manga a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-manga img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/danh-sach-truyen?orderby=latest&page={page}",
+    "listSelector": ".list-truyen .item-manga",
+    "titleSelector": ".title-manga a",
+    "titleAttribute": "text",
+    "urlSelector": ".title-manga a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-manga img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem?s={query}&page={page}",
+    "listSelector": ".list-truyen .item-manga",
+    "titleSelector": ".title-manga a",
+    "titleAttribute": "text",
+    "urlSelector": ".title-manga a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image-manga img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": ".title-manga",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".image-manga img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".author a",
+    "authorAttribute": "text",
+    "statusSelector": ".status a",
+    "statusAttribute": "text",
+    "descriptionSelector": ".detail-manga",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": ".list-chapter .item-chapter",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".time-chapter",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": ".reading-content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

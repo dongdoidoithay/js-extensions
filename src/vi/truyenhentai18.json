@@ -1,0 +1,64 @@
+{
+  "id": "truyenhentai18_vi",
+  "name": "Truyện Hentai 18+",
+  "lang": "vi",
+  "baseUrl": "https://truyenhentai18.net",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/xem-nhieu-nhat/page/{page}",
+    "listSelector": "div.col-6.col-md-4.col-lg-2.mb-3",
+    "titleSelector": "h2",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/moi-cap-nhat/page/{page}",
+    "listSelector": "div.col-6.col-md-4.col-lg-2.mb-3",
+    "titleSelector": "h2",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/?s={query}",
+    "listSelector": "div.col-6.col-md-4.col-lg-2.mb-3",
+    "titleSelector": "h2",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.manga-cover, .card img.img-fluid",
+    "thumbnailAttribute": "src",
+    "authorSelector": "div:contains(Tác giả:)",
+    "authorAttribute": "text",
+    "statusSelector": "div:contains(Trạng thái:)",
+    "statusAttribute": "text",
+    "descriptionSelector": ".description",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.chapter-item",
+    "urlSelector": "a.fw-bold",
+    "urlAttribute": "href",
+    "nameSelector": "a.fw-bold",
+    "nameAttribute": "text",
+    "dateSelector": "div.chapter-date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "div#viewer.chapter-container img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

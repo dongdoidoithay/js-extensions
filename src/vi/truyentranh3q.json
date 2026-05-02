@@ -1,0 +1,64 @@
+{
+  "id": "truyentranh3q_vi",
+  "name": "TruyenTranh3Q",
+  "lang": "vi",
+  "baseUrl": "https://manhua3q.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/danh-sach/truyen-yeu-thich?page={page}",
+    "listSelector": "ul.list_grid.grid > li",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar a img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/danh-sach/truyen-moi-cap-nhat?page={page}",
+    "listSelector": "ul.list_grid.grid > li",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar a img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem-nang-cao?keyword={query}&page={page}",
+    "listSelector": "ul.list_grid.grid > li",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar a img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1[itemprop=name]",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".book_detail > .book_info > .book_avatar > img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "ul.list-info li.author p.col-xs-9",
+    "authorAttribute": "text",
+    "statusSelector": "ul.list-info li.status p.col-xs-9",
+    "statusAttribute": "text",
+    "descriptionSelector": ".book_detail > .story-detail-info",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": ".works-chapter-list .works-chapter-item",
+    "urlSelector": ".name-chap > a",
+    "urlAttribute": "href",
+    "nameSelector": ".name-chap > a",
+    "nameAttribute": "text",
+    "dateSelector": ".time-chap",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": ".chapter_content .page-chapter img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

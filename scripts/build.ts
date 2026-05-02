@@ -22,6 +22,8 @@ interface SourceConfig {
 function walkDir(dir: string, fileList: string[] = []): string[] {
   const files = fs.readdirSync(dir);
   for (const file of files) {
+    if (file === 'check_json.js' || file === 'checklist.md') continue;
+    
     const filePath = path.join(dir, file);
     if (fs.statSync(filePath).isDirectory()) {
       walkDir(filePath, fileList);

@@ -1,0 +1,64 @@
+{
+  "id": "loppytoon_vi",
+  "name": "LoppyToon",
+  "lang": "vi",
+  "baseUrl": "https://loppytoon.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/",
+    "listSelector": "div.hot-comic-item a.hot-comic-item",
+    "titleSelector": "div.comic-title",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/truyen-moi-cap-nhat?page={page}",
+    "listSelector": "div.comic-item",
+    "titleSelector": "h3.comic-title",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".comic-cover img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/api/search-story?keyword={query}",
+    "listSelector": "div.comic-item",
+    "titleSelector": "h3.comic-title",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".comic-cover img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1.manga-title",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.cover-image",
+    "thumbnailAttribute": "src",
+    "authorSelector": "span.meta-label:contains(Tác giả) + *",
+    "authorAttribute": "text",
+    "statusSelector": "span.meta-label:contains(Tình trạng) + *",
+    "statusAttribute": "text",
+    "descriptionSelector": "div.manga-description",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "a.chapter-item",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "h3",
+    "nameAttribute": "text",
+    "dateSelector": "span.chapter-date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img.manga-image",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

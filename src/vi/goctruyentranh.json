@@ -1,0 +1,64 @@
+{
+  "id": "goctruyentranh_vi",
+  "name": "GocTruyenTranh",
+  "lang": "vi",
+  "baseUrl": "https://goctruyentranh.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/danh-sach/truyen-hot?page={page}",
+    "listSelector": "section.mt-12 > .grid > .flex",
+    "titleSelector": "a.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "a.line-clamp-2",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/danh-sach/truyen-moi-cap-nhat?page={page}",
+    "listSelector": "section.mt-12 > .grid > .flex",
+    "titleSelector": "a.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "a.line-clamp-2",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/baseapi/comics/filterComic?keyword={query}&page={page}",
+    "listSelector": ".comics-grid > .comic-item",
+    "titleSelector": ".comic-title",
+    "titleAttribute": "text",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "section aside:first-child h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "section aside:first-child img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "span:contains(Tác giả:) + b",
+    "authorAttribute": "text",
+    "statusSelector": "span:contains(Trạng thái:) + b",
+    "statusAttribute": "text",
+    "descriptionSelector": "div.mt-3",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "section ul li a",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": ".items-center:contains(Chapter)",
+    "nameAttribute": "text",
+    "dateSelector": ".text-center",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img.lozad",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "hentaivnx_vi",
+  "name": "HentaiVNx",
+  "lang": "vi",
+  "baseUrl": "https://www.hentaivnx.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/tim-truyen-nang-cao?sort=1&page={page}",
+    "listSelector": ".items .item",
+    "titleSelector": "h3 a, a.jtip, .image a",
+    "titleAttribute": "title",
+    "urlSelector": "h3 a, a.jtip, .image a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/?page={page}",
+    "listSelector": ".items .item",
+    "titleSelector": "h3 a, a.jtip, .image a",
+    "titleAttribute": "title",
+    "urlSelector": "h3 a, a.jtip, .image a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-truyen?keyword={query}&page={page}",
+    "listSelector": ".items .item",
+    "titleSelector": "h3 a, a.jtip, .image a",
+    "titleAttribute": "title",
+    "urlSelector": "h3 a, a.jtip, .image a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1.title-detail",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".detail-info .col-image img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "li.author .col-xs-8",
+    "authorAttribute": "text",
+    "statusSelector": "li.status .col-xs-8",
+    "statusAttribute": "text",
+    "descriptionSelector": ".detail-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "#nt_listchapter.list-chapter ul li.row",
+    "urlSelector": "div.chapter a",
+    "urlAttribute": "href",
+    "nameSelector": "div.chapter a",
+    "nameAttribute": "text",
+    "dateSelector": "div.col-xs-4",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": ".reading-detail img, .page-chapter img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

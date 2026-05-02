@@ -1,0 +1,64 @@
+{
+  "id": "damconuong_vi",
+  "name": "DamCoNuong",
+  "lang": "vi",
+  "baseUrl": "https://damconuong.lol",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/tim-kiem?sort=-views&filter[status]=2,1&page={page}",
+    "listSelector": "div.manga-vertical",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "div.cover-frame img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/tim-kiem?sort=-updated_at&filter[status]=2,1&page={page}",
+    "listSelector": "div.manga-vertical",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "div.cover-frame img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem?filter[name]={query}&sort=-updated_at&filter[status]=2,1&page={page}",
+    "listSelector": "div.manga-vertical",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "div.cover-frame img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1.text-xl.ml-1, h1.text-xl",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.cover-frame img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "span:containsOwn(Author:) + span a",
+    "authorAttribute": "text",
+    "statusSelector": "span:containsOwn(Tình trạng:) + span",
+    "statusAttribute": "text",
+    "descriptionSelector": "div.prose.dark\\:prose-invert.max-w-none",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "#chapterList > a.block",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "div.grow span",
+    "nameAttribute": "text",
+    "dateSelector": "span.ml-2.whitespace-nowrap",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "#chapter-content img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "manhuarock_vi",
+  "name": "ManhuaRock",
+  "lang": "vi",
+  "baseUrl": "https://manhuarock4.site",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/tat-ca-truyen/{page}/?sort=most-viewd",
+    "listSelector": ".latest-manga-grid .latest-manga-card",
+    "titleSelector": ".latest-manga-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".latest-manga-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".latest-manga-thumb-wrapper img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/tat-ca-truyen/{page}/?sort=latest-updated",
+    "listSelector": ".latest-manga-grid .latest-manga-card",
+    "titleSelector": ".latest-manga-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".latest-manga-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".latest-manga-thumb-wrapper img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/search/{page}/?keyword={query}",
+    "listSelector": ".latest-manga-grid .latest-manga-card",
+    "titleSelector": ".latest-manga-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".latest-manga-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".latest-manga-thumb-wrapper img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "div.post-title h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.summary_image img",
+    "thumbnailAttribute": "data-src",
+    "authorSelector": "div.author-content",
+    "authorAttribute": "text",
+    "statusSelector": "div.summary-heading:contains(Tình Trạng) + div.summary-content",
+    "statusAttribute": "text",
+    "descriptionSelector": "div.dsct",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "ul.row-content-chapter li",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": "span.chapter-time",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "truyenhentaiz_vi",
+  "name": "TruyenHentaiz",
+  "lang": "vi",
+  "baseUrl": "https://truyenhentaiz.net",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/xem-nhieu-nhat/page/{page}",
+    "listSelector": "section.container-box-manga .card.card-manga",
+    "titleSelector": "h2.card-manga-title",
+    "titleAttribute": "text",
+    "urlSelector": "div.card-manga-body > a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.card-img-top",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/moi-cap-nhat/page/{page}",
+    "listSelector": "section.container-box-manga .card.card-manga",
+    "titleSelector": "h2.card-manga-title",
+    "titleAttribute": "text",
+    "urlSelector": "div.card-manga-body > a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.card-img-top",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/page/{page}?s={query}",
+    "listSelector": "section.container-box-manga .card.card-manga",
+    "titleSelector": "h2.card-manga-title",
+    "titleAttribute": "text",
+    "urlSelector": "div.card-manga-body > a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.card-img-top",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": ".card.mb-3 h3.card-title, .pagetitle h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".card.mb-3 img.single-thumbnail, .card.mb-3 img",
+    "thumbnailAttribute": "src",
+    "statusSelector": "span:contains(Status:) strong",
+    "statusAttribute": "text",
+    "genreSelector": ".categories a",
+    "genreAttribute": "text",
+    "descriptionSelector": ".card.mb-3 p.desc",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.card:has(h2.card-title:contains(Chapters)) li.list-group-item:has(a[href])",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "span.fw-bold",
+    "nameAttribute": "text",
+    "dateSelector": "em",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "#chapter-content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "hanultruyen_vi",
+  "name": "HanulTruyen",
+  "lang": "vi",
+  "baseUrl": "https://hanultruyen.top",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/page/{page}/?s&post_type=wp-manga&m_orderby=views",
+    "listSelector": ".c-tabs-item__content",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/page/{page}/?s&post_type=wp-manga&m_orderby=latest",
+    "listSelector": ".c-tabs-item__content",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/page/{page}/?s={query}&post_type=wp-manga",
+    "listSelector": ".c-tabs-item__content",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": ".post-title h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".summary_image img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".author-content a",
+    "authorAttribute": "text",
+    "statusSelector": ".post-status .summary-content",
+    "statusAttribute": "text",
+    "descriptionSelector": ".description-summary",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "li.wp-manga-chapter",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".chapter-release-date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": ".reading-content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

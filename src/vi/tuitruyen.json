@@ -1,0 +1,64 @@
+{
+  "id": "tuitruyen_vi",
+  "name": "TuiTruyen",
+  "lang": "vi",
+  "baseUrl": "https://tuitruyen.top",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/",
+    "listSelector": "ol.homepage-ranking-list[data-ranking-period=total] a.homepage-ranking-item__link",
+    "titleSelector": ".homepage-ranking-item__title",
+    "titleAttribute": "text",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/manga?page={page}",
+    "listSelector": "article.manga-card--list",
+    "titleSelector": "h3",
+    "titleAttribute": "text",
+    "urlSelector": "a[href^=/manga/]",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/manga?q={query}&page={page}",
+    "listSelector": "article.manga-card--list",
+    "titleSelector": "h3",
+    "titleAttribute": "text",
+    "urlSelector": "a[href^=/manga/]",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1.manga-detail-title",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".detail-cover img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "p.manga-detail-meta-line:contains(Tác giả) a.inline-link",
+    "authorAttribute": "text",
+    "statusSelector": ".manga-status-pill",
+    "statusAttribute": "text",
+    "descriptionSelector": "[data-description-content]",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "ul.chapter-list li.chapter a.chapter-link",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": ".chapter-num",
+    "nameAttribute": "text",
+    "dateSelector": ".chapter-time",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "img.page-media",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

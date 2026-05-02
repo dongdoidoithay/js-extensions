@@ -1,0 +1,64 @@
+{
+  "id": "truyenhentaivn_vi",
+  "name": "TruyenHentaivn",
+  "lang": "vi",
+  "baseUrl": "https://truyenhentaivn.club",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/top-de-cu?page={page}",
+    "listSelector": "div.entry.text-center",
+    "titleSelector": "a.name",
+    "titleAttribute": "title",
+    "urlSelector": "a.name",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.s-thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/danh-sach?page={page}",
+    "listSelector": "div.entry.text-center",
+    "titleSelector": "a.name",
+    "titleAttribute": "title",
+    "urlSelector": "a.name",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.s-thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem-truyen/?q={query}&page={page}",
+    "listSelector": "div.entry.text-center",
+    "titleSelector": "a.name",
+    "titleAttribute": "title",
+    "urlSelector": "a.name",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.s-thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": ".comic-info .info h1.name",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".comic-info .book img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".meta-data .author i",
+    "authorAttribute": "text",
+    "statusSelector": ".tsinfo .imptdt:contains(Tình trạng) i",
+    "statusAttribute": "text",
+    "descriptionSelector": ".comic-description .inner",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": ".chap-list a.d-flex.justify-content-between",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "span.name",
+    "nameAttribute": "text",
+    "dateSelector": "span:nth-child(2)",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": ".chapter-content img, .content-text img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

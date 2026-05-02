@@ -1,0 +1,64 @@
+{
+  "id": "doctruyen3q_vi",
+  "name": "DocTruyen3Q",
+  "lang": "vi",
+  "baseUrl": "https://doctruyen3qhub.org",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/truyen-tranh-hot?page={page}",
+    "listSelector": "div.item-manga div.item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/?page={page}",
+    "listSelector": "div.item-manga div.item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-truyen?keyword={query}&page={page}",
+    "listSelector": "div.item-manga div.item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h1.title-manga",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.image-comic",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".author .col-xs-8",
+    "authorAttribute": "text",
+    "statusSelector": "li.status p.detail-info span",
+    "statusAttribute": "text",
+    "descriptionSelector": "p.detail-summary",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.list-chapter li.row:not(.heading):not([style])",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".chapters + div",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "div.page-chapter[id] img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}
