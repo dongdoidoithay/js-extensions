@@ -5,6 +5,9 @@
   "baseUrl": "https://nettruyenar.com",
   "version": "1.0.1",
   "supportsLatest": true,
+  "headers": {
+    "Referer": "https://nettruyenar.com/"
+  },
   "tags": [
     {
       "name": "Manhua",
