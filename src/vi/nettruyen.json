@@ -19,7 +19,7 @@
     "urlSelector": "h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "data-retries"
+    "thumbnailAttribute": "data-original"
   },
   "latest": {
     "path": "/tim-truyen?status=-1&sort=10&page={page}",
@@ -29,7 +29,7 @@
     "urlSelector": "h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "data-retries"
+    "thumbnailAttribute": "data-original"
   },
   "search": {
     "path": "/tim-truyen?keyword={query}&page={page}",
@@ -39,13 +39,13 @@
     "urlSelector": "h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "data-retries"
+    "thumbnailAttribute": "data-original"
   },
   "mangaDetails": {
     "titleSelector": "h1.title-detail",
     "titleAttribute": "text",
     "thumbnailSelector": ".col-image img",
-    "thumbnailAttribute": "data-retries",
+    "thumbnailAttribute": "data-original",
     "authorSelector": ".author .col-xs-8",
     "authorAttribute": "text",
     "statusSelector": ".status .col-xs-8",
