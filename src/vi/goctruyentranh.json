@@ -51,9 +51,9 @@
     "listSelector": "section ul li a",
     "urlSelector": "",
     "urlAttribute": "href",
-    "nameSelector": ".items-center:contains(Chapter)",
+    "nameSelector": "div:first-child",
     "nameAttribute": "text",
-    "dateSelector": ".text-center",
+    "dateSelector": "div:last-child",
     "dateAttribute": "text"
   },
   "pageList": {

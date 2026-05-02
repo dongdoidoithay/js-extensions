@@ -13,7 +13,7 @@
     "urlSelector": ".book_avatar a",
     "urlAttribute": "href",
     "thumbnailSelector": ".book_avatar img",
-    "thumbnailAttribute": "src"
+    "thumbnailAttribute": "data-src"
   },
   "latest": {
     "path": "/tim-kiem-nang-cao?category=&notcategory=&status=0&minchapter=0&sort=0&page={page}",
@@ -23,7 +23,7 @@
     "urlSelector": ".book_avatar a",
     "urlAttribute": "href",
     "thumbnailSelector": ".book_avatar img",
-    "thumbnailAttribute": "src"
+    "thumbnailAttribute": "data-src"
   },
   "search": {
     "path": "/tim-kiem?q={query}&page={page}",
@@ -33,7 +33,7 @@
     "urlSelector": ".book_avatar a",
     "urlAttribute": "href",
     "thumbnailSelector": ".book_avatar img",
-    "thumbnailAttribute": "src"
+    "thumbnailAttribute": "data-src"
   },
   "mangaDetails": {
     "titleSelector": ".book_detail .book_other h1",
