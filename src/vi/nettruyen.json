@@ -2,8 +2,8 @@
   "id": "nettruyen_vi",
   "name": "Nét Truyện",
   "lang": "vi",
-  "baseUrl": "https://nettruyenrr.com",
-  "version": "1.0.0",
+  "baseUrl": "https://nettruyenar.com",
+  "version": "1.0.1",
   "supportsLatest": true,
   "popular": {
     "path": "/tim-truyen?status=-1&sort=15&page={page}",
