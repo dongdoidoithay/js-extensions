@@ -7,6 +7,9 @@
   "supportsLatest": true,
   "popular": {
     "path": "/truyen-yeu-thich/trang-{page}",
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
     "listSelector": "ul.grid > li",
     "titleSelector": ".book_info .qtip a",
     "titleAttribute": "text",
@@ -17,6 +20,9 @@
   },
   "latest": {
     "path": "/truyen-moi-cap-nhat/trang-{page}",
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
     "listSelector": "ul.grid > li",
     "titleSelector": ".book_info .qtip a",
     "titleAttribute": "text",
@@ -27,6 +33,9 @@
   },
   "search": {
     "path": "/tim-kiem/trang-{page}?q={query}",
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
     "listSelector": "ul.grid > li",
     "titleSelector": ".book_info .qtip a",
     "titleAttribute": "text",
@@ -36,6 +45,9 @@
     "thumbnailAttribute": "src"
   },
   "mangaDetails": {
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
     "titleSelector": "h1",
     "titleAttribute": "text",
     "thumbnailSelector": "img[itemprop=image]",
@@ -57,6 +69,9 @@
     "dateAttribute": "text"
   },
   "pageList": {
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
     "listSelector": ".page-chapter img:not([src*='stress.gif'])",
     "urlSelector": "",
     "urlAttribute": "src"
