@@ -5,39 +5,41 @@
   "baseUrl": "https://nettruyenar.com",
   "version": "1.0.1",
   "supportsLatest": true,
-  "headers": {
-    "Referer": "https://nettruyenar.com/"
-  },
   "tags": [
     {
       "name": "Manhua",
-      "path": "/tim-truyen/manhua?page={page}"
+      "path": "/tim-truyen/manhua?page={page}",
+      "headers": {
+        "Referer": "https://nettruyenar.com/"
+      }
     },
     {
       "name": "Manhwa",
-      "path": "/tim-truyen/manhwa-11400?page={page}"
+      "path": "/tim-truyen/manhwa-11400?page={page}",
+      "headers": {
+        "Referer": "https://nettruyenar.com/"
+      }
     },
     {
       "name": "Ngôn Tình",
-      "path": "/tim-truyen/ngon-tinh?page={page}"
+      "path": "/tim-truyen/ngon-tinh?page={page}",
+      "headers": {
+        "Referer": "https://nettruyenar.com/"
+      }
     },
     {
-      "name": "Comedy",
-      "path": "/tim-truyen/comedy?page={page}"
+      "name": "popular",
+      "path": "/tim-truyen?status=-1&sort=15&page={page}",
+      "headers": {
+        "Referer": "https://nettruyenar.com/"
+      }
     }
   ],
-  "popular": {
-    "path": "/tim-truyen?status=-1&sort=15&page={page}",
-    "listSelector": ".items .item",
-    "titleSelector": "h3 a",
-    "titleAttribute": "text",
-    "urlSelector": "h3 a",
-    "urlAttribute": "href",
-    "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "data-original"
-  },
   "latest": {
     "path": "/tim-truyen?status=-1&sort=10&page={page}",
+    "headers": {
+      "Referer": "https://nettruyenar.com/"
+    },
     "listSelector": ".items .item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
@@ -48,6 +50,9 @@
   },
   "search": {
     "path": "/tim-truyen?keyword={query}&page={page}",
+    "headers": {
+      "Referer": "https://nettruyenar.com/"
+    },
     "listSelector": ".items .item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
@@ -57,6 +62,9 @@
     "thumbnailAttribute": "data-original"
   },
   "mangaDetails": {
+    "headers": {
+      "Referer": "https://nettruyenar.com/"
+    },
     "titleSelector": "h1.title-detail",
     "titleAttribute": "text",
     "thumbnailSelector": ".col-image img",
