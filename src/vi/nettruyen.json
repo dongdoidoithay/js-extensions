@@ -33,7 +33,7 @@
     "urlSelector": "h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "src"
+    "thumbnailAttribute": "data-retries"
   },
   "mangaDetails": {
     "titleSelector": "h1.title-detail",
@@ -44,6 +44,8 @@
     "authorAttribute": "text",
     "statusSelector": ".status .col-xs-8",
     "statusAttribute": "text",
+    "genreSelector": ".kind .col-xs-8 a",
+    "genreAttribute": "text",
     "descriptionSelector": ".detail-content p",
     "descriptionAttribute": "text"
   },
