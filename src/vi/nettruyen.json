@@ -5,6 +5,12 @@
   "baseUrl": "https://nettruyenar.com",
   "version": "1.0.1",
   "supportsLatest": true,
+  "tags": [
+    { "name": "Manhua", "path": "/tim-truyen/manhua?page={page}" },
+    { "name": "Manhwa", "path": "/tim-truyen/manhwa-11400?page={page}" },
+    { "name": "Ngôn Tình", "path": "/tim-truyen/ngon-tinh?page={page}" },
+    { "name": "Comedy", "path": "/tim-truyen/comedy?page={page}" }
+  ],
   "popular": {
     "path": "/tim-truyen?status=-1&sort=15&page={page}",
     "listSelector": ".items .item",
