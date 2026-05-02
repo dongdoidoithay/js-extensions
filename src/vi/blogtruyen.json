@@ -1,0 +1,54 @@
+{
+  "id": "blogtruyen_vi",
+  "name": "BlogTruyen",
+  "lang": "vi",
+  "baseUrl": "https://blogtruyen.vn",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/ajax/Search/AjaxLoadListManga?key=tatca&orderBy=3&p={page}",
+    "listSelector": ".list .tiptip",
+    "titleSelector": "a",
+    "titleAttribute": "title",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/timkiem/nangcao/1/0/-1/-1?txt={query}&p={page}",
+    "listSelector": ".list .tiptip",
+    "titleSelector": "a",
+    "titleAttribute": "title",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": ".title h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".thumbnail img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".author a",
+    "authorAttribute": "text",
+    "statusSelector": ".description .color-red",
+    "statusAttribute": "text",
+    "descriptionSelector": ".detail .content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "#list-chapters .title",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".publishedDate",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "listSelector": "#content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}
