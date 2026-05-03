@@ -1,0 +1,90 @@
+{
+  "id": "tiamanhwa_pt",
+  "name": "Tia Manhwa",
+  "lang": "pt",
+  "baseUrl": "https://tiamanhwa.com",
+  "version": "1.0.0",
+  "description": "Português - Sua tia favorita para ler manhwas.",
+  "isNsfw": true,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://tiamanhwa.com/"
+  },
+  "popular": {
+    "path": "/page/{page}/",
+    "headers": {
+      "Referer": "https://tiamanhwa.com/"
+    },
+    "listSelector": ".page-item-detail",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".item-thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/manga/page/{page}/?m_orderby=latest",
+    "headers": {
+      "Referer": "https://tiamanhwa.com/"
+    },
+    "listSelector": ".page-item-detail",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".item-thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/?s={query}&post_type=wp-manga",
+    "headers": {
+      "Referer": "https://tiamanhwa.com/"
+    },
+    "listSelector": ".c-tabs-item__content .row",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://tiamanhwa.com/"
+    },
+    "titleSelector": ".post-title h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".summary_image img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".author-content a",
+    "authorAttribute": "text",
+    "statusSelector": ".post-status .summary-content",
+    "statusAttribute": "text",
+    "genreSelector": ".genres-content a",
+    "genreAttribute": "text",
+    "descriptionSelector": ".description-summary .summary-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "isApi": true,
+    "apiResponseType": "html",
+    "apiMethod": "POST",
+    "apiUrlPattern": "https://tiamanhwa.com/manhwa/{slug}/ajax/chapters/?t=1",
+    "listSelector": "li.wp-manga-chapter",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".chapter-release-date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://tiamanhwa.com/"
+    },
+    "listSelector": ".reading-content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

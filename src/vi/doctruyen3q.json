@@ -4,6 +4,8 @@
   "lang": "vi",
   "baseUrl": "https://doctruyen3qhub.org",
   "version": "1.0.0",
+  "description": "Đọc truyện tranh 3Q online nhanh nhất, cập nhật liên tục.",
+  "isNsfw": false,
   "supportsLatest": true,
   "popular": {
     "path": "/?page={page}",

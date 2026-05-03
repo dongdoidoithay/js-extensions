@@ -4,6 +4,8 @@
   "lang": "vi",
   "baseUrl": "https://nhattruyenqq.com",
   "version": "1.0.0",
+  "description": "Đọc truyện tranh online miễn phí tại NhatTruyen.",
+  "isNsfw": false,
   "supportsLatest": true,
   "popular": {
     "path": "/truyen-tranh-hot?page={page}",

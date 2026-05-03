@@ -4,6 +4,8 @@
   "lang": "vi",
   "baseUrl": "https://damconuong.lol",
   "version": "1.0.0",
+  "description": "Nơi tổng hợp các bộ truyện tranh Đam Mỹ, Bách Hợp đặc sắc.",
+  "isNsfw": false,
   "supportsLatest": true,
   "popular": {
     "path": "/tim-kiem?sort=-views&filter[status]=2,1&page={page}",

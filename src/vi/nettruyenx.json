@@ -4,6 +4,8 @@
   "lang": "vi",
   "baseUrl": "https://nettruyenx.com",
   "version": "1.0.0",
+  "description": "Phiên bản mới của NetTruyen với trải nghiệm tốt hơn.",
+  "isNsfw": false,
   "supportsLatest": true,
   "popular": {
     "path": "/truyen-tranh-hot?page={page}",

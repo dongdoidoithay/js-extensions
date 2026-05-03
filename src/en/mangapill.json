@@ -1,0 +1,89 @@
+{
+  "id": "mangapill_en",
+  "name": "MangaPill",
+  "lang": "en",
+  "baseUrl": "https://mangapill.com",
+  "version": "1.0.1",
+  "description": "Read manga online for free at MangaPill.",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://mangapill.com/"
+  },
+  "popular": {
+    "path": "/mangas/new",
+    "headers": {
+      "Referer": "https://mangapill.com/"
+    },
+    "listSelector": ".grid > div:not([class])",
+    "titleSelector": "div.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "a[href^='/manga/']",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-src"
+  },
+  "latest": {
+    "path": "/chapters",
+    "headers": {
+      "Referer": "https://mangapill.com/"
+    },
+    "listSelector": ".grid > div:not([class])",
+    "titleSelector": "div.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "a[href^='/manga/']",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-src"
+  },
+  "search": {
+    "path": "/search?q={query}&page={page}",
+    "headers": {
+      "Referer": "https://mangapill.com/"
+    },
+    "listSelector": ".grid > div:not([class])",
+    "titleSelector": "div.line-clamp-2",
+    "titleAttribute": "text",
+    "urlSelector": "a[href^='/manga/']",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://mangapill.com/"
+    },
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.container > div:first-child > div:first-child > img",
+    "thumbnailAttribute": "data-src",
+    "authorSelector": "",
+    "authorAttribute": "text",
+    "statusSelector": "div.container > div:first-child > div:last-child > div:nth-child(3) > div:nth-child(2) > div",
+    "statusAttribute": "text",
+    "genreSelector": "a[href*=genre]",
+    "genreAttribute": "text",
+    "descriptionSelector": "div.container > div:first-child > div:last-child > div:nth-child(2) > p",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "headers": {
+      "Referer": "https://mangapill.com/"
+    },
+    "listSelector": "#chapters a",
+    "urlSelector": "",
+    "urlAttribute": "href",
+    "nameSelector": "self",
+    "nameAttribute": "text",
+    "dateSelector": "",
+    "dateAttribute": ""
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://mangapill.com/"
+    },
+    "listSelector": "picture img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

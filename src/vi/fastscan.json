@@ -4,6 +4,8 @@
   "lang": "vi",
   "baseUrl": "https://fastscan.org",
   "version": "1.0.0",
+  "description": "Đọc truyện tranh online cập nhật nhanh nhất tại FastScan.",
+  "isNsfw": false,
   "supportsLatest": true,
   "popular": {
     "path": "/tim-kiem-nang-cao?category=&notcategory=&status=0&minchapter=0&sort=4&page={page}",

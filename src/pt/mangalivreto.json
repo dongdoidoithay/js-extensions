@@ -1,0 +1,86 @@
+{
+  "id": "mangalivreto_pt",
+  "name": "Manga Livre.to",
+  "lang": "pt",
+  "baseUrl": "https://mangalivre.to",
+  "version": "1.0.0",
+  "description": "Português - Leia mangás online gratuitamente.",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://mangalivre.to/"
+  },
+  "popular": {
+    "path": "/manga/page/{page}/?m_orderby=views",
+    "headers": {
+      "Referer": "https://mangalivre.to/"
+    },
+    "listSelector": ".page-item-detail",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".item-thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/manga/page/{page}/?m_orderby=latest",
+    "headers": {
+      "Referer": "https://mangalivre.to/"
+    },
+    "listSelector": ".page-item-detail",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".item-thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/?s={query}&post_type=wp-manga",
+    "headers": {
+      "Referer": "https://mangalivre.to/"
+    },
+    "listSelector": ".c-tabs-item__content .row",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://mangalivre.to/"
+    },
+    "titleSelector": ".post-title h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".summary_image img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".author-content a",
+    "authorAttribute": "text",
+    "statusSelector": ".post-status .summary-content",
+    "statusAttribute": "text",
+    "genreSelector": ".genres-content a",
+    "genreAttribute": "text",
+    "descriptionSelector": ".description-summary .summary-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": ".listing-chapters-wrap .chapter-box, li.wp-manga-chapter",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".chapter-release-date, .chapter-date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://mangalivre.to/"
+    },
+    "listSelector": ".reading-content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

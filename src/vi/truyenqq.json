@@ -2,65 +2,75 @@
   "id": "truyenqq_vi",
   "name": "TruyenQQ",
   "lang": "vi",
-  "baseUrl": "https://truyenqqno.com",
-  "version": "1.0.0",
+  "baseUrl": "https://truyenqqviet.com",
+  "version": "1.0.1",
+  "description": "Đọc truyện tranh online TruyenQQ.",
+  "isNsfw": false,
   "supportsLatest": true,
+  "headers": {
+    "Referer": "https://truyenqqviet.com/"
+  },
   "popular": {
-    "path": "/truyen-yeu-thich/trang-{page}",
+    "path": "/truyen-yeu-thich?page={page}",
     "headers": {
-      "Referer": "https://truyenqqno.com/"
+      "Referer": "https://truyenqqviet.com/"
     },
-    "listSelector": "ul.grid > li",
-    "titleSelector": ".book_info .qtip a",
+    "listSelector": ".list_grid li",
+    "titleSelector": ".book_info h3 a",
     "titleAttribute": "text",
-    "urlSelector": ".book_info .qtip a",
+    "urlSelector": ".book_info h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".book_avatar img",
     "thumbnailAttribute": "src"
   },
   "latest": {
-    "path": "/truyen-moi-cap-nhat/trang-{page}",
+    "path": "/truyen-moi-cap-nhat?page={page}",
     "headers": {
-      "Referer": "https://truyenqqno.com/"
+      "Referer": "https://truyenqqviet.com/"
     },
-    "listSelector": "ul.grid > li",
-    "titleSelector": ".book_info .qtip a",
+    "listSelector": ".list_grid li",
+    "titleSelector": ".book_info h3 a",
     "titleAttribute": "text",
-    "urlSelector": ".book_info .qtip a",
+    "urlSelector": ".book_info h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".book_avatar img",
     "thumbnailAttribute": "src"
   },
   "search": {
-    "path": "/tim-kiem/trang-{page}?q={query}",
+    "path": "/tim-kiem?q={query}&page={page}",
     "headers": {
-      "Referer": "https://truyenqqno.com/"
+      "Referer": "https://truyenqqviet.com/"
     },
-    "listSelector": "ul.grid > li",
-    "titleSelector": ".book_info .qtip a",
+    "listSelector": ".list_grid li",
+    "titleSelector": ".book_info h3 a",
     "titleAttribute": "text",
-    "urlSelector": ".book_info .qtip a",
+    "urlSelector": ".book_info h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".book_avatar img",
     "thumbnailAttribute": "src"
   },
   "mangaDetails": {
     "headers": {
-      "Referer": "https://truyenqqno.com/"
+      "Referer": "https://truyenqqviet.com/"
     },
-    "titleSelector": "h1",
+    "titleSelector": ".book_other h1",
     "titleAttribute": "text",
-    "thumbnailSelector": "img[itemprop=image]",
+    "thumbnailSelector": ".book_avatar img",
     "thumbnailAttribute": "src",
-    "authorSelector": ".org",
+    "authorSelector": ".author .col-xs-9",
     "authorAttribute": "text",
-    "statusSelector": ".status > p:last-child",
+    "statusSelector": ".status .col-xs-9",
     "statusAttribute": "text",
+    "genreSelector": ".list01 a",
+    "genreAttribute": "text",
     "descriptionSelector": ".story-detail-info",
     "descriptionAttribute": "text"
   },
   "chapterList": {
-    "listSelector": "div.works-chapter-list div.works-chapter-item",
+    "headers": {
+      "Referer": "https://truyenqqviet.com/"
+    },
+    "listSelector": ".works-chapter-list .works-chapter-item",
     "urlSelector": "a",
     "urlAttribute": "href",
     "nameSelector": "a",
@@ -70,9 +80,9 @@
   },
   "pageList": {
     "headers": {
-      "Referer": "https://truyenqqno.com/"
+      "Referer": "https://truyenqqviet.com/"
     },
-    "listSelector": ".page-chapter img:not([src*='stress.gif'])",
+    "listSelector": ".story-see-content img",
     "urlSelector": "",
     "urlAttribute": "src"
   }

@@ -4,6 +4,8 @@
   "lang": "vi",
   "baseUrl": "https://manhuarock4.site",
   "version": "1.0.0",
+  "description": "Nền tảng đọc truyện tranh Manhua, Manhwa chất lượng cao.",
+  "isNsfw": false,
   "supportsLatest": true,
   "popular": {
     "path": "/tat-ca-truyen/{page}/?sort=most-viewd",

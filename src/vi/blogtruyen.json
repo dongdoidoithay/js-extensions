@@ -2,63 +2,88 @@
   "id": "blogtruyen_vi",
   "name": "BlogTruyen",
   "lang": "vi",
-  "baseUrl": "https://blogtruyenmoi.net",
-  "version": "1.0.1",
+  "baseUrl": "https://blogtruyen.vn",
+  "version": "1.0.2",
+  "description": "Cộng đồng truyện tranh lớn nhất Việt Nam.",
+  "isNsfw": false,
   "supportsLatest": true,
+  "headers": {
+    "Referer": "https://blogtruyen.vn/"
+  },
   "popular": {
-    "path": "/danh-sach/truyen-yeu-thich?page={page}",
-    "listSelector": ".grid > li",
-    "titleSelector": ".book_name a",
+    "path": "/ajax/Category/AjaxLoadMangaByCategory?id=-1&orderBy=3&p={page}",
+    "headers": {
+      "Referer": "https://blogtruyen.vn/"
+    },
+    "listSelector": ".list .item",
+    "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": ".book_name a",
+    "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": ".book_avatar img",
-    "thumbnailAttribute": "data-src"
+    "thumbnailSelector": ".image img",
+    "thumbnailAttribute": "src"
   },
   "latest": {
-    "path": "/danh-sach/truyen-moi-cap-nhat?page={page}",
-    "listSelector": ".grid > li",
-    "titleSelector": ".book_name a",
+    "path": "/ajax/Category/AjaxLoadMangaByCategory?id=-1&orderBy=5&p={page}",
+    "headers": {
+      "Referer": "https://blogtruyen.vn/"
+    },
+    "listSelector": ".list .item",
+    "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": ".book_name a",
+    "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": ".book_avatar img",
-    "thumbnailAttribute": "data-src"
+    "thumbnailSelector": ".image img",
+    "thumbnailAttribute": "src"
   },
   "search": {
-    "path": "/tim-kiem-nang-cao?keyword={query}&page={page}",
-    "listSelector": ".grid > li",
-    "titleSelector": ".book_name a",
+    "path": "/timkiem?keyword={query}&p={page}",
+    "headers": {
+      "Referer": "https://blogtruyen.vn/"
+    },
+    "listSelector": ".list .item",
+    "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": ".book_name a",
+    "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": ".book_avatar img",
-    "thumbnailAttribute": "data-src"
+    "thumbnailSelector": ".image img",
+    "thumbnailAttribute": "src"
   },
   "mangaDetails": {
-    "titleSelector": "h1",
+    "headers": {
+      "Referer": "https://blogtruyen.vn/"
+    },
+    "titleSelector": ".entry-title",
     "titleAttribute": "text",
     "thumbnailSelector": ".thumbnail img",
     "thumbnailAttribute": "src",
-    "authorSelector": "a.org",
+    "authorSelector": ".description p:contains(Tác giả) a",
     "authorAttribute": "text",
-    "statusSelector": ".description .color-red",
+    "statusSelector": ".description p:contains(Trạng thái) span",
     "statusAttribute": "text",
+    "genreSelector": ".description p:contains(Thể loại) a",
+    "genreAttribute": "text",
     "descriptionSelector": ".detail-content",
     "descriptionAttribute": "text"
   },
   "chapterList": {
-    "listSelector": ".works-chapter-item",
-    "urlSelector": ".name-chap a",
+    "headers": {
+      "Referer": "https://blogtruyen.vn/"
+    },
+    "listSelector": "#list-chapters p",
+    "urlSelector": "a",
     "urlAttribute": "href",
-    "nameSelector": ".name-chap a",
+    "nameSelector": "a",
     "nameAttribute": "text",
-    "dateSelector": ".time-chap",
+    "dateSelector": ".publishedDate",
     "dateAttribute": "text"
   },
   "pageList": {
-    "listSelector": "#images_container img",
+    "headers": {
+      "Referer": "https://blogtruyen.vn/"
+    },
+    "listSelector": "article#content img",
     "urlSelector": "",
-    "urlAttribute": "data-src"
+    "urlAttribute": "src"
   }
 }

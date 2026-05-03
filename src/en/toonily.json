@@ -1,0 +1,89 @@
+{
+  "id": "toonily_en",
+  "name": "Toonily",
+  "lang": "en",
+  "baseUrl": "https://toonily.com",
+  "version": "1.0.2",
+  "description": "Read Webtoons Online for Free.",
+  "isNsfw": true,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://toonily.com/"
+  },
+  "tags": [
+    {
+      "name": "New ManHwa",
+      "path": "/webtoons/page/{page}/?m_orderby=new-manga",
+      "headers": {
+        "Referer": "https://toonily.com/"
+      }
+    },
+    {
+      "name": "Trending",
+      "path": "/webtoons/page/{page}/?m_orderby=trending",
+      "headers": {
+        "Referer": "https://toonily.com/"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/page/{page}",
+    "headers": {
+      "Referer": "https://toonily.com/"
+    },
+    "listSelector": ".page-item-detail",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".item-thumb img, img",
+    "thumbnailAttribute": "data-src"
+  },
+  "search": {
+    "path": "/search/{query}/page/{page}/",
+    "headers": {
+      "Referer": "https://toonily.com/"
+    },
+    "listSelector": ".c-tabs-item__content .row",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://toonily.com/"
+    },
+    "titleSelector": ".post-title h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".summary_image img",
+    "thumbnailAttribute": "data-src",
+    "authorSelector": ".author-content a",
+    "authorAttribute": "text",
+    "statusSelector": ".post-status .summary-content",
+    "statusAttribute": "text",
+    "genreSelector": ".genres-content a",
+    "genreAttribute": "text",
+    "descriptionSelector": ".description-summary .summary-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "li.wp-manga-chapter",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".chapter-release-date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://toonily.com/"
+    },
+    "listSelector": ".reading-content img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

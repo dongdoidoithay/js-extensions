@@ -1,0 +1,67 @@
+{
+  "id": "noxmanga_pt",
+  "name": "NoxManga",
+  "lang": "pt",
+  "baseUrl": "https://noxmanga.co",
+  "version": "1.0.1",
+  "description": "Português - Leia mangás online na NoxManga.",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://noxmanga.co/",
+    "Origin": "https://noxmanga.co"
+  },
+  "popular": {
+    "isApi": true,
+    "path": "/api/v1/chapters/recent?page={page}&per_page=30&unique=true&adult=false",
+    "listSelector": "data",
+    "titleSelector": "comic_title",
+    "urlSelector": "comic_slug",
+    "thumbnailSelector": "comic_cover",
+    "mangaUrlPattern": "/manga/{slug}",
+    "chapterUrlPattern": "/ler/{comic_slug}/{slug}"
+  },
+  "search": {
+    "isApi": true,
+    "path": "/api/v1/comics/search?q={query}&page={page}",
+    "listSelector": "list",
+    "titleSelector": "title",
+    "urlSelector": "slug",
+    "thumbnailSelector": "cover_url",
+    "mangaUrlPattern": "/comic/{slug}",
+    "chapterUrlPattern": "/comic/{slug}"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://noxmanga.co/"
+    },
+    "titleSelector": ".detail-title",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".detail-cover img",
+    "thumbnailAttribute": "src",
+    "descriptionSelector": ".detail-description",
+    "descriptionAttribute": "text",
+    "genreSelector": ".detail-tags a",
+    "genreAttribute": "text",
+    "statusSelector": ".status-badge",
+    "statusAttribute": "text"
+  },
+  "chapterList": {
+    "isApi": true,
+    "apiUrlPattern": "https://xodneo.site/api/v1/comics/slug/{slug}/chapters?page=1&per_page=50&sort=newest",
+    "listSelector": "chapters",
+    "nameSelector": "number",
+    "textSelector": "Cap. {number}",
+    "urlSelector": "slug",
+    "dateSelector": "created_at",
+    "chapterUrlPattern": "/ler/{slug}/{chapterSlug}"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://noxmanga.co/"
+    },
+    "listSelector": "section > img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

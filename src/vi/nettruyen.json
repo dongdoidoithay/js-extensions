@@ -2,45 +2,49 @@
   "id": "nettruyen_vi",
   "name": "Nét Truyện",
   "lang": "vi",
-  "baseUrl": "https://nettruyenar.com",
-  "version": "1.0.1",
+  "baseUrl": "https://www.nettruyenx.com",
+  "version": "1.0.3",
+  "description": "Đọc truyện tranh online miễn phí.",
+  "isNsfw": false,
   "supportsLatest": true,
+  "headers": {
+    "Referer": "https://www.nettruyenx.com/"
+  },
   "tags": [
     {
-      "name": "Manhua",
-      "path": "/tim-truyen/manhua?page={page}",
+      "name": "Truyện mới",
+      "path": "/?page={page}",
       "headers": {
-        "Referer": "https://nettruyenar.com/"
+        "Referer": "https://www.nettruyenx.com/"
       }
     },
     {
-      "name": "Manhwa",
-      "path": "/tim-truyen/manhwa-11400?page={page}",
+      "name": "Truyện HOT",
+      "path": "/truyen-tranh-hot?page={page}",
       "headers": {
-        "Referer": "https://nettruyenar.com/"
-      }
-    },
-    {
-      "name": "Ngôn Tình",
-      "path": "/tim-truyen/ngon-tinh?page={page}",
-      "headers": {
-        "Referer": "https://nettruyenar.com/"
-      }
-    },
-    {
-      "name": "popular",
-      "path": "/tim-truyen?status=-1&sort=15&page={page}",
-      "headers": {
-        "Referer": "https://nettruyenar.com/"
+        "Referer": "https://www.nettruyenx.com/"
       }
     }
   ],
   "popular": {
-    "path": "/tim-truyen?status=-1&sort=10&page={page}",
+    "path": "/truyen-tranh-hot?page={page}",
     "headers": {
-      "Referer": "https://nettruyenar.com/"
+      "Referer": "https://www.nettruyenx.com/"
     },
-    "listSelector": ".items .item",
+    "listSelector": ".item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image img",
+    "thumbnailAttribute": "data-original"
+  },
+  "latest": {
+    "path": "/?page={page}",
+    "headers": {
+      "Referer": "https://www.nettruyenx.com/"
+    },
+    "listSelector": ".item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
     "urlSelector": "h3 a",
@@ -51,9 +55,9 @@
   "search": {
     "path": "/tim-truyen?keyword={query}&page={page}",
     "headers": {
-      "Referer": "https://nettruyenar.com/"
+      "Referer": "https://www.nettruyenx.com/"
     },
-    "listSelector": ".items .item",
+    "listSelector": ".item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
     "urlSelector": "h3 a",
@@ -63,12 +67,12 @@
   },
   "mangaDetails": {
     "headers": {
-      "Referer": "https://nettruyenar.com/"
+      "Referer": "https://www.nettruyenx.com/"
     },
-    "titleSelector": "h1.title-detail",
+    "titleSelector": ".title-detail",
     "titleAttribute": "text",
     "thumbnailSelector": ".col-image img",
-    "thumbnailAttribute": "data-src",
+    "thumbnailAttribute": "src",
     "authorSelector": ".author .col-xs-8",
     "authorAttribute": "text",
     "statusSelector": ".status .col-xs-8",
@@ -79,7 +83,10 @@
     "descriptionAttribute": "text"
   },
   "chapterList": {
-    "listSelector": ".list-chapter ul li.row",
+    "headers": {
+      "Referer": "https://www.nettruyenx.com/"
+    },
+    "listSelector": ".list-chapter li.row:not(.heading)",
     "urlSelector": "a",
     "urlAttribute": "href",
     "nameSelector": "a",
@@ -88,8 +95,11 @@
     "dateAttribute": "text"
   },
   "pageList": {
+    "headers": {
+      "Referer": "https://www.nettruyenx.com/"
+    },
     "listSelector": ".reading-detail .page-chapter img",
     "urlSelector": "",
-    "urlAttribute": "src"
+    "urlAttribute": "data-original"
   }
 }
