@@ -48,10 +48,10 @@
     "descriptionAttribute": "text"
   },
   "chapterList": {
-    "listSelector": "#chapterList a.block",
+    "listSelector": "#chapterList > a.block",
     "urlSelector": "",
     "urlAttribute": "href",
-    "nameSelector": "span.text-ellipsis",
+    "nameSelector": "div.grow span",
     "nameAttribute": "text",
     "dateSelector": "span.ml-2.whitespace-nowrap",
     "dateAttribute": "text"

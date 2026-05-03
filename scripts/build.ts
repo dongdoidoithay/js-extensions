@@ -63,6 +63,15 @@ function buildRepo() {
   // Write minified JSON
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(repoData));
   console.log(`\nSuccess! Built ${repoData.length} extensions into ${OUTPUT_FILE}`);
+
+  // Copy to mihon_clone mockup
+  const MOCKUP_DIR = path.join(__dirname, '../../mihon_clone/src/core/data-mockup');
+  const MOCKUP_FILE = path.join(MOCKUP_DIR, 'index.min.json');
+  
+  if (fs.existsSync(MOCKUP_DIR)) {
+    fs.copyFileSync(OUTPUT_FILE, MOCKUP_FILE);
+    console.log(`- Copied to mockup: ${MOCKUP_FILE}`);
+  }
 }
 
 buildRepo();

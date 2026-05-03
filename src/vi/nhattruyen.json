@@ -7,6 +7,9 @@
   "supportsLatest": true,
   "popular": {
     "path": "/truyen-tranh-hot?page={page}",
+    "headers": {
+      "Referer": "https://nhattruyenqq.com/"
+    },
     "listSelector": ".items .item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
@@ -17,6 +20,9 @@
   },
   "latest": {
     "path": "/?page={page}",
+    "headers": {
+      "Referer": "https://nhattruyenqq.com/"
+    },
     "listSelector": ".items .item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
@@ -27,6 +33,9 @@
   },
   "search": {
     "path": "/tim-truyen?keyword={query}&page={page}",
+    "headers": {
+      "Referer": "https://nhattruyenqq.com/"
+    },
     "listSelector": ".items .item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
@@ -36,6 +45,9 @@
     "thumbnailAttribute": "src"
   },
   "mangaDetails": {
+    "headers": {
+      "Referer": "https://nhattruyenqq.com/"
+    },
     "titleSelector": "h1.title-detail",
     "titleAttribute": "text",
     "thumbnailSelector": ".col-image img",
@@ -57,6 +69,9 @@
     "dateAttribute": "text"
   },
   "pageList": {
+    "headers": {
+      "Referer": "https://nhattruyenqq.com/"
+    },
     "listSelector": ".reading-detail .page-chapter img",
     "urlSelector": "",
     "urlAttribute": "src"

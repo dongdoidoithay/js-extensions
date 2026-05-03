@@ -1,0 +1,69 @@
+# Extension Conversion Checklist (vi)
+
+- [ ] arivers <!-- HeanCMS API based -->
+- [ ] baotangtruyen <!-- ChillTruyen API based, JWT in WebView -->
+- [x] blogtruyen
+- [ ] cmanga <!-- API based, complex session logic -->
+- [x] damconuong
+- [ ] daomeoden <!-- AJAX POST based, complex script extraction -->
+- [x] doctruyen3q
+- [ ] doctruyen5s <!-- OTruyen API based -->
+- [ ] dualeotruyen <!-- Image Decryption (XOR with salt) -->
+- [x] fastscan
+- [x] goctruyentranh
+- [ ] goctruyentranhvui <!-- API based -->
+- [x] hanultruyen
+- [x] hentaicube
+- [x] hentaivnplus
+- [x] hentaivnx
+- [ ] kamicomic <!-- WP JSON API based -->
+- [ ] kirakira <!-- API based, page probing logic -->
+- [x] loppytoon
+- [ ] luottruyen <!-- AJAX POST for chapter list -->
+- [x] luvevaland
+- [ ] lxhentai <!-- JS Decryption (action token XOR) -->
+- [x] manhuarock
+- [ ] medamtruyen <!-- Image Decryption logic -->
+- [x] mehentai
+- [x] meosua
+- [ ] mimi <!-- DRM/Image Interceptor based -->
+- [x] mimihentai
+- [ ] minotruyen <!-- Image Interceptor / Decryption -->
+- [x] moetruyen
+- [ ] moontruyen <!-- AES Image Decryption -->
+- [x] nettruyen
+- [ ] nettruyenco <!-- WPComics with NetTruyen API -->
+- [ ] nettruyenviet <!-- NetTruyen API based -->
+- [x] nettruyenx
+- [x] nhattruyen
+- [x] nhentaiclub
+- [ ] otakusic <!-- API based chapter list/images -->
+- [ ] otruyen <!-- API based (otruyenapi.com) -->
+- [ ] panomic <!-- Image Decryption logic -->
+- [x] sayhentai
+- [ ] seikowo <!-- Image Decryption logic -->
+- [ ] soaicacomic <!-- Image Decryption logic -->
+- [ ] teamlanhlung <!-- Image Decryption logic -->
+- [x] thienthaitruyen
+- [x] toptruyen
+- [x] tranh18
+- [ ] truyen18 <!-- Next.js, escaped content in script tags -->
+- [x] truyengg
+- [x] truyenhentai18
+- [x] truyenhentaivn
+- [x] truyenhentaiz
+- [x] truyenqq
+- [x] truyentranh3q
+- [x] truyentranhdammy
+- [ ] truyentuoitho <!-- XOR payload protection -->
+- [ ] truyentvn <!-- AJAX POST based chapters -->
+- [x] truyenvn
+- [x] tuitruyen
+- [ ] tusachxinhxinh <!-- Image Decryption logic -->
+- [x] umetruyen
+- [ ] vihentai <!-- Custom packer/obfuscation -->
+- [x] vinahentai
+- [x] vlogtruyen
+- [ ] yurigarden
+- [ ] yurineko <!-- API based with Image Decryptor -->
+- [ ] zettruyen <!-- API based chapter list -->

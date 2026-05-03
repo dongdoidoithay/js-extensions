@@ -1,0 +1,79 @@
+{
+  "id": "truyenqq_vi",
+  "name": "TruyenQQ",
+  "lang": "vi",
+  "baseUrl": "https://truyenqqno.com",
+  "version": "1.0.0",
+  "supportsLatest": true,
+  "popular": {
+    "path": "/truyen-yeu-thich/trang-{page}",
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
+    "listSelector": "ul.grid > li",
+    "titleSelector": ".book_info .qtip a",
+    "titleAttribute": "text",
+    "urlSelector": ".book_info .qtip a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/truyen-moi-cap-nhat/trang-{page}",
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
+    "listSelector": "ul.grid > li",
+    "titleSelector": ".book_info .qtip a",
+    "titleAttribute": "text",
+    "urlSelector": ".book_info .qtip a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem/trang-{page}?q={query}",
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
+    "listSelector": "ul.grid > li",
+    "titleSelector": ".book_info .qtip a",
+    "titleAttribute": "text",
+    "urlSelector": ".book_info .qtip a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".book_avatar img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img[itemprop=image]",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".org",
+    "authorAttribute": "text",
+    "statusSelector": ".status > p:last-child",
+    "statusAttribute": "text",
+    "descriptionSelector": ".story-detail-info",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.works-chapter-list div.works-chapter-item",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".time-chap",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://truyenqqno.com/"
+    },
+    "listSelector": ".page-chapter img:not([src*='stress.gif'])",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

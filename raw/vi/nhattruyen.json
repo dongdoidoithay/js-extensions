@@ -1,56 +1,63 @@
 {
-  "id": "doctruyen3q_vi",
-  "name": "DocTruyen3Q",
+  "id": "nhattruyen_vi",
+  "name": "NhatTruyen",
   "lang": "vi",
-  "baseUrl": "https://doctruyen3qhub.org",
+  "baseUrl": "https://nhattruyenqq.com",
   "version": "1.0.0",
   "supportsLatest": true,
   "popular": {
-    "path": "/?page={page}",
-    "listSelector": "div.item-manga div.item",
+    "path": "/truyen-tranh-hot?page={page}",
+    "listSelector": ".items .item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
     "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": "img",
+    "thumbnailSelector": ".image img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/?page={page}",
+    "listSelector": ".items .item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".image img",
     "thumbnailAttribute": "src"
   },
   "search": {
     "path": "/tim-truyen?keyword={query}&page={page}",
-    "listSelector": "div.item-manga div.item",
+    "listSelector": ".items .item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
     "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": "img",
+    "thumbnailSelector": ".image img",
     "thumbnailAttribute": "src"
   },
   "mangaDetails": {
-    "titleSelector": "h1.title-manga",
+    "titleSelector": "h1.title-detail",
     "titleAttribute": "text",
-    "thumbnailSelector": "img.image-comic",
+    "thumbnailSelector": ".col-image img",
     "thumbnailAttribute": "src",
     "authorSelector": ".author .col-xs-8",
     "authorAttribute": "text",
-    "statusSelector": "li.status p.detail-info span",
+    "statusSelector": ".status .col-xs-8",
     "statusAttribute": "text",
-    "descriptionSelector": "p.detail-summary",
+    "descriptionSelector": ".detail-content p",
     "descriptionAttribute": "text"
   },
   "chapterList": {
-    "listSelector": "div.list-chapter li.row:not(.heading):not([style])",
+    "listSelector": ".list-chapter ul li.row",
     "urlSelector": "a",
     "urlAttribute": "href",
     "nameSelector": "a",
     "nameAttribute": "text",
-    "dateSelector": ".chapters + div",
+    "dateSelector": ".col-xs-4",
     "dateAttribute": "text"
   },
   "pageList": {
-    "headers": {
-      "Referer": "https://doctruyen3qhub.org/"
-    },
-    "listSelector": "div.page-chapter[id] img",
+    "listSelector": ".reading-detail .page-chapter img",
     "urlSelector": "",
     "urlAttribute": "src"
   }

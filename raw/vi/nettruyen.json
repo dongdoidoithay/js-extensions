@@ -35,7 +35,7 @@
       }
     }
   ],
-  "popular": {
+  "latest": {
     "path": "/tim-truyen?status=-1&sort=10&page={page}",
     "headers": {
       "Referer": "https://nettruyenar.com/"
