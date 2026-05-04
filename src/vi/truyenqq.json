@@ -2,9 +2,10 @@
   "id": "truyenqq_vi",
   "name": "TruyenQQ",
   "lang": "vi",
+  "nameLang": "Ti�ng Vi�t",
   "baseUrl": "https://truyenqqviet.com",
   "version": "1.0.1",
-  "description": "Đọc truyện tranh online TruyenQQ.",
+  "description": "Đọc truy�!n tranh online TruyenQQ.",
   "isNsfw": false,
   "supportsLatest": true,
   "headers": {

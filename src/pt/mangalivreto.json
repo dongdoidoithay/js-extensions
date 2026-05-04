@@ -2,9 +2,10 @@
   "id": "mangalivreto_pt",
   "name": "Manga Livre.to",
   "lang": "pt",
+  "nameLang": "Portugu�s",
   "baseUrl": "https://mangalivre.to",
   "version": "1.0.0",
-  "description": "Português - Leia mangás online gratuitamente.",
+  "description": "Portugu�s - Leia mang�s online gratuitamente.",
   "isNsfw": false,
   "supportsLatest": true,
   "headers": {

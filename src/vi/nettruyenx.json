@@ -2,9 +2,10 @@
   "id": "nettruyenx_vi",
   "name": "NetTruyenX",
   "lang": "vi",
+  "nameLang": "Tiếng Việt",
   "baseUrl": "https://nettruyenx.com",
   "version": "1.0.0",
-  "description": "Phiên bản mới của NetTruyen với trải nghiệm tốt hơn.",
+  "description": "PhiÃªn báº£n má»›i cá»§a NetTruyen vá»›i tráº£i nghiá»‡m tá»‘t hÆ¡n.",
   "isNsfw": false,
   "supportsLatest": true,
   "popular": {

@@ -2,6 +2,7 @@
   "id": "nettruyen_vi",
   "name": "Nét Truyện",
   "lang": "vi",
+  "nameLang": "Tiếng Việt",
   "baseUrl": "https://www.nettruyenx.com",
   "version": "1.0.3",
   "description": "Đọc truyện tranh online miễn phí.",

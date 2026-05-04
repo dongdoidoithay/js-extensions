@@ -2,9 +2,10 @@
   "id": "manhuarock_vi",
   "name": "ManhuaRock",
   "lang": "vi",
+  "nameLang": "Tiếng Việt",
   "baseUrl": "https://manhuarock4.site",
   "version": "1.0.0",
-  "description": "Nền tảng đọc truyện tranh Manhua, Manhwa chất lượng cao.",
+  "description": "Ná»n táº£ng Ä‘á»c truyá»‡n tranh Manhua, Manhwa cháº¥t lÆ°á»£ng cao.",
   "isNsfw": false,
   "supportsLatest": true,
   "popular": {
@@ -44,7 +45,7 @@
     "thumbnailAttribute": "data-src",
     "authorSelector": "div.author-content",
     "authorAttribute": "text",
-    "statusSelector": "div.summary-heading:contains(Tình Trạng) + div.summary-content",
+    "statusSelector": "div.summary-heading:contains(TÃ¬nh Tráº¡ng) + div.summary-content",
     "statusAttribute": "text",
     "descriptionSelector": "div.dsct",
     "descriptionAttribute": "text"

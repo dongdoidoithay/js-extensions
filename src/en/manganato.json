@@ -2,6 +2,7 @@
   "id": "manganato_en",
   "name": "Manganato",
   "lang": "en",
+  "nameLang": "English",
   "baseUrl": "https://www.manganato.gg",
   "version": "1.0.4",
   "description": "Read manga online for free.",
