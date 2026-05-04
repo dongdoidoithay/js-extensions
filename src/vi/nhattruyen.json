@@ -2,10 +2,10 @@
   "id": "nhattruyen_vi",
   "name": "NhatTruyen",
   "lang": "vi",
-  "nameLang": "Ti�ng Vi�t",
+  "nameLang": "Tiếng Việt",
   "baseUrl": "https://nhattruyenqq.com",
   "version": "1.0.0",
-  "description": "Đọc truy�!n tranh online mi�&n phí tại NhatTruyen.",
+  "description": "Đọc truyện tranh online miễn phí.",
   "isNsfw": false,
   "supportsLatest": true,
   "popular": {

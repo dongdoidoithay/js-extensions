@@ -2,10 +2,10 @@
   "id": "fastscan_vi",
   "name": "FastScan",
   "lang": "vi",
-  "nameLang": "Ti�ng Vi�t",
+  "nameLang": "Tiếng Việt",
   "baseUrl": "https://fastscan.org",
   "version": "1.0.0",
-  "description": "Đọc truy�!n tranh online cập nhật nhanh nhất tại FastScan.",
+  "description": "Đọc truyện tranh online cập nhật nhanh nhất tại FastScan.",
   "isNsfw": false,
   "supportsLatest": true,
   "popular": {

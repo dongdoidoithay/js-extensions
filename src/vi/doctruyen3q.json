@@ -2,10 +2,10 @@
   "id": "doctruyen3q_vi",
   "name": "DocTruyen3Q",
   "lang": "vi",
-  "nameLang": "Ti�ng Vi�t",
+  "nameLang": "Tiếng Việt",
   "baseUrl": "https://doctruyen3qhub.org",
   "version": "1.0.0",
-  "description": "Đọc truy�!n tranh 3Q online nhanh nhất, cập nhật liên tục.",
+  "description": "Đọc truyện tranh 3Q online nhanh nhất, cập nhật liên tục.",
   "isNsfw": false,
   "supportsLatest": true,
   "popular": {
