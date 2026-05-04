@@ -1,7 +1,7 @@
 {
     "version": "1.0.3",
     "android": {
-        "show_ads": true,
+        "show_ads": false,
         "test_mode": true,
         "global_configs": {
             "admob_app_id": "ca-app-pub-3940256099942544~3347511713",
