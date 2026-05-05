@@ -4,6 +4,7 @@
         "show_ads": true,
         "test_mode": true,
         "reader_rewarded_ratio": 0.5,
+        "min_ad_interval_seconds": 180,
         "global_configs": {
             "admob_app_id": "ca-app-pub-3940256099942544~3347511713",
             "applovin_sdk_key": "YOUR_APPLOVIN_SDK_KEY_HERE",
