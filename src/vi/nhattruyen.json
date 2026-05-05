@@ -8,6 +8,9 @@
   "description": "Đọc truyện tranh online miễn phí.",
   "isNsfw": false,
   "supportsLatest": true,
+  "headers": {
+    "Referer": "https://nhattruyenqq.com/"
+  },
   "popular": {
     "path": "/truyen-tranh-hot?page={page}",
     "headers": {
@@ -19,7 +22,7 @@
     "urlSelector": "h3 a",
     "urlAttribute": "href",
     "thumbnailSelector": ".image img",
-    "thumbnailAttribute": "src"
+    "thumbnailAttribute": "data-original"
   },
   "latest": {
     "path": "/?page={page}",

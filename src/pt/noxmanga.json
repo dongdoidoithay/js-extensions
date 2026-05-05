@@ -34,7 +34,8 @@
   },
   "mangaDetails": {
     "headers": {
-      "Referer": "https://noxmanga.co/"
+      "Referer": "https://noxmanga.co/",
+      "Origin": "https://noxmanga.co"
     },
     "titleSelector": ".detail-title",
     "titleAttribute": "text",
@@ -59,7 +60,8 @@
   },
   "pageList": {
     "headers": {
-      "Referer": "https://noxmanga.co/"
+      "Referer": "https://noxmanga.co/",
+      "Origin": "https://noxmanga.co"
     },
     "listSelector": "section > img",
     "urlSelector": "",

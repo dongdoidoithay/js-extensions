@@ -3,18 +3,18 @@
   "name": "TruyenQQ",
   "lang": "vi",
   "nameLang": "Tiếng Việt",
-  "baseUrl": "https://truyenqqviet.com",
+  "baseUrl": "https://truyenqqno.com",
   "version": "1.0.1",
   "description": "Đọc truy!n tranh online TruyenQQ.",
   "isNsfw": false,
   "supportsLatest": true,
   "headers": {
-    "Referer": "https://truyenqqviet.com/"
+    "Referer": "https://truyenqqno.com/"
   },
   "popular": {
     "path": "/truyen-yeu-thich?page={page}",
     "headers": {
-      "Referer": "https://truyenqqviet.com/"
+      "Referer": "https://truyenqqno.com/"
     },
     "listSelector": ".list_grid li",
     "titleSelector": ".book_info h3 a",
@@ -27,7 +27,7 @@
   "latest": {
     "path": "/truyen-moi-cap-nhat?page={page}",
     "headers": {
-      "Referer": "https://truyenqqviet.com/"
+      "Referer": "https://truyenqqno.com/"
     },
     "listSelector": ".list_grid li",
     "titleSelector": ".book_info h3 a",
@@ -40,7 +40,7 @@
   "search": {
     "path": "/tim-kiem?q={query}&page={page}",
     "headers": {
-      "Referer": "https://truyenqqviet.com/"
+      "Referer": "https://truyenqqno.com/"
     },
     "listSelector": ".list_grid li",
     "titleSelector": ".book_info h3 a",
@@ -52,7 +52,7 @@
   },
   "mangaDetails": {
     "headers": {
-      "Referer": "https://truyenqqviet.com/"
+      "Referer": "https://truyenqqno.com/"
     },
     "titleSelector": ".book_other h1",
     "titleAttribute": "text",
@@ -69,7 +69,7 @@
   },
   "chapterList": {
     "headers": {
-      "Referer": "https://truyenqqviet.com/"
+      "Referer": "https://truyenqqno.com/"
     },
     "listSelector": ".works-chapter-list .works-chapter-item",
     "urlSelector": "a",
@@ -81,9 +81,9 @@
   },
   "pageList": {
     "headers": {
-      "Referer": "https://truyenqqviet.com/"
+      "Referer": "https://truyenqqno.com/"
     },
-    "listSelector": ".story-see-content img",
+    "listSelector": ".page-chapter img",
     "urlSelector": "",
     "urlAttribute": "src"
   }

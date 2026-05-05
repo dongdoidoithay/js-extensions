@@ -9,7 +9,8 @@
   "isNsfw": true,
   "supportsLatest": true,
   "headers": {
-    "Referer": "https://tiamanhwa.com/"
+    "Referer": "https://tiamanhwa.com/",
+    "origin": "https://tiamanhwa.com"
   },
   "popular": {
     "path": "/page/{page}/",
@@ -72,7 +73,7 @@
     "apiResponseType": "html",
     "apiMethod": "POST",
     "apiUrlPattern": "https://tiamanhwa.com/manhwa/{slug}/ajax/chapters/?t=1",
-    "listSelector": "li.wp-manga-chapter",
+    "listSelector": "li",
     "urlSelector": "a",
     "urlAttribute": "href",
     "nameSelector": "a",
