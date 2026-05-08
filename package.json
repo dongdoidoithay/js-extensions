@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node scripts/build.ts"
+    "build": "ts-node scripts/build.ts",
+    "build-novel": "ts-node scripts/build-novel.ts"
   },
   "keywords": [],
   "author": "",

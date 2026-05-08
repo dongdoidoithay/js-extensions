@@ -1,9 +1,9 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const SRC_DIR = path.join(__dirname, '../src');
+const SRC_DIR = path.join(__dirname, '../src-novel');
 const REPO_DIR = path.join(__dirname, '../repo');
-const OUTPUT_FILE = path.join(REPO_DIR, 'index.min.json');
+const OUTPUT_FILE = path.join(REPO_DIR, 'novel.min.json');
 
 // Ensure repo dir exists
 if (!fs.existsSync(REPO_DIR)) {
@@ -64,9 +64,9 @@ function buildRepo() {
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(repoData));
   console.log(`\nSuccess! Built ${repoData.length} extensions into ${OUTPUT_FILE}`);
 
-  // Copy to manga-extension mockup
-  const MOCKUP_DIR = path.join(__dirname, '../../manga-extension/src/core/data-mockup');
-  const MOCKUP_FILE = path.join(MOCKUP_DIR, 'index.min.json');
+  // Copy to novel-extension mockup
+  const MOCKUP_DIR = path.join(__dirname, '../../novel-extension/src/core/data-mockup');
+  const MOCKUP_FILE = path.join(MOCKUP_DIR, 'novel.min.json');
 
   if (fs.existsSync(MOCKUP_DIR)) {
     fs.copyFileSync(OUTPUT_FILE, MOCKUP_FILE);

@@ -1,0 +1,81 @@
+{
+  "id": "truyenfull_vision_vi",
+  "name": "TruyenFull",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt",
+  "baseUrl": "https://truyenfull.vision",
+  "version": "1.0.1",
+  "description": "Nơi tổng hợp các bộ truyện tiên hiệp, kiếm hiệp, ngôn tình.. ",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://truyenfull.vision/"
+  },
+  "popular": {
+    "path": "/danh-sach/truyen-hot/trang-{page}/",
+    "listSelector": "div.list-truyen div.row",
+    "titleSelector": "h3.truyen-title a",
+    "titleAttribute": "text",
+    "urlSelector": "h3.truyen-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "div.lazyimg",
+    "thumbnailAttribute": "data-image"
+  },
+  "latest": {
+    "path": "/danh-sach/truyen-moi/trang-{page}/",
+    "listSelector": "div.list-truyen div.row",
+    "titleSelector": "h3.truyen-title a",
+    "titleAttribute": "text",
+    "urlSelector": "h3.truyen-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "div.lazyimg",
+    "thumbnailAttribute": "data-image"
+  },
+  "search": {
+    "path": "/tim-kiem/?tu-khoa={query}&page={page}",
+    "headers": {
+      "Referer": "https://truyenfull.vision/"
+    },
+    "listSelector": "div.list-truyen div.row",
+    "titleSelector": "h3.truyen-title a",
+    "titleAttribute": "text",
+    "urlSelector": "h3.truyen-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "div.lazyimg",
+    "thumbnailAttribute": "data-image"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://truyenfull.vision/"
+    },
+    "titleSelector": "h3.title",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.book img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[itemprop='author']",
+    "descriptionSelector": "div[itemprop='description']",
+    "descriptionAttribute": "text",
+    "genreSelector": "a[itemprop='genre']",
+    "statusSelector": "span.text-primary, span.text-success",
+    "coverSelector": "div.book img",
+    "coverAttribute": "src",
+    "totalPageSelector": "input#total-page",
+    "totalPageAttribute": "value"
+  },
+  "chapterList": {
+    "path": "trang-{page}/",
+    "listSelector": "#list-chapter ul.list-chapter li a",
+    "nameSelector": "text",
+    "urlSelector": "href"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://truyenfull.vision/"
+    },
+    "listSelector": "#chapter-c",
+    "urlSelector": "",
+    "urlAttribute": "text",
+    "nextChapterSelector": "a#next_chap",
+    "prevChapterSelector": "a#prev_chap"
+  }
+}
