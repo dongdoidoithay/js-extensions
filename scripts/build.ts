@@ -1,14 +1,46 @@
 import * as fs from 'fs';
 import * as path from 'path';
 
-const SRC_DIR = path.join(__dirname, '../src');
 const REPO_DIR = path.join(__dirname, '../repo');
-const OUTPUT_FILE = path.join(REPO_DIR, 'index.min.json');
 
 // Ensure repo dir exists
 if (!fs.existsSync(REPO_DIR)) {
   fs.mkdirSync(REPO_DIR, { recursive: true });
 }
+
+type BuildTarget = 'manga' | 'mp3' | 'novel';
+
+type TargetConfig = {
+  srcDir: string;
+  outputFile: string;
+  mockupDir?: string;
+  mockupFileName: string;
+  label: string;
+};
+
+const TARGETS: Record<BuildTarget, TargetConfig> = {
+  manga: {
+    srcDir: path.join(__dirname, '../src'),
+    outputFile: path.join(REPO_DIR, 'index.min.json'),
+    mockupDir: path.join(__dirname, '../../manga-extension/src/core/data-mockup'),
+    mockupFileName: 'index.min.json',
+    label: 'manga',
+  },
+  mp3: {
+    srcDir: path.join(__dirname, '../src-mp3'),
+    outputFile: path.join(REPO_DIR, 'mp3.min.json'),
+    mockupDir: path.join(__dirname, '../../mp3-extension/src/core/data-mockup'),
+    mockupFileName: 'mp3.min.json',
+    label: 'mp3',
+  },
+  novel: {
+    srcDir: path.join(__dirname, '../src-novel'),
+    outputFile: path.join(REPO_DIR, 'novel.min.json'),
+    mockupDir: path.join(__dirname, '../../novel-extension/src/core/data-mockup'),
+    mockupFileName: 'novel.min.json',
+    label: 'novel',
+  },
+};
 
 interface SourceConfig {
   id: string | number;
@@ -34,9 +66,36 @@ function walkDir(dir: string, fileList: string[] = []): string[] {
   return fileList;
 }
 
-function buildRepo() {
-  console.log('Building Extension Repository...');
-  const jsonFiles = walkDir(SRC_DIR);
+function parseTargets(argv: string[]): BuildTarget[] {
+  const args = argv.map((value) => value.toLowerCase());
+
+  if (args.length === 0) {
+    return ['manga', 'mp3', 'novel'];
+  }
+
+  if (args.includes('all')) {
+    return ['manga', 'mp3', 'novel'];
+  }
+
+  const targets = args.filter((value): value is BuildTarget => value in TARGETS);
+
+  if (targets.length === 0) {
+    const allowed = [...Object.keys(TARGETS), 'all'].join(', ');
+    throw new Error(`Invalid build target. Use one of: ${allowed}`);
+  }
+
+  return Array.from(new Set(targets));
+}
+
+function buildRepo(target: BuildTarget) {
+  const config = TARGETS[target];
+  console.log(`Building ${config.label} extension repository...`);
+
+  if (!fs.existsSync(config.srcDir)) {
+    throw new Error(`Source directory not found: ${config.srcDir}`);
+  }
+
+  const jsonFiles = walkDir(config.srcDir);
   const repoData: SourceConfig[] = [];
 
   for (const file of jsonFiles) {
@@ -61,17 +120,22 @@ function buildRepo() {
   }
 
   // Write minified JSON
-  fs.writeFileSync(OUTPUT_FILE, JSON.stringify(repoData));
-  console.log(`\nSuccess! Built ${repoData.length} extensions into ${OUTPUT_FILE}`);
+  fs.writeFileSync(config.outputFile, JSON.stringify(repoData));
+  console.log(`\nSuccess! Built ${repoData.length} extensions into ${config.outputFile}`);
 
-  // Copy to manga-extension mockup
-  const MOCKUP_DIR = path.join(__dirname, '../../manga-extension/src/core/data-mockup');
-  const MOCKUP_FILE = path.join(MOCKUP_DIR, 'index.min.json');
-
-  if (fs.existsSync(MOCKUP_DIR)) {
-    fs.copyFileSync(OUTPUT_FILE, MOCKUP_FILE);
-    console.log(`- Copied to mockup: ${MOCKUP_FILE}`);
+  if (config.mockupDir && fs.existsSync(config.mockupDir)) {
+    const mockupFile = path.join(config.mockupDir, config.mockupFileName);
+    fs.copyFileSync(config.outputFile, mockupFile);
+    console.log(`- Copied to mockup: ${mockupFile}`);
   }
 }
 
-buildRepo();
+function main() {
+  const targets = parseTargets(process.argv.slice(2));
+
+  for (const target of targets) {
+    buildRepo(target);
+  }
+}
+
+main();

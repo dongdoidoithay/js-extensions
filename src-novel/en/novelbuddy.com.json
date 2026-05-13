@@ -1,0 +1,65 @@
+{
+  "id": "novelbuddy_com_en",
+  "name": "novelbuddy.com",
+  "lang": "en",
+  "nameLang": "English",
+  "baseUrl": "https://novelbuddy.com",
+  "version": "1.0.2",
+  "description": "Read English novels online for free.",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "cloudflareProtected": true,
+  "headers": {
+    "Referer": "https://novelbuddy.com/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "popular": {
+    "path": "/latest?page={page}",
+    "listSelector": "main article",
+    "titleSelector": "a.text-fg",
+    "titleAttribute": "text",
+    "urlSelector": "a.text-fg",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/search?q={query}&page={page}",
+    "listSelector": "main article",
+    "titleSelector": "a.text-base-content",
+    "titleAttribute": "text",
+    "urlSelector": "a.text-base-content",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "isNextData": true,
+    "nextDataPath": "props.pageProps.initialManga",
+    "titleSelector": "name",
+    "authorSelector": "authors",
+    "descriptionSelector": "summary",
+    "thumbnailSelector": "cover",
+    "statusSelector": "status",
+    "genreSelector": "genres",
+    "genreAttribute": "name"
+  },
+  "chapterList": {
+    "isNextData": true,
+    "nextDataPath": "props.pageProps.initialManga",
+    "idSelector": "id",
+    "apiUrlPattern": "https://api.novelbuddy.com/titles/{id}/chapters",
+    "listSelector": "data.chapters",
+    "nameSelector": "name",
+    "urlSelector": "url",
+    "dateSelector": "updated_at",
+    "clientSideSort": true
+  },
+  "pageList": {
+    "listSelector": ".novel-tts-content",
+    "urlSelector": "",
+    "urlAttribute": "text",
+    "nextChapterSelector": "a.bg-accent",
+    "prevChapterSelector": ".justify-between a:not(.bg-accent)"
+  }
+}

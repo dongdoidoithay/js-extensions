@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "ts-node scripts/build.ts",
-    "build-novel": "ts-node scripts/build-novel.ts"
+    "build:mp3": "ts-node scripts/build.ts mp3",
+    "build:novel": "ts-node scripts/build.ts novel",
+    "build:all": "ts-node scripts/build.ts all"
   },
   "keywords": [],
   "author": "",

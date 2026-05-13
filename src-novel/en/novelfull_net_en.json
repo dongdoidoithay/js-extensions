@@ -1,0 +1,74 @@
+{
+  "id": "novelfull_net_en",
+  "name": "NovelFull",
+  "lang": "en",
+  "nameLang": "English",
+  "baseUrl": "https://novelfull.net",
+  "version": "1.0.2",
+  "description": "Read English novels online for free.",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "cloudflareProtected": true,
+  "headers": {
+    "Referer": "https://novelfull.net/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  },
+  "popular": {
+    "path": "/hot-novel?page={page}",
+    "listSelector": "div.list-truyen div.row",
+    "titleSelector": "h3.truyen-title a",
+    "titleAttribute": "text",
+    "urlSelector": "h3.truyen-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/latest-release-novel?page={page}",
+    "listSelector": "div.list-novel div.row",
+    "titleSelector": "h3.title a",
+    "titleAttribute": "text",
+    "urlSelector": "h3.title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/search?keyword={query}&page={page}",
+    "listSelector": "div.list-novel div.row",
+    "titleSelector": "h3.title a",
+    "titleAttribute": "text",
+    "urlSelector": "h3.title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "titleSelector": "h3.title",
+    "titleAttribute": "text",
+    "thumbnailSelector": "div.book img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[href*='/author/']",
+    "descriptionSelector": "div.desc-text",
+    "descriptionAttribute": "text",
+    "genreSelector": "a[href*='/genre/']",
+    "statusSelector": "a[href*='/status/']",
+    "coverSelector": "div.book img",
+    "coverAttribute": "src",
+    "paginationSelector": "ul.pagination li a",
+    "paginationAttribute": "href"
+  },
+  "chapterList": {
+    "path": "?page={page}",
+    "listSelector": "ul.list-chapter li a",
+    "nameSelector": "text",
+    "urlSelector": "href"
+  },
+  "pageList": {
+    "listSelector": "#chapter-c, #chapter-content, .chr-c",
+    "urlSelector": "",
+    "urlAttribute": "text",
+    "nextChapterSelector": "a#next_chap",
+    "prevChapterSelector": "a#prev_chap"
+  }
+}

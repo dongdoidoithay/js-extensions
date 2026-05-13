@@ -48,7 +48,7 @@
     "headers": {
       "Referer": "https://truyencom.com/"
     },
-    "titleSelector": "h3.title",
+    "titleSelector": "h1.title",
     "titleAttribute": "text",
     "thumbnailSelector": "div.book img",
     "thumbnailAttribute": "src",
@@ -63,7 +63,7 @@
     "paginationAttribute": "href"
   },
   "chapterList": {
-    "path": "trang-{page}/",
+    "path": "/trang-{page}/",
     "listSelector": "#list-chapter ul.list-chapter li a",
     "nameSelector": "text",
     "urlSelector": "href"

@@ -63,7 +63,7 @@
     "totalPageAttribute": "value"
   },
   "chapterList": {
-    "path": "trang-{page}/",
+    "path": "/trang-{page}/",
     "listSelector": "#list-chapter ul.list-chapter li a",
     "nameSelector": "text",
     "urlSelector": "href"
