@@ -1,0 +1,157 @@
+{
+  "id": "nghetruyenngontinh_com_vi",
+  "name": "nghetruyenngontinh.com",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt",
+  "baseUrl": "https://nghetruyenngontinh.com",
+  "version": "1.0.1",
+  "description": "Truyện Ngôn Tình Mp3 Online. Nghe truyện ngôn tình audio chất lượng cao",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://nghetruyenngontinh.com"
+  },
+  "tags": [
+    {
+      "name": "Truyện Ngôn Tình Trung Quốc",
+      "path": "/truyen-ngon-tinh-trung-quoc/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Ngắn",
+      "path": "/truyen-ngon-tinh-ngan/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Ngược",
+      "path": "/truyen-ngon-tinh-nguoc/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Cổ Đại",
+      "path": "/truyen-ngon-tinh-co-dai/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Dài Kỳ",
+      "path": "/truyen-ngon-tinh-dai-ky/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Sủng",
+      "path": "/truyen-ngon-tinh-sung/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Hiện Đại",
+      "path": "/truyen-ngon-tinh-hien-dai/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Sắc",
+      "path": "/truyen-ngon-tinh-sac/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình He",
+      "path": "/truyen-ngon-tinh-he/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Tổng Tài",
+      "path": "/truyen-ngon-tinh-tong-tai/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Xuyên Không",
+      "path": "/truyen-ngon-tinh-xuyen-khong/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    },
+    {
+      "name": "Truyện Ngôn Tình Hắc Bang",
+      "path": "/truyen-ngon-tinh-hac-bang/page/{page}",
+      "headers": {
+        "Referer": "https://nghetruyenngontinh.com"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/",
+    "listSelector": "ul li",
+    "titleSelector": "a h3.title-post-content",
+    "titleAttribute": "text",
+    "urlSelector": "a.open-multiple-links",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.size-thumbnail",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/page/{page}?s={query}",
+    "headers": {
+      "Referer": "https://nghetruyenngontinh.com/"
+    },
+    "listSelector": "ul li",
+    "titleSelector": "a h3.title-post-content",
+    "titleAttribute": "text",
+    "urlSelector": "a.open-multiple-links",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.size-thumbnail",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://nghetruyenngontinh.com"
+    },
+    "titleSelector": "h2",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.attachment-medium",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[itemprop='author']",
+    "descriptionSelector": "div[itemprop='description']",
+    "descriptionAttribute": "text",
+    "genreSelector": "a[itemprop='genre']",
+    "statusSelector": "span.text-primary, span.text-success",
+    "coverSelector": "img.attachment-medium",
+    "coverAttribute": "src",
+    "paginationSelector": "ul.pagination li a",
+    "paginationAttribute": "href"
+  },
+  "chapterList": {
+    "scriptSelector": "script[type$='text/javascript']",
+    "scriptItemRegex": "\\{title:\\s*\"([^\"]+)\",mp3:\\s*\"([^\"]+)\"",
+    "scriptNameGroup": 1,
+    "scriptUrlGroup": 2
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://nghetruyenngontinh.com/"
+    },
+    "listSelector": "#chapter-c",
+    "urlSelector": "",
+    "urlAttribute": "text",
+    "nextChapterSelector": "a#next_chap",
+    "prevChapterSelector": "a#prev_chap"
+  }
+}
