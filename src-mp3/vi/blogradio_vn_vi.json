@@ -147,7 +147,7 @@
     }
   ],
   "popular": {
-    "path": "/",
+    "path": "/radio-online-cm687.html?&p={page}",
     "listSelector": "div.big_item",
     "titleSelector": "h3 a",
     "titleAttribute": "text",

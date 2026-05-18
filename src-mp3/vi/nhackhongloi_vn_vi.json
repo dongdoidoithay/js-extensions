@@ -1,0 +1,147 @@
+{
+  "id": "nhackhongloi_vn_vi",
+  "name": "nhackhongloi.vn",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt",
+  "baseUrl": "https://nhackhongloi.vn",
+  "version": "2.0.0",
+  "description": "Nhạc Không Lời - Hòa Tấu. Nghe nhạc hòa tấu, nhạc cụ chất lượng cao",
+  "isNsfw": false,
+  "supportsLatest": false,
+  "headers": {
+    "Referer": "https://nhackhongloi.vn"
+  },
+  "tags": [
+    {
+      "name": "Đàn Guitar",
+      "path": "/music/dan-guitar-c1/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Đàn Mandolin",
+      "path": "/music/dan-mandolin-c2/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Đàn Tranh",
+      "path": "/music/dan-tranh-c3/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Đàn Violin",
+      "path": "/music/dan-violin-vi-cam-c5/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Đàn Bầu",
+      "path": "/music/dan-bau-monochord-c7/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Saxophone",
+      "path": "/music/saxophone-c17/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Sáo - Flute",
+      "path": "/music/flute-dizi-sao-c19/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Kèn Harmonica",
+      "path": "/music/ken-harmonica-c29/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Accordion",
+      "path": "/music/accordion-c32/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Nhạc Flamenco",
+      "path": "/music/nhac-hoa-tau-flamenco-c33/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Nhạc New Age",
+      "path": "/music/nhac-hoa-tau-new-age-c35/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Nhạc Classical",
+      "path": "/music/nhac-hoa-tau-classical-c36/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Nhạc Thiền",
+      "path": "/music/nhac-thien-meditation-c37/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Nhạc Phim OST",
+      "path": "/music/nhac-nen-nhac-phim-ost-c39/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Nhạc Quê Hương",
+      "path": "/music/hoa-tau-nhac-que-huong-c40/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    },
+    {
+      "name": "Âm Thanh Thiên Nhiên",
+      "path": "/music/am-thanh-thien-nhien-c27/page/{page}",
+      "headers": { "Referer": "https://nhackhongloi.vn" }
+    }
+  ],
+  "popular": {
+    "path": "/music/nhac-cu-c18094/page/{page}",
+    "listSelector": "#paging_container1 ul.other-album li",
+    "titleSelector": "h2 a",
+    "titleAttribute": "text",
+    "urlSelector": "a.thumb",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/music/search/index/page/{page}?search_string={query}",
+    "headers": {
+      "Referer": "https://nhackhongloi.vn/"
+    },
+    "listSelector": "#paging_container1 ul.other-album li",
+    "titleSelector": "h2 a",
+    "titleAttribute": "text",
+    "urlSelector": "a.thumb",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.thumb img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://nhackhongloi.vn"
+    },
+    "titleSelector": "h1 a:last-of-type",
+    "titleAttribute": "title",
+    "genreSelector": "h1 a",
+    "genreAttribute": "text"
+  },
+  "chapterList": {
+    "isApi": true,
+    "apiUrlPattern": "https://nhackhongloi.vn/a_p_i/public-music/index/inFolder/{slug}",
+    "apiResponseType": "json",
+    "apiMethod": "GET",
+    "listSelector": "payload",
+    "nameSelector": "name",
+    "urlSelector": "stream_link",
+    "slugRegex": "fo-(\\d+)",
+    "slugGroup": 1
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://nhackhongloi.vn/"
+    },
+    "listSelector": "",
+    "urlSelector": "",
+    "urlAttribute": "text"
+  }
+}
