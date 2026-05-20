@@ -31,7 +31,7 @@
   "popular": {
     "path": "/vi/browse?page={page}",
     "headers": { "Referer": "https://audioaz.com/" },
-    "listSelector": "section[aria-label='Items List'] a.card",
+    "listSelector": "a.card",
     "titleSelector": "self",
     "titleAttribute": "title",
     "urlSelector": "self",
