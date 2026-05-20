@@ -1,0 +1,78 @@
+{
+  "id": "librivox_org_en",
+  "name": "librivox.org",
+  "lang": "en",
+  "nameLang": "English",
+  "baseUrl": "https://librivox.org",
+  "version": "1.0.1",
+  "description": "audio books Eng",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://librivox.org"
+  },
+  "tags": [
+    {
+      "name": "Solo",
+      "path": "/search?primary_key=1&search_category=language&search_page={page}&search_form=get_results&search_order=catalog_date",
+      "headers": {
+        "Referer": "https://librivox.org"
+      }
+    },
+    {
+      "name": "Series",
+      "path": "/search?primary_key=1&search_category=language&search_page={page}&search_form=get_results&search_order=catalog_date",
+      "headers": {
+        "Referer": "https://librivox.org"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/search?primary_key=1&search_category=language&search_page={page}&search_form=get_results&search_order=alpha",
+    "listSelector": "ul.browse-list li",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.book-cover img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/search?q={query}&search_form=advanced",
+    "headers": {
+      "Referer": "https://librivox.org/"
+    },
+    "listSelector": "ul.all-post li",
+    "titleSelector": "a.title-post h3",
+    "titleAttribute": "text",
+    "urlSelector": "a.title-post",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.size-thumbnail",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://librivox.org"
+    },
+    "titleSelector": "h2",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.attachment-medium",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[itemprop='author']",
+    "descriptionSelector": "div[itemprop='description']",
+    "descriptionAttribute": "text",
+    "genreSelector": "a[itemprop='genre']",
+    "statusSelector": "span.text-primary, span.text-success",
+    "coverSelector": "img.attachment-medium",
+    "coverAttribute": "src",
+    "paginationSelector": "ul.pagination li a",
+    "paginationAttribute": "href"
+  },
+  "chapterList": {
+    "listSelector": "table.chapter-download tbody tr",
+    "nameSelector": "td:nth-child(2) a.chapter-name",
+    "nameAttribute": "text",
+    "urlSelector": "td:nth-child(2) a.chapter-name",
+    "urlAttribute": "href"
+  }
+}
