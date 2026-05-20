@@ -4,69 +4,78 @@
   "lang": "en",
   "nameLang": "English",
   "baseUrl": "https://librivox.org",
-  "version": "1.0.1",
-  "description": "audio books Eng",
+  "version": "1.1.0",
+  "description": "Free public domain audiobooks — LibriVox",
   "isNsfw": false,
   "supportsLatest": true,
   "headers": {
-    "Referer": "https://librivox.org"
+    "Referer": "https://librivox.org",
+    "X-Requested-With": "XMLHttpRequest"
   },
   "tags": [
     {
-      "name": "Solo",
-      "path": "/search?primary_key=1&search_category=language&search_page={page}&search_form=get_results&search_order=catalog_date",
+      "name": "Recently Added",
+      "path": "/search/get_results?primary_key=1&search_category=language&sub_category=&search_page={page}&search_order=catalog_date&project_type=either",
       "headers": {
-        "Referer": "https://librivox.org"
+        "Referer": "https://librivox.org",
+        "X-Requested-With": "XMLHttpRequest"
       }
     },
     {
-      "name": "Series",
-      "path": "/search?primary_key=1&search_category=language&search_page={page}&search_form=get_results&search_order=catalog_date",
+      "name": "Solo Readings",
+      "path": "/search/get_results?primary_key=1&search_category=language&sub_category=&search_page={page}&search_order=alpha&project_type=solo",
       "headers": {
-        "Referer": "https://librivox.org"
+        "Referer": "https://librivox.org",
+        "X-Requested-With": "XMLHttpRequest"
       }
     }
   ],
   "popular": {
-    "path": "/search?primary_key=1&search_category=language&search_page={page}&search_form=get_results&search_order=alpha",
-    "listSelector": "ul.browse-list li",
+    "path": "/search/get_results?primary_key=1&search_category=language&sub_category=&search_page={page}&search_order=alpha&project_type=either",
+    "isApi": true,
+    "apiHtmlField": "results",
+    "headers": {
+      "Referer": "https://librivox.org",
+      "X-Requested-With": "XMLHttpRequest"
+    },
+    "listSelector": "li.catalog-result",
     "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": "h3 a",
+    "urlSelector": "a.book-cover",
     "urlAttribute": "href",
     "thumbnailSelector": "a.book-cover img",
     "thumbnailAttribute": "src"
   },
   "search": {
-    "path": "/search?q={query}&search_form=advanced",
+    "path": "/search/get_results?primary_key={query}&search_category=title&search_page={page}&search_order=alpha&project_type=either",
+    "isApi": true,
+    "apiHtmlField": "results",
     "headers": {
-      "Referer": "https://librivox.org/"
+      "Referer": "https://librivox.org",
+      "X-Requested-With": "XMLHttpRequest"
     },
-    "listSelector": "ul.all-post li",
-    "titleSelector": "a.title-post h3",
+    "listSelector": "li.catalog-result",
+    "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": "a.title-post",
+    "urlSelector": "a.book-cover",
     "urlAttribute": "href",
-    "thumbnailSelector": "img.size-thumbnail",
+    "thumbnailSelector": "a.book-cover img",
     "thumbnailAttribute": "src"
   },
   "mangaDetails": {
     "headers": {
       "Referer": "https://librivox.org"
     },
-    "titleSelector": "h2",
+    "titleSelector": "h1.book-title, div.book-page-book-details h1",
     "titleAttribute": "text",
-    "thumbnailSelector": "img.attachment-medium",
+    "thumbnailSelector": "div.book-page-book-art img",
     "thumbnailAttribute": "src",
-    "authorSelector": "a[itemprop='author']",
-    "descriptionSelector": "div[itemprop='description']",
+    "authorSelector": "p.book-author a",
+    "authorAttribute": "text",
+    "descriptionSelector": "div.description p",
     "descriptionAttribute": "text",
-    "genreSelector": "a[itemprop='genre']",
-    "statusSelector": "span.text-primary, span.text-success",
-    "coverSelector": "img.attachment-medium",
-    "coverAttribute": "src",
-    "paginationSelector": "ul.pagination li a",
-    "paginationAttribute": "href"
+    "genreSelector": "p.book-genre a",
+    "genreAttribute": "text"
   },
   "chapterList": {
     "listSelector": "table.chapter-download tbody tr",
