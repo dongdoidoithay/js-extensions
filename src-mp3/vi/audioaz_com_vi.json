@@ -1,0 +1,68 @@
+{
+  "id": "audioaz_com_vi",
+  "name": "audioaz.com",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt",
+  "baseUrl": "https://audioaz.com",
+  "version": "1.1.0",
+  "description": "audio books",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://audioaz.com"
+  },
+  "tags": [
+    {
+      "name": "Sách nói",
+      "path": "/vi/browse?page={page}",
+      "headers": { "Referer": "https://audioaz.com" }
+    },
+    {
+      "name": "Podcast",
+      "path": "/vi/browse?page={page}&type=podcast",
+      "headers": { "Referer": "https://audioaz.com" }
+    },
+    {
+      "name": "Episode",
+      "path": "/vi/browse?page={page}&type=episode",
+      "headers": { "Referer": "https://audioaz.com" }
+    }
+  ],
+  "popular": {
+    "path": "/vi/browse?page={page}",
+    "headers": { "Referer": "https://audioaz.com/" },
+    "listSelector": "section[aria-label='Items List'] a.card.group",
+    "titleSelector": "self",
+    "titleAttribute": "title",
+    "urlSelector": "self",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/vi/search?q={query}&page={page}",
+    "headers": { "Referer": "https://audioaz.com/" },
+    "listSelector": "div.border-base-200.bg-base-100.rounded-box.flex.overflow-hidden.border",
+    "titleSelector": "div.border-base-200.w-full.border-l.p-4 a.mb-1",
+    "titleAttribute": "text",
+    "urlSelector": "div.border-base-200.w-full.border-l.p-4 a.mb-1",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.w-full.max-w-30 img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": { "Referer": "https://audioaz.com" },
+    "titleSelector": "h1.title-h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "article aside img",
+    "thumbnailAttribute": "src",
+    "descriptionSelector": "section[aria-label='Description']",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "scriptSelector": "script",
+    "scriptItemRegex": "(?:\\\\\"|\")title(?:\\\\\"|\")\\s*:\\s*(?:\\\\\"|\")([^\\\"\\\\]+)(?:\\\\\"|\").*?(?:\\\\\"|\")audio_url(?:\\\\\"|\")\\s*:\\s*(?:\\\\\"|\")(https?:\\\\?/\\\\?/[^\\\"\\\\]+\\.mp3[^\\\"\\\\]*)(?:\\\\\"|\")",
+    "scriptNameGroup": 1,
+    "scriptUrlGroup": 2
+  }
+}
