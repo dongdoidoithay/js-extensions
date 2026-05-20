@@ -13,33 +13,28 @@
   },
   "tags": [
     {
-      "name": "Nhạc Sống",
+      "name": "Nhạc Sống Thôn Quê",
       "path": "/browse-nhac-song-mp3-videos-{page}-date.html",
       "headers": { "Referer": "https://nghenhacsong.com" }
     },
     {
-      "name": "Nhạc Trẻ",
-      "path": "/browse-nhac-tre-mp3-videos-{page}-date.html",
-      "headers": { "Referer": "https://nghenhacsong.com" }
-    },
-    {
-      "name": "Nhạc Vàng",
-      "path": "/browse-nhac-vang-mp3-videos-{page}-date.html",
-      "headers": { "Referer": "https://nghenhacsong.com" }
-    },
-    {
-      "name": "Nhạc Quê Hương",
-      "path": "/browse-nhac-que-huong-mp3-videos-{page}-date.html",
-      "headers": { "Referer": "https://nghenhacsong.com" }
-    },
-    {
       "name": "Nhạc Trữ Tình",
-      "path": "/browse-nhac-tru-tinh-mp3-videos-{page}-date.html",
+      "path": "/browse-nhac-song-tru-tinh-mp3-videos-{page}-date.html",
       "headers": { "Referer": "https://nghenhacsong.com" }
     },
     {
-      "name": "Nhạc Thiếu Nhi",
-      "path": "/browse-nhac-thieu-nhi-mp3-videos-{page}-date.html",
+      "name": "Nhạc Sống Hà Tây",
+      "path": "/browse-nhac-song-ha-tay-mp3-videos-{page}-date.html",
+      "headers": { "Referer": "https://nghenhacsong.com" }
+    },
+    {
+      "name": "Nhạc Sống Tây Bắc",
+      "path": "/browse-nhac-song-tay-bac-mp3-videos-{page}-date.html",
+      "headers": { "Referer": "https://nghenhacsong.com" }
+    },
+    {
+      "name": "Nhạc Sống Remix",
+      "path": "/browse-nhac-song-remix-mp3-videos-{page}-date.html",
       "headers": { "Referer": "https://nghenhacsong.com" }
     }
   ],
@@ -76,7 +71,7 @@
   },
   "chapterList": {
     "scriptSelector": "script",
-    "scriptItemRegex": "[\"'](https?://[^\"'\\s]+\\.mp3)[\"']",
+    "scriptItemRegex": "m4a\\s*:\\s*[\"'](https?://[^\"'\\s]+)[\"']",
     "scriptNameGroup": 1,
     "scriptUrlGroup": 1
   },
