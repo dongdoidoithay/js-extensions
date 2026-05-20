@@ -1,0 +1,92 @@
+{
+  "id": "radiosach_com_vi",
+  "name": "radiosach.com",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt",
+  "baseUrl": "https://radiosach.com",
+  "version": "1.1.0",
+  "description": "Sách nói audio - Nghe sách nói online miễn phí",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://radiosach.com"
+  },
+  "tags": [
+    {
+      "name": "Tư Duy - Kỹ Năng",
+      "path": "/danh-muc/tu-duy-ky-nang.html?page={page}",
+      "headers": { "Referer": "https://radiosach.com" }
+    },
+    {
+      "name": "Kinh Doanh",
+      "path": "/danh-muc/kinh-doanh.html?page={page}",
+      "headers": { "Referer": "https://radiosach.com" }
+    },
+    {
+      "name": "Tâm Lý Học",
+      "path": "/danh-muc/tam-ly-hoc.html?page={page}",
+      "headers": { "Referer": "https://radiosach.com" }
+    },
+    {
+      "name": "Tiểu Thuyết",
+      "path": "/danh-muc/tieu-thuyet.html?page={page}",
+      "headers": { "Referer": "https://radiosach.com" }
+    },
+    {
+      "name": "Lịch Sử",
+      "path": "/danh-muc/lich-su.html?page={page}",
+      "headers": { "Referer": "https://radiosach.com" }
+    },
+    {
+      "name": "Tôn Giáo - Tâm Linh",
+      "path": "/danh-muc/ton-giao-tam-linh.html?page={page}",
+      "headers": { "Referer": "https://radiosach.com" }
+    }
+  ],
+  "popular": {
+    "path": "/?page={page}",
+    "headers": { "Referer": "https://radiosach.com/" },
+    "listSelector": "article.item",
+    "titleSelector": ".data h3 a",
+    "titleAttribute": "text",
+    "urlSelector": ".poster > a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".poster img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/?s={query}&page={page}",
+    "headers": { "Referer": "https://radiosach.com/" },
+    "listSelector": "article.item",
+    "titleSelector": ".data h3 a",
+    "titleAttribute": "text",
+    "urlSelector": ".poster > a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".poster img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": { "Referer": "https://radiosach.com" },
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "meta[property='og:image']",
+    "thumbnailAttribute": "content",
+    "authorSelector": "a[href*='/tac-gia/']",
+    "authorAttribute": "text",
+    "descriptionSelector": "div.detail-description p",
+    "descriptionAttribute": "text",
+    "genreSelector": "a[href*='/danh-muc/']",
+    "genreAttribute": "text"
+  },
+  "chapterList": {
+    "scriptSelector": "script",
+    "scriptItemRegex": "[\"'](https?://[^\"'\\s]+\\.mp3)[\"']",
+    "scriptNameGroup": 1,
+    "scriptUrlGroup": 1
+  },
+  "pageList": {
+    "listSelector": "source[src*='.mp3'], audio source",
+    "urlSelector": "self",
+    "urlAttribute": "src"
+  }
+}

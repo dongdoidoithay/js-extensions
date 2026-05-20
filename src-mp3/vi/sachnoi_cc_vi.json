@@ -1,0 +1,92 @@
+{
+  "id": "sachnoi_cc_vi",
+  "name": "sachnoi.cc",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt",
+  "baseUrl": "https://sachnoi.cc",
+  "version": "1.1.0",
+  "description": "Sách Nói Online - Audio books tiếng Việt miễn phí",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://sachnoi.cc"
+  },
+  "tags": [
+    {
+      "name": "Kỹ Năng Sống",
+      "path": "/ky-nang-song/page/{page}/",
+      "headers": { "Referer": "https://sachnoi.cc" }
+    },
+    {
+      "name": "Tâm Lý",
+      "path": "/tam-ly/page/{page}/",
+      "headers": { "Referer": "https://sachnoi.cc" }
+    },
+    {
+      "name": "Tài Chính - Chứng Khoán",
+      "path": "/tai-chinh-chung-khoan/page/{page}/",
+      "headers": { "Referer": "https://sachnoi.cc" }
+    },
+    {
+      "name": "Kinh Doanh",
+      "path": "/kinh-doanh/page/{page}/",
+      "headers": { "Referer": "https://sachnoi.cc" }
+    },
+    {
+      "name": "Tiểu Thuyết",
+      "path": "/tieu-thuyet/page/{page}/",
+      "headers": { "Referer": "https://sachnoi.cc" }
+    },
+    {
+      "name": "Lịch Sử",
+      "path": "/lich-su/page/{page}/",
+      "headers": { "Referer": "https://sachnoi.cc" }
+    },
+    {
+      "name": "Khoa Học",
+      "path": "/khoa-hoc/page/{page}/",
+      "headers": { "Referer": "https://sachnoi.cc" }
+    }
+  ],
+  "popular": {
+    "path": "/?paged={page}",
+    "headers": { "Referer": "https://sachnoi.cc/" },
+    "listSelector": "article.megaphone-item.megaphone-post",
+    "titleSelector": "h2.entry-title a",
+    "titleAttribute": "text",
+    "urlSelector": "div.entry-media a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/?s={query}&paged={page}",
+    "headers": { "Referer": "https://sachnoi.cc/" },
+    "listSelector": "article.megaphone-item.megaphone-post",
+    "titleSelector": "h2.entry-title a",
+    "titleAttribute": "text",
+    "urlSelector": "div.entry-media a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": { "Referer": "https://sachnoi.cc" },
+    "titleSelector": "h1.entry-title, h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src",
+    "descriptionSelector": ".entry-content p",
+    "descriptionAttribute": "text",
+    "genreSelector": "span.meta-item.meta-category a.cat-item",
+    "genreAttribute": "text"
+  },
+  "chapterList": {
+    "fwdrapPlaylistSelector": "ul[id^='fwdrapMainPlaylist']",
+    "fwdrapXmlNameAttr": "data-title",
+    "fwdrapXmlUrlAttr": "data-path"
+  },
+  "pageList": {
+    "listSelector": ""
+  }
+}
