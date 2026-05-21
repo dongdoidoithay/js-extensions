@@ -143,15 +143,5 @@
     "scriptItemRegex": "\\{title:\\s*\"([^\"]+)\",mp3:\\s*\"([^\"]+)\"",
     "scriptNameGroup": 1,
     "scriptUrlGroup": 2
-  },
-  "pageList": {
-    "headers": {
-      "Referer": "https://nghetruyenngontinh.com/"
-    },
-    "listSelector": "#chapter-c",
-    "urlSelector": "",
-    "urlAttribute": "text",
-    "nextChapterSelector": "a#next_chap",
-    "prevChapterSelector": "a#prev_chap"
   }
 }

@@ -2,10 +2,10 @@
   "id": "nhacdance_net_vi",
   "name": "website: nhacdance.net",
   "lang": "vi",
-  "nameLang": "Tiếng Việt - Nhạc Không Lời",
+  "nameLang": "Tiếng Việt - Nhạc Dance",
   "baseUrl": "https://nhacdance.net",
   "version": "2.0.0",
-  "description": "Nhạc Không Lời - Hòa Tấu. Nghe nhạc hòa tấu, nhạc cụ chất lượng cao",
+  "description": "Nhạc Dance, Nhạc Mashup, Nhạc Nonstop, Nhạc Việt Remix, Nhạc Nonstop Việt Mix, Nhạc Trung Remix, Nhạc House, Nhạc Dubstep, Nhạc EDM, Nhạc Sống, Nhạc Sàn, Nhạc DJ, Nhạc Beatbox",
   "isNsfw": false,
   "supportsLatest": false,
   "headers": {
@@ -13,135 +13,100 @@
   },
   "tags": [
     {
-      "name": "Đàn Guitar",
-      "path": "/music/dan-guitar-c1/page/{page}",
+      "name": "Nhạc Mashup",
+      "path": "/nhac-mashup?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Đàn Mandolin",
-      "path": "/music/dan-mandolin-c2/page/{page}",
+      "name": "Nhạc Nonstop",
+      "path": "/nhac-nonstop?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Đàn Tranh",
-      "path": "/music/dan-tranh-c3/page/{page}",
+      "name": "Nhạc Việt Remix",
+      "path": "/nhac-viet-remix?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Đàn Violin",
-      "path": "/music/dan-violin-vi-cam-c5/page/{page}",
+      "name": "Nhạc Nonstop Việt Mix",
+      "path": "/nonstop-viet-mix?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Đàn Bầu",
-      "path": "/music/dan-bau-monochord-c7/page/{page}",
+      "name": "Nhạc Trung Remix",
+      "path": "/china-mix?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Saxophone",
-      "path": "/music/saxophone-c17/page/{page}",
+      "name": "Nhạc House",
+      "path": "/nhac-house?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Sáo - Flute",
-      "path": "/music/flute-dizi-sao-c19/page/{page}",
+      "name": "Nhạc Dubstep",
+      "path": "/nhac-dubstep?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Kèn Harmonica",
-      "path": "/music/ken-harmonica-c29/page/{page}",
+      "name": "Nhạc EDM",
+      "path": "/nhac-edm?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Accordion",
-      "path": "/music/accordion-c32/page/{page}",
+      "name": "Nhạc Sống",
+      "path": "/nhac-song?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Nhạc Flamenco",
-      "path": "/music/nhac-hoa-tau-flamenco-c33/page/{page}",
+      "name": "Nhạc Sàn",
+      "path": "/nhac-san?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Nhạc New Age",
-      "path": "/music/nhac-hoa-tau-new-age-c35/page/{page}",
+      "name": "Nhạc DJ",
+      "path": "/nhac-dj?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     },
     {
-      "name": "Nhạc Classical",
-      "path": "/music/nhac-hoa-tau-classical-c36/page/{page}",
-      "headers": { "Referer": "https://nhacdance.net" }
-    },
-    {
-      "name": "Nhạc Thiền",
-      "path": "/music/nhac-thien-meditation-c37/page/{page}",
-      "headers": { "Referer": "https://nhacdance.net" }
-    },
-    {
-      "name": "Nhạc Phim OST",
-      "path": "/music/nhac-nen-nhac-phim-ost-c39/page/{page}",
-      "headers": { "Referer": "https://nhacdance.net" }
-    },
-    {
-      "name": "Nhạc Quê Hương",
-      "path": "/music/hoa-tau-nhac-que-huong-c40/page/{page}",
-      "headers": { "Referer": "https://nhacdance.net" }
-    },
-    {
-      "name": "Âm Thanh Thiên Nhiên",
-      "path": "/music/am-thanh-thien-nhien-c27/page/{page}",
+      "name": "Nhạc Beatbox",
+      "path": "/nhac-beatbox?page={page}",
       "headers": { "Referer": "https://nhacdance.net" }
     }
   ],
   "popular": {
-    "path": "/music/nhac-cu-c18094/page/{page}",
-    "listSelector": "#paging_container1 ul.other-album li",
-    "titleSelector": "h2 a",
+    "path": "/",
+    "listSelector": "div.audio",
+    "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": "a.thumb",
+    "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": "a.thumb img",
+    "thumbnailSelector": "a img",
     "thumbnailAttribute": "src"
   },
   "search": {
-    "path": "/music/search/index/page/{page}?search_string={query}",
+    "path": "/tim-kiem?v={query}",
     "headers": {
       "Referer": "https://nhacdance.net/"
     },
-    "listSelector": "#paging_container1 ul.other-album li",
-    "titleSelector": "h2 a",
+    "listSelector": "div.audio",
+    "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": "a.thumb",
+    "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": "a.thumb img",
+    "thumbnailSelector": "a img",
     "thumbnailAttribute": "src"
   },
   "mangaDetails": {
     "headers": {
       "Referer": "https://nhacdance.net"
     },
-    "titleSelector": "h1 a:last-of-type",
-    "titleAttribute": "title",
-    "genreSelector": "h1 a",
-    "genreAttribute": "text"
+    "titleSelector": "h1.entry-title",
+    "titleAttribute": "text"
   },
   "chapterList": {
-    "isApi": true,
-    "apiUrlPattern": "https://nhacdance.net/a_p_i/public-music/index/inFolder/{slug}",
-    "apiResponseType": "json",
-    "apiMethod": "GET",
-    "listSelector": "payload",
-    "nameSelector": "name",
-    "urlSelector": "stream_link",
-    "slugRegex": "fo-(\\d+)",
-    "slugGroup": 1
-  },
-  "pageList": {
-    "headers": {
-      "Referer": "https://nhacdance.net/"
-    },
-    "listSelector": "",
-    "urlSelector": "",
-    "urlAttribute": "text"
+    "scriptSelector": "script",
+    "scriptItemRegex": "contentUrl\":\"([^\"]+)\"[\\s\\S]*?\"name\":\"([^\"]+)\"",
+    "scriptNameGroup": 2,
+    "scriptUrlGroup": 1
   }
 }
