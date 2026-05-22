@@ -21,9 +21,9 @@ type TargetConfig = {
 const TARGETS: Record<BuildTarget, TargetConfig> = {
   manga: {
     srcDir: path.join(__dirname, '../src'),
-    outputFile: path.join(REPO_DIR, 'index.min.json'),
+    outputFile: path.join(REPO_DIR, 'manga.min.json'),
     mockupDir: path.join(__dirname, '../../manga-extension/src/core/data-mockup'),
-    mockupFileName: 'index.min.json',
+    mockupFileName: 'manga.min.json',
     label: 'manga',
   },
   mp3: {

@@ -1,49 +1,50 @@
 {
   "id": "toonily_en",
-  "name": "web: toonily.com",
+  "name": "web: madaradex.org",
   "lang": "en",
   "nameLang": "English - Webtoons",
-  "baseUrl": "https://toonily.com",
+  "baseUrl": "https://madaradex.org",
   "version": "1.0.2",
   "description": "Read Webtoons Online for Free.",
   "isNsfw": true,
   "supportsLatest": true,
+  "cloudflareProtected": true,
   "headers": {
-    "Referer": "https://toonily.com/"
+    "Referer": "https://madaradex.org/"
   },
   "tags": [
     {
       "name": "New ManHwa",
       "path": "/webtoons/page/{page}/?m_orderby=new-manga",
       "headers": {
-        "Referer": "https://toonily.com/"
+        "Referer": "https://madaradex.org/"
       }
     },
     {
       "name": "Trending",
       "path": "/webtoons/page/{page}/?m_orderby=trending",
       "headers": {
-        "Referer": "https://toonily.com/"
+        "Referer": "https://madaradex.org/"
       }
     }
   ],
   "popular": {
-    "path": "/page/{page}",
+    "path": "/page/{page}/",
     "headers": {
-      "Referer": "https://toonily.com/"
+      "Referer": "https://madaradex.org/"
     },
-    "listSelector": ".page-item-detail",
-    "titleSelector": ".post-title a",
+    "listSelector": ".page-listing-item",
+    "titleSelector": "h3 a",
     "titleAttribute": "text",
-    "urlSelector": ".post-title a",
+    "urlSelector": "h3 a",
     "urlAttribute": "href",
-    "thumbnailSelector": ".item-thumb img, img",
+    "thumbnailSelector": "img",
     "thumbnailAttribute": "data-src"
   },
   "search": {
     "path": "/search/{query}/page/{page}/",
     "headers": {
-      "Referer": "https://toonily.com/"
+      "Referer": "https://madaradex.org/"
     },
     "listSelector": ".c-tabs-item__content .row",
     "titleSelector": ".post-title a",
@@ -55,7 +56,7 @@
   },
   "mangaDetails": {
     "headers": {
-      "Referer": "https://toonily.com/"
+      "Referer": "https://madaradex.org/"
     },
     "titleSelector": ".post-title h1",
     "titleAttribute": "text",
@@ -81,10 +82,10 @@
   },
   "pageList": {
     "headers": {
-      "Referer": "https://toonily.com/"
+      "Referer": "https://madaradex.org/"
     },
     "listSelector": ".reading-content img",
     "urlSelector": "",
-    "urlAttribute": "src"
+    "urlAttribute": "data-src"
   }
 }

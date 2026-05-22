@@ -12,6 +12,7 @@
     "Referer": "https://noxmanga.co/",
     "Origin": "https://noxmanga.co"
   },
+ 
   "popular": {
     "isApi": true,
     "path": "/api/v1/chapters/recent?page={page}&per_page=30&unique=true&adult=false",
