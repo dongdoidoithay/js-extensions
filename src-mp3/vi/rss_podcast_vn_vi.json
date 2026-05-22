@@ -1,0 +1,87 @@
+{
+  "id": "rss_podcast_vn_vi",
+  "name": "website: tổng hợp Podcast",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt - RSS Podcast",
+  "baseUrl": "",
+  "version": "1.0.2",
+  "description": "Tổng hợp các RSS Podcast tiếng Việt từ nhiều nguồn khác nhau",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "dataIndex":[
+    {
+      "name": "Tri Kỷ Cảm Xúc",
+      "path": "https://rss.buzzsprout.com/158334.rss",
+      "headers": {
+        "Referer": "https://rss.buzzsprout.com"
+      },
+      "cover": "https://storage.buzzsprout.com/edr4gpkrw45y9elm5kkp6iohg8yq?.jpg",
+      "description": "Tri Kỷ Cảm Xúc là một podcast về tâm lý, tình cảm và các mối quan hệ. Chúng tôi chia sẻ những câu chuyện, kinh nghiệm và lời khuyên để giúp bạn hiểu rõ hơn về bản thân và người khác."  
+    
+    },
+    {
+      "name": "Better Version",
+      "path": "https://anchor.fm/s/6d0b6694/podcast/rss",
+      "headers": {
+        "Referer": "https://anchor.fm"
+      }
+    },
+    {
+      "name": "Tâm Sự Tài Chính",
+      "path": "https://anchor.fm/s/36c11764/podcast/rss",
+      "headers": {
+        "Referer": "https://anchor.fm"
+      }
+    },
+    {
+      "name": "Hiếu TV",
+      "path": "https://anchor.fm/s/4cfb55bc/podcast/rss",
+      "headers": {
+        "Referer": "https://anchor.fm"
+      }
+    }
+  ],
+  "tags": [
+    
+  ],
+  "popular": {
+    "path": "#dataIndex"
+  },
+  "search": {
+    "path": "#dataIndex"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://blogradio.vn"
+    },
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[itemprop='author']",
+    "descriptionSelector": "div[itemprop='description']",
+    "descriptionAttribute": "text",
+    "genreSelector": "a[itemprop='genre']",
+    "statusSelector": "span.text-primary, span.text-success",
+    "coverSelector": "img",
+    "coverAttribute": "src",
+    "paginationSelector": "ul.pagination li a",
+    "paginationAttribute": "href"
+  },
+  "chapterList": {
+    "listSelector": "body",
+    "nameSelector": "h2",
+    "urlSelector": "#media-file",
+    "urlAttribute": "value"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://blogradio.vn/"
+    },
+    "listSelector": "#chapter-c",
+    "urlSelector": "",
+    "urlAttribute": "text",
+    "nextChapterSelector": "a#next_chap",
+    "prevChapterSelector": "a#prev_chap"
+  }
+}

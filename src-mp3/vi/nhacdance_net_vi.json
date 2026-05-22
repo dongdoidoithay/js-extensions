@@ -1,0 +1,112 @@
+{
+  "id": "nhacdance_net_vi",
+  "name": "website: nhacdance.net",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt - Nhạc Dance",
+  "baseUrl": "https://nhacdance.net",
+  "version": "2.0.0",
+  "description": "Nhạc Dance, Nhạc Mashup, Nhạc Nonstop, Nhạc Việt Remix, Nhạc Nonstop Việt Mix, Nhạc Trung Remix, Nhạc House, Nhạc Dubstep, Nhạc EDM, Nhạc Sống, Nhạc Sàn, Nhạc DJ, Nhạc Beatbox",
+  "isNsfw": false,
+  "supportsLatest": false,
+  "headers": {
+    "Referer": "https://nhacdance.net"
+  },
+  "tags": [
+    {
+      "name": "Nhạc Mashup",
+      "path": "/nhac-mashup?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Nonstop",
+      "path": "/nhac-nonstop?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Việt Remix",
+      "path": "/nhac-viet-remix?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Nonstop Việt Mix",
+      "path": "/nonstop-viet-mix?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Trung Remix",
+      "path": "/china-mix?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc House",
+      "path": "/nhac-house?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Dubstep",
+      "path": "/nhac-dubstep?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc EDM",
+      "path": "/nhac-edm?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Sống",
+      "path": "/nhac-song?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Sàn",
+      "path": "/nhac-san?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc DJ",
+      "path": "/nhac-dj?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    },
+    {
+      "name": "Nhạc Beatbox",
+      "path": "/nhac-beatbox?page={page}",
+      "headers": { "Referer": "https://nhacdance.net" }
+    }
+  ],
+  "popular": {
+    "path": "/",
+    "listSelector": "div.audio",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/tim-kiem?v={query}",
+    "headers": {
+      "Referer": "https://nhacdance.net/"
+    },
+    "listSelector": "div.audio",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://nhacdance.net"
+    },
+    "titleSelector": "h1.entry-title",
+    "titleAttribute": "text"
+  },
+  "chapterList": {
+    "scriptSelector": "script",
+    "scriptItemRegex": "contentUrl\":\"([^\"]+)\"[\\s\\S]*?\"name\":\"([^\"]+)\"",
+    "scriptNameGroup": 2,
+    "scriptUrlGroup": 1
+  }
+}

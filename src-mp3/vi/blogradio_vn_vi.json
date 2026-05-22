@@ -1,11 +1,11 @@
 {
   "id": "blogradio_vn_vi",
-  "name": "blogradio.vn",
+  "name": "website: blogradio.vn",
   "lang": "vi",
-  "nameLang": "Tiếng Việt",
+  "nameLang": "Tiếng Việt - Radio Blog",
   "baseUrl": "https://blogradio.vn",
   "version": "1.0.2",
-  "description": "Truyện Ngôn Tình Mp3 Online. Nghe truyện ngôn tình audio chất lượng cao",
+  "description": "Blog radio Online",
   "isNsfw": false,
   "supportsLatest": true,
   "headers": {
@@ -13,7 +13,7 @@
   },
   "tags": [
     {
-      "name": "RADIO ONLINE",
+      "name": "Radio Online",
       "path": "/radio-online-cm687.html?&p={page}",
       "headers": {
         "Referer": "https://blogradio.vn"
