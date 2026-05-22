@@ -1,8 +1,8 @@
 {
   "id": "manganato_en",
-  "name": "Manganato",
+  "name": "web: manganato.gg",
   "lang": "en",
-  "nameLang": "English",
+  "nameLang": "English - Mangas",
   "baseUrl": "https://www.manganato.gg",
   "version": "1.0.4",
   "description": "Read manga online for free.",

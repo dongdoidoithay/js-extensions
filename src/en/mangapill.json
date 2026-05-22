@@ -1,8 +1,8 @@
 {
   "id": "mangapill_en",
-  "name": "MangaPill",
+  "name": "web: mangapill.com",
   "lang": "en",
-  "nameLang": "English",
+  "nameLang": "English - Mangas",
   "baseUrl": "https://mangapill.com",
   "version": "1.0.1",
   "description": "Read manga online for free at MangaPill.",

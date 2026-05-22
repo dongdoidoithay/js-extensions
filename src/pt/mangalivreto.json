@@ -1,8 +1,8 @@
 {
   "id": "mangalivreto_pt",
-  "name": "Manga Livre.to",
+  "name": "web: mangalivre.to",
   "lang": "pt",
-  "nameLang": "Português",
+  "nameLang": "Português - Mangás",
   "baseUrl": "https://mangalivre.to",
   "version": "1.0.0",
   "description": "Português - Leia mangás online gratuitamente.",

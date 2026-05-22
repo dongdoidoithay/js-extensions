@@ -1,8 +1,8 @@
 {
   "id": "fastscan_vi",
-  "name": "FastScan",
+  "name": "web: fastscan.org",
   "lang": "vi",
-  "nameLang": "Tiếng Việt",
+  "nameLang": "Tiếng Việt - Truyện Tranh",
   "baseUrl": "https://fastscan.org",
   "version": "1.0.0",
   "description": "Đọc truyện tranh online cập nhật nhanh nhất tại FastScan.",

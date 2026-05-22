@@ -1,8 +1,8 @@
 {
   "id": "novelfull_net_en",
-  "name": "NovelFull",
+  "name": "web: novelfull.net",
   "lang": "en",
-  "nameLang": "English",
+  "nameLang": "English - Novels",
   "baseUrl": "https://novelfull.net",
   "version": "1.0.2",
   "description": "Read English novels online for free.",

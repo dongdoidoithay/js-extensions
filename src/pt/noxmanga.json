@@ -1,8 +1,8 @@
 {
   "id": "noxmanga_pt",
-  "name": "NoxManga",
+  "name": "web: noxmanga.co",
   "lang": "pt",
-  "nameLang": "Português",
+  "nameLang": "Português - Mangás",
   "baseUrl": "https://noxmanga.co",
   "version": "1.0.1",
   "description": "Português - Leia mangás online na NoxManga.",

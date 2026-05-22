@@ -1,8 +1,8 @@
 {
   "id": "toonily_en",
-  "name": "Toonily",
+  "name": "web: toonily.com",
   "lang": "en",
-  "nameLang": "English",
+  "nameLang": "English - Webtoons",
   "baseUrl": "https://toonily.com",
   "version": "1.0.2",
   "description": "Read Webtoons Online for Free.",
