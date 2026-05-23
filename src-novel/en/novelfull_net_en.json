@@ -13,22 +13,46 @@
     "Referer": "https://novelfull.net/",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
   },
+  "tags": [
+    {
+      "name": "Latest Release",
+      "path": "/latest-release-novel?page={page}",
+       "headers": {
+    "Referer": "https://novelfull.net/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+    },
+    {
+      "name": "Hot Novel",
+      "path": "/hot-novel?page={page}",
+       "headers": {
+    "Referer": "https://novelfull.net/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+    },
+    {
+      "name": "Completed",
+      "path": "/completed-novel?page={page}",
+       "headers": {
+    "Referer": "https://novelfull.net/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+  }
+    },
+    {
+      "name": "Most Popular",
+      "path": "/most-popular?page={page}",
+       "headers": {
+          "Referer": "https://novelfull.net/",
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        }
+    }
+  ],
   "popular": {
-    "path": "/hot-novel?page={page}",
+    "path": "/latest-release-novel?page={page}",
     "listSelector": "div.list-truyen div.row",
     "titleSelector": "h3.truyen-title a",
     "titleAttribute": "text",
     "urlSelector": "h3.truyen-title a",
-    "urlAttribute": "href",
-    "thumbnailSelector": "img",
-    "thumbnailAttribute": "src"
-  },
-  "latest": {
-    "path": "/latest-release-novel?page={page}",
-    "listSelector": "div.list-novel div.row",
-    "titleSelector": "h3.title a",
-    "titleAttribute": "text",
-    "urlSelector": "h3.title a",
     "urlAttribute": "href",
     "thumbnailSelector": "img",
     "thumbnailAttribute": "src"

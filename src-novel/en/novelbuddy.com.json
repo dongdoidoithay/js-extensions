@@ -13,6 +13,29 @@
     "Referer": "https://novelbuddy.com/",
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
   },
+  "tags": [
+    {
+      "name": "Most Popular",
+      "path": "/popular?page={page}",
+      "headers": {
+        "Referer": "https://novelbuddy.com/"
+      }
+    },
+    {
+      "name": "Latest Updates",
+      "path": "/latest?page={page}",
+      "headers": {
+        "Referer": "https://novelbuddy.com/"
+      }
+    },
+    {
+      "name": "Trending",
+      "path": "/trending?page={page}",
+      "headers": {
+        "Referer": "https://novelbuddy.com/"
+      }
+    }
+  ],
   "popular": {
     "path": "/latest?page={page}",
     "listSelector": "main article",
