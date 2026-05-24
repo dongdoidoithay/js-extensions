@@ -9,6 +9,7 @@ if (!fs.existsSync(REPO_DIR)) {
 }
 
 type BuildTarget = 'manga' | 'mp3' | 'novel';
+type Mp3Store = 'default' | 'google' | 'amazon';
 
 type TargetConfig = {
   srcDir: string;
@@ -16,6 +17,12 @@ type TargetConfig = {
   mockupDir?: string;
   mockupFileName: string;
   label: string;
+};
+
+type Mp3StoreConfig = {
+  outputFileName: string;
+  mockupFileName: string;
+  includeFiles?: string[];
 };
 
 const TARGETS: Record<BuildTarget, TargetConfig> = {
@@ -42,6 +49,33 @@ const TARGETS: Record<BuildTarget, TargetConfig> = {
   },
 };
 
+const MP3_STORE_CONFIGS: Record<Mp3Store, Mp3StoreConfig> = {
+  default: {
+    outputFileName: 'mp3.min.json',
+    mockupFileName: 'mp3.min.json',
+  },
+  google: {
+    outputFileName: 'mp3-google.min.json',
+    mockupFileName: 'mp3-google.min.json',
+    // Keep this list strict for Google build policy.
+    includeFiles: [
+     'vi/nghetruyenma_net_vi.json',
+    ],
+  },
+  amazon: {
+    outputFileName: 'mp3-amazon.min.json',
+    mockupFileName: 'mp3-amazon.min.json',
+    includeFiles: [
+      'vi/nghetruyenma_net_vi.json',
+    ],
+  },
+};
+
+type BuildOptions = {
+  targets: BuildTarget[];
+  mp3Store: Mp3Store;
+};
+
 interface SourceConfig {
   id: string | number;
   name: string;
@@ -66,8 +100,7 @@ function walkDir(dir: string, fileList: string[] = []): string[] {
   return fileList;
 }
 
-function parseTargets(argv: string[]): BuildTarget[] {
-  const args = argv.map((value) => value.toLowerCase());
+function parseTargets(args: string[]): BuildTarget[] {
 
   if (args.length === 0) {
     return ['manga', 'mp3', 'novel'];
@@ -87,15 +120,75 @@ function parseTargets(argv: string[]): BuildTarget[] {
   return Array.from(new Set(targets));
 }
 
-function buildRepo(target: BuildTarget) {
+function normalizeRelativePath(filePath: string): string {
+  return filePath.replace(/\\/g, '/');
+}
+
+function parseOptions(argv: string[]): BuildOptions {
+  const args = argv.map((value) => value.toLowerCase());
+  const targetArgs: string[] = [];
+  let mp3Store: Mp3Store = 'default';
+
+  for (let index = 0; index < args.length; index += 1) {
+    const arg = args[index];
+
+    if (arg === '--store' || arg === '--mp3-store') {
+      const nextValue = args[index + 1];
+      if (!nextValue) {
+        throw new Error('Missing value for --store. Use one of: default, google, amazon');
+      }
+      if (!(nextValue in MP3_STORE_CONFIGS)) {
+        throw new Error(`Invalid mp3 store: ${nextValue}. Use one of: default, google, amazon`);
+      }
+      mp3Store = nextValue as Mp3Store;
+      index += 1;
+      continue;
+    }
+
+    targetArgs.push(arg);
+  }
+
+  return {
+    targets: parseTargets(targetArgs),
+    mp3Store,
+  };
+}
+
+function buildRepo(target: BuildTarget, options: BuildOptions) {
   const config = TARGETS[target];
-  console.log(`Building ${config.label} extension repository...`);
+  const mp3Store = target === 'mp3' ? options.mp3Store : 'default';
+  const mp3StoreConfig = MP3_STORE_CONFIGS[mp3Store];
+  const outputFile =
+    target === 'mp3' ? path.join(REPO_DIR, mp3StoreConfig.outputFileName) : config.outputFile;
+  const mockupFileName = target === 'mp3' ? mp3StoreConfig.mockupFileName : config.mockupFileName;
+
+  const buildLabel = target === 'mp3' ? `${config.label} (${mp3Store})` : config.label;
+  console.log(`Building ${buildLabel} extension repository...`);
 
   if (!fs.existsSync(config.srcDir)) {
     throw new Error(`Source directory not found: ${config.srcDir}`);
   }
 
-  const jsonFiles = walkDir(config.srcDir);
+  let jsonFiles = walkDir(config.srcDir);
+
+  if (target === 'mp3' && mp3StoreConfig.includeFiles && mp3StoreConfig.includeFiles.length > 0) {
+    const includeSet = new Set(mp3StoreConfig.includeFiles.map(normalizeRelativePath));
+
+    const missingFiles = Array.from(includeSet).filter((relativeFile) => {
+      return !fs.existsSync(path.join(config.srcDir, relativeFile));
+    });
+    if (missingFiles.length > 0) {
+      throw new Error(
+        `Missing configured mp3 source files for store ${mp3Store}: ${missingFiles.join(', ')}`,
+      );
+    }
+
+    jsonFiles = jsonFiles.filter((filePath) => {
+      const relativePath = normalizeRelativePath(path.relative(config.srcDir, filePath));
+      return includeSet.has(relativePath);
+    });
+  }
+
   const repoData: SourceConfig[] = [];
 
   for (const file of jsonFiles) {
@@ -120,21 +213,21 @@ function buildRepo(target: BuildTarget) {
   }
 
   // Write minified JSON
-  fs.writeFileSync(config.outputFile, JSON.stringify(repoData));
-  console.log(`\nSuccess! Built ${repoData.length} extensions into ${config.outputFile}`);
+  fs.writeFileSync(outputFile, JSON.stringify(repoData));
+  console.log(`\nSuccess! Built ${repoData.length} extensions into ${outputFile}`);
 
   if (config.mockupDir && fs.existsSync(config.mockupDir)) {
-    const mockupFile = path.join(config.mockupDir, config.mockupFileName);
-    fs.copyFileSync(config.outputFile, mockupFile);
+    const mockupFile = path.join(config.mockupDir, mockupFileName);
+    fs.copyFileSync(outputFile, mockupFile);
     console.log(`- Copied to mockup: ${mockupFile}`);
   }
 }
 
 function main() {
-  const targets = parseTargets(process.argv.slice(2));
+  const options = parseOptions(process.argv.slice(2));
 
-  for (const target of targets) {
-    buildRepo(target);
+  for (const target of options.targets) {
+    buildRepo(target, options);
   }
 }
 

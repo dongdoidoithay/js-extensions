@@ -4,8 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "ts-node scripts/build.ts",
+    "build": "ts-node scripts/build.ts all && ts-node scripts/build.ts mp3 --store google && ts-node scripts/build.ts mp3 --store amazon",
     "build:mp3": "ts-node scripts/build.ts mp3",
+    "build:mp3:google": "ts-node scripts/build.ts mp3 --store google",
+    "build:mp3:amazon": "ts-node scripts/build.ts mp3 --store amazon",
     "build:novel": "ts-node scripts/build.ts novel",
     "build:all": "ts-node scripts/build.ts all"
   },
