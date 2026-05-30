@@ -8,6 +8,7 @@
   "description": "Sách Nói Online - Audio books tiếng Việt miễn phí",
   "isNsfw": false,
   "supportsLatest": true,
+  "showSourceImages": false,
   "headers": {
     "Referer": "https://sachnoi.cc"
   },

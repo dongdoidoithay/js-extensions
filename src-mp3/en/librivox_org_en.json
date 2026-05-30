@@ -8,6 +8,7 @@
   "description": "Free public domain audiobooks — LibriVox",
   "isNsfw": false,
   "supportsLatest": true,
+  "showSourceImages": false,
   "headers": {
     "Referer": "https://librivox.org",
     "X-Requested-With": "XMLHttpRequest"

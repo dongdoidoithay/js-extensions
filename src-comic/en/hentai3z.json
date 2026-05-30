@@ -1,0 +1,98 @@
+{
+  "id": "toonily_en",
+  "name": "web: hentai3z.cc",
+  "lang": "en",
+  "nameLang": "English - Webtoons",
+  "baseUrl": "https://hentai3z.cc",
+  "version": "1.0.2",
+  "description": "Read Webtoons Online for Free.",
+  "isNsfw": true,
+  "supportsLatest": true,
+  "cloudflareProtected": true,
+  "headers": {
+    "Referer": "https://hentai3z.cc/"
+  },
+  "tags": [
+    {
+      "name": "ManHwa",
+      "path": "/manga-list/mature/{page}?order_by=views",
+      "headers": {
+        "Referer": "https://hentai3z.cc/"
+      }
+    },
+     {
+      "name": "Hentai",
+      "path": "/manga-list/hentai/{page}?order_by=views",
+      "headers": {
+        "Referer": "https://hentai3z.cc/"
+      }
+    },
+    {
+      "name": "List Hentai",
+      "path": "/list-manga/{page}?order_by=views",
+      "headers": {
+        "Referer": "https://hentai3z.cc/"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/latest-release/{page}",
+    "headers": {
+      "Referer": "https://hentai3z.cc/"
+    },
+    "listSelector": ".story_item",
+    "titleSelector": "div.mg_name a",
+    "titleAttribute": "text",
+    "urlSelector": "div.mg_name a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/list-manga/{page}?search={query}",
+    "headers": {
+      "Referer": "https://hentai3z.cc/"
+    },
+   "listSelector": ".story_item",
+    "titleSelector": "div.mg_name a",
+    "titleAttribute": "text",
+    "urlSelector": "div.mg_name a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://hentai3z.cc/"
+    },
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".img-responsive img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".author-content a",
+    "authorAttribute": "text",
+    "statusSelector": ".post-status .summary-content",
+    "statusAttribute": "text",
+    "genreSelector": ".genres-content a",
+    "genreAttribute": "text",
+    "descriptionSelector": ".detail_reviewContent",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "div.item",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".chapter_info",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://hentai3z.cc/"
+    },
+    "listSelector": ".chapter_boxImages img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

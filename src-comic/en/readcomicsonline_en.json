@@ -1,0 +1,105 @@
+{
+  "id": "readcomicsonline_en",
+  "name": "web: readcomicsonline.ru",
+  "lang": "en",
+  "nameLang": "English - Comics",
+  "baseUrl": "https://readcomicsonline.ru",
+  "version": "1.0.1",
+  "description": "Read comic DC Marvel online ",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://readcomicsonline.ru/"
+  },
+  "tags": [
+    {
+      "name": "Comics List",
+      "path": "/filterList?page={page}&cat=&alpha=&sortBy=name&asc=true&author=&tag=",
+      "headers": {
+        "Referer": "https://readcomicsonline.ru/"
+      }
+    },
+    {
+      "name": "Latest Comic",
+      "path": "/filterList?page={page}&cat=&alpha=&sortBy=last_release&asc=true&author=&tag=",
+      "headers": {
+        "Referer": "https://readcomicsonline.ru/"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/filterList?page={page}&cat=&alpha=&sortBy=last_release&asc=true&author=&tag=",
+    "headers": {
+      "Referer": "https://readcomicsonline.ru/"
+    },
+    "listSelector": ".col-sm-6 .media",
+    "titleSelector": "h5.media-heading a.chart-title",
+    "titleAttribute": "text",
+    "urlSelector": "h5.media-heading a.chart-title",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".media-left img",
+    "thumbnailAttribute": "src"
+  },
+  "latest": {
+    "path": "/filterList?page={page}&cat=&alpha=&sortBy=last_release&asc=true&author=&tag=",
+    "headers": {
+      "Referer": "https://readcomicsonline.ru/"
+    },
+    "listSelector": ".col-sm-6 .media",
+    "titleSelector": "h5.media-heading a.chart-title",
+    "titleAttribute": "text",
+    "urlSelector": "h5.media-heading a.chart-title",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".media-left img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/search?query={query}",
+    "isApi": true,
+    "headers": {
+      "Referer": "https://readcomicsonline.ru/"
+    },
+    "listSelector": "suggestions",
+    "titleSelector": "value",
+    "urlSelector": "data",
+    "thumbnailSelector": "",
+    "mangaUrlPattern": "{baseUrl}/comic/{slug}"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://readcomicsonline.ru/"
+    },
+    "titleSelector": "h2",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".boxed img",
+    "thumbnailAttribute": "src",
+    "authorSelector": "dt:contains('Author') + dd",
+    "authorAttribute": "text",
+    "statusSelector": "dt:contains('Status') + dd",
+    "statusAttribute": "text",
+    "genreSelector": "dd a[href*='/category/']",
+    "genreAttribute": "text",
+    "descriptionSelector": ".well p",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "headers": {
+      "Referer": "https://readcomicsonline.ru/"
+    },
+    "listSelector": "ul.chapters li",
+    "urlSelector": "h5 a",
+    "urlAttribute": "href",
+    "nameSelector": "h5 a",
+    "nameAttribute": "text",
+    "dateSelector": ".date-chapter-title-rtl",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://readcomicsonline.ru/"
+    },
+    "listSelector": "img.img-responsive[data-src*='/uploads/manga/']",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

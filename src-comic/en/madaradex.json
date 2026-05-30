@@ -1,0 +1,91 @@
+{
+  "id": "toonily_en",
+  "name": "web: madaradex.org",
+  "lang": "en",
+  "nameLang": "English - Webtoons",
+  "baseUrl": "https://madaradex.org",
+  "version": "1.0.2",
+  "description": "Read Webtoons Online for Free.",
+  "isNsfw": true,
+  "supportsLatest": true,
+  "cloudflareProtected": true,
+  "headers": {
+    "Referer": "https://madaradex.org/"
+  },
+  "tags": [
+    {
+      "name": "New ManHwa",
+      "path": "/webtoons/page/{page}/?m_orderby=new-manga",
+      "headers": {
+        "Referer": "https://madaradex.org/"
+      }
+    },
+    {
+      "name": "Trending",
+      "path": "/webtoons/page/{page}/?m_orderby=trending",
+      "headers": {
+        "Referer": "https://madaradex.org/"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/page/{page}/",
+    "headers": {
+      "Referer": "https://madaradex.org/"
+    },
+    "listSelector": ".page-listing-item",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-src"
+  },
+  "search": {
+    "path": "/search/{query}/page/{page}/",
+    "headers": {
+      "Referer": "https://madaradex.org/"
+    },
+    "listSelector": ".c-tabs-item__content .row",
+    "titleSelector": ".post-title a",
+    "titleAttribute": "text",
+    "urlSelector": ".post-title a",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "data-src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://madaradex.org/"
+    },
+    "titleSelector": ".post-title h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".summary_image img",
+    "thumbnailAttribute": "data-src",
+    "authorSelector": ".author-content a",
+    "authorAttribute": "text",
+    "statusSelector": ".post-status .summary-content",
+    "statusAttribute": "text",
+    "genreSelector": ".genres-content a",
+    "genreAttribute": "text",
+    "descriptionSelector": ".description-summary .summary-content",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "listSelector": "li.wp-manga-chapter",
+    "urlSelector": "a",
+    "urlAttribute": "href",
+    "nameSelector": "a",
+    "nameAttribute": "text",
+    "dateSelector": ".chapter-release-date",
+    "dateAttribute": "text"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://madaradex.org/"
+    },
+    "listSelector": ".reading-content img",
+    "urlSelector": "",
+    "urlAttribute": "data-src"
+  }
+}

@@ -8,6 +8,7 @@
   "description": "audio books",
   "isNsfw": false,
   "supportsLatest": true,
+  "showSourceImages": false,
   "headers": {
     "Referer": "https://audioaz.com"
   },

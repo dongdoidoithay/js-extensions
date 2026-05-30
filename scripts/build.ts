@@ -8,7 +8,7 @@ if (!fs.existsSync(REPO_DIR)) {
   fs.mkdirSync(REPO_DIR, { recursive: true });
 }
 
-type BuildTarget = 'manga' | 'mp3' | 'novel';
+type BuildTarget = 'manga' | 'mp3' | 'novel'| 'comic';
 type Mp3Store = 'default' | 'google' | 'amazon';
 
 type TargetConfig = {
@@ -46,6 +46,13 @@ const TARGETS: Record<BuildTarget, TargetConfig> = {
     mockupDir: path.join(__dirname, '../../novel-extension/src/core/data-mockup'),
     mockupFileName: 'novel.min.json',
     label: 'novel',
+  },
+  comic: {
+    srcDir: path.join(__dirname, '../src-comic'),
+    outputFile: path.join(REPO_DIR, 'comic.min.json'),
+    mockupDir: path.join(__dirname, '../../comic-extension/src/core/data-mockup'),
+    mockupFileName: 'comic.min.json',
+    label: 'comic',
   },
 };
 

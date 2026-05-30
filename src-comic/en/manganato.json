@@ -1,0 +1,97 @@
+{
+  "id": "manganato_en",
+  "name": "web: manganato.gg",
+  "lang": "en",
+  "nameLang": "English - Mangas",
+  "baseUrl": "https://www.manganato.gg",
+  "version": "1.0.4",
+  "description": "Read manga online for free.",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://www.manganato.gg/"
+  },
+  "tags": [
+    {
+      "name": "Hot Manga",
+      "path": "/manga-list/hot-manga?page={page}",
+      "headers": {
+        "Referer": "https://www.manganato.gg/"
+      }
+    },
+    {
+      "name": "New Manga",
+      "path": "/manga-list/new-manga?page={page}",
+      "headers": {
+        "Referer": "https://www.manganato.gg/"
+      }
+    },
+    {
+      "name": "Completed Manga",
+      "path": "/manga-list/completed-manga?page={page}",
+      "headers": {
+        "Referer": "https://www.manganato.gg/"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/manga-list/latest-manga?page={page}",
+    "headers": {
+      "Referer": "https://www.manganato.gg/"
+    },
+    "listSelector": ".list-comic-item-wrap",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".cover img",
+    "thumbnailAttribute": "data-src"
+  },
+  "search": {
+    "path": "/search/story/{query}?page={page}",
+    "headers": {
+      "Referer": "https://www.manganato.gg/"
+    },
+    "listSelector": ".list-comic-item-wrap",
+    "titleSelector": "h3 a",
+    "titleAttribute": "text",
+    "urlSelector": "h3 a",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".cover img",
+    "thumbnailAttribute": "data-src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://www.manganato.gg/"
+    },
+    "titleSelector": ".manga-info-text h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": ".thumbnail-wrap img",
+    "thumbnailAttribute": "src",
+    "authorSelector": ".manga-info-text li:nth-child(2)",
+    "authorAttribute": "text",
+    "statusSelector": ".manga-info-text li:nth-child(3)",
+    "statusAttribute": "text",
+    "genreSelector": ".genres a",
+    "genreAttribute": "text",
+    "descriptionSelector": "#contentBox",
+    "descriptionAttribute": "text"
+  },
+  "chapterList": {
+    "isApi": true,
+    "apiUrlPattern": "https://www.manganato.gg/api/manga/{slug}/chapters?limit=-1",
+    "chapterUrlPattern": "{baseUrl}/manga/{slug}/{chapterSlug}",
+    "listSelector": "data.chapters",
+    "nameSelector": "chapter_name",
+    "urlSelector": "chapter_slug",
+    "dateSelector": "updated_at"
+  },
+  "pageList": {
+    "headers": {
+      "Referer": "https://www.manganato.gg/"
+    },
+    "listSelector": ".container-chapter-reader img",
+    "urlSelector": "",
+    "urlAttribute": "src"
+  }
+}

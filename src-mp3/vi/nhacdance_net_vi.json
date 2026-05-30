@@ -8,6 +8,7 @@
   "description": "Nhạc Dance, Nhạc Mashup, Nhạc Nonstop, Nhạc Việt Remix, Nhạc Nonstop Việt Mix, Nhạc Trung Remix, Nhạc House, Nhạc Dubstep, Nhạc EDM, Nhạc Sống, Nhạc Sàn, Nhạc DJ, Nhạc Beatbox",
   "isNsfw": false,
   "supportsLatest": false,
+  "showSourceImages": false,
   "headers": {
     "Referer": "https://nhacdance.net"
   },

@@ -8,6 +8,7 @@
   "description": "Nhạc Không Lời - Hòa Tấu. Nghe nhạc hòa tấu, nhạc cụ chất lượng cao",
   "isNsfw": false,
   "supportsLatest": false,
+  "showSourceImages": false,
   "headers": {
     "Referer": "https://nhackhongloi.vn"
   },

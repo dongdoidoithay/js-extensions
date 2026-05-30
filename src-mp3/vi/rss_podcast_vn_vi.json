@@ -8,6 +8,7 @@
   "description": "Tổng hợp các RSS Podcast tiếng Việt từ nhiều nguồn khác nhau",
   "isNsfw": false,
   "supportsLatest": true,
+  "showSourceImages": false,
   "dataIndex":[
     {
       "name": "Tri Kỷ Cảm Xúc",
