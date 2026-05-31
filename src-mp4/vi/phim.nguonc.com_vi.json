@@ -115,15 +115,6 @@
     "thumbnailSelector": "poster_url",
     "mangaUrlPattern": "{baseUrl}/phim/{slug}"
   },
-  "latest": {
-    "path": "/api/films/phim-moi-cap-nhat?page={page}",
-    "isApi": true,
-    "listSelector": "items",
-    "titleSelector": "name",
-    "urlSelector": "slug",
-    "thumbnailSelector": "poster_url",
-    "mangaUrlPattern": "{baseUrl}/phim/{slug}"
-  },
   "search": {
     "path": "/api/films/search?keyword={query}&page={page}",
     "isApi": true,

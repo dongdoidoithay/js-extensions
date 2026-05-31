@@ -1,0 +1,69 @@
+{
+  "id": "gogoanime_is_en",
+  "name": "web: gogoanime.is",
+  "lang": "en",
+  "nameLang": "English - Anime",
+  "baseUrl": "https://www.gogoanime.is",
+  "version": "1.1.0",
+  "description": "List of Anime on GogoAnime. The best new releases in high quality for free",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://www.gogoanime.is/"
+  },
+  "tags": [
+    
+  ],
+  "popular": {
+    "path": "/ajax/page-recent-release?page={page}&type=1",
+    "isApi": true,
+    "listSelector": "ul.items li",
+    "titleSelector": "p.name a",
+    "titleAttribute": "text",
+    "urlSelector": "self",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/search?search=&keyword={query}&page={page}",
+    "isApi": false,
+    "listSelector": "a.poster-item",
+    "titleSelector": ".poster-item__title",
+    "titleAttribute": "text",
+    "urlSelector": "self",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".poster-item__img img",
+    "thumbnailAttribute": "src",
+    "mangaUrlPattern": "{baseUrl}{url}"
+  },
+  "mangaDetails": {
+    "isApi": false,
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "authorSelector": ".page__details-list li:has(span:contains('Режиссер')) span:last-child",
+    "descriptionSelector": ".page__text",
+    "descriptionAttribute": "text",
+    "thumbnailSelector": ".page__poster img",
+    "thumbnailAttribute": "src",
+    "genreSelector": ".page__details-list--genre span:last-child a",
+    "genreAttribute": "text",
+    "statusSelector": ".poster-item__label",
+    "statusAttribute": "text"
+  },
+  "chapterList": {
+    "isApi": true,
+    "apiUrlPattern": "{baseUrl}/engine/ajax/controller.php?mod=alloha-player&url=1&action=iframe&id={slug}",
+    "apiResponseType": "html",
+    "listSelector": "iframe",
+    "nameSelector": "self",
+    "nameAttribute": "src",
+    "urlSelector": "self",
+    "urlAttribute": "src"
+  },
+  "pageList": {
+    "listSelector": "iframe[src*='alloha'], iframe[src*='kodik'], iframe[src*='thealloha']",
+    "urlSelector": "self",
+    "urlAttribute": "src"
+  }
+}

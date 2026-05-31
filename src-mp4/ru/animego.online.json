@@ -1,0 +1,105 @@
+{
+  "id": "kphude_com_vi",
+  "name": "web: animego.online",
+  "lang": "ru",
+  "nameLang": "Русский - Аниме",
+  "baseUrl": "https://animego.online",
+  "version": "1.1.0",
+  "description": "Список Аниме на AnimeGO. Лучшие новинки в хорошем качестве бесплатно",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "headers": {
+    "Referer": "https://animego.online/"
+  },
+  "tags": [
+    {
+      "name": "Детектив",
+      "path": "/detective/page/{page}/"
+    },
+    {
+      "name": "Драма",
+      "path": "/drama-a7/page/{page}/"
+    },
+    {
+      "name": "Экшен",
+      "path": "/action/page/{page}/"
+    },
+    {
+      "name": "Фэнтези",
+      "path": "/fantasy/page/{page}/"
+    },
+    {
+      "name": "Романтика",
+      "path": "/romance/page/{page}/"
+    },
+    {
+      "name": "Комедия",
+      "path": "/comedy/page/{page}/"
+    }
+  ],
+  "popular": {
+    "path": "/anime/page/{page}/",
+    "isApi": false,
+    "listSelector": "a.poster-item",
+    "titleSelector": ".poster-item__title",
+    "titleAttribute": "text",
+    "urlSelector": "self",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".poster-item__img img",
+    "thumbnailAttribute": "src",
+    "mangaUrlPattern": "{baseUrl}{url}"
+  },
+  "latest": {
+    "path": "/anime/page/{page}/",
+    "isApi": false,
+    "listSelector": "a.poster-item",
+    "titleSelector": ".poster-item__title",
+    "titleAttribute": "text",
+    "urlSelector": "self",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".poster-item__img img",
+    "thumbnailAttribute": "src",
+    "mangaUrlPattern": "{baseUrl}{url}"
+  },
+  "search": {
+    "path": "/index.php?do=search&subaction=search&full_search=0&story={query}&search_start={page}",
+    "isApi": false,
+    "listSelector": "a.poster-item",
+    "titleSelector": ".poster-item__title",
+    "titleAttribute": "text",
+    "urlSelector": "self",
+    "urlAttribute": "href",
+    "thumbnailSelector": ".poster-item__img img",
+    "thumbnailAttribute": "src",
+    "mangaUrlPattern": "{baseUrl}{url}"
+  },
+  "mangaDetails": {
+    "isApi": false,
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "authorSelector": ".page__details-list li:has(span:contains('Режиссер')) span:last-child",
+    "descriptionSelector": ".page__text",
+    "descriptionAttribute": "text",
+    "thumbnailSelector": ".page__poster img",
+    "thumbnailAttribute": "src",
+    "genreSelector": ".page__details-list--genre span:last-child a",
+    "genreAttribute": "text",
+    "statusSelector": ".poster-item__label",
+    "statusAttribute": "text"
+  },
+  "chapterList": {
+    "isApi": true,
+    "apiUrlPattern": "{baseUrl}/engine/ajax/controller.php?mod=kodik-player&url=1&action=iframe&id={slug}",
+    "apiSlugRegex": "^(\\d+)",
+    "apiResponseType": "json",
+    "apiChainField": "data",
+    "listSelector": ".serial-series-box option",
+    "nameAttribute": "data-title",
+    "chapterUrlPattern": "https://kodikplayer.com/seria/{attr:data-id}/{attr:data-hash}/720p"
+  },
+  "pageList": {
+    "listSelector": "iframe[src*='kodik'], iframe[src*='thealloha']",
+    "urlSelector": "self",
+    "urlAttribute": "src"
+  }
+}
