@@ -8,7 +8,7 @@ if (!fs.existsSync(REPO_DIR)) {
   fs.mkdirSync(REPO_DIR, { recursive: true });
 }
 
-type BuildTarget = 'manga' | 'mp3' | 'novel'| 'comic'|'mp4';
+type BuildTarget = 'manga' | 'mp3' | 'novel'| 'comic'|'mp4'|'mp4-hard';
 type Mp3Store = 'default' | 'google' | 'amazon';
 
 type TargetConfig = {
@@ -60,6 +60,13 @@ const TARGETS: Record<BuildTarget, TargetConfig> = {
     mockupDir: path.join(__dirname, '../../mp4-extension/src/core/data-mockup'),
     mockupFileName: 'mp4.min.json',
     label: 'mp4',
+  },
+  'mp4-hard': {
+    srcDir: path.join(__dirname, '../src-mp4-hard'),
+    outputFile: path.join(REPO_DIR, 'mp4-hard.min.json'),
+    mockupDir: path.join(__dirname, '../../mp4-hard-extension/src/core/data-mockup'),
+    mockupFileName: 'mp4-hard.min.json',
+    label: 'mp4-hard',
   },
 };
 
@@ -117,11 +124,11 @@ function walkDir(dir: string, fileList: string[] = []): string[] {
 function parseTargets(args: string[]): BuildTarget[] {
 
   if (args.length === 0) {
-    return ['manga', 'mp3', 'novel', 'comic', 'mp4'];
+    return ['manga', 'mp3', 'novel', 'comic', 'mp4', 'mp4-hard'];
   }
 
   if (args.includes('all')) {
-    return ['manga', 'mp3', 'novel', 'comic', 'mp4'];
+    return ['manga', 'mp3', 'novel', 'comic', 'mp4', 'mp4-hard'];
   }
 
   const targets = args.filter((value): value is BuildTarget => value in TARGETS);
