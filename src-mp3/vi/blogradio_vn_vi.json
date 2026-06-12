@@ -8,7 +8,8 @@
   "description": "Blog radio Online",
   "isNsfw": false,
   "supportsLatest": true,
-  "showSourceImages": false,
+  "isShowInfo": true,
+  "showSourceImages": true,
   "headers": {
     "Referer": "https://blogradio.vn"
   },

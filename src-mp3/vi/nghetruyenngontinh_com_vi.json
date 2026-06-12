@@ -8,7 +8,8 @@
   "description": "Truyện Ngôn Tình Mp3 Online. Nghe truyện ngôn tình audio chất lượng cao",
   "isNsfw": false,
   "supportsLatest": true,
-  "showSourceImages": false,
+  "isShowInfo": true,
+  "showSourceImages": true,
   "headers": {
     "Referer": "https://nghetruyenngontinh.com"
   },
