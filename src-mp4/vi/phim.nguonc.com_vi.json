@@ -1,13 +1,14 @@
 {
   "id": "phim.nguonc.com_vi",
-  "name": "web: phim.nguonc.com",
+  "name": "api: phim.nguonc.com",
   "lang": "vi",
   "nameLang": "Tieng Viet - MP4",
   "baseUrl": "https://phim.nguonc.com",
   "version": "1.0.0",
-  "description": "Nguonc public API for movie streaming metadata",
+  "description": "Dữ liệu được lấy từ API công khai của phim.nguonc.com, độ ổn định phụ thuộc vào API của phim.nguonc.com, có thể bị thay đổi hoặc chặn truy cập bất cứ lúc nào",
   "isNsfw": false,
   "supportsLatest": true,
+  "isShowInfo": true,
   "headers": {
     "Referer": "https://phim.nguonc.com/"
   },
