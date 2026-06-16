@@ -17,7 +17,7 @@
       "path": "/filterList?page={page}&cat=&alpha=&sortBy=name&asc=true&author=&tag=",
       "headers": {
         "Referer": "https://readcomicsonline.ru/"
-      }
+      } 
     },
     {
       "name": "Latest Comic",
