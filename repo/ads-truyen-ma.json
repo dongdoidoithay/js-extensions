@@ -1,0 +1,49 @@
+{
+    "version": "1.0.3",
+    "android": {
+        "show_ads": false,
+        "test_mode": true,
+        "reader_rewarded_ratio": 0.5,
+        "min_ad_interval_seconds": 180,
+        "global_configs": {
+            "admob_app_id": "ca-app-pub-3940256099942544~3347511713",
+            "applovin_sdk_key": "YOUR_APPLOVIN_SDK_KEY_HERE",
+            "unity_game_id": "YOUR_UNITY_GAME_ID_HERE",
+            "facebook_app_id": "YOUR_FB_APP_ID_HERE"
+        },
+        "units": {
+            "banner_library": {
+                "id": "ca-app-pub-3940256099942544/6300978111",
+                "enabled": true
+            },
+            "banner_updates": {
+                "id": "ca-app-pub-3940256099942544/6300978111",
+                "enabled": true
+            },
+            "banner_history": {
+                "id": "ca-app-pub-3940256099942544/6300978111",
+                "enabled": true
+            },
+            "banner_browse": {
+                "id": "ca-app-pub-3940256099942544/6300978111",
+                "enabled": true
+            },
+            "banner_manga_detail": {
+                "id": "ca-app-pub-3940256099942544/6300978111",
+                "enabled": true
+            },
+            "interstitial_manga_detail": {
+                "id": "ca-app-pub-3940256099942544/1033173712",
+                "enabled": true
+            },
+            "interstitial_reader": {
+                "id": "ca-app-pub-3940256099942544/1033173712",
+                "enabled": true
+            },
+            "rewarded_support": {
+                "id": "ca-app-pub-3940256099942544/5224354917",
+                "enabled": true
+            }
+        }
+    }
+}

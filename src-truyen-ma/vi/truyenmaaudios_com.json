@@ -1,0 +1,139 @@
+{
+  "id": "kenhtruyenma_com_vi",
+  "name": "web: kenhtruyenma.com",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt - Truyện Ma",
+  "baseUrl": "https://truyenmaaudios.com",
+  "version": "1.0.2",
+  "description": "Truyện Ma Mp3 Online - Nghe truyện ma audio chất lượng cao",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "isShowInfo": true,
+  "showSourceImages": true,
+  "headers": {
+    "Referer": "https://truyenmaaudios.com"
+  },
+  "tags": [
+    {
+      "name": "Đạo sĩ – pháp sư trừ tà",
+      "path": "/category/audio-truyen-ma/dao-si-phap-su-tru-ta/page/{page}/",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Truyện ma bùa ngải",
+      "path": "/category/audio-truyen-ma/truyen-ma-bua-ngai/page/{page}/",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Truyện Ma Pháp Sư Đạo Sĩ Trừ Tà",
+      "path": "/audio-truyen-ma/dao-si-phap-su-tru-ta/page/{page}/",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Truyện Ma Có Thật",
+      "path": "/audio-truyen-ma/truyen-ma-co-that/page/{page}/",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Truyện ma dài kỳ",
+      "path": "/category/audio-truyen-ma/truyen-ma-dai-ky/page/{page}",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Truyện ma ngắn",
+      "path": "/category/audio-truyen-ma/truyen-ma-ngan/page/{page}",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Làng quê – dân gian",
+      "path": "/category/audio-truyen-ma/lang-que-dan-gian/page/{page}",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Tep Con",
+      "path": "/tac_gia/tep-con/page/{page}",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Đình Soạn",
+      "path": "/giong_doc/dinh-soan/page/{page}",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    },
+    {
+      "name": "Gia Hân",
+      "path": "/tac_gia/han-han/page/{page}",
+      "headers": {
+        "Referer": "https://truyenmaaudios.com"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/",
+    "listSelector": "div.col.post-item",
+    "titleSelector": "h5.post-title",
+    "titleAttribute": "text",
+    "urlSelector": "a.plain",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/page/{page}?s={query}",
+    "headers": {
+      "Referer": "https://truyenmaaudios.com/"
+    },
+    "listSelector": "div.col.post-item",
+    "titleSelector": "h5.post-title",
+    "titleAttribute": "text",
+    "urlSelector": "a.plain",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://truyenmaaudios.com"
+    },
+    "titleSelector": "h2.title-post",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[href*='/tac_gia/']",
+    "descriptionSelector": "div.entry-content",
+    "descriptionAttribute": "text",
+    "genreSelector": "div.info-post p:nth-of-type(4) span a",
+    "statusSelector": "div.info-post p:nth-of-type(3) span",
+    "coverSelector": "img.wp-post-image",
+    "coverAttribute": "src",
+    "paginationSelector": "ul.page-numbers a.page-number",
+    "paginationAttribute": "href"
+  },
+  "chapterList": {
+    "scriptSelector": "script[type$='text/javascript']",
+    "scriptItemRegex": "\\{title:\\s*\"([^\"]+)\",mp3:\\s*\"([^\"]+)\"",
+    "scriptNameGroup": 1,
+    "scriptUrlGroup": 2,
+    "tracksUrlSelector": "[data-tracks-url]",
+    "tracksUrlAttribute": "data-tracks-url",
+    "tracksNameField": "title",
+    "tracksUrlField": "audio"
+  }
+}

@@ -1,0 +1,153 @@
+{
+  "id": "kenhtruyenma_com_vi",
+  "name": "web: kenhtruyenma.com",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt - Truyện Ma",
+  "baseUrl": "https://kenhtruyenma.com",
+  "version": "1.0.2",
+  "description": "Truyện Ma Mp3 Online - Nghe truyện ma audio chất lượng cao",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "isShowInfo": true,
+  "showSourceImages": true,
+  "headers": {
+    "Referer": "https://kenhtruyenma.com"
+  },
+  "tags": [
+    {
+      "name": "Truyện Ma Ngắn",
+      "path": "/audio-truyen-ma/truyen-ma-ngan/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Truyện Ma Dài Kỳ",
+      "path": "/audio-truyen-ma/truyen-ma-dai-ky/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Truyện Ma Pháp Sư Đạo Sĩ Trừ Tà",
+      "path": "/audio-truyen-ma/dao-si-phap-su-tru-ta/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Truyện Ma Có Thật",
+      "path": "/audio-truyen-ma/truyen-ma-co-that/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Truyện Ma Bùa Ngải",
+      "path": "/audio-truyen-ma/truyen-ma-bua-ngai/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Truyện Ma Làng Quê Dân Gian",
+      "path": "/audio-truyen-ma/lang-que-dan-gian/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Truyện Kiếm Hiệp - Tiên Hiệp",
+      "path": "/kiem-hiep-tien-hiep/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Oneshot Kinh Dị",
+      "path": "/oneshot-kinh-di/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Đình Soạn",
+      "path": "/giong_doc/dinh-soan/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "Quàng A Tũn",
+      "path": "/giong_doc/quang-a-tun/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "MC Ngọc Lâm",
+      "path": "/giong_doc/ngoc-lam/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    },
+    {
+      "name": "MC Duy Thuận",
+      "path": "/giong_doc/duy-thuan/page/{page}",
+      "headers": {
+        "Referer": "https://kenhtruyenma.com"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/",
+    "listSelector": "div.col.post-item",
+    "titleSelector": "h5.post-title",
+    "titleAttribute": "text",
+    "urlSelector": "a.plain",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src"
+  },
+  "search": {
+    "path": "/page/{page}?s={query}",
+    "headers": {
+      "Referer": "https://kenhtruyenma.com/"
+    },
+    "listSelector": "div.col.post-item",
+    "titleSelector": "h5.post-title",
+    "titleAttribute": "text",
+    "urlSelector": "a.plain",
+    "urlAttribute": "href",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://kenhtruyenma.com"
+    },
+    "titleSelector": "h2.title-post",
+    "titleAttribute": "text",
+    "thumbnailSelector": "img.wp-post-image",
+    "thumbnailAttribute": "src",
+    "authorSelector": "a[href*='/tac_gia/']",
+    "descriptionSelector": "div.entry-content",
+    "descriptionAttribute": "text",
+    "genreSelector": "div.info-post p:nth-of-type(4) span a",
+    "statusSelector": "div.info-post p:nth-of-type(3) span",
+    "coverSelector": "img.wp-post-image",
+    "coverAttribute": "src",
+    "paginationSelector": "ul.page-numbers a.page-number",
+    "paginationAttribute": "href"
+  },
+  "chapterList": {
+    "scriptSelector": "script[type$='text/javascript']",
+    "scriptItemRegex": "\\{title:\\s*\"([^\"]+)\",mp3:\\s*\"([^\"]+)\"",
+    "scriptNameGroup": 1,
+    "scriptUrlGroup": 2,
+    "tracksUrlSelector": "[data-tracks-url]",
+    "tracksUrlAttribute": "data-tracks-url",
+    "tracksNameField": "title",
+    "tracksUrlField": "audio"
+  }
+}
