@@ -1,6 +1,6 @@
 {
-  "id": "kenhtruyenma_com_vi",
-  "name": "web: kenhtruyenma.com",
+  "id": "truyenmaaudios_com_vi",
+  "name": "web: truyenmaaudios.com",
   "lang": "vi",
   "nameLang": "Tiếng Việt - Truyện Ma",
   "baseUrl": "https://truyenmaaudios.com",
@@ -8,7 +8,7 @@
   "description": "Truyện Ma Mp3 Online - Nghe truyện ma audio chất lượng cao",
   "isNsfw": false,
   "supportsLatest": true,
-  "isShowInfo": true,
+  "isShowInfo": false,
   "showSourceImages": true,
   "headers": {
     "Referer": "https://truyenmaaudios.com"

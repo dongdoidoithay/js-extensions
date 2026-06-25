@@ -14,43 +14,38 @@
   "tags": [
     {
       "name": "Comics List",
-      "path": "/filterList?page={page}&cat=&alpha=&sortBy=name&asc=true&author=&tag=",
+      "path": "/comic-list?page={page}",
       "headers": {
         "Referer": "https://readcomicsonline.ru/"
-      } 
+      },
+      "listSelector": "div.comic-list-layout div.group",
+      "titleSelector": "a.line-clamp-2",
+      "titleAttribute": "text",
+      "urlSelector": "a.line-clamp-2",
+      "urlAttribute": "href",
+      "thumbnailSelector": "img",
+      "thumbnailAttribute": "src"
     },
+
     {
       "name": "Latest Comic",
-      "path": "/filterList?page={page}&cat=&alpha=&sortBy=last_release&asc=true&author=&tag=",
+      "path": "/latest-release?page={page}",
       "headers": {
         "Referer": "https://readcomicsonline.ru/"
       }
     }
   ],
   "popular": {
-    "path": "/filterList?page={page}&cat=&alpha=&sortBy=last_release&asc=true&author=&tag=",
+    "path": "/latest-release?page={page}",
     "headers": {
       "Referer": "https://readcomicsonline.ru/"
     },
-    "listSelector": ".col-sm-6 .media",
-    "titleSelector": "h5.media-heading a.chart-title",
+    "listSelector": "div.rounded-xl.border.border-ink-700 > div",
+    "titleSelector": "div.min-w-0 > a:first-of-type",
     "titleAttribute": "text",
-    "urlSelector": "h5.media-heading a.chart-title",
+    "urlSelector": "div.min-w-0 > a:first-of-type",
     "urlAttribute": "href",
-    "thumbnailSelector": ".media-left img",
-    "thumbnailAttribute": "src"
-  },
-  "latest": {
-    "path": "/filterList?page={page}&cat=&alpha=&sortBy=last_release&asc=true&author=&tag=",
-    "headers": {
-      "Referer": "https://readcomicsonline.ru/"
-    },
-    "listSelector": ".col-sm-6 .media",
-    "titleSelector": "h5.media-heading a.chart-title",
-    "titleAttribute": "text",
-    "urlSelector": "h5.media-heading a.chart-title",
-    "urlAttribute": "href",
-    "thumbnailSelector": ".media-left img",
+    "thumbnailSelector": "img",
     "thumbnailAttribute": "src"
   },
   "search": {
@@ -69,37 +64,35 @@
     "headers": {
       "Referer": "https://readcomicsonline.ru/"
     },
-    "titleSelector": "h2",
+    "titleSelector": "h1",
     "titleAttribute": "text",
-    "thumbnailSelector": ".boxed img",
+    "thumbnailSelector": "img.rounded-xl.object-cover",
     "thumbnailAttribute": "src",
-    "authorSelector": "dt:contains('Author') + dd",
-    "authorAttribute": "text",
-    "statusSelector": "dt:contains('Status') + dd",
+    "statusSelector": "div.mt-4.flex.flex-wrap.gap-2.text-sm > span:first-child",
     "statusAttribute": "text",
-    "genreSelector": "dd a[href*='/category/']",
+    "genreSelector": "dl a[href*='/comic-list/category/']",
     "genreAttribute": "text",
-    "descriptionSelector": ".well p",
+    "descriptionSelector": "div.mt-5.overflow-hidden.rounded-xl.border.border-ink-600 p",
     "descriptionAttribute": "text"
   },
   "chapterList": {
     "headers": {
       "Referer": "https://readcomicsonline.ru/"
     },
-    "listSelector": "ul.chapters li",
-    "urlSelector": "h5 a",
+    "listSelector": "section.mt-8 div.divide-y > a",
+    "urlSelector": "",
     "urlAttribute": "href",
-    "nameSelector": "h5 a",
+    "nameSelector": "span.font-medium",
     "nameAttribute": "text",
-    "dateSelector": ".date-chapter-title-rtl",
+    "dateSelector": "span.text-xs.text-slate-500",
     "dateAttribute": "text"
   },
   "pageList": {
     "headers": {
       "Referer": "https://readcomicsonline.ru/"
     },
-    "listSelector": "img.img-responsive[data-src*='/uploads/manga/']",
+    "listSelector": "#reader-all img",
     "urlSelector": "",
-    "urlAttribute": "data-src"
+    "urlAttribute": "src"
   }
 }

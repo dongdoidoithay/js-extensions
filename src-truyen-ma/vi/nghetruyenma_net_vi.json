@@ -8,7 +8,7 @@
   "description": "Truyện Ma Mp3 Online - Nghe truyện ma audio chất lượng cao",
   "isNsfw": false,
   "supportsLatest": true,
-  "isShowInfo": true,
+  "isShowInfo": false,
   "showSourceImages": true,
   "headers": {
     "Referer": "https://nghetruyenma.net"

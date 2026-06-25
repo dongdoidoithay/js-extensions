@@ -1,0 +1,136 @@
+{
+  "id": "truyenaudio_org_vi",
+  "name": "web: truyenaudio.org",
+  "lang": "vi",
+  "nameLang": "Tiếng Việt - Truyện Ma",
+  "baseUrl": "https://truyenaudio.org",
+  "version": "1.0.5",
+  "description": "Truyện Ma Mp3 Online - Nghe truyện ma audio chất lượng cao",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "isShowInfo": false,
+  "showSourceImages": true,
+  "headers": {
+    "Referer": "https://truyenaudio.org"
+  },
+  "tags": [
+    {
+      "name": "Truyện Ma",
+      "path": "/truyen-ma?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Truyện Audio",
+      "path": "/truyen-ngan?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Truyện Dài",
+      "path": "/truyen-dai?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Kiếm Hiệp",
+      "path": "/kiem-hiep?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Ngôn Tình",
+      "path": "/ngon-tinh?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Văn Học",
+      "path": "/van-hoc?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Giọng Đọc Đình Soạn",
+      "path": "/giong-doc/mc-dinh-soan.html?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Giọng Đọc Quàng A Tũn",
+      "path": "/giong-doc/quang-a-tun.html?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    },
+    {
+      "name": "Tác Giả Nguyễn Ngọc Ngạn",
+      "path": "/tac-gia/nha-van-nguyen-ngoc-ngan.html?page={page}",
+      "headers": {
+        "Referer": "https://truyenaudio.org"
+      }
+    }
+  ],
+  "popular": {
+    "path": "/truyen-ma/?sort=viewed&page={page}",
+    "listSelector": "div.category-product-item",
+    "titleSelector": ".p-name h4 a",
+    "titleAttribute": "text",
+    "urlSelector": "a.product-image",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.product-image img",
+    "thumbnailAttribute": "data-src"
+  },
+  "latest": {
+    "path": "/truyen-ma/?sort=new&page={page}",
+    "listSelector": "div.category-product-item",
+    "titleSelector": ".p-name h4 a",
+    "titleAttribute": "text",
+    "urlSelector": "a.product-image",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.product-image img",
+    "thumbnailAttribute": "data-src"
+  },
+  "search": {
+    "path": "/tim-kiem.html?q={query}",
+    "headers": {
+      "Referer": "https://truyenaudio.org/"
+    },
+    "listSelector": "div.category-product-item",
+    "titleSelector": ".p-name h4 a",
+    "titleAttribute": "text",
+    "urlSelector": "a.product-image",
+    "urlAttribute": "href",
+    "thumbnailSelector": "a.product-image img",
+    "thumbnailAttribute": "data-src"
+  },
+  "mangaDetails": {
+    "headers": {
+      "Referer": "https://truyenaudio.org"
+    },
+    "titleSelector": "h1",
+    "titleAttribute": "text",
+    "thumbnailSelector": "meta[property='og:image']",
+    "thumbnailAttribute": "content",
+    "authorSelector": ".attribute p:contains('Tác giả') a",
+    "descriptionSelector": "meta[property='og:description']",
+    "descriptionAttribute": "content",
+    "genreSelector": ".tagcloud a",
+    "coverSelector": "meta[property='og:image']",
+    "coverAttribute": "content"
+  },
+  "chapterList": {
+    "scriptSelector": "script",
+    "scriptPageUrlInsert": "nghe-truyen/",
+    "scriptItemRegex": "\\{\\s*title:\\s*\"([^\"]+)\",\\s*mp3:\\s*\"([^\"]+)\"",
+    "scriptNameGroup": 1,
+    "scriptUrlGroup": 2
+  }
+}
