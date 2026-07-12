@@ -4,14 +4,14 @@
   "lang": "vi",
   "nameLang": "Tiếng Việt - RSS Podcast",
   "baseUrl": "",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Tổng hợp các RSS Podcast tiếng Việt từ nhiều nguồn khác nhau",
   "isNsfw": false,
   "supportsLatest": true,
-  "isShowInfo": true,
+  "isShowInfo": false,
   "showSourceImages": true,
   "sourceType": "rss",
-  "datatagSuource":[
+  "tags": [
     {
       "name": "PodCast Tiếng Việt",
       "id": "PodCastVn"
@@ -25,12 +25,12 @@
       "id": "PodCastKids"
     }
   ],
-
-  "dataListTags":[
+  "dataListTags": [
     {
       "key": "PodCastVn",
       "name": "Vì Sao Thế Nhỉ",
       "path": "https://anchor.fm/s/8453cddc/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/22100847/22100847-1645115834944-47757f681b4af.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -42,6 +42,7 @@
       "key": "PodCastVn",
       "name": "Better Version",
       "path": "https://anchor.fm/s/6d0b6694/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/18194637/18194637-1769227105130-a2490b1e1541b.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -53,6 +54,7 @@
       "key": "PodCastVn",
       "name": "Tri Kỷ Cảm Xúc",
       "path": "https://feeds.buzzsprout.com/158334.rss",
+      "image": "https://storage.buzzsprout.com/edr4gpkrw45y9elm5kkp6iohg8yq?.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -64,6 +66,7 @@
       "key": "PodCastVn",
       "name": "Tâm Sự Tài Chính",
       "path": "https://anchor.fm/s/36c11764/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/9086241/9086241-1600154076483-27557d6cda6ab.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -75,6 +78,7 @@
       "key": "PodCastVn",
       "name": "Hiếu TV",
       "path": "https://anchor.fm/s/4cfb55bc/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/12815399/12815399-1729000052292-46e763b3cbec4.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -86,6 +90,7 @@
       "key": "PodCastVn",
       "name": "Chàng Ngốc Già",
       "path": "https://anchor.fm/s/4a3e8dbc/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45384836/45384836-1771176373105-8fdc55103e452.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -97,6 +102,7 @@
       "key": "PodCastVn",
       "name": "Bác Sĩ Tài Chính",
       "path": "https://anchor.fm/s/671809b8/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/17196286/17196286-1628504573948-532c374d4e7bd.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -108,6 +114,7 @@
       "key": "PodCastVn",
       "name": "Tài Chính & Kinh Doanh",
       "path": "https://anchor.fm/s/6a069144/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/17688153/17688153-1630570956243-ae35582589bbd.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -119,6 +126,7 @@
       "key": "PodCastVn",
       "name": "Nguyễn Phi Vân Podcast",
       "path": "https://anchor.fm/s/659baab8/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/16947006/16947006-1627366643032-0c4d974cf0b76.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -130,6 +138,7 @@
       "key": "PodCastVn",
       "name": "EduStation",
       "path": "https://feeds.buzzsprout.com/1892626.rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43414521/5477865c6bc57f9f.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -141,6 +150,7 @@
       "key": "PodCastVn",
       "name": "Chầm Chậm Mà Sống",
       "path": "https://anchor.fm/s/1eee4df0/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/5089340/5089340-1729140321236-da52c88e85d1a.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -152,6 +162,7 @@
       "key": "PodCastVn",
       "name": "Oddly Normal",
       "path": "https://feeds.simplecast.com/AfGWUmjw",
+      "image": "https://image.simplecastcdn.com/images/20f1c944-400b-4d7f-a179-13e4253e9256/9b0703b6-701b-4ef2-95cf-4855c0e01d1a/3000x3000/cover.jpg?aid=rss_feed",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -163,6 +174,7 @@
       "key": "PodCastVn",
       "name": "Kể Cho Tôi Nghe",
       "path": "https://anchor.fm/s/379ee24c/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/9231595/9231595-1600590582076-c980591afadc2.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -174,6 +186,7 @@
       "key": "PodCastVn",
       "name": "The Present Writer",
       "path": "https://anchor.fm/s/326d676c/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/8360307/8360307-1598037777475-45c8551f9a915.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -185,6 +198,7 @@
       "key": "PodCastVn",
       "name": "Giang Ơi Radio",
       "path": "https://feeds.soundcloud.com/users/soundcloud:users:341012174/sounds.rss",
+      "image": "https://i1.sndcdn.com/avatars-5pPxxdlhygpRWRbY-AXPnbw-original.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -196,6 +210,7 @@
       "key": "PodCastVn",
       "name": "Tâm Lý Học Tuổi Trẻ",
       "path": "https://anchor.fm/s/25d0eccc/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/6244491/6244491-1746976458738-418a3563b370e.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -207,6 +222,7 @@
       "key": "PodCastVn",
       "name": "MÂY Podcast",
       "path": "https://anchor.fm/s/6fb98254/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18644285/18644285-1692189424208-99cc9845a86b.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -218,6 +234,7 @@
       "key": "PodCastVn",
       "name": "Tâm Lý Ơi (Dear Mind)",
       "path": "https://anchor.fm/s/5b1c3544/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/15185753/15185753-1623896937849-8c2066b2915c1.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -229,6 +246,7 @@
       "key": "PodCastVn",
       "name": "Amateur Psychology - Tay Mơ Học Đời Bằng Tâm Lý Học",
       "path": "https://anchor.fm/s/31c96068/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/8252810/8252810-1775115072993-95c603180c5d9.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -240,6 +258,7 @@
       "key": "PodCastVn",
       "name": "Gen Z Tập Lớn",
       "path": "https://anchor.fm/s/64e3aad0/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/16826420/16826420-1626851796736-e7f3a5e757c64.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -251,6 +270,7 @@
       "key": "PodCastVn",
       "name": "Chuyện Về Những Mảnh Ghép",
       "path": "https://anchor.fm/s/45ba77ec/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/11598483/11598483-1652283261759-d1902d3ea3555.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -262,6 +282,7 @@
       "key": "PodCastVn",
       "name": "The Finding Audio",
       "path": "https://anchor.fm/s/72b86178/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/19146862/a8dfd3767082b925.png",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -273,6 +294,7 @@
       "key": "PodCastVn",
       "name": "The Blue Expat",
       "path": "https://feeds.acast.com/public/shows/647700fa9aab2f001135cb5f",
+      "image": "https://assets.pippa.io/shows/647700fa9aab2f001135cb5f/show-cover.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -284,6 +306,7 @@
       "key": "PodCastVn",
       "name": "Teayou Podcast",
       "path": "https://anchor.fm/s/113808a4/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2788849/2788849-1615627199307-3c6e767dbe77a.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -295,6 +318,7 @@
       "key": "PodCastVn",
       "name": "Thư Viện Sách Nói",
       "path": "https://feeds.transistor.fm/th-vi-n-sach-noi",
+      "image": "https://img.transistor.fm/nNI3yrFBKs-uShs8m6sHcmwMt6fbfFNKjX8EFOFmj_M/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzIxODExLzE2MjMx/NDYzMzMtYXJ0d29y/ay5qcGc.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -306,6 +330,7 @@
       "key": "PodCastVn",
       "name": "Hạnh Phúc Gia Đình",
       "path": "https://anchor.fm/s/f37be348/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40749826/c5901c6252fc94b2.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -313,11 +338,11 @@
         "nameSelector": "title"
       }
     },
-
     {
       "key": "PodCastEn",
       "name": "Luke's English Podcast",
       "path": "https://access.acast.com/rss/62b0ada25c7ea10012f541cb/",
+      "image": "https://assets.pippa.io/shows/62b0ada25c7ea10012f541cb/1656325825132-9ac545276b5b3d1930cc21e5a7e1391b.jpeg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -329,6 +354,7 @@
       "key": "PodCastEn",
       "name": "ESL Talk",
       "path": "https://feeds.acast.com/public/shows/6092f46767f02f7d0df16909",
+      "image": "https://assets.pippa.io/shows/6092f46767f02f7d0df16909/1779145461428-fedcb160-b202-4c9a-bf33-faca182807e3.jpeg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -340,6 +366,7 @@
       "key": "PodCastEn",
       "name": "ESL Podcast",
       "path": "https://anchor.fm/s/3de6bbac/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/10285315/10285315-1668957712897-735ffe84d2c32.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -351,6 +378,7 @@
       "key": "PodCastEn",
       "name": "Chatterbox",
       "path": "https://feed.podbean.com/chatterboxreds/feed.xml",
+      "image": "https://pbcdn1.podbean.com/imglogo/image-logo/15988739/CBox_Reds_Logo_3000_x_3000_Apple_Podcast_679b3.png",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -362,6 +390,7 @@
       "key": "PodCastEn",
       "name": "Real Talk",
       "path": "https://anchor.fm/s/b58c4244/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/30358681/30358681-1663372255591-5d5469e8c8f02.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -373,6 +402,7 @@
       "key": "PodCastEn",
       "name": "Business English Pod",
       "path": "http://feeds.feedburner.com/businessenglishpod",
+      "image": "https://www.businessenglishpod.com/wordpress/wp-content/uploads/Business-English-Pod-iTunes-3000.jpeg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -384,6 +414,7 @@
       "key": "PodCastEn",
       "name": "The Business English Podcast",
       "path": "https://feeds.buzzsprout.com/2041998.rss",
+      "image": "https://storage.buzzsprout.com/rkmnhbvorreo9b07mywwts5mw9yf?.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -393,8 +424,9 @@
     },
     {
       "key": "PodCastEn",
-      "name": "The Porto Podcast",
-      "path": "https://feed.podbean.com/fcportopodcast/feed.xml",
+      "name": "Long Ball Futebol",
+      "path": "https://media.rss.com/longballfutebol/feed.xml",
+      "image": "https://media.rss.com/longballfutebol/20240715_060738_ea64fa2a8694973314261b677aaaadb2.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -406,6 +438,7 @@
       "key": "PodCastEn",
       "name": "Learn English with Voice of America",
       "path": "https://anchor.fm/s/ba71bdac/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/31180163/31180163-1670436165143-07a1d2e559ba8.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -417,6 +450,7 @@
       "key": "PodCastEn",
       "name": "Splendid Speaking",
       "path": "https://splendidspeaking.podomatic.com/rss2.xml",
+      "image": "https://assets.podomatic.net/ts/ff/f1/6f/splendidspeaking/1400x1400_606098.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -428,6 +462,7 @@
       "key": "PodCastEn",
       "name": "Cultural Diversity",
       "path": "https://anchor.fm/s/c24cde1c/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/32498175/32498175-1713720314812-4bf4f0ed7ec46.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -439,6 +474,7 @@
       "key": "PodCastEn",
       "name": "Học Tiếng Anh Qua Ẩm Thực Việt",
       "path": "https://anchor.fm/s/f4825fc4/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40921849/de0365646ad3bb3e.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -446,11 +482,11 @@
         "nameSelector": "title"
       }
     },
-
     {
       "key": "PodCastKids",
       "name": "Truyện Cổ Tích",
       "path": "https://anchor.fm/s/f32db7f4/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40698597/40698597-1712132249185-fd71e5bb0edbe.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -462,6 +498,7 @@
       "key": "PodCastKids",
       "name": "Truyện Ngắn Chọn Lọc",
       "path": "https://anchor.fm/s/f32d7208/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/40698418/40698418-1712202200960-bf112c945f4a2.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -473,6 +510,7 @@
       "key": "PodCastKids",
       "name": "Văn Học Thiếu Nhi",
       "path": "https://anchor.fm/s/f5a0e434/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/41109621/74354631390eeffc.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -482,8 +520,9 @@
     },
     {
       "key": "PodCastKids",
-      "name": "Bé Ngủ Ngoan",
-      "path": "https://feeds.buzzsprout.com/1336162.rss",
+      "name": "Truyện Hay 3s",
+      "path": "https://feeds.acast.com/public/shows/6678d96b3911fa00120c7e3c",
+      "image": "https://assets.pippa.io/shows/6678d96b3911fa00120c7e3c/show-cover.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -495,6 +534,7 @@
       "key": "PodCastKids",
       "name": "Úm Ba La, Thế Giới Mở Ra",
       "path": "https://anchor.fm/s/6e3dfd4c/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18395563/18395563-1633689256433-3ea7af2cd66c5.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -506,6 +546,7 @@
       "key": "PodCastKids",
       "name": "Truyện Cổ Nước Ngoài Cho Bé",
       "path": "https://feed.podbean.com/vforvien/feed.xml",
+      "image": "https://pbcdn1.podbean.com/imglogo/image-logo/9160212/6.png",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -517,6 +558,391 @@
       "key": "PodCastKids",
       "name": "Kể Truyện Cho Bé",
       "path": "https://anchor.fm/s/8462cc24/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/22110673/22110673-1646760747855-e0728e5210905.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Have A Sip",
+      "path": "https://anchor.fm/s/103273a04/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43378697/cd0048196cfd6d5f.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Vietcetera",
+      "path": "https://anchor.fm/s/6fccb0e0/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/18656856/18656856-1643640649235-01481385d5cb7.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Vietnam Innovators (Tiếng Việt)",
+      "path": "https://anchor.fm/s/103279b48/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43378946/cd8b8acb3403edfc.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Nói Có Sách",
+      "path": "https://anchor.fm/s/10365f438/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43419806/7abe4c0988779799.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Tám Sài Gòn",
+      "path": "https://anchor.fm/s/256fcf78/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/6180846/6180846-1685296168789-f154ba3995e8a.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Trạm Radio",
+      "path": "https://feeds.soundcloud.com/users/soundcloud:users:584948205/sounds.rss",
+      "image": "https://i1.sndcdn.com/avatars-3nB9CkyfYml0YpXU-X01FrA-original.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Nhà Đầu Tư Thông Minh",
+      "path": "https://anchor.fm/s/6295c90c/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/16439835/16439835-1625449804951-99b518d8c375f.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Khởi Nghiệp Một Mình",
+      "path": "https://anchor.fm/s/110383d74/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/45570885/45570885-1773550146550-33137d4450d51.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "VietSuccess",
+      "path": "https://anchor.fm/s/100509938/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42902494/42902494-1770910047737-22f012ee2b017.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Lưu Hường Blog Chiều",
+      "path": "https://anchor.fm/s/e74e8dc8/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/38706850/38706850-1692015467812-4f156bb66a88b.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Được/Mất",
+      "path": "https://anchor.fm/s/103662ae8/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43419946/a2f1a67038318296.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastVn",
+      "name": "Bít Tất",
+      "path": "https://anchor.fm/s/103667ee4/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43420161/459bc7b42705e5ef.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Truyện Cổ Tích Cho Bé",
+      "path": "https://anchor.fm/s/10411e568/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43532490/43532490-1745477566488-defa9359e685a.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Kể Chuyện Cho Bé Yêu",
+      "path": "https://anchor.fm/s/e7e742c/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2331683/2331683-1573141460090-fe7eb43b3e2ba.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Kể Truyện Cổ Tích Và Hát Ru Cho Bé",
+      "path": "https://anchor.fm/s/97c7208/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1491506/1491506-1551257042389-a5513095fe111.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Chuyện Kể Cho Bé - Cô Ủn Ỉn",
+      "path": "https://anchor.fm/s/fcad7684/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/42292265/42292265-1732518749432-cb623ebe1d043.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Bé Nghe Kể Chuyện",
+      "path": "https://anchor.fm/s/101a664d4/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43126493/43126493-1740436050059-8d7135f8528e4.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Ngồi Đây Nghe Kể Chuyện",
+      "path": "https://anchor.fm/s/865cbe04/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/22442249/22442249-1645953684121-4978d5cb75eff.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Cô Kim Vui Vẻ",
+      "path": "https://anchor.fm/s/db1d3f18/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/36661270/36661270-1676974540165-11a81f56e0d54.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Kho Truyện Cổ Tích",
+      "path": "https://anchor.fm/s/b0e954c/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1755051/1755051-1576576962144-cc0fde45dc51d.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Nghe Truyện Cùng Tony",
+      "path": "https://anchor.fm/s/69294d20/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/17543144/17543144-1640950732029-0651d11c987ea.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKids",
+      "name": "Truyện Của Bà Ngoại",
+      "path": "https://anchor.fm/s/101cf84f4/podcast/rss",
+      "image": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_nologo/43153445/43153445-1740757495342-87c22526dd068.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "6 Minute English",
+      "path": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+      "image": "http://ichef.bbci.co.uk/images/ic/3000x3000/p0hxqkd0.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "All Ears English",
+      "path": "https://feeds.megaphone.fm/allearsenglish",
+      "image": "https://megaphone.imgix.net/podcasts/88b85f10-a0c0-11ec-9e52-bfcf9441f742/image/All_Ears_English_New_Cover_with_Michelle_Under_500_KB.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "English Learning for Curious Minds",
+      "path": "https://feeds.transistor.fm/leonardo-english-english-language-learning-for-curious-minds",
+      "image": "https://img.transistorcdn.com/_wePmE7908quUA6SDv1_eFt6BjxBmM7_Hm4wCitRLHU/rs:fill:0:0:1/w:1400/h:1400/q:60/mb:500000/aHR0cHM6Ly9pbWct/dXBsb2FkLXByb2R1/Y3Rpb24udHJhbnNp/c3Rvci5mbS9zaG93/LzU3MDEvMTYyMDk3/Mzg5MS1hcnR3b3Jr/LmpwZw.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "Culips Everyday English",
+      "path": "https://esl.culips.com/feed/podcast/",
+      "image": "https://esl.culips.com/wp-content/uploads/2023/09/culipsart2-1-1-1.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "Espresso English Podcast",
+      "path": "https://rss.libsyn.com/shows/56803/destinations/212704.xml",
+      "image": "https://static.libsyn.com/p/assets/7/b/3/c/7b3c885f8577bc6a/podcastespressoenglish051.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "The British English Podcast",
+      "path": "https://feeds.megaphone.fm/BEP8760235789",
+      "image": "https://megaphone.imgix.net/podcasts/8e35189a-b56b-11ee-a1dc-17b99ce34541/image/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "Effortless English",
+      "path": "https://rss.libsyn.com/shows/19583/destinations/17067.xml",
+      "image": "https://static.libsyn.com/p/assets/8/2/8/6/8286b9a8ea1fce2ad959afa2a1bf1c87/EE-Show-2-Sq.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "American English Podcast",
+      "path": "https://rss.pdrl.fm/bce084/feeds.megaphone.fm/americanenglishpodcast",
+      "image": "https://megaphone.imgix.net/podcasts/15526600-fb41-11ee-92ae-93bb88e95bb6/image/17f5482ab2cc597b1acfc1f8b7dc45e8.jpg?ixlib=rails-4.3.1&amp;max-w=3000&amp;max-h=3000&amp;fit=crop&amp;auto=format,compress",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "Coffee Break English",
+      "path": "https://feeds.acast.com/public/shows/183d2cc4-50d2-420f-a306-40dae4a0bfa7",
+      "image": "https://assets.pippa.io/shows/611ed01b06c05e6cb7f40e59/show-cover.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEn",
+      "name": "Real English Conversations",
+      "path": "https://rss.libsyn.com/shows/441930/destinations/3695967.xml",
+      "image": "https://static.libsyn.com/p/assets/0/1/5/7/0157d9dda6d6675527a2322813b393ee/I_tunes_Logo_1400x1400.jpg",
       "pageList": {
         "listSelector": "item",
         "urlSelector": "enclosure",
@@ -524,9 +950,6 @@
         "nameSelector": "title"
       }
     }
-  ],
-  "tags": [
-    
   ],
   "popular": {
     "path": "#dataIndex"

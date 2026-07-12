@@ -1,1370 +1,167 @@
-﻿using AnyAscii;
-using Fizzler.Systems.HtmlAgilityPack;
-using HtmlAgilityPack;
-using Manga.Model.ModelMusics;
-using Microsoft.AspNetCore.Mvc;
-using Share.Model;
-using Slugify;
-using System.Globalization;
-using System.Net;
-using System.Security.Cryptography;
-using System.Text;
-using System.Text.Json;
-using System.Text.RegularExpressions;
-using System.Web;
-using System.Xml;
-
-namespace ApiJob.Controllers;
-
-[Route("api/[controller]")]
-[ApiController]
-public class JobAudioBookController : ControllerBase
-{
-    private readonly ILogger<JobAudioBookController> _logger;
-    private readonly Manga.Model.Dapper.PgAudioBookRepositories.DocumentsRepository _repository;
-    public JobAudioBookController(Manga.Model.Dapper.PgAudioBookRepositories.DocumentsRepository repository, ILogger<JobAudioBookController> logger)
-    {
-        _repository = repository;
-        _logger = logger;
-    }
-
-    [HttpGet("/RunPodCast")]
-    [ProducesResponseType(StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<string> RunPodCast()
-    {
-        ResponseResult<string> result = new ResponseResult<string>();
-
-        var task = new Task[]
-        {
-
-            CrawlRSSWeb5Ngay("vi-so-the-nhi", "podcast", "https://anchor.fm/s/8453cddc/podcast/rss"),
-            CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/6d0b6694/podcast/rss"),
-            CrawlRSSWeb5Ngay("tam-su-kinh-doanh", "podcast", "https://feeds.buzzsprout.com/158334.rss"),
-            CrawlRSSWeb5Ngay("tam-su-tai-chinh", "podcast", "https://anchor.fm/s/6d0b6694/podcast/rss"),
-            CrawlRSSWeb5Ngay("hieu-tv", "podcast", "https://anchor.fm/s/4cfb55bc/podcast/rss"),
-            CrawlRSSWeb5Ngay("chang-ngoc-gia", "podcast", "https://anchor.fm/s/4a3e8dbc/podcast/rss"),
-            CrawlRSSWeb5Ngay("bac-si-tai-chinh", "podcast", "https://anchor.fm/s/671809b8/podcast/rss"),
-            CrawlRSSWeb5Ngay("tai-chinh-kinh-doanh", "podcast", "https://anchor.fm/s/6a069144/podcast/rss"),
-            CrawlRSSWeb5Ngay("nguyen-phi-van-podcast", "podcast", "https://anchor.fm/s/659baab8/podcast/rss"),
-            CrawlRSSWeb5Ngay("edustation", "podcast", "https://feeds.buzzsprout.com/1892626.rss"),
-            CrawlRSSWeb5Ngay("cham-cham-ma-song", "podcast", "https://anchor.fm/s/1eee4df0/podcast/rss"),
-            CrawlRSSWeb5Ngay("oddly-normal", "podcast", "https://feeds.simplecast.com/AfGWUmjw"),
-            CrawlRSSWeb5Ngay("ke-cho-toi-nghe", "podcast", "https://anchor.fm/s/379ee24c/podcast/rss"),
-            CrawlRSSWeb5Ngay("the-present-writer", "podcast", "https://anchor.fm/s/326d676c/podcast/rss"),
-            CrawlRSSWeb5Ngay("giang-oi-radio", "podcast", "https://feeds.soundcloud.com/users/soundcloud:users:341012174/sounds.rss"),
-            CrawlRSSWeb5Ngay("tam-ly-hoc-tuoi-tre", "podcast", "https://anchor.fm/s/25d0eccc/podcast/rss"),
-            CrawlRSSWeb5Ngay("may-podcast", "podcast", "https://anchor.fm/s/6fb98254/podcast/rss"),
-            CrawlRSSWeb5Ngay("tam-ly-oi-dear-mind", "podcast", "https://anchor.fm/s/5b1c3544/podcast/rss"),
-            CrawlRSSWeb5Ngay("amateur-psychology-tay-mo-hoc-doi-bang-tam-ly-hoc", "podcast", "https://anchor.fm/s/31c96068/podcast/rss"),
-            CrawlRSSWeb5Ngay("gen-z-tap-lon", "podcast", "https://anchor.fm/s/64e3aad0/podcast/rss"),
-            CrawlRSSWeb5Ngay("chuyen-ve-nhung-manh-ghep", "podcast", "https://anchor.fm/s/45ba77ec/podcast/rss"),
-            CrawlRSSWeb5Ngay("the-finding-audio", "podcast", "https://anchor.fm/s/72b86178/podcast/rss"),
-            CrawlRSSWeb5Ngay("the-blue-expat", "podcast", "https://feeds.acast.com/public/shows/647700fa9aab2f001135cb5f"),
-            CrawlRSSWeb5Ngay("teayou-podcast", "podcast", "https://anchor.fm/s/113808a4/podcast/rss"),
-            CrawlRSSWeb5Ngay("thu-vien-sach-noi", "podcast", "https://feeds.transistor.fm/th-vi-n-sach-noi"),
-            CrawlRSSWeb5Ngay("hanh-phuc-gia-dinh", "podcast", "https://anchor.fm/s/f37be348/podcast/rss"),
-
-            CrawlRSSWeb5Ngay("lukes-english-podcast", "podcast-english", "https://access.acast.com/rss/62b0ada25c7ea10012f541cb/"),
-            CrawlRSSWeb5Ngay("esl-talk", "podcast-english", "https://feeds.acast.com/public/shows/6092f46767f02f7d0df16909"),
-            CrawlRSSWeb5Ngay("esl-podcast", "podcast-english", "https://anchor.fm/s/3de6bbac/podcast/rss"),
-            CrawlRSSWeb5Ngay("chatterbox", "podcast-english", "https://feed.podbean.com/chatterboxreds/feed.xml"),
-            CrawlRSSWeb5Ngay("real-talk", "podcast-english", "https://anchor.fm/s/b58c4244/podcast/rss"),
-            CrawlRSSWeb5Ngay("business-english", "podcast-english", "http://feeds.feedburner.com/businessenglishpod"),
-            CrawlRSSWeb5Ngay("the-business-english-podcast", "podcast-english", "https://feeds.buzzsprout.com/2041998.rss"),
-            CrawlRSSWeb5Ngay("the-porto-podcast", "podcast-english", "https://feed.podbean.com/fcportopodcast/feed.xml"),
-            CrawlRSSWeb5Ngay("learn-english-with-voice-of-america", "podcast-english", "https://anchor.fm/s/ba71bdac/podcast/rss"),
-            CrawlRSSWeb5Ngay("splendid-speaking", "podcast-english", "https://splendidspeaking.podomatic.com/rss2.xml"),
-            CrawlRSSWeb5Ngay("cultural-diversity", "podcast-english", "https://anchor.fm/s/c24cde1c/podcast/rss"),
-            CrawlRSSWeb5Ngay("hoc-tieng-anh-qua-am-thuc-viet", "podcast-english", "https://anchor.fm/s/f4825fc4/podcast/rss"),
-
-            CrawlRSSWeb5Ngay("truyen-co-tich", "podcast-cho-tre-em", "https://anchor.fm/s/f32db7f4/podcast/rss"),
-            CrawlRSSWeb5Ngay("truyen-ngan-chon-loc", "podcast-cho-tre-em", "https://anchor.fm/s/f32d7208/podcast/rss"),
-            CrawlRSSWeb5Ngay("van-hoc-thieu-nhi", "podcast-cho-tre-em", "https://anchor.fm/s/f5a0e434/podcast/rss"),
-            CrawlRSSWeb5Ngay("be-ngu-ngoan", "podcast-cho-tre-em", "https://feeds.buzzsprout.com/1336162.rss"),
-            CrawlRSSWeb5Ngay("um-ba-la-the-gioi-mo-ra", "podcast-cho-tre-em", "https://anchor.fm/s/6e3dfd4c/podcast/rss"),
-            CrawlRSSWeb5Ngay("truyen-co-nuoc-ngoai-cho-be", "podcast-cho-tre-em", "https://feed.podbean.com/vforvien/feed.xml"),
-            CrawlRSSWeb5Ngay("ke-truyen-cho-be", "podcast-cho-tre-em", "https://anchor.fm/s/8462cc24/podcast/rss"),
-
-
-    };
-
-        await Task.WhenAll(task);
-
-        return null;
-    }
-
-    [HttpGet("/RunJob")]
-    [ProducesResponseType(StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task RunJob()
-    {
-        ResponseResult<string> result = new ResponseResult<string>();
-        //en /br /ru /it /fr
-
-        string url_truyen_ma_ngan = "https://nghetruyenma.net/truyen-ma-ngan/page/";
-        string url_truyen_ma_dai_ky = "https://nghetruyenma.net/truyen-ma-dai-ky/page/";
-        string url_truyen_ma_dao_sy = "https://nghetruyenma.net/truyen-ma-phap-su-dao-si-tru-ta/page/";
-        string url_truyen_ma_co_that = "https://nghetruyenma.net/truyen-ma-co-that/page/";
-        string url_truyen_ma_bu_ngai = "https://nghetruyenma.net/truyen-ma-bua-ngai/page/";
-        string url_truyen_ma_dan_gian = "https://nghetruyenma.net/truyen-ma-lang-que-dan-gian/page/";
-        string url_truyen_ma_dan_toc = "https://nghetruyenma.net/truyen-ma-dan-toc/page/";
-        string url_truyen_kiem_hiep = "https://nghetruyenma.net/truyen-kiem-hiep-tien-hiep/page/";
-        string url_truyen_quan_su = "https://nghetruyenma.net/truyen-quan-su/page/";
-
-
-
-        //await CrawlTruyenMa(url_truyen_ma_ngan, "audio-truyen-ma", "Truyện Ngắn", 1);
-        //await CrawlTruyenMa(url_truyen_ma_dai_ky, "audio-truyen-ma", "Truyện Dài Kỳ", 1);
-        //await CrawlTruyenMa(url_truyen_ma_dao_sy, "audio-truyen-ma", "Truyện Pháp Sư Đạo Sĩ Trừ Tà", 1);
-        //await CrawlTruyenMa(url_truyen_ma_co_that, "audio-truyen-ma", "Truyện Có Thật", 1);
-        //await CrawlTruyenMa(url_truyen_ma_bu_ngai, "audio-truyen-ma", "Truyện Bùa Ngải", 1);
-        //await CrawlTruyenMa(url_truyen_ma_dan_gian, "audio-truyen-ma", "Truyện Dân Gian", 1);
-        //await CrawlTruyenMa(url_truyen_ma_dan_toc, "audio-truyen-ma", "Truyện Dân Tộc", 1);
-        //await CrawlTruyenMa(url_truyen_kiem_hiep, "audio-truyen-kiem-hiep", "Truyện Kiếm Hiệp ,Tiên Hiệp ", 1);
-        //await CrawlTruyenMa(url_truyen_quan_su, "audio-truyen-quan-su", "Truyện Quân Sự", 1);
-
-        string url_truyen_ngon_tinh_tq = "https://nghetruyenngontinh.com/truyen-ngon-tinh-trung-quoc/page/";
-        string url_truyen_co_dai = "https://nghetruyenngontinh.com/truyen-ngon-tinh-co-dai/page/";
-        string url_truyen_ngan = "https://nghetruyenngontinh.com/truyen-ngon-tinh-ngan/page/";
-        string url_truyen_dai_ky = "https://nghetruyenngontinh.com/truyen-ngon-tinh-dai-ky/page/";
-        string url_truyen_nguoc = "https://nghetruyenngontinh.com/truyen-ngon-tinh-nguoc/page/";
-        string url_truyen_sung = "https://nghetruyenngontinh.com/truyen-ngon-tinh-sung/page/";
-        string url_truyen_hien_dai = "https://nghetruyenngontinh.com/truyen-ngon-tinh-hien-dai/page/";
-        string url_truyen_sac = "https://nghetruyenngontinh.com/truyen-ngon-tinh-sac/page/";
-        string url_truyen_xuyen_khong = "https://nghetruyenngontinh.com/truyen-ngon-tinh-xuyen-khong/page/";
-        string url_truyen_tong_tai = "https://nghetruyenngontinh.com/truyen-ngon-tinh-tong-tai/page/";
-        string url_truyen_hac_bang = "https://nghetruyenngontinh.com/truyen-ngon-tinh-hac-bang/page/";
-
-        //await CrawlTruyenNgonTinh(url_truyen_ngon_tinh_tq, "audio-truyen-ngon-tinh", "Truyện Trung Quốc", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_co_dai, "audio-truyen-ngon-tinh", "Truyện Cổ Đại", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_ngan, "audio-truyen-ngon-tinh", "Truyện Ngắn", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_dai_ky, "audio-truyen-ngon-tinh", "Truyện Dài Kỳ", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_nguoc, "audio-truyen-ngon-tinh", "Truyện Ngược", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_sung, "audio-truyen-ngon-tinh", "Truyện Sủng", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_hien_dai, "audio-truyen-ngon-tinh", "Truyện Hiện Đại", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_sac, "audio-truyen-ngon-tinh", "Truyện Sắc", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_tong_tai, "audio-truyen-ngon-tinh", "Truyện Tổng Tài", 1);
-        //await CrawlTruyenNgonTinh(url_truyen_xuyen_khong, "audio-truyen-ngon-tinh", "Truyện Xuyên Không", 1);
-        // await CrawlTruyenNgonTinh(url_truyen_hac_bang, "audio-truyen-ngon-tinh", "Truyện Hắc Bang", 1);
-
-
-        var task = new Task[]
-        {
-             CrawlTruyenMa(url_truyen_ma_ngan, "audio-truyen-ma", "Truyện Ngắn", 1),
-             CrawlTruyenMa(url_truyen_ma_dai_ky, "audio-truyen-ma", "Truyện Dài Kỳ", 1),
-             CrawlTruyenMa(url_truyen_ma_dao_sy, "audio-truyen-ma", "Truyện Pháp Sư Đạo Sĩ Trừ Tà", 1),
-             CrawlTruyenMa(url_truyen_ma_co_that, "audio-truyen-ma", "Truyện Có Thật", 1),
-             CrawlTruyenMa(url_truyen_ma_bu_ngai, "audio-truyen-ma", "Truyện Bùa Ngải", 1),
-             CrawlTruyenMa(url_truyen_ma_dan_gian, "audio-truyen-ma", "Truyện Dân Gian", 1),
-             CrawlTruyenMa(url_truyen_ma_dan_toc, "audio-truyen-ma", "Truyện Dân Tộc", 1),
-             CrawlTruyenMa(url_truyen_kiem_hiep, "audio-truyen-kiem-hiep", "Truyện Kiếm Hiệp ,Tiên Hiệp ", 1),
-             CrawlTruyenMa(url_truyen_quan_su, "audio-truyen-quan-su", "Truyện Quân Sự", 1),
-
-
-             //CrawlTruyenNgonTinh(url_truyen_ngon_tinh_tq, "audio-truyen-ngon-tinh", "Truyện Trung Quốc", 1),
-             //CrawlTruyenNgonTinh(url_truyen_co_dai, "audio-truyen-ngon-tinh", "Truyện Cổ Đại", 1),
-             //CrawlTruyenNgonTinh(url_truyen_ngan, "audio-truyen-ngon-tinh", "Truyện Ngắn", 1),
-             //CrawlTruyenNgonTinh(url_truyen_dai_ky, "audio-truyen-ngon-tinh", "Truyện Dài Kỳ", 1),
-             //CrawlTruyenNgonTinh(url_truyen_nguoc, "audio-truyen-ngon-tinh", "Truyện Ngược", 1),
-             //CrawlTruyenNgonTinh(url_truyen_sung, "audio-truyen-ngon-tinh", "Truyện Sủng", 1),
-             //CrawlTruyenNgonTinh(url_truyen_hien_dai, "audio-truyen-ngon-tinh", "Truyện Hiện Đại", 1),
-             //CrawlTruyenNgonTinh(url_truyen_sac, "audio-truyen-ngon-tinh", "Truyện Sắc", 1),
-             //CrawlTruyenNgonTinh(url_truyen_tong_tai, "audio-truyen-ngon-tinh", "Truyện Tổng Tài", 1),
-             //CrawlTruyenNgonTinh(url_truyen_xuyen_khong, "audio-truyen-ngon-tinh", "Truyện Xuyên Không", 1),
-             //CrawlTruyenNgonTinh(url_truyen_hac_bang, "audio-truyen-ngon-tinh", "Truyện Hắc Bang", 1)
-
-    };
-
-        await Task.WhenAll(task);
-
-
-    }
-    private async Task<string> CrawlTruyenMa(string url, string cateId, string type, int _page)
-    {
-        _logger.LogInformation("#--> " + type);
-        //slug config
-        var config = new SlugHelperConfiguration();
-
-        // Add individual replacement rules
-        config.StringReplacements.Add("&", "-");
-        config.StringReplacements.Add(",", "-");
-        config.StringReplacements.Add("'", "-");
-        config.StringReplacements.Add("#", "-");
-        config.StringReplacements.Add("$", "-");
-        config.StringReplacements.Add(".", "");
-        config.StringReplacements.Add("_", "");
-
-        // Keep the casing of the input string
-        config.ForceLowerCase = true;
-
-        // Create a helper instance with our new configuration
-        var helper = new SlugHelper(config);
-
-
-        string html_page = "";// await CallUrl(url);
-        bool loop = true;
-        //xu ly thoi gian
-
-        int page = _page;
-        while (loop)
-        {
-
-            string _url = url + page;
-
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
-            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
-            var web = new HtmlWeb()
-            {
-                PreRequest = (request) =>
-                {
-                    request.ServerCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
-                    return true;
-                }
-            };
-            web.OverrideEncoding = Encoding.UTF8;
-
-
-
-            var pageNode = web.Load(_url);
-            Thread.Sleep(5000);
-            var threadItems = pageNode.DocumentNode.QuerySelectorAll("ul.all-post>li");
-            if (threadItems.Count() <= 0)
-            {
-                loop = false;
-                break;
-            }
-            try
-            {
-                foreach (var node in threadItems)
-                {
-                    // restart thoi gian
-                    int _item_indx = 0;
-                    bool _icheck = false;
-                    try
-                    {
-                        string Auth = "";
-                        string Voice = "";
-                        string Status = "";
-
-                        var _link = node.QuerySelector("a");
-                        var _link_doc = _link?.Attributes["href"].Value;
-                        var _link_text = node.QuerySelector("h3")?.InnerText?.Trim();
-                        var _link_img = node.QuerySelector("img").Attributes["data-src"]?.Value;
-                        var idAlbum = helper.GenerateSlug(_link_text.Transliterate());
-
-                        Console.WriteLine($"Page-{_page}#{_item_indx}: {idAlbum} :{_link_img}:{_link_text} ");
-
-                        DateTime curent = DateTime.Now;
-                        //lấy thông tin manga
-                        string _urlDoc = _link_doc;
-
-                        var docNode = web.Load(_urlDoc);
-                        Thread.Sleep(10000);
-                        try
-                        {
-                            //kiem tra doc
-                            var _albumCheck = await _repository.db_CheckAlbumAsync(idAlbum);
-                            if (_albumCheck)
-                            {
-                                if (docNode == null)
-                                    break;
-                                var _cate_list = docNode.DocumentNode.QuerySelectorAll("div.info-post>span>p");
-                                foreach (var item in _cate_list)
-                                {
-                                    var _lable = item.QuerySelector("d")?.InnerText?.Trim();
-                                    if (_lable!=null&& _lable.Contains("Tác Giả"))
-                                    {
-                                        var _list_item = item.QuerySelectorAll("a");
-                                        foreach (var itcate in _list_item)
-                                        {
-                                            Auth += itcate.InnerText?.Trim() + " ";
-                                        }
-                                    }
-                                    if (_lable != null && _lable.Contains("Giọng Đọc"))
-                                    {
-                                        var _list_item = item.QuerySelectorAll("a");
-                                        foreach (var itcate in _list_item)
-                                        {
-                                            Voice += itcate.InnerText?.Trim() + " ";
-                                        }
-                                    }
-                                    if (_lable != null && _lable.Contains("Tình Trạng"))
-                                    {
-                                        var _list_item = item.QuerySelectorAll("p");
-                                        foreach (var itcate in _list_item)
-                                        {
-                                            Status += itcate.InnerText?.Trim() + " ";
-                                        }
-                                    }
-                                    if (_lable != null && _lable.Contains("Số Tập"))
-                                    {
-                                        var _list_item = item.QuerySelectorAll("p");
-                                        foreach (var itcate in _list_item)
-                                        {
-                                            Status += itcate.InnerText?.Trim() + " ";
-                                        }
-                                    }
-                                }
-
-
-                                string image = _link_img;
-                                if (string.IsNullOrEmpty(_link_img))
-                                {
-                                    var _image = docNode.DocumentNode.QuerySelector("img.wp-post-image")?.Attributes["data-src"]?.Value;
-                                    image = _image;
-                                }
-                                //xu ly file
-                                //var fileprocess = new BaseFile();
-
-                                //string imageUrl = fileprocess.WriteFile(image, idAlbum);
-
-
-                                AlBum _itemAlbum = new AlBum()
-                                {
-                                    albumId = idAlbum,
-                                    cateId = cateId,
-                                    type = type,
-                                    subtitle = _link_text.Trim(),
-                                    name = _link_text.Trim(),
-                                    image =  image ,
-                                    auth = Auth,
-                                    lyrics = Voice,
-                                    isActive = true,
-                                    date = curent,
-                                    refUrl = _urlDoc
-                                };
-
-
-                                //xu ly case update sau
-                                List<Episode> lsepisodes = new List<Episode>();
-                                var _contens = docNode.DocumentNode.QuerySelector("div.zingplayer")?.InnerHtml.Trim();
-                                if (_contens != null)
-                                {
-                                    //string pattern = @"\{title:\s*""(.*?)"",\s*mp3:\s*""(.*?)""[,\}]";
-                                    string pattern = @"\{title:\s*""(.*?)"",\s*mp3:\s*""(.*?)""\s*[,\}]";
-                                    MatchCollection matches = Regex.Matches(_contens, pattern);
-                                    DateTime pubDate = DateTime.Now;
-                                    int ind = 1;
-                                    List<string> processedMp3Urls = new List<string>();
-                                    foreach (Match match in matches.Reverse())
-                                    {
-                                        string title = match.Groups[1].Value;
-                                        string mp3Url = match.Groups[2].Value;
-                                        string episodeId = GenerateMD5(mp3Url);
-
-                                        // Nếu episodeId chưa tồn tại trong database và mp3Url chưa được xử lý
-                                        bool isEpisodeNew =await _repository.db_CheckEpisodesAsync(episodeId);
-                                        bool isMp3New = !processedMp3Urls.Contains(mp3Url);
-
-                                        if (isEpisodeNew && isMp3New)
-                                        {
-                                            processedMp3Urls.Add(mp3Url);
-
-                                            Episode _ep = new Episode()
-                                            {
-                                                episodeId = Guid.NewGuid().ToString(),
-                                                subtitle = title,
-                                                image = _link_img,
-                                                desc = HttpUtility.HtmlDecode(title)?.Trim(),
-                                                date = pubDate.AddMinutes(-(ind++)),
-                                                cateId = cateId,
-                                                albumId = idAlbum,
-                                                type = "audio-truyen",
-                                                songUrl = mp3Url,
-                                                downloadUrl = mp3Url,
-                                                refUrl = _urlDoc,
-                                            };
-                                            lsepisodes.Add(_ep);
-                                            //_unitOfWork.Episodes.Add(_ep);
-                                        }
-                                        else { break; }
-
-                                    }
-                                }
-                                else
-                                {
-                                    var _contens_div = docNode.DocumentNode.QuerySelector("div.play-audio>div")?.Attributes["data-tracks-url"]?.Value;
-                                    if (_contens_div != null)
-                                    {
-                                        HttpClientHandler handler = new HttpClientHandler
-                                        {
-                                            ServerCertificateCustomValidationCallback = (message, cert, chain, errors) => { return true; }
-                                        };
-                                        Thread.Sleep(10000);
-                                        // Tạo HttpClient với handler
-                                        using (HttpClient client = new HttpClient(handler))
-                                        {
-                                            // Gửi yêu cầu GET
-                                            HttpResponseMessage response = await client.GetAsync(_contens_div);
-                                            // Đảm bảo yêu cầu thành công
-                                            response.EnsureSuccessStatusCode();
-                                            // Đọc nội dung trả về
-                                            string responseBody = await response.Content.ReadAsStringAsync();
-
-                                            var jsonData = JsonDocument.Parse(responseBody);
-                                            DateTime pubDate = DateTime.Now;
-                                            int ind = 1;
-                                            List<string> processedMp3Urls = new List<string>();
-
-                                            foreach (var item in jsonData.RootElement.EnumerateArray())
-                                            {
-                                                try
-                                                {
-                                                    string title = item.GetProperty("title").GetString();
-                                                    string mp3Url = item.GetProperty("audio").GetString();
-                                                    string episodeId = GenerateMD5(mp3Url);
-
-                                                    // Nếu episodeId chưa tồn tại trong database và mp3Url chưa được xử lý
-                                                    bool isEpisodeNew = await _repository.db_CheckEpisodesAsync(episodeId);
-                                                    bool isMp3New = !processedMp3Urls.Contains(mp3Url);
-
-                                                    if (isEpisodeNew && isMp3New)
-                                                    {
-                                                        processedMp3Urls.Add(mp3Url);
-
-                                                        Episode _ep = new Episode()
-                                                        {
-                                                            episodeId = Guid.NewGuid().ToString(),
-                                                            subtitle = title,
-                                                            image = _link_img,
-                                                            desc = HttpUtility.HtmlDecode(title)?.Trim(),
-                                                            date = pubDate.AddMinutes(ind++),
-                                                            cateId = cateId,
-                                                            albumId = idAlbum,
-                                                            type = "audio-truyen",
-                                                            songUrl = mp3Url,
-                                                            downloadUrl = mp3Url,
-                                                            refUrl = _urlDoc,
-                                                        };
-                                                        lsepisodes.Add(_ep);
-                                                        // _unitOfWork.Episodes.Add(_ep);
-                                                    }
-                                                    else { break; }
-                                                }
-                                                catch (Exception e)
-                                                {
-                                                    Console.WriteLine(e);
-                                                }
-                                            }
-                                        }
-                                    }
-                                    else
-                                    {
-                                        Console.WriteLine("check lai");
-                                        //
-                                    }
-
-                                }
-
-                                foreach (var item in lsepisodes)
-                                {
-                                   _= _repository.db_InsertEpisodesAsync(item);
-                                }
-                                if (lsepisodes.Count() > 0)
-                                {
-                                   _= _repository.db_InsertAlbumAsync(_itemAlbum);
-                                }
-
-                            }
-                        }catch(Exception ex)
-                        {
-                            _logger.LogError($"--> EX Album: url:{_urlDoc} ");
-                        }
-                        }
-                    catch (Exception ex)
-                    {
-                        _logger.LogError($"--> EX object Manga: Page-{_page} ");
-                    }
-                }
-            }
-            catch { }
-
-            page++;
-        }
-
-
-        // Tạo HttpClient với handler đã cấu hình
-
-        Console.WriteLine("Done Web Site");
-        return null;
-    }
-    private async Task<string> CrawlTruyenNgonTinh(string url, string cateId, string type, int _page)
-    {
-        _logger.LogInformation("#--> " + type);
-        //slug config
-        var config = new SlugHelperConfiguration();
-
-        // Add individual replacement rules
-        config.StringReplacements.Add("&", "-");
-        config.StringReplacements.Add(",", "-");
-        config.StringReplacements.Add("'", "-");
-        config.StringReplacements.Add("#", "-");
-        config.StringReplacements.Add("$", "-");
-        config.StringReplacements.Add(".", "");
-        config.StringReplacements.Add("_", "");
-
-        // Keep the casing of the input string
-        config.ForceLowerCase = true;
-
-        // Create a helper instance with our new configuration
-        var helper = new SlugHelper(config);
-
-
-        string html_page = "";// await CallUrl(url);
-        bool loop = true;
-        //xu ly thoi gian
-
-        int page = _page;
-        while (loop)
-        {
-
-            string _url = url + page;
-
-            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
-            System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls13 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
-            var web = new HtmlWeb()
-            {
-                PreRequest = (request) =>
-                {
-                    request.ServerCertificateValidationCallback = (sender, certificate, chain, sslPolicyErrors) => true;
-                    return true;
-                }
-            };
-            web.OverrideEncoding = Encoding.UTF8;
-
-
-
-            var pageNode = web.Load(_url);
-            Thread.Sleep(5000);
-            var threadItems = pageNode.DocumentNode.QuerySelectorAll("div.main-post>ul>li");
-            if (threadItems.Count() <= 0)
-            {
-                loop = false;
-                break;
-            }
-            try
-            {
-                foreach (var node in threadItems)
-                {
-                    // restart thoi gian
-                    int _item_indx = 0;
-                    bool _icheck = false;
-                    try
-                    {
-                        string Auth = "";
-                        string Voice = "";
-                        string Status = "";
-
-                        var _link = node.QuerySelector("a");
-                        var _link_doc = _link?.Attributes["href"].Value;
-                        var _link_text = node.QuerySelector("h3")?.InnerText?.Trim();
-                        var _link_img = node.QuerySelector("img").Attributes["src"]?.Value;
-                        var idAlbum = helper.GenerateSlug(_link_text.Transliterate());
-
-                        Console.WriteLine($"Page-{_page}#{_item_indx}: {idAlbum} :{_link_img}:{_link_text} ");
-
-                        DateTime curent = DateTime.Now;
-                        //lấy thông tin manga
-                        string _urlDoc = _link_doc;
-
-                        var docNode = web.Load(_urlDoc);
-                        Thread.Sleep(5000);
-                        //kiem tra doc
-                        var _albumCheck = await _repository.db_CheckAlbumAsync(idAlbum);
-                        if (_albumCheck)
-                        {
-                            if (docNode == null)
-                                break;
-                            var _cate_list = docNode.DocumentNode.QuerySelectorAll("div.info-post>span");
-                            foreach (var item in _cate_list)
-                            {
-                                var _lable = item.InnerText?.Trim();
-                                if (_lable.Contains("Tác Giả"))
-                                {
-                                    var _list_item = item.QuerySelectorAll("a");
-                                    foreach (var itcate in _list_item)
-                                    {
-                                        Auth += itcate.InnerText?.Trim() + " ";
-                                    }
-                                }
-                                if (_lable.Contains("Giọng Đọc"))
-                                {
-                                    var _list_item = item.QuerySelectorAll("a");
-                                    foreach (var itcate in _list_item)
-                                    {
-                                        Voice += itcate.InnerText?.Trim() + " ";
-                                    }
-                                }
-                                if (_lable.Contains("Tình Trạng"))
-                                {
-                                    var _list_item = item.QuerySelectorAll("p");
-                                    foreach (var itcate in _list_item)
-                                    {
-                                        Status += itcate.InnerText?.Trim() + " ";
-                                    }
-                                }
-                                if (_lable.Contains("Số Tập"))
-                                {
-                                    var _list_item = item.QuerySelectorAll("p");
-                                    foreach (var itcate in _list_item)
-                                    {
-                                        Status += itcate.InnerText?.Trim() + " ";
-                                    }
-                                }
-
-                            }
-
-
-                            string image = _link_img;
-                            if (string.IsNullOrEmpty(_link_img))
-                            {
-                                var _image = docNode.DocumentNode.QuerySelector("img.wp-post-image")?.Attributes["src"]?.Value;
-                                image = _image;
-                            }
-                            //xu ly file
-                            //var fileprocess = new BaseFile();
-
-                            //string imageUrl = fileprocess.WriteFile(image, idAlbum);
-
-
-                            AlBum _itemAlbum = new AlBum()
-                            {
-                                albumId = idAlbum,
-                                cateId = cateId,
-                                type = type,
-                                subtitle = _link_text.Trim(),
-                                name = _link_text.Trim(),
-                                image =  image,
-                                auth = Auth,
-                                lyrics = Voice,
-                                isActive = true,
-                                date = curent,
-                                language = Status
-                            };
-                            _ = _repository.db_InsertAlbumAsync(_itemAlbum);
-
-
-                            //xu ly case update
-
-                            var _contens = docNode.DocumentNode.QuerySelector("div.zingplayer")?.InnerHtml.Trim();
-
-                            //string pattern = @"\{title:\s*""(.*?)"",\s*mp3:\s*""(.*?)""[,\}]";
-                            string pattern = @"\{title:\s*""(.*?)"",\s*mp3:\s*""(.*?)""\s*[,\}]";
-
-                            MatchCollection matches = Regex.Matches(_contens, pattern);
-                            DateTime pubDate = DateTime.Now;
-                            int ind = 1;
-                            List<string> processedMp3Urls = new List<string>();
-                            foreach (Match match in matches.Reverse())
-                            {
-                                string title = match.Groups[1].Value;
-                                string mp3Url = match.Groups[2].Value;
-                                string episodeId = GenerateMD5(mp3Url);
-
-                                // Nếu episodeId chưa tồn tại trong database và mp3Url chưa được xử lý
-                                bool isEpisodeNew = await _repository.db_CheckEpisodesAsync(episodeId);
-                                bool isMp3New = !processedMp3Urls.Contains(mp3Url);
-
-                                if (isEpisodeNew && isMp3New)
-                                {
-                                    processedMp3Urls.Add(mp3Url);
-
-                                    Episode _ep = new Episode()
-                                    {
-                                        episodeId = Guid.NewGuid().ToString(),
-                                        subtitle = title,
-                                        image = _link_img,
-                                        desc = HttpUtility.HtmlDecode(title)?.Trim(),
-                                        date = pubDate.AddMinutes(-(ind++)),
-                                        cateId = cateId,
-                                        albumId = idAlbum,
-                                        type = "audio-truyen",
-                                        songUrl = mp3Url,
-                                        downloadUrl = mp3Url,
-                                        refUrl = _urlDoc,
-                                    };
-                                   _= _repository.db_InsertEpisodesAsync(_ep);
-                                }
-                                else { break; }
-
-                            }
-                        }//bo len tren
-                    }
-                    catch (Exception ex)
-                    {
-                        _logger.LogError($"--> EX object Manga: Page-{_page} ");
-                    }
-                }
-            }
-            catch { }
-
-            page++;
-        }
-
-
-        // Tạo HttpClient với handler đã cấu hình
-
-        Console.WriteLine("Done Web Site");
-        return null;
-    }
-    private string GenerateMD5(string input)
-    {
-        // Create a new instance of the MD5CryptoServiceProvider object.
-        MD5 md5Hasher = MD5.Create();
-        // Convert the input string to a byte array and compute the hash.
-        byte[] data = md5Hasher.ComputeHash(Encoding.Default.GetBytes(input));
-        // Create a new Stringbuilder to collect the bytes and create a string.
-        StringBuilder sBuilder = new StringBuilder();
-        // Loop through each byte of the hashed data and format each one as a hexadecimal string.
-        for (int i = 0; i < data.Length; i++)
-        {
-            sBuilder.Append(data[i].ToString("x2"));
-        }
-        // Return the hexadecimal string.
-        return sBuilder.ToString();
-    }
-
-    [HttpGet("/InitCate")]
-    [ProducesResponseType(StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<string> InnitCates()
-    {
-        #region
-        //List<Cate> _cls = new List<Cate>() {
-        //    new Cate{
-        //        cateId="radio-online",
-        //        name="Blog Radio Online",
-        //        cateParentId= null,
-        //        image="/images/app/new/1.png"
-
-        //    },
-        //    new Cate{
-        //        cateId="audio-truyen",
-        //        name="Truyện Audio",
-        //        cateParentId = null,
-        //        image="/images/app/new/2.png"
-
-        //    },
-        //    new Cate{
-        //        cateId="blog-radio",
-        //        name="Blog Radio",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/3.png"
-        //    },
-        //    new Cate{
-        //        cateId="cafe-radio",
-        //        name="Cafe Radio",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/4.png"
-        //    },
-        //    new Cate{
-        //        cateId="love-radio",
-        //        name="Love Radio",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/5.png"
-        //    },
-        //    new Cate{
-        //        cateId="goc-suy-ngam",
-        //        name="Góc Suy Ngẫm",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/6.png"
-        //    },
-        //    new Cate{
-        //        cateId="family-radio",
-        //        name="Family Radio",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/7.png"
-        //    },
-        //    new Cate{
-        //        cateId="chiem-tinh-radio",
-        //        name="Chiêm tinh Radio",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/8.png"
-        //    },
-        //    new Cate{
-        //        cateId="tri-thuc-radio",
-        //        name="Tri Thức Radio",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/9.png"
-        //    },
-        //    new Cate{
-        //        cateId="cam-xuc-am-nhac",
-        //        name="Cảm Xúc Âm Nhạc",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/10.png"
-        //    },
-        //    new Cate{
-        //        cateId="yeu-dien-anh",
-        //        name="Yêu Điện Ảnh",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/11.png"
-        //    },
-        //    new Cate{
-        //        cateId="dau-chan-online",
-        //        name="Dấu Chân online",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/12.png"
-        //    },
-        //    new Cate{
-        //        cateId="cuoi-vo-bung",
-        //        name="Truyện Cười",
-        //        cateParentId= "radio-online",
-        //        image="/images/app/new/13.png"
-        //    },
-        // };
-        //List<Cate> _cls = new List<Cate>() {
-        //    new Cate{
-        //        cateId="audio-truyen-ma",
-        //        name="Truyện Ma",
-        //        cateParentId= "audio-truyen",
-        //        image="/images/app/new/3.png",
-        //        icon="f6a2"
-        //    },
-        //    new Cate{
-        //        cateId="audio-truyen-kiem-hiep",
-        //        name="Truyện Kiếm Hiệp, Tiên Hiệp",
-        //        cateParentId= "audio-truyen",
-        //        image="/images/app/new/3.png",
-        //        icon="f5e4"
-        //    },
-        //     new Cate{
-        //        cateId="audio-truyen-quan-su",
-        //        name="Truyện Quân Sự",
-        //        cateParentId= "audio-truyen",
-        //        image="/images/app/new/3.png",
-        //        icon="f60c"
-        //    },
-        //     new Cate{
-        //        cateId="audio-truyen-ngon-tinh",
-        //        name="Truyện Ngôn Tình",
-        //        cateParentId= "audio-truyen",
-        //        image="/images/app/new/3.png",
-        //        icon="f555"
-        //    },
-        // };
-        #endregion
-        List<Cate> _cls = new List<Cate>() {
-            new Cate{
-                cateId="audio-truyen-ma",
-                name="Truyện Ma",
-                cateParentId= "audio-truyen",
-                image="/images/app/new/3.png",
-                icon="f6a2"
-            },
-            new Cate{
-                cateId="audio-truyen-kiem-hiep",
-                name="Truyện Kiếm Hiệp, Tiên Hiệp",
-                cateParentId= "audio-truyen",
-                image="/images/app/new/3.png",
-                icon="f5e4"
-            },
-             new Cate{
-                cateId="audio-truyen-quan-su",
-                name="Truyện Quân Sự",
-                cateParentId= "audio-truyen",
-                image="/images/app/new/3.png",
-                icon="f60c"
-            },
-             new Cate{
-                cateId="audio-truyen-ngon-tinh",
-                name="Truyện Ngôn Tình",
-                cateParentId= "audio-truyen",
-                image="/images/app/new/3.png",
-                icon="f555"
-            },
-         };
-        //_unitOfWork.Genres.Add(_cl);
-        //_unitOfWork.Complete();
-        foreach (var item in _cls)
-        {
-           // _unitOfWork.Cates.Add(item);
-        }
-       
-        return "oke";
-    }
-
-    //[HttpGet("/init")]
-    //[ProducesResponseType(StatusCodes.Status201Created)]
-    //[ProducesResponseType(StatusCodes.Status400BadRequest)]
-    //public async Task<string> InitDoc()
-    //{
-    //    List<Document> _doccuments = new List<Document>() {
-    //        new Document{
-    //            idDoc="blog-radio",
-    //            name="Blog Radio",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/1.png"
-    //        },
-    //        new Document{
-    //            idDoc="cafe-radio",
-    //            name="Cafe Radio",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/2.png"
-    //        },
-    //        new Document{
-    //            idDoc="love-radio",
-    //            name="Love Radio",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/3.png"
-    //        },
-    //        new Document{
-    //            idDoc="goc-suy-ngam",
-    //            name="Góc Suy Ngẫm",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/4.png"
-    //        },
-    //        new Document{
-    //            idDoc="family-radio",
-    //            name="Family Radio",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/5.png"
-    //        },
-    //        new Document{
-    //            idDoc="chiem-tinh-radio",
-    //            name="Chiêm tinh Radio",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/6.png"
-    //        },
-    //        new Document{
-    //            idDoc="tri-thuc-radio",
-    //            name="Tri Thức Radio",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/7.png"
-    //        },
-    //        new Document{
-    //            idDoc="cam-xuc-am-nhac",
-    //            name="Cảm Xúc Âm Nhạc",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/8.png"
-    //        },
-    //        new Document{
-    //            idDoc="yeu-dien-anh",
-    //            name="Yêu Điện Ảnh",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/9.png"
-    //        },
-    //        new Document{
-    //            idDoc="dau-chan-online",
-    //            name="Dấu Chân online",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/10.png"
-    //        },
-    //        new Document{
-    //            idDoc="cuoi-vo-bung",
-    //            name="Truyện Cười",
-    //            type= "radio-online",
-    //            date =new DateTime(),
-    //            image="/images/app/new/11.png"
-    //        },
-    //     };
-    //    //_unitOfWork.Genres.Add(_cl);
-    //    //_unitOfWork.Complete();
-    //    foreach (var item in _doccuments)
-    //    {
-    //        _unitOfWork.Documents.Add(item);
-    //        _unitOfWork.Complete();
-    //    }
-    //    _unitOfWork.Complete();
-    //    return "oke";
-    //}
-
-
-    [HttpGet("/CrawlBlogRadio")]
-    [ProducesResponseType(StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<string> CrawlBlogRadio()
-    {
-        //await CrawlBlog("blog-radio", "radio-online", "https://blogradio.vn/blog-radio-cm287.html?&p=");
-        //await CrawlBlog("cafe-radio", "radio-online", "https://blogradio.vn/cafe-radio-cm699.html?&p=");
-        //await CrawlBlog("love-radio", "radio-online", "https://blogradio.vn/love-radio-cm339.html?&p=");
-        //await CrawlBlog("goc-suy-ngam", "radio-online", "https://blogradio.vn/goc-suy-ngam-cm711.html?&p=");
-        //await CrawlBlog("family-radio", "radio-online", "https://blogradio.vn/family-radio-cm700.html?&p=");
-        //await CrawlBlog("chiem-tinh-radio", "radio-online", "https://blogradio.vn/radio-chiem-tinh-cm289.html?&p=");
-        //await CrawlBlog("tri-thuc-radio", "radio-online", "https://blogradio.vn/radio-tri-thuc-cm696.html?&p=");
-        //await CrawlBlog("cam-xuc-am-nhac", "radio-online", "https://blogradio.vn/cam-xuc-am-nhac-cm340.html?&p=");
-        //await CrawlBlog("yeu-dien-anh", "radio-online", "https://blogradio.vn/yeu-dien-anh-cm684.html?&p=");
-        //await CrawlBlog("dau-chan-online", "radio-online", "https://blogradio.vn/dau-chan-online-cm288.html?&p=");
-        //await CrawlBlog("cuoi-vo-bung", "radio-online", "https://blogradio.vn/cuoi-vo-bung-cm694.html?&p=");
-        var task = new Task[]
-        {
-             CrawlBlog("blog-radio", "radio-online", "https://blogradio.vn/blog-radio-cm287.html?&p="),
-             CrawlBlog("cafe-radio", "radio-online", "https://blogradio.vn/cafe-radio-cm699.html?&p="),
-             CrawlBlog("love-radio", "radio-online", "https://blogradio.vn/love-radio-cm339.html?&p="),
-             CrawlBlog("goc-suy-ngam", "radio-online", "https://blogradio.vn/goc-suy-ngam-cm711.html?&p="),
-             CrawlBlog("family-radio", "radio-online", "https://blogradio.vn/family-radio-cm700.html?&p="),
-             CrawlBlog("chiem-tinh-radio", "radio-online", "https://blogradio.vn/radio-chiem-tinh-cm289.html?&p="),
-             CrawlBlog("tri-thuc-radio", "radio-online", "https://blogradio.vn/radio-tri-thuc-cm696.html?&p="),
-             CrawlBlog("cam-xuc-am-nhac", "radio-online", "https://blogradio.vn/cam-xuc-am-nhac-cm340.html?&p="),
-             CrawlBlog("yeu-dien-anh", "radio-online", "https://blogradio.vn/yeu-dien-anh-cm684.html?&p="),
-             CrawlBlog("dau-chan-online", "radio-online", "https://blogradio.vn/dau-chan-online-cm288.html?&p="),
-             CrawlBlog("cuoi-vo-bung", "radio-online", "https://blogradio.vn/cuoi-vo-bung-cm694.html?&p=")
-
-        };
-
-        await Task.WhenAll(task);
-        return "oke";
-    }
-    [HttpGet("/CrawlPodCastWeb5ngay")]
-    [ProducesResponseType(StatusCodes.Status201Created)]
-    [ProducesResponseType(StatusCodes.Status400BadRequest)]
-    public async Task<string> Web5ngay()
-    {
-        //https://tkcx.buzzsprout.com/
-        await CrawlRSSWeb5Ngay("tam-su-kinh-doanh","podcast",  "https://feeds.buzzsprout.com/158334.rss");
-
-        //https://podtail.com/podcast/better-version/
-        await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/6d0b6694/podcast/rss");
-
-        //tâm sự tài chính
-        //https://anchor.fm/s/36c11764/podcast/rss
-        await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/36c11764/podcast/rss");
-
-        //hieu tv
-        //https://anchor.fm/s/4cfb55bc/podcast/rss
-        await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/4cfb55bc/podcast/rss");
-
-        //Chàng-Ngốc-Già
-        //https://anchor.fm/s/4a3e8dbc/podcast/rss
-        await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/4a3e8dbc/podcast/rss");
-
-        //Bác Sĩ Tài Chính
-        //https://anchor.fm/s/671809b8/podcast/rss
-
-        //Tài Chính & Kinh Doanh
-        //https://anchor.fm/s/6a069144/podcast/rss
-        //Nguyễn Phi Vân's Podcast
-        //https://anchor.fm/s/659baab8/podcast/rss
-        //vì sao thế nhỉ
-        //https://anchor.fm/s/8453cddc/podcast/rss
-        //## Giáo dục đời sống
-        //EduStation
-        //https://feeds.buzzsprout.com/1892626.rss
-        //Chầm Chậm Mà Sống
-        //https://anchor.fm/s/1eee4df0/podcast/rss
-        //Oddly normal
-        //https://feeds.simplecast.com/AfGWUmjw
-        //Kể Cho Tôi Nghe
-        //https://anchor.fm/s/379ee24c/podcast/rss
-        //The Present Writer
-        //https://anchor.fm/s/326d676c/podcast/rss
-        //Giang ơi Radio
-        //https://feeds.soundcloud.com/users/soundcloud:users:341012174/sounds.rss
-        //Tam Ly Hoc Tuoi Tre
-        //https://anchor.fm/s/25d0eccc/podcast/rss
-        //MÂY Podcast
-        //https://anchor.fm/s/6fb98254/podcast/rss
-        //Tâm Lý Ơi (Dear Mind)
-        //https://anchor.fm/s/5b1c3544/podcast/rss
-        //Amateur Psychology - Tay mơ học đời bằng Tâm lý học
-        //https://anchor.fm/s/31c96068/podcast/rss
-        //Gen Z Tập Lớn
-        //https://anchor.fm/s/64e3aad0/podcast/rss
-        //Chuyện về những mảnh ghép
-        //https://anchor.fm/s/45ba77ec/podcast/rss
-        //the finding audio
-        //https://anchor.fm/s/72b86178/podcast/rss
-        //The Blue Expat
-        //https://feeds.acast.com/public/shows/647700fa9aab2f001135cb5f
-        //Teayou Podcast
-        //https://anchor.fm/s/113808a4/podcast/rss
-        //Thư Viện Sách Nói!
-        //https://feeds.transistor.fm/th-vi-n-sach-noi
-
-
-        //luyện nghe tiếng anh --> chung 
-        //Luke's ENGLISH Podcast - Learn British English with Luke Thompson||https://ww w.listennotes.com/podcasts/lukes-english-podcast-learn-british-english-YQRWfBhT6Lr/
-        //https://access.acast.com/rss/62b0ada25c7ea10012f541cb/
-
-        //ESL talk ||https://www.listennotes.com/vi/podcasts/esl-talk-esl-talk-podcast--RmwnKsfOIT/
-        //https://feeds.acast.com/public/shows/6092f46767f02f7d0df16909
-        // ESL Podcast || https://www.listennotes.com/podcasts/esl-podcast-drielle-paetznick-GR8SPXqctgv/
-        //https://anchor.fm/s/3de6bbac/podcast/rss
-
-        //Chatterbox: những cuộc hội thoại, phỏng vấn tiếng Anh với tốc độ nói chậm rãi và nội dung đơn giản dễ hiểu. ||https://www.listennotes.com/vi/podcasts/chatterbox-reds-cincinnati-reds-daily-game-Ba2cg-1kTHE/
-        //https://feed.podbean.com/chatterboxreds/feed.xml
-
-        //Real Talk: những cuộc hội thoại bất ngờ, cùng với những tình huống thực tế xảy ra ở cuộc sống hằng ngày.   ||https://www.listennotes.com/vi/podcasts/real-talk-niki-patton-TUQIkhvLRyu/
-        //https://anchor.fm/s/b58c4244/podcast/rss
-
-        //Business English Pod ||
-        //http://feeds.feedburner.com/businessenglishpod
-
-        // The Business English Podcast
-        //https://feeds.buzzsprout.com/2041998.rss
-        //The Porto Podcast in English
-        //https://feed.podbean.com/fcportopodcast/feed.xml
-
-        //Learn English with Voice of America
-        //https://anchor.fm/s/ba71bdac/podcast/rss
-        //Splendid Speaking
-        //https://splendidspeaking.podomatic.com/rss2.xml
-        //Cultural Diversity
-        //https://anchor.fm/s/c24cde1c/podcast/rss
-        //Học tiếng Anh qua ẩm thực Việt
-        //https://anchor.fm/s/f4825fc4/podcast/rss
-
-
-
-        //## Trẻ em
-        //  Truyện cổ tích
-        //https://anchor.fm/s/f32db7f4/podcast/rss
-        //  Truyện ngắn chọn lọc
-        //https://anchor.fm/s/f32d7208/podcast/rss
-        //Văn học thiếu nhi
-        //https://anchor.fm/s/f5a0e434/podcast/rss
-        //Hạnh phúc -Gia đình
-        //https://anchor.fm/s/f37be348/podcast/rss
-        //Bé Ngủ Ngoan&#39;s Podcast
-        //https://feeds.buzzsprout.com/1336162.rss
-        //ÚM BA LA, THẾ GIỚI MỞ RA
-        //https://anchor.fm/s/6e3dfd4c/podcast/rss
-        //Truyện cổ nước ngoài cho bé
-        //https://feed.podbean.com/vforvien/feed.xml
-        //Kể Truyện Cho Bé (Audio)
-        //https://anchor.fm/s/8462cc24/podcast/rss
-
-
-        return null;
-    }
-    /// <summary>
-    /// 
-    /// </summary>
-    /// <param name="cate">
-    /// [blog-radio,love-radio]
-    /// </param>
-    /// <param name="group">[radio-online]</param>
-    /// <param name="url">[
-    /// https://blogradio.vn/blog-radio-cm287.html?&p=1,
-    /// https://blogradio.vn/love-radio-cm339.html?&p=1,
-    /// ]</param>
-    /// <returns></returns>
-
-    private async Task<string> CrawlBlog(string cate, string group, string url)
-    {
-        //slug config
-        var config = new SlugHelperConfiguration();
-
-        // Add individual replacement rules
-        config.StringReplacements.Add("&", "-");
-        config.StringReplacements.Add(",", "-");
-        config.StringReplacements.Add("'", "-");
-        config.StringReplacements.Add("#", "-");
-        config.StringReplacements.Add("$", "-");
-
-        // Keep the casing of the input string
-        config.ForceLowerCase = true;
-
-        // Create a helper instance with our new configuration
-        var helper = new SlugHelper(config);
-
-
-        string html_page = "";// await CallUrl(url);
-        bool loop = true;
-        //xu ly thoi gian
-        int _page = 0;
-        int _item_indx = 0;
-        DateTime curent = DateTime.Now;
-        //while
-        while (loop)
-        {
-
-            _page = _page + 1;
-            string _full_url = url + _page;
-
-            var web = new HtmlWeb();
-            var doc = web.Load(_full_url);
-            Thread.Sleep(5000);
-            var threadItems = doc.DocumentNode.QuerySelectorAll("div.col-sm-6>div.big_item");
-            if (threadItems.Count() <= 0)
-            {
-                break;
-            }
-
-            foreach (var node in threadItems)
-            {
-                var _link_doc = node.QuerySelector("h3>a").Attributes["href"].Value;
-                var _link_text = node.QuerySelector("h3>a").InnerText;
-                var _link_img = node.QuerySelector("img.img-responsive").Attributes["src"].Value;
-                var _desc_text = node.QuerySelector("p.desc").InnerText;
-                var idDoc = helper.GenerateSlug(_link_text.Transliterate());
-
-                _item_indx++;
-                Console.WriteLine($"Page-{_item_indx}: {idDoc} ");
-                curent = curent.AddSeconds(-_item_indx);
-                // DateTime item_date = curent.AddMinutes(-1*)
-                //kiem tra doc
-                var _epCheck = await _repository.db_CheckEpisodesAsync(idDoc);
-                if (_epCheck)
-                {
-
-                    if (_link_doc != null)
-                    {
-                        try
-                        {
-                            var _dettail = web.Load(_link_doc);
-                            Thread.Sleep(5000);
-                            if (_dettail == null)
-                                continue;
-                            var _link_audio = _dettail.DocumentNode.QuerySelector("input#media-file").Attributes["value"].Value;
-
-                            var _desc_list = _dettail.DocumentNode.QuerySelectorAll("div.description>p");
-                            List<string> ls = new List<string>();
-                            foreach (var item in _desc_list)
-                            {
-                                if (item.InnerText.Trim() != null)
-                                {
-                                    ls.Add(item.InnerText.Trim());
-                                }
-                            }
-                            string _desc = string.Join(", ", ls);
-
-                            //
-                            //var fileprocess = new BaseFile();
-                            //string imageUrl = fileprocess.WriteFile(_link_img, idDoc, "audiobooks");
-
-                            Episode _ep = new Episode()
-                            {
-                                episodeId = idDoc,
-                                subtitle = _link_text.Trim(),
-                                image = _link_img,// imageUrl !=null? imageUrl:_link_img ,
-                                desc = HttpUtility.HtmlDecode(_desc)?.Trim(),
-                                date = curent,
-                                cateId = cate,
-                                type = group,
-                                songUrl = _link_audio,
-                                downloadUrl = _link_audio,
-                                refUrl = _link_doc,
-                            };
-                            _ = _repository.db_InsertEpisodesAsync(_ep);
-
-                        }
-                        catch (Exception ex)
-                        {
-                            _logger.LogError($"--> EX object Episode: Page-{_page} ");
-                        }
-                    }
-                }
-            }
-        }
-
-
-
-        return null;
-    }
-
-     DateTime? ConvertToDateTime(string dateString)
-    {
-        try
-        {
-            // Xử lý định dạng ngày tháng
-            string[] formats = {
-            "ddd, dd MMM yyyy HH:mm:ss zzz", // ví dụ: Fri, 14 Jun 2024 13:12:34 +0000
-            "ddd, dd MMM yyyy HH:mm:ss 'GMT'", // ví dụ: Fri, 23 Aug 2024 13:00:00 GMT
-            "ddd, dd MMM yyyy HH:mm:ss GMT",
-            "ddd, dd MMM yyyy HH:mm:ss K" // có thể thêm các định dạng khác nếu cần
-        };
-
-            // Cố gắng chuyển đổi
-            if (DateTime.TryParseExact(dateString, formats, CultureInfo.InvariantCulture,
-                                       DateTimeStyles.None, out DateTime result))
-            {
-                return result;
-            }
-        }
-        catch { }
-        // Trả về null nếu không chuyển đổi được
-        return null;
-    }
-    private async Task CrawlRSSWeb5Ngay(string cate, string group, string rssUrl)
-    {
-        try
-        {
-            XmlDocument rssXmlDoc = new XmlDocument();
-            rssXmlDoc.Load(rssUrl);
-            XmlNamespaceManager nsmgr = new XmlNamespaceManager(rssXmlDoc.NameTable);
-            nsmgr.AddNamespace("itunes", "http://www.itunes.com/dtds/podcast-1.0.dtd");
-
-            XmlNodeList items = rssXmlDoc.SelectNodes("rss/channel/item");
-            DateTime pubDate = DateTime.Now;
-            int ind = 1;
-            foreach (XmlNode item in items)
-            {
-                try
-                {
-                    string title = item.SelectSingleNode("title")?.InnerText;
-                    string pubDateString = item.SelectSingleNode("pubDate")?.InnerText;
-                    string guid = item.SelectSingleNode("guid")?.InnerText;
-                    string author = item.SelectSingleNode("itunes:author", nsmgr)?.InnerText;
-                    string url = item.SelectSingleNode("enclosure")?.Attributes["url"]?.Value;
-                    string image = item.SelectSingleNode("itunes:image", nsmgr)?.Attributes["href"]?.Value;
-                    string duration = item.SelectSingleNode("itunes:duration", nsmgr)?.InnerText;
-
-                    DateTime? dateTime = ConvertToDateTime(pubDateString);
-                    if (dateTime.HasValue)
-                    {
-                        pubDate = dateTime.Value;
-                    }
-                    else
-                    {
-                        pubDate = pubDate.AddSeconds(-ind);
-                    }
-
-
-                    var _episodeCheck = await _repository.db_CheckEpisodesAsync(guid);
-                    if (_episodeCheck)
-                    {
-                        Episode _ep = new Episode()
-                        {
-                            episodeId = guid,
-                            subtitle = title,
-                            image = image,// imageUrl !=null? imageUrl:_link_img ,
-                            desc = HttpUtility.HtmlDecode(title)?.Trim(),
-                            date = pubDate,
-                            cateId = cate,
-                            type = group,
-                            songUrl = url,
-                            downloadUrl = url,
-                            refUrl = guid,
-                            language = duration
-                        };
-
-                        Console.WriteLine(_ep);
-                        _ = _repository.db_InsertEpisodesAsync(_ep);
-                    }
-                    else
-                    {
-                        //var _episode = _episodeCheck.FirstOrDefault();
-                        //if (_episode != null)
-                        //{
-                        //    _episode.songUrl=url;
-                        //    _episode.language = duration;
-
-                        //    _unitOfWork.Episodes.Update(_episode);
-                        //    _unitOfWork.Complete();
-                        //}
-                    }
-                }catch(Exception ex)
-                {
-                    _logger.LogError($"--> EX object Episode RSS:  ");
-                }
-                ind++;
-            }
-
-        }
-        catch (Exception ex)
-        {
-            Console.WriteLine($"An error occurred: {ex.Message}");
-        }
-    }
-}
+﻿CrawlRSSWeb5Ngay("vi-so-the-nhi", "podcast", "https://anchor.fm/s/8453cddc/podcast/rss"),
+CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/6d0b6694/podcast/rss"),
+CrawlRSSWeb5Ngay("tam-su-kinh-doanh", "podcast", "https://feeds.buzzsprout.com/158334.rss"),
+CrawlRSSWeb5Ngay("tam-su-tai-chinh", "podcast", "https://anchor.fm/s/6d0b6694/podcast/rss"),
+CrawlRSSWeb5Ngay("hieu-tv", "podcast", "https://anchor.fm/s/4cfb55bc/podcast/rss"),
+CrawlRSSWeb5Ngay("chang-ngoc-gia", "podcast", "https://anchor.fm/s/4a3e8dbc/podcast/rss"),
+CrawlRSSWeb5Ngay("bac-si-tai-chinh", "podcast", "https://anchor.fm/s/671809b8/podcast/rss"),
+CrawlRSSWeb5Ngay("tai-chinh-kinh-doanh", "podcast", "https://anchor.fm/s/6a069144/podcast/rss"),
+CrawlRSSWeb5Ngay("nguyen-phi-van-podcast", "podcast", "https://anchor.fm/s/659baab8/podcast/rss"),
+CrawlRSSWeb5Ngay("edustation", "podcast", "https://feeds.buzzsprout.com/1892626.rss"),
+CrawlRSSWeb5Ngay("cham-cham-ma-song", "podcast", "https://anchor.fm/s/1eee4df0/podcast/rss"),
+CrawlRSSWeb5Ngay("oddly-normal", "podcast", "https://feeds.simplecast.com/AfGWUmjw"),
+CrawlRSSWeb5Ngay("ke-cho-toi-nghe", "podcast", "https://anchor.fm/s/379ee24c/podcast/rss"),
+CrawlRSSWeb5Ngay("the-present-writer", "podcast", "https://anchor.fm/s/326d676c/podcast/rss"),
+CrawlRSSWeb5Ngay("giang-oi-radio", "podcast",
+"https://feeds.soundcloud.com/users/soundcloud:users:341012174/sounds.rss"),
+CrawlRSSWeb5Ngay("tam-ly-hoc-tuoi-tre", "podcast", "https://anchor.fm/s/25d0eccc/podcast/rss"),
+CrawlRSSWeb5Ngay("may-podcast", "podcast", "https://anchor.fm/s/6fb98254/podcast/rss"),
+CrawlRSSWeb5Ngay("tam-ly-oi-dear-mind", "podcast", "https://anchor.fm/s/5b1c3544/podcast/rss"),
+CrawlRSSWeb5Ngay("amateur-psychology-tay-mo-hoc-doi-bang-tam-ly-hoc", "podcast",
+"https://anchor.fm/s/31c96068/podcast/rss"),
+CrawlRSSWeb5Ngay("gen-z-tap-lon", "podcast", "https://anchor.fm/s/64e3aad0/podcast/rss"),
+CrawlRSSWeb5Ngay("chuyen-ve-nhung-manh-ghep", "podcast", "https://anchor.fm/s/45ba77ec/podcast/rss"),
+CrawlRSSWeb5Ngay("the-finding-audio", "podcast", "https://anchor.fm/s/72b86178/podcast/rss"),
+CrawlRSSWeb5Ngay("the-blue-expat", "podcast", "https://feeds.acast.com/public/shows/647700fa9aab2f001135cb5f"),
+CrawlRSSWeb5Ngay("teayou-podcast", "podcast", "https://anchor.fm/s/113808a4/podcast/rss"),
+CrawlRSSWeb5Ngay("thu-vien-sach-noi", "podcast", "https://feeds.transistor.fm/th-vi-n-sach-noi"),
+CrawlRSSWeb5Ngay("hanh-phuc-gia-dinh", "podcast", "https://anchor.fm/s/f37be348/podcast/rss"),
+
+CrawlRSSWeb5Ngay("lukes-english-podcast", "podcast-english", "https://access.acast.com/rss/62b0ada25c7ea10012f541cb/"),
+CrawlRSSWeb5Ngay("esl-talk", "podcast-english", "https://feeds.acast.com/public/shows/6092f46767f02f7d0df16909"),
+CrawlRSSWeb5Ngay("esl-podcast", "podcast-english", "https://anchor.fm/s/3de6bbac/podcast/rss"),
+CrawlRSSWeb5Ngay("chatterbox", "podcast-english", "https://feed.podbean.com/chatterboxreds/feed.xml"),
+CrawlRSSWeb5Ngay("real-talk", "podcast-english", "https://anchor.fm/s/b58c4244/podcast/rss"),
+CrawlRSSWeb5Ngay("business-english", "podcast-english", "http://feeds.feedburner.com/businessenglishpod"),
+CrawlRSSWeb5Ngay("the-business-english-podcast", "podcast-english", "https://feeds.buzzsprout.com/2041998.rss"),
+CrawlRSSWeb5Ngay("the-porto-podcast", "podcast-english", "https://feed.podbean.com/fcportopodcast/feed.xml"),
+CrawlRSSWeb5Ngay("learn-english-with-voice-of-america", "podcast-english", "https://anchor.fm/s/ba71bdac/podcast/rss"),
+CrawlRSSWeb5Ngay("splendid-speaking", "podcast-english", "https://splendidspeaking.podomatic.com/rss2.xml"),
+CrawlRSSWeb5Ngay("cultural-diversity", "podcast-english", "https://anchor.fm/s/c24cde1c/podcast/rss"),
+CrawlRSSWeb5Ngay("hoc-tieng-anh-qua-am-thuc-viet", "podcast-english", "https://anchor.fm/s/f4825fc4/podcast/rss"),
+
+CrawlRSSWeb5Ngay("truyen-co-tich", "podcast-cho-tre-em", "https://anchor.fm/s/f32db7f4/podcast/rss"),
+CrawlRSSWeb5Ngay("truyen-ngan-chon-loc", "podcast-cho-tre-em", "https://anchor.fm/s/f32d7208/podcast/rss"),
+CrawlRSSWeb5Ngay("van-hoc-thieu-nhi", "podcast-cho-tre-em", "https://anchor.fm/s/f5a0e434/podcast/rss"),
+CrawlRSSWeb5Ngay("be-ngu-ngoan", "podcast-cho-tre-em", "https://feeds.buzzsprout.com/1336162.rss"),
+CrawlRSSWeb5Ngay("um-ba-la-the-gioi-mo-ra", "podcast-cho-tre-em", "https://anchor.fm/s/6e3dfd4c/podcast/rss"),
+CrawlRSSWeb5Ngay("truyen-co-nuoc-ngoai-cho-be", "podcast-cho-tre-em", "https://feed.podbean.com/vforvien/feed.xml"),
+CrawlRSSWeb5Ngay("ke-truyen-cho-be", "podcast-cho-tre-em", "https://anchor.fm/s/8462cc24/podcast/rss"),
+
+
+//https://tkcx.buzzsprout.com/
+await CrawlRSSWeb5Ngay("tam-su-kinh-doanh","podcast", "https://feeds.buzzsprout.com/158334.rss");
+
+//https://podtail.com/podcast/better-version/
+await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/6d0b6694/podcast/rss");
+
+//tâm sự tài chính
+//https://anchor.fm/s/36c11764/podcast/rss
+await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/36c11764/podcast/rss");
+
+//hieu tv
+//https://anchor.fm/s/4cfb55bc/podcast/rss
+await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/4cfb55bc/podcast/rss");
+
+//Chàng-Ngốc-Già
+//https://anchor.fm/s/4a3e8dbc/podcast/rss
+await CrawlRSSWeb5Ngay("better-version", "podcast", "https://anchor.fm/s/4a3e8dbc/podcast/rss");
+
+//Bác Sĩ Tài Chính
+//https://anchor.fm/s/671809b8/podcast/rss
+
+//Tài Chính & Kinh Doanh
+//https://anchor.fm/s/6a069144/podcast/rss
+//Nguyễn Phi Vân's Podcast
+//https://anchor.fm/s/659baab8/podcast/rss
+//vì sao thế nhỉ
+//https://anchor.fm/s/8453cddc/podcast/rss
+//## Giáo dục đời sống
+//EduStation
+//https://feeds.buzzsprout.com/1892626.rss
+//Chầm Chậm Mà Sống
+//https://anchor.fm/s/1eee4df0/podcast/rss
+//Oddly normal
+//https://feeds.simplecast.com/AfGWUmjw
+//Kể Cho Tôi Nghe
+//https://anchor.fm/s/379ee24c/podcast/rss
+//The Present Writer
+//https://anchor.fm/s/326d676c/podcast/rss
+//Giang ơi Radio
+//https://feeds.soundcloud.com/users/soundcloud:users:341012174/sounds.rss
+//Tam Ly Hoc Tuoi Tre
+//https://anchor.fm/s/25d0eccc/podcast/rss
+//MÂY Podcast
+//https://anchor.fm/s/6fb98254/podcast/rss
+//Tâm Lý Ơi (Dear Mind)
+//https://anchor.fm/s/5b1c3544/podcast/rss
+//Amateur Psychology - Tay mơ học đời bằng Tâm lý học
+//https://anchor.fm/s/31c96068/podcast/rss
+//Gen Z Tập Lớn
+//https://anchor.fm/s/64e3aad0/podcast/rss
+//Chuyện về những mảnh ghép
+//https://anchor.fm/s/45ba77ec/podcast/rss
+//the finding audio
+//https://anchor.fm/s/72b86178/podcast/rss
+//The Blue Expat
+//https://feeds.acast.com/public/shows/647700fa9aab2f001135cb5f
+//Teayou Podcast
+//https://anchor.fm/s/113808a4/podcast/rss
+//Thư Viện Sách Nói!
+//https://feeds.transistor.fm/th-vi-n-sach-noi
+
+
+//luyện nghe tiếng anh --> chung
+//Luke's ENGLISH Podcast - Learn British English with Luke Thompson||https://ww
+w.listennotes.com/podcasts/lukes-english-podcast-learn-british-english-YQRWfBhT6Lr/
+//https://access.acast.com/rss/62b0ada25c7ea10012f541cb/
+
+//ESL talk ||https://www.listennotes.com/vi/podcasts/esl-talk-esl-talk-podcast--RmwnKsfOIT/
+//https://feeds.acast.com/public/shows/6092f46767f02f7d0df16909
+// ESL Podcast || https://www.listennotes.com/podcasts/esl-podcast-drielle-paetznick-GR8SPXqctgv/
+//https://anchor.fm/s/3de6bbac/podcast/rss
+
+//Chatterbox: những cuộc hội thoại, phỏng vấn tiếng Anh với tốc độ nói chậm rãi và nội dung đơn giản dễ hiểu.
+||https://www.listennotes.com/vi/podcasts/chatterbox-reds-cincinnati-reds-daily-game-Ba2cg-1kTHE/
+//https://feed.podbean.com/chatterboxreds/feed.xml
+
+//Real Talk: những cuộc hội thoại bất ngờ, cùng với những tình huống thực tế xảy ra ở cuộc sống hằng ngày.
+||https://www.listennotes.com/vi/podcasts/real-talk-niki-patton-TUQIkhvLRyu/
+//https://anchor.fm/s/b58c4244/podcast/rss
+
+//Business English Pod ||
+//http://feeds.feedburner.com/businessenglishpod
+
+// The Business English Podcast
+//https://feeds.buzzsprout.com/2041998.rss
+//The Porto Podcast in English
+//https://feed.podbean.com/fcportopodcast/feed.xml
+
+//Learn English with Voice of America
+//https://anchor.fm/s/ba71bdac/podcast/rss
+//Splendid Speaking
+//https://splendidspeaking.podomatic.com/rss2.xml
+//Cultural Diversity
+//https://anchor.fm/s/c24cde1c/podcast/rss
+//Học tiếng Anh qua ẩm thực Việt
+//https://anchor.fm/s/f4825fc4/podcast/rss
+
+
+
+//## Trẻ em
+// Truyện cổ tích
+//https://anchor.fm/s/f32db7f4/podcast/rss
+// Truyện ngắn chọn lọc
+//https://anchor.fm/s/f32d7208/podcast/rss
+//Văn học thiếu nhi
+//https://anchor.fm/s/f5a0e434/podcast/rss
+//Hạnh phúc -Gia đình
+//https://anchor.fm/s/f37be348/podcast/rss
+//Bé Ngủ Ngoan&#39;s Podcast
+//https://feeds.buzzsprout.com/1336162.rss
+//ÚM BA LA, THẾ GIỚI MỞ RA
+//https://anchor.fm/s/6e3dfd4c/podcast/rss
+//Truyện cổ nước ngoài cho bé
+//https://feed.podbean.com/vforvien/feed.xml
+//Kể Truyện Cho Bé (Audio)
+//https://anchor.fm/s/8462cc24/podcast/rss
