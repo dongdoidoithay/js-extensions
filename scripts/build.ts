@@ -8,7 +8,7 @@ if (!fs.existsSync(REPO_DIR)) {
   fs.mkdirSync(REPO_DIR, { recursive: true });
 }
 
-type BuildTarget = 'manga' | 'mp3' | 'novel'| 'comic'|'mp4'|'mp4-hard'|'truyen-ma'|'film-2k';
+type BuildTarget = 'manga' | 'mp3' | 'novel'| 'comic'|'mp4'|'mp4-hard'|'truyen-ma'|'film-2k'|'audio-rss';
 type Mp3Store = 'default' | 'google' | 'amazon';
 
 type TargetConfig = {
@@ -82,6 +82,13 @@ const TARGETS: Record<BuildTarget, TargetConfig> = {
     mockupFileName: 'film-2k.min.json',
     label: 'film-2k',
   },
+  'audio-rss': {
+    srcDir: path.join(__dirname, '../src-audio-rss'),
+    outputFile: path.join(REPO_DIR, 'mp3-audiorss.json'),
+    mockupDir: path.join(__dirname, '../../mp3-audio-rss/src/core/data-mockup'),
+    mockupFileName: 'mp3-audiorss.json',
+    label: 'audio-rss',
+  },
 };
 
 const MP3_STORE_CONFIGS: Record<Mp3Store, Mp3StoreConfig> = {
@@ -138,11 +145,11 @@ function walkDir(dir: string, fileList: string[] = []): string[] {
 function parseTargets(args: string[]): BuildTarget[] {
 
   if (args.length === 0) {
-    return ['manga', 'mp3', 'novel', 'comic', 'mp4', 'mp4-hard','truyen-ma', 'film-2k'];
+    return ['manga', 'mp3', 'novel', 'comic', 'mp4', 'mp4-hard','truyen-ma', 'film-2k', 'audio-rss'];
   }
 
   if (args.includes('all')) {
-    return ['manga', 'mp3', 'novel', 'comic', 'mp4', 'mp4-hard','comic', 'truyen-ma','film-2k'];
+    return ['manga', 'mp3', 'novel', 'comic', 'mp4', 'mp4-hard','comic', 'truyen-ma','film-2k', 'audio-rss'];
   }
 
   const targets = args.filter((value): value is BuildTarget => value in TARGETS);
@@ -231,8 +238,9 @@ function buildRepo(target: BuildTarget, options: BuildOptions) {
       const content = fs.readFileSync(file, 'utf-8');
       const config: SourceConfig = JSON.parse(content);
 
-      // Basic validation
-      if (!config.id || !config.name || !config.lang || !config.baseUrl) {
+      // Basic validation — allow empty baseUrl for RSS sources (they use full paths per entry)
+      const isRssSource = config.sourceType === 'rss';
+      if (!config.id || !config.name || !config.lang || (!isRssSource && !config.baseUrl)) {
         console.warn(`[WARNING] Skipping invalid config: ${file}`);
         continue;
       }
