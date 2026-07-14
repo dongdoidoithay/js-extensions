@@ -1,0 +1,4728 @@
+{
+  "id": "rss_podcast_jp_ja",
+  "name": "人気ポッドキャスト",
+  "lang": "ja",
+  "nameLang": "日本語 Podcast",
+  "baseUrl": "",
+  "version": "2.0.0",
+  "description": "日本の人気RSSポッドキャストを集めたコレクション",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "isShowInfo": false,
+  "showSourceImages": true,
+  "sourceType": "rss",
+  "tags": [
+    {
+      "name": "人気番組",
+      "id": "PodCastJaTop"
+    },
+    {
+      "name": "ニュース",
+      "id": "PodCastJaNews"
+    },
+    {
+      "name": "コメディ",
+      "id": "PodCastJaComedy"
+    },
+    {
+      "name": "社会と文化",
+      "id": "PodCastJaCulture"
+    },
+    {
+      "name": "ビジネス",
+      "id": "PodCastJaBusiness"
+    },
+    {
+      "name": "犯罪実話",
+      "id": "PodCastJaTruecrime"
+    }
+  ],
+  "dataListTags": [
+    {
+      "key": "PodCastJaTop",
+      "name": "安住紳一郎の日曜天国",
+      "path": "https://feeds.megaphone.fm/TBS2679398439",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/01/04/da/0104da6a-58e9-956d-c199-3733d9e010ad/mza_7573759602444866541.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "マユリカのうなげろりん！！",
+      "path": "https://feeds.megaphone.fm/unagerorin",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f6/26/b1/f626b11d-a5df-e1cc-c8e7-829696a76123/mza_11500113779975659331.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "歴史を面白く学ぶコテンラジオ （COTEN RADIO）",
+      "path": "https://anchor.fm/s/8c2088c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e3/bd/be/e3bdbe9a-ebe1-03be-2fd2-658c5e64825a/mza_10324805544078569436.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "大久保佳代子とらぶぶらLOVE",
+      "path": "https://feeds.megaphone.fm/TBS5907234265",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/62/0b/69620b26-b9a4-d295-6bb6-b20c52cf95a0/mza_16303464997215541275.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "朝井リョウ・加藤千恵 信頼できない語り手",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/119fad05-0faa-47c5-898b-b3e5005ceaac/418670c9-0dad-4937-80c6-b3e5005cef49/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/93/26/c19326fa-2019-1af3-ef15-64131c5d6ad1/mza_16228432748581830117.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "NHKラジオニュース",
+      "path": "https://www.nhk.or.jp/s-media/news/podcast/list/v1/all.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/14/3e/01/143e0148-1d4a-197e-8db6-7c28f22fb70a/mza_1995634670380288253.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ゆる言語学ラジオ",
+      "path": "https://api.robotstart.jp/api/v1/feeds/35d00481/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/cc/37/04/cc370489-c6c8-9408-9347-59f1f65e74da/mza_10976010736501395871.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "TBSラジオ『ジェーン・スーと堀井美香の「OVER THE SUN」』",
+      "path": "https://feeds.megaphone.fm/TBS3429819532",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2f/9d/e5/2f9de59e-a5f1-cdcc-fcf4-10147dc0653d/mza_15957388945670520250.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ジェーン・スー　生活は踊る",
+      "path": "https://feeds.megaphone.fm/TBS1408470359",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1f/73/49/1f73495a-2a38-330a-eb99-38b9cb4f7de2/mza_9579570204226707099.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "紅しょうがは好きズキ！",
+      "path": "https://feeds.megaphone.fm/RKL8555893481",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ad/86/51/ad8651a9-54ad-86ec-14af-8e9a46663c5d/mza_12561792167989660732.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "6 Minute English",
+      "path": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ba/98/35/ba9835eb-1ef3-60e4-bf05-3d141b8d1c7a/mza_3844641997714022659.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "真空ジェシカのラジオ父ちゃん",
+      "path": "https://feeds.megaphone.fm/TBS6605278277",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/cf/c9/fccfc901-0b45-8c12-f07f-4fbac33ef33e/mza_9357351973649611342.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ダイアンのTOKYO STYLE",
+      "path": "https://feeds.megaphone.fm/TBS7715291070",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/42/73/794273a2-facf-93f7-9e36-8c8f0735ae2d/mza_8657772910591235587.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ながら日経",
+      "path": "https://feeds.megaphone.fm/nagara",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/88/57/c188574c-c823-81db-2eb2-a779872f1ff8/mza_2827368413544672262.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "News Connect あなたと経済をつなぐ5分間 #ニュースコネクト",
+      "path": "https://anchor.fm/s/81fb5eec/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/85/b4/c0/85b4c09c-4db3-707e-0a54-c95e60d3bbac/mza_7861046103707665682.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "限界突破ライフハック",
+      "path": "https://anchor.fm/s/10d527f20/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a9/c8/34/a9c834eb-8be3-d198-376c-61ff1457f730/mza_10630730981758151080.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ラランドの声溜めラジオ｜GERA",
+      "path": "https://feeds.megaphone.fm/FNCOMMUNICATIONSINC5758794829",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/af/3d/86/af3d8642-949b-f630-bc97-816b8f0495b8/mza_3593984030218248192.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "空気階段の踊り場",
+      "path": "https://feeds.megaphone.fm/TBS2643761064",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1d/8c/2a/1d8c2ab2-d5f7-0056-491a-47a60cdc2725/mza_4529205469626092349.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "小芝風花のよりみち【オールナイトニッポンPODCAST】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/2aa41d58-ee8d-4f61-a8d9-b4730010db6d/69c70646-b4a9-47e8-a05a-b4730010deec/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/73/14/ad/7314adcf-dc53-9881-1d46-18b2cc07f264/mza_9499528513632951038.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "Global News Podcast",
+      "path": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/57/09/8457093f-677a-d6de-5666-6514cc588a7e/mza_17083078915388787537.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "真誠presents　大久保佳代子・森本晋太郎のどうぞご自由に",
+      "path": "https://feeds.megaphone.fm/CBCRADIO9523050208",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3c/ab/20/3cab2037-1289-7ab6-6095-c5798f38c171/mza_9187604541281590295.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ガスワン presents 田中みな実 あったかタイム",
+      "path": "https://feeds.megaphone.fm/TBS7383424177",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4a/d5/1c/4ad51cb9-bfed-06ba-9570-785d7a5404bc/mza_3833995816838675219.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ゆるコンピュータ科学ラジオ",
+      "path": "https://api.robotstart.jp/api/v1/feeds/35ac047a/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/b0/ec/8d/b0ec8df9-eed3-cf98-45b7-24108c163041/mza_18019948972792967324.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "辛坊治郎 ズーム そこまで言うか！【最新回のみ】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/faed9f7a-6434-4e82-b4b3-abac000c1fa2/63f34096-5ddb-4815-850a-b2a3004703ce/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/16/a9/90/16a990ed-a656-d92f-6bc7-974d45ab491c/mza_6250658567748533741.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "English News - NHK WORLD RADIO JAPAN",
+      "path": "http://www3.nhk.or.jp/rj/podcast/rss/english.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/74/18/13/741813fb-4590-7f98-9723-6129532d5402/mza_12541061958878865421.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "イースト駅前クリニック presents 川島明のねごと",
+      "path": "https://feeds.megaphone.fm/TBS4392775827",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a9/4f/51/a94f5113-6722-9572-d153-53357a4890b5/mza_14541485864136556463.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "英語で雑談！Kevin’s English Room Podcast",
+      "path": "https://anchor.fm/s/260e5c24/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/a6/09/48/a6094829-27bc-40d1-1715-358cf7295b73/mza_2616815330632459089.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ぼる塾あんりと田辺の食べて喋って",
+      "path": "https://feeds.megaphone.fm/TBS5986196202",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/81/b7/ad/81b7ad19-b1d5-1aa9-615b-47d437af0ffb/mza_14090828405948449691.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "令和ロマンのご様子",
+      "path": "https://feeds.megaphone.fm/NI8173303106",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d4/5b/c0/d45bc0d6-0712-e2eb-9139-27a1d373f2f1/mza_6775707422721421660.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "はちくちダブルヒガシ",
+      "path": "https://feeds.megaphone.fm/RKL7158095020",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bb/13/b2/bb13b289-11c9-04c2-9da0-358fdc188008/mza_14426486003747170286.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "こたけ正義感の聞けば無罪",
+      "path": "https://www.omnycontent.com/d/playlist/7e360234-755c-43f9-8509-ae92005f0b89/0ea59c78-4209-4037-98bb-b1a000417b1b/95511e3f-5948-42af-885a-b1a000434501/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0f/40/45/0f40456f-8276-697f-182a-dcda6756cda4/mza_790577376325148056.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "Marina OgushiのNode Radio",
+      "path": "https://anchor.fm/s/1096f6ae4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3b/d7/05/3bd70576-cdbd-a873-8043-e2a6d5f2595c/mza_8550017465205400475.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "経済ニュース　今日の気になる話題",
+      "path": "https://anchor.fm/s/f814433c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/eb/37/78/eb377824-6a35-1c00-85ba-f55f73a8ce8f/mza_16563277299036622063.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "All Ears English Podcast",
+      "path": "https://feeds.megaphone.fm/allearsenglish",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cb/a1/13/cba113a7-999d-3c3d-a594-900adb69624e/mza_7992161192502469150.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "上泉雄一のええなぁ！",
+      "path": "https://feeds.megaphone.fm/uwa",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5b/3b/6b/5b3b6b03-3925-810c-1b5c-c7545094aff0/mza_2114377704529958774.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "荻上チキ・Session～発信型ニュース・プロジェクト",
+      "path": "https://feeds.megaphone.fm/TBS7072964704",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/17/13/ca/1713ca15-d0bc-9bed-853d-c334191d5579/mza_9832747115766678708.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "金曜JUNK バナナマンのバナナムーンGOLD",
+      "path": "https://feeds.megaphone.fm/TBS8652494187",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/14/ce/0d/14ce0dac-e3bd-343c-ad91-8f633cd4039e/mza_2473095015787176370.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "プレジデント音声版",
+      "path": "https://www.omnycontent.com/d/playlist/a10fab0c-08e4-4ce4-abed-aeb601152bcc/fa8d9e0c-1e7b-4e5e-81c9-aebc0016b5a2/2bdab59e-ba3e-4897-b598-aebc0016b5b0/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0a/60/f0/0a60f0ad-f1f7-8bc0-9271-00dcac695901/mza_507359556663014182.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "問わず語りの神田伯山",
+      "path": "https://feeds.megaphone.fm/TBS7474162925",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9e/50/01/9e50013c-0d0c-819a-624d-5eac34a8fb6b/mza_17621206430771841488.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "武田鉄矢・今朝の三枚おろし",
+      "path": "https://feeds.megaphone.fm/NCB9110418240",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ac/5b/55/ac5b55ca-52d4-ef86-a704-ea34f3475949/mza_8555962990497719366.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "Learning Easy English",
+      "path": "https://podcasts.files.bbci.co.uk/p0hsrwv5.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ca/43/99/ca439923-ed6a-90a6-e3b3-056802b84c20/mza_6408114298553732245.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ゆる哲学ラジオ",
+      "path": "https://api.robotstart.jp/api/v1/feeds/372c0491/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/53/3f/67/533f678d-5042-1ec5-9d27-0198d3216b0c/mza_12527289142296109203.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "さらば青春の光がTaダ、Baカ、Saワギ",
+      "path": "https://feeds.megaphone.fm/TBS4938644133",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/49/a0/db/49a0db95-7042-f059-c1dd-a1c72fc67dcc/mza_15463751647939584462.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "Hapa英会話 Podcast",
+      "path": "https://feeds.acast.com/public/shows/65a19d6398c1070016f3e0f8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/32/01/fb/3201fb9f-c284-8273-6832-0aed6b7a4d28/mza_6432996578399273752.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "超リアルな行動心理学",
+      "path": "https://anchor.fm/s/4ce7a51c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/69/06/79/69067961-7d3b-ccab-876b-05abbc106f7c/mza_13072912659744040234.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "となりの雑談",
+      "path": "https://feeds.megaphone.fm/TBS6714057012",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/b5/2c/2bb52c4f-93bf-c1ed-40f2-ec00cec11be2/mza_359700605229109175.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "きしたかののブタピエロ",
+      "path": "https://feeds.megaphone.fm/TBS5047240921",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7f/8f/d0/7f8fd054-b279-75ad-958b-03f409f72d71/mza_12303180954735712109.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "岡野陽一の肉の塊",
+      "path": "https://feeds.megaphone.fm/TBS9177669118",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/da/cf/b3/dacfb31c-cccc-15cf-8d54-ddc75b1d13a2/mza_18157423458275638334.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "岩場の女（ヒコロヒー）",
+      "path": "https://feeds.megaphone.fm/TBS3459615911",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a5/b5/50/a5b5502d-f57e-922e-e7d2-ee4eb33ee4e6/mza_16118613912757165481.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "あんまり役に立たない日本史",
+      "path": "https://feeds.megaphone.fm/TRE5731924318",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/72/21/be722151-b044-9d52-533e-65460d5ea6c7/mza_15465769074720678915.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "TED Talks Daily",
+      "path": "https://feeds.acast.com/public/shows/67587e77c705e441797aff96",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2e/cf/99/2ecf996f-71f7-604f-b0a0-43116b9d6619/mza_10257768296573848480.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "学校では教えてくれない”見えない力”の授業〜「大人の非認知能力」〜",
+      "path": "https://rss.art19.com/cec4dd24-8294-4a89-ae7e-926371fcf5ad",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/39/e1/2039e115-a94f-f8f4-90ff-5f9741b655f8/mza_9860465580127356456.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "東京ポッド許可局",
+      "path": "https://feeds.megaphone.fm/TBS5133789627",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/27/f0/eb/27f0ebe8-7773-8dc0-453b-22f8230b1fc7/mza_11338956620111059897.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "英語聞き流し | Sakura English",
+      "path": "https://api.robotstart.jp/api/v1/feeds/378004a3/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7b/9c/83/7b9c836a-0d8e-d171-68fd-27a8d0b0de7f/mza_14299853164239863346.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ヤング日経（サクッとわかるビジネスニュース）",
+      "path": "https://feeds.megaphone.fm/young",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d9/1c/7a/d91c7aae-d9ef-5c3a-b447-06c73d2e59a9/mza_17733967575770143662.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "アフター6ジャンクション 2",
+      "path": "https://feeds.megaphone.fm/TBS3753603712",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/df/a6/7b/dfa67bee-ebad-83e6-25a6-e0248398e5f4/mza_14678389558391108721.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "「NONSTYLE漫才セレクション『耳笑い』」",
+      "path": "https://feeds.megaphone.fm/YOSHIMOTOKOGYOCOLTD1438164441",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/8b/dc/888bdc63-7f1e-c8aa-1f6e-da175e167072/mza_14319435509763174299.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "神保町で会いましょう",
+      "path": "https://feeds.megaphone.fm/FUBI5605850457",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/64/eb/76/64eb76aa-3bc7-109f-7614-daa45cb5bb4e/mza_136241843161618603.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ゆる民俗学ラジオ",
+      "path": "https://api.robotstart.jp/api/v1/feeds/36a5048b/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/38/c8/1b/38c81bcb-e0c5-c825-e5be-363a9b76318f/mza_12803240590055494035.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ハライチのターン！",
+      "path": "https://feeds.megaphone.fm/TBS4550274867",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/d1/7c/c9d17c2b-655d-7798-f056-8ad4816dbb5d/mza_12479515898056387192.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "解説！1日5分ビジネス英語",
+      "path": "https://anchor.fm/s/fb04e5d8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/74/6b/4e/746b4e63-1e59-a361-71cf-c61fa1f8e63f/mza_5015130455789899146.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "kemioの言わせて言うだけEverything",
+      "path": "https://anchor.fm/s/f0e04264/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c0/ef/a5/c0efa5d5-3e62-0957-ca7e-5e40e26e54c1/mza_8005130533709999819.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "ぽこピーのゆめうつつ",
+      "path": "https://anchor.fm/s/1035e1308/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d0/32/f9/d032f9dc-e042-fd6c-524e-c237a25dca25/mza_7825738791001692436.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "歴史を紐解く！聞き流し偉人伝",
+      "path": "https://api.robotstart.jp/api/v1/feeds/37ec04a1/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ec/fe/ae/ecfeaeb2-6d73-c3cc-2128-2e550869b036/mza_8836973450202907612.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTop",
+      "name": "【聞き流し英語】すぐに使える簡単英語を身につける！ 🍎",
+      "path": "https://api.robotstart.jp/api/v1/feeds/343d0471/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/56/4b/6e/564b6eb7-1731-77f5-bd6f-e317c2507a77/mza_10194388616654626046.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ニュースの現場から",
+      "path": "https://www.omnycontent.com/d/playlist/1e3bd144-9b57-451a-93cf-ac0e00e74446/50382bb4-3af3-4250-8ddc-ac0f0033ceb5/684015f9-2396-4ac4-bc1f-ac0f0033d08c/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9c/fd/ed/9cfded62-7f04-d667-0f17-eaabd8e1e2ac/mza_2268667171157710248.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "NewsPicks Daily Briefing w/ NP AI Lab",
+      "path": "https://anchor.fm/s/5aafac80/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ca/d9/69/cad969b8-57b5-fbf7-7b41-176b364bff3c/mza_13042477685771916129.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "伊藤洋一のRound Up World Now！",
+      "path": "https://www.radionikkei.jp/podcast/roundup/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/85/41/bb/8541bb1e-d37d-3f3b-bf80-1ae3d74691e6/mza_1569366675951101305.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "World News Tonight with David Muir",
+      "path": "https://feeds.megaphone.fm/ESP4140596756",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/04/87/fc/0487fce8-f8e7-bd55-6ea7-8049ddc38283/mza_3571144145691234773.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ニュースを深く面白く　報談 【HOU-DAN】　ホウダン",
+      "path": "https://www.omnycontent.com/d/playlist/1e3bd144-9b57-451a-93cf-ac0e00e74446/50382bb4-3af3-4250-8ddc-ac0f0033ceb5/9212d823-d670-423a-ab01-ac1000d97d6f/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/61/46/73/6146733e-1e3c-94e0-fb61-3867a1017bb4/mza_1991154371780964153.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "MEDIA TALK メディアトーク",
+      "path": "https://www.omnycontent.com/d/playlist/1e3bd144-9b57-451a-93cf-ac0e00e74446/50382bb4-3af3-4250-8ddc-ac0f0033ceb5/07a1de49-67cf-4714-8581-ac1000059302/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/1a/4b/be/1a4bbe0b-8443-c7b4-f94a-c67bb0de4260/mza_9248056022144491993.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "The Daily",
+      "path": "https://feeds.simplecast.com/Sl5CSM3S",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/64/66/ab6466a9-9a7d-e20e-7a3d-bc5be37d29ce/mza_15084852813176276273.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ニュースの学校",
+      "path": "https://www.omnycontent.com/d/playlist/1e3bd144-9b57-451a-93cf-ac0e00e74446/50382bb4-3af3-4250-8ddc-ac0f0033ceb5/928f134e-3a6c-4738-a134-acbd00746afe/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ab/44/3b/ab443b66-89cb-62ad-7e76-c4f5dc50a453/mza_7705001864239423934.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "THE INSIGHT ～分析 世界の力学～",
+      "path": "https://anchor.fm/s/1125bc760/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/45/bd/02/45bd02eb-2918-1015-fe1b-36aae8936071/mza_7171704681712134319.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "セイジドウラク",
+      "path": "https://feeds.megaphone.fm/TBS8285300689",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a6/08/85/a6088516-2d4b-8131-5832-7e65e50bc327/mza_617173989251740418.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "NPR News Now",
+      "path": "https://feeds.npr.org/500005/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/27/a0/ab/27a0abb7-817f-d80c-4fed-6fd04d424333/mza_16804553558295235422.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "NIKKEIで深読み 中国経済の真相",
+      "path": "https://www.radionikkei.jp/podcast/cn_shinsou/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e1/ff/c2/e1ffc244-6055-f6c0-805a-8847daed8fb0/mza_4810246036600002812.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "森本毅郎・スタンバイ！",
+      "path": "https://feeds.megaphone.fm/TBS3478276531",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/6b/dd/e86bdd16-d87b-c9ad-4e42-a1698147ac11/mza_17997555377437389610.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "NIKKEI PrimeVOICE（日経プライムボイス）",
+      "path": "https://anchor.fm/s/f4f9d3d8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3a/47/5d/3a475d28-061d-61a6-8acc-03d028be8447/mza_9030223381223882396.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "CNN This Morning",
+      "path": "https://feeds.megaphone.fm/WMHY6944338691",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/62/7f/86627f49-cc69-d26c-3f65-ef338b792dba/mza_2539191479833462863.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "朝日新聞AJW 英語ニュース（The Asahi Shimbun Asia & Japan Watch）",
+      "path": "https://www.arukiki.jp/asahi_01/ajw_lang_en/feed.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/b9/55/78/b955785a-b8f3-c4fd-e49a-9fc0af07b55e/mza_7614004546987872953.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "週刊 ワシントン",
+      "path": "https://feeds.megaphone.fm/TBS1012723189",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/98/3d/d0/983dd029-4e45-13b0-254e-b6b8651a087e/mza_5443502228997402467.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "WSJ What’s News",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/whats-news",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/7d/a7/657da78c-5043-57ae-bd81-fb5352479baa/mza_999814641005091524.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "田村淳のNewsCLUB 今週の気になるニュース",
+      "path": "https://www.omnycontent.com/d/playlist/92f07af0-df9c-498e-a68a-ab4201477bd9/f12d9b7c-196b-4569-8639-ac05007c89f1/554d091d-7f51-412a-aaec-ad9c00d712e5/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/60/15/78/60157881-f126-7664-7e9b-3caf59714382/mza_5957323578233357820.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Asia Specific",
+      "path": "https://podcasts.files.bbci.co.uk/w13xtwds.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ba/cd/95/bacd95cb-767b-0f73-0df3-2ad00b8784d3/mza_11190847314985877532.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ひろゆき切り抜きポッドキャスト【公認】",
+      "path": "https://api.robotstart.jp/api/v1/feeds/35940490/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/e7/be/4f/e7be4f3a-aa13-077f-af66-0cf7f5781889/mza_10611125904744686272.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "町田徹のふかぼり！",
+      "path": "https://www.radionikkei.jp/podcast/fukabori/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6d/20/f6/6d20f6e2-ffaa-92cf-6b19-09cfdb7f06da/mza_8612839464361251306.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "小泉進次郎のポッドキャスト",
+      "path": "https://feeds.megaphone.fm/shinjirokoizumi",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5c/22/73/5c22735a-911f-908a-9135-8a126a64835c/mza_17238199518203920529.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "FT News Briefing",
+      "path": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/60/fd/0c/60fd0c79-808e-cc79-e121-27527becbdc6/mza_1413179331890984538.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Bloomberg News Now",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d9566f78-0464-4367-9dcc-b05700aeec6f/7f880b3c-7f67-4b4b-b520-b05700af9172/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c5/ef/49/c5ef49b8-b095-988a-79f3-fd5ac84aa182/mza_4689791841539021230.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Apple News Radio ワンボタンの声",
+      "path": "http://radio.voiceofonebutton.net/index20.rdf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts/v4/a8/04/50/a8045087-5906-cc5d-8ec9-80e709a7a6c0/mza_1154459062569165595.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "週刊文春Podcast",
+      "path": "https://www.omnycontent.com/d/playlist/453271b1-1b43-4e76-938d-ae6d012feacc/b99ba790-f487-4956-aab0-ae71006105d1/3f80cd3c-2a74-4c34-9a7c-ae71006105e4/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/62/16/d7/6216d741-0a5f-77e0-c0a9-1e1aaea1783c/mza_6774381768906548157.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ワールドリポート　ＮＨＫラジオ「マイあさ！」",
+      "path": "https://www.nhk.or.jp/s-media/F519/podcast/list/v1/all.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/01/71/04/01710443-bf2a-3e0d-13b2-1eeaa52ea43e/mza_10919678901067023754.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "マイ！Ｂｉｚ＆政治の現場　ＮＨＫラジオ「マイあさ！」",
+      "path": "https://www.nhk.or.jp/s-media/F867/podcast/list/v1/all.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c3/cb/e9/c3cbe987-63bf-a0cb-55d4-6b8ba3609002/mza_7969650537426492297.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "毎日新聞ポッドキャスト　-世の中の「いま」を記者が読み解く-",
+      "path": "https://anchor.fm/s/105aa6918/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8f/9e/17/8f9e178f-7c85-f69f-f8d8-7ba142a6a460/mza_2630215536151433214.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "読売新聞音声ニュース",
+      "path": "https://www.omnycontent.com/d/playlist/1ac836f7-a55f-4b30-8e98-aeac011f8199/98d8085a-3352-4712-b1a8-b10f003f4ba3/92340250-9561-4fdb-91a8-b10f0041d8d0/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/76/76/3f/76763fe1-57d2-dc7b-c756-1809a6522d29/mza_14758019757199525964.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "吉野直也のNIKKEI切り抜きニュース",
+      "path": "https://www.radionikkei.jp/podcast/kirinuki_news/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/c0/ed/9e/c0ed9ec7-bb66-0fef-82f8-791a72ce719b/mza_8643987724522896169.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "World Business Report",
+      "path": "https://podcasts.files.bbci.co.uk/p00fvhj7.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/59/e5/4c59e58d-3705-07ae-8202-cd6dc0c1a775/mza_14776944308557775503.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Kids' News - キッズニュース",
+      "path": "https://anchor.fm/s/10afb9540/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/74/5b/ed745ba0-8cb7-5d0d-5e60-181134a8f82e/mza_2181467771622233691.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "CNN 5 Things",
+      "path": "https://feeds.megaphone.fm/WMHY2007701094",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/60/d4/4a/60d44a35-70f9-67f0-8e67-8d601594fc4c/mza_16749620490453319754.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "聴く日経ヘッドライン",
+      "path": "https://www.radionikkei.jp/podcast/head/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/28/6a/49/286a495a-328d-75d3-1819-32a08060a9d1/mza_7779843423227834388.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "MBI 聴く経済ニュース",
+      "path": "https://anchor.fm/s/10fa72f14/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d8/30/91/d830918f-6a0b-fc7c-46a7-93a6a0a2e49c/mza_9744821923525655640.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "朝日新聞アルキキ 最新ニュース",
+      "path": "https://www.omnycontent.com/d/playlist/1e3bd144-9b57-451a-93cf-ac0e00e74446/4ed5fcbf-299a-4d2d-bde1-acc4009cef22/ee64c498-786d-4155-962a-acc4009cef3e/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/a6/67/2a/a6672a7f-a6ba-7711-2d42-4c63024e4600/mza_5697503627367420534.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ニュースのブタイウラ",
+      "path": "https://feeds.megaphone.fm/TBS5629596335",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/65/67/67/656767e2-06c2-7464-4043-e11f552c5b62/mza_3242310355969944637.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "The Journal.",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/the-journal",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/91/0e/ca/910eca32-75a3-48b6-9be7-f45799ef5f2f/mza_9869666721903280546.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "NBC Nightly News with Tom Llamas",
+      "path": "https://podcastfeeds.nbcnews.com/l7jK75d0",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/27/6f/30/276f303f-ba66-915a-7704-9f3e053614bc/mza_8179972483604136486.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "The Global Story",
+      "path": "https://podcasts.files.bbci.co.uk/w13xtvsd.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/04/79/45/047945a2-bc30-0f9f-a4c2-9d27b1761fd2/mza_3986113186933533816.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "聞くCINRA",
+      "path": "https://anchor.fm/s/d9c0e174/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/63/75/01/6375016a-5f37-9794-f34e-30fcc92d5f3a/mza_14628726875956361071.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Economist Podcasts",
+      "path": "https://access.acast.com/rss/ec380acc-fe13-46a0-991f-a1e508d126f8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/92/68/ba/9268bae8-1bd5-2a15-7f1b-7e265d4773bd/mza_10204374987848109193.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Up First from NPR",
+      "path": "https://feeds.npr.org/510318/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0e/35/25/0e352569-e694-81d9-ea55-5f935981c15a/mza_1788275989855583986.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "飯田浩司 The Daily News",
+      "path": "https://anchor.fm/s/1aa50f68/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/2c/c6/f6/2cc6f670-cc47-45f1-2063-092491461659/mza_11108777386410294001.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Good Morning America",
+      "path": "https://feeds.megaphone.fm/ESP6267756011",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/33/67/fc/3367fc61-07e6-0116-6640-9659bdcc9b14/mza_11972176346742704252.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Newshour",
+      "path": "https://podcasts.files.bbci.co.uk/p002vsnk.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/60/6d/79/606d7992-2e59-3374-579f-83d3010f25bd/mza_15128963149149619329.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "馬渕・渡辺の#ビジトピ",
+      "path": "https://feeds.megaphone.fm/TFM3982091034",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d1/e9/f8/d1e9f83e-06cb-e9a1-3705-749c6561bb50/mza_3553121522237656003.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Anderson Cooper 360",
+      "path": "https://feeds.megaphone.fm/WMHY1640189360",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/6a/ca/c16aca28-8409-fe88-42ea-a34ca07b7ce9/mza_10791453805987698187.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "気になる現場　ＮＨＫラジオ「ＮＨＫジャーナル」",
+      "path": "https://www.nhk.or.jp/s-media/F571/podcast/list/v1/all.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c5/76/1a/c5761a37-a3de-f728-e6bf-75dd5fce2a8f/mza_14325054965023179045.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Reuters World News",
+      "path": "https://feeds.megaphone.fm/reutersworldnews",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/37/79/ed/3779ed28-900c-fe28-3fd4-177873c3bba4/mza_6421898793909046859.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Official BNI Podcast",
+      "path": "https://bnipodcast.jp/feed/podcast/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/d6/6b/ea/d66bea3e-04d2-f939-50c1-7fcd48c0f6b7/mza_7059458189330587297.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "長野智子アップデート",
+      "path": "https://feeds.megaphone.fm/up",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d5/b4/3b/d5b43b60-bea5-52bc-4be5-53fa8872b53f/mza_11107514215934461600.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ABC News Update",
+      "path": "https://feeds.megaphone.fm/ESP9792844572",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/38/b0/a2/38b0a242-aba1-ecc8-6010-c29c32ca3bb2/mza_7194336539537999091.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "WSJ Tech News Briefing",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/tech-news-briefing",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cd/0b/bb/cd0bbbae-acb2-1962-6653-6b4e0634db3c/mza_2669424987953808400.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "FALENOpresents 解放！ノーブラジオ",
+      "path": "https://anchor.fm/s/113886a44/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource211/v4/a5/08/8d/a5088d4f-9a0c-85e4-f51d-23b2ad5c5acb/a6d0bd5f-5757-45fd-bca6-5a12315f2713.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ヒットの路地裏 by 日経MJ",
+      "path": "https://anchor.fm/s/113226bb8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/91/d0/ef/91d0efe4-5196-e8d9-6104-774a3e230eb6/mza_10986254953665040727.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "福本莉子のまったり幕間らじお",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/3bcedbf6-ca46-4929-ab80-b367002849e9/6226d3b5-99f8-4f4d-b5f1-b36700284d77/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bd/af/af/bdafaf3a-4483-4d4c-decc-267bf20ba250/mza_11461519811719988513.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "10分でわかる経済・ビジネスニュース",
+      "path": "https://api.robotstart.jp/api/v1/feeds/379c04a7/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4b/30/32/4b30325e-7548-7e75-c25e-43cf21c24d92/mza_10523865517488941482.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ひろゆきの暇つぶしラジオ",
+      "path": "https://anchor.fm/s/10133c12c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7f/b9/26/7fb926a0-9d7e-b01a-ab2a-eaeca29a05c9/mza_17312186735253845649.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "Journal en français facile",
+      "path": "https://apis.fle.rfi.fr/products/get_product/fle_getpodcast_by_nid_author_rfi?token_application=applepodcast_fle&program.entrepriseId=WBMZ39-FLE-FR-20220627",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/81/15/23/8115239e-731b-e9eb-aeb4-bcc7bab89aae/mza_92410675554346166.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "北京発！中国取材の現場から〜特派員が語るニュースと暮らし",
+      "path": "https://feeds.megaphone.fm/TBS2611657475",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5d/fa/a4/5dfaa433-8458-76fb-1390-faf973a34c7a/mza_18337172115829260197.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "東証マネ部！トーク",
+      "path": "https://www.radionikkei.jp/podcast/manebutalk/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/41/d6/0d/41d60d18-e170-e0ae-13e3-c4fefc119bbc/mza_8267127673033900173.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaNews",
+      "name": "ホンマのホンネ　～わたしたちのモヤモヤニュース会議～",
+      "path": "https://feeds.megaphone.fm/TAC5984069945",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/10/eb/8510ebf4-b2e0-8456-55d5-4fda738b9df5/mza_459802847565923096.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "アンガールズのジャンピン[-オールナイトニッポンPODCAST-]",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/84a2a599-ad92-4ddb-93d6-adb7007ce8de/608eb2c7-1b0b-42cf-82c1-b2a000729d2a/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/29/fd/8f/29fd8fde-1cf0-87ad-308e-dab91fb16a74/mza_17617333034284994898.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "畑芽育&齊藤なぎさ「オフはこんな感じ」",
+      "path": "https://feeds.megaphone.fm/HDYMP8390642434",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/73/94/db/7394db0d-30ff-9f6e-81d9-895f074cc485/mza_11208527935247517752.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "サンドウィッチマン　ザ・ラジオショー サタデー【最新回のみ】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/b223f2cd-52ef-4323-bf16-adb8008ab6f4/595985ea-cbc2-4285-8f10-b2a000757862/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f4/96/f9/f496f913-add1-c9fd-091d-067cffce3084/mza_15033774289312899004.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "みなみかわと大島育宙の炎上喫煙所",
+      "path": "https://anchor.fm/s/f4dc0df8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b8/b9/8f/b8b98ff9-add8-e4ae-87a1-9d262658704a/mza_12427926959665983833.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "木曜JUNK おぎやはぎのメガネびいき",
+      "path": "https://feeds.megaphone.fm/TBS1419370316",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9b/70/52/9b70522f-6db9-8266-9529-765a890208c8/mza_6180456247117565337.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "シノブとナルミの毒舌アメリカンライフ",
+      "path": "https://rss.libsyn.com/shows/527842/destinations/4539092.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a9/96/de/a996deb4-26af-0759-5474-bf47a3c4148c/mza_13790941536713198228.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "カナメストーンのカナメちゃん村",
+      "path": "https://anchor.fm/s/2295ff0c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/39/bf/f6/39bff678-402b-8043-2348-ac94c78fc56a/mza_9880627614243377235.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ウエストランド井口と吉住の孤独アジト",
+      "path": "https://feeds.megaphone.fm/kodoku-ajito",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/82/4f/65824f90-3953-24b5-c8e4-ff608500c2e2/mza_10137230448631701808.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ナイツのちゃきちゃき大放送",
+      "path": "https://feeds.megaphone.fm/TBS5501023626",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7a/21/4c/7a214c7d-638f-da6e-bbc6-362423f7e8da/mza_9048991893841183015.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "中川家 ザ・ラジオショー【最新回のみ】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/5dc00738-7328-4672-a66f-ac390052cc4b/f478bc47-c18c-4b53-ac3c-b2d600775008/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3c/09/ba/3c09ba73-d612-e0b5-8093-54f388c28c85/mza_14779138340054556296.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "スタンド・バイ・見取り図",
+      "path": "https://feeds.megaphone.fm/TBS8399262340",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c2/a1/d3/c2a1d3a8-9721-05db-ef57-a6ca17223e5b/mza_17182229491655837751.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "金属バットの社会の窓",
+      "path": "https://www.omnycontent.com/d/playlist/7e360234-755c-43f9-8509-ae92005f0b89/32244389-48d2-474e-8e61-b06000749d81/a4b881d0-0b6e-4a12-918a-b0600076d5c0/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b7/0a/44/b70a4478-e9c4-effe-2a3d-75cfc9046a8b/mza_14887400296705104366.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "--トム・ブラウンのニッポン放送圧縮計画［オールナイトニッポンPODCAST］----",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/53ca21d6-8c8f-4806-b4e4-adb4009c1ccc/f48c1cef-789e-4bb3-a4d2-b2a00073e990/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/47/08/0947085f-3278-cf1a-39ae-7b0e7d010751/mza_1862050571762846569.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ナイツ ザ・ラジオショー【最新回のみ】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/5dc00738-7328-4672-a66f-ac390052cc4b/12586d3d-2dfd-4ae2-a8cc-b2a00075a670/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e5/13/ca/e513caaa-c34b-aea3-80a4-7a828f29ddaa/mza_6854602428039990312.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "岸谷蘭丸の丸くおさまらない話",
+      "path": "https://feeds.megaphone.fm/TFM4386149333",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e5/d0/b7/e5d0b71e-7529-5e70-dec6-2bc211ecd2c1/mza_11031673532260506741.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ロッチナイトZERO",
+      "path": "https://feeds.megaphone.fm/TBS1290856771",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e2/6e/40/e26e40a5-ca4c-b74a-8cb0-3d322fc2aeb7/mza_618985491553069186.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "永野はミスターTBS",
+      "path": "https://feeds.megaphone.fm/TBS6658121496",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/30/ff/2d/30ff2db8-9024-1c73-8090-5d972919419a/mza_8806081556151777957.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ライトニングカタパルト（Lightning Catapult）",
+      "path": "https://anchor.fm/s/6b7c12d8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/13/55/21/13552131-1a22-0ac4-35e2-7d5a3f0167c5/mza_2563900524669881555.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "金魚番長のデメキング",
+      "path": "https://feeds.megaphone.fm/TBS3357244596",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fc/38/65/fc3865da-dcef-68e5-4c8f-c68d2019071d/mza_11240378871336954721.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "TENGA presents Midnight World Cafe 〜TENGA茶屋〜**",
+      "path": "https://feed.sonicbowl.cloud/rss/c9efdf20-a543-4db4-bc5b-fe1d42323a0b/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/de/b7/96/deb796f9-f13e-4e2d-cce2-877dbc2d190a/mza_8537365384567978735.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "トンツカタン森本のMC休止中",
+      "path": "https://www.omnycontent.com/d/playlist/7e360234-755c-43f9-8509-ae92005f0b89/e9c30b21-164e-4ce6-a55e-b3a10043b9f3/587fc1ee-2eae-457c-a74d-b3a10043be48/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/75/6b/ea/756bea63-c7e2-6ad6-ceac-20a3037652eb/mza_10243675665527120968.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "春とヒコーキのグピ☆グパ☆グポ｜GERA",
+      "path": "https://feeds.megaphone.fm/FNCOMMUNICATIONSINC3656403561",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2a/71/f4/2a71f47f-6c95-06a2-a747-be3a8c5dbbf8/mza_11042078984945502774.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "有吉弘行のSUNDAY NIGHT DREAMER",
+      "path": "https://feeds.megaphone.fm/TFM6742981120",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/0d/9a/780d9a1e-c7ce-7e35-39d1-379a78160b9b/mza_13649696856439679437.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "爆笑問題の日曜サンデー",
+      "path": "https://feeds.megaphone.fm/TBS5884589508",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/75/34/c9/7534c933-c277-0c54-882e-ae30d19b1f08/mza_8568160176698554961.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "シカノシンプのMBSヤングタウンNEXT Podcast",
+      "path": "https://feeds.megaphone.fm/ynpsi",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/53/9b/cb/539bcb6e-1ee3-09c0-933a-0c41ff6aab72/mza_16519729890928307426.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "永野とモグライダー芝のぐるり遠回り",
+      "path": "https://feeds.megaphone.fm/gururi-tomawari",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cf/69/d8/cf69d8cf-4a3f-1a27-df8a-627b0ca8c466/mza_17910987599573895117.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "天才ピアニストのむぎゅっとぷくっと",
+      "path": "https://www.omnycontent.com/d/playlist/7e360234-755c-43f9-8509-ae92005f0b89/2eb842d9-1f7c-4394-b219-b0690083206f/36431700-a469-41cb-b120-b06900871199/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/04/67/2b046742-6a39-b689-9c5a-6f2715bcb55c/mza_3416013726990212524.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "火曜JUNK 爆笑問題カーボーイ",
+      "path": "https://feeds.megaphone.fm/TBS8268344016",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cd/3d/29/cd3d29df-ed94-3651-a062-ee1c415eb07c/mza_2088997298461643394.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "大吉ポッドキャスト　いったん、ここにいます！",
+      "path": "https://feeds.megaphone.fm/TBS4403077790",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/c3/55/e8c355d6-6387-3358-2738-004b44d43379/mza_17842316252041581672.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "例えば炎のあ、エレガンス",
+      "path": "https://feeds.megaphone.fm/aele",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ea/58/ae/ea58ae72-cd64-8146-37d9-45b6aa788f89/mza_6925635798465981268.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "都市伝説 オカンとボクと、時々、イルミナティ",
+      "path": "http://tosidennsetu02.seesaa.net/index20.rdf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/07/0d/af/070daf45-565f-cb4b-7e03-5cfeccee0c7a/mza_10634012658021732992.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "銀シャリのおトぎばなし【NEW】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/6b872bef-6361-418f-9dd8-acd000ae4859/12e96224-2b51-4ef8-9e01-b29c00454850/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/36/7c/6e/367c6e4b-5270-556f-7dd6-769cacc501fb/mza_15356907670631542143.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "野沢直子Oi！老い！オイっ！",
+      "path": "https://www.omnycontent.com/d/playlist/7e360234-755c-43f9-8509-ae92005f0b89/ff4a24bc-2f9b-41c5-9ca8-b479007d076c/1ff8a8d7-71e1-426c-bd65-b479007d0ba4/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a9/45/3b/a9453bfa-7596-3c00-c6c8-0d6c835c2cef/mza_5906196591972572555.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "釈迦虎のMBSヤングタウンNEXT Podcast",
+      "path": "https://feeds.megaphone.fm/ynpsya",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/22/1a/14/221a144d-20fa-42a5-2bfc-16207ae6a98d/mza_12747629384803212667.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ママタルトのラジオ母ちゃん｜GERA",
+      "path": "https://feeds.megaphone.fm/FNCOMMUNICATIONSINC3232700692",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c0/7d/00/c07d0081-3437-9016-a773-6b66abfadd63/mza_18110984219562165589.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "宮下草薙の３０分",
+      "path": "https://feeds.megaphone.fm/NCB1927504369",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/76/b6/b4/76b6b48c-6a9a-a212-62db-08564340105d/mza_9459862613194424326.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "アルコ＆ピースの#文化人が1番やばい〜Produced by しくじり先生〜",
+      "path": "https://feeds.megaphone.fm/yabai",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8b/8e/c8/8b8ec850-791d-4c5a-5b5e-4c9233a70bf7/mza_11312883178115442183.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "Naomi Takes America",
+      "path": "https://feeds.megaphone.fm/YEU3929652764",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/dd/e9/ee/dde9ee3d-80b0-5424-280a-0e2ff81d080e/mza_2329418013317241108.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "シシガシラのピピパピパ放送局",
+      "path": "https://anchor.fm/s/4cd9d590/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/4b/9d/00/4b9d009a-dd8f-2709-c678-f39764c832bd/mza_10634870722067414686.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "REQ JAM【月曜】ガク（真空ジェシカ）／吉住",
+      "path": "https://feeds.megaphone.fm/JPFMN4929570656",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/20/09/0c200955-ba76-84b4-f7a9-d2c0e3d2fb50/mza_4016966756533755179.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "雷獣の声刀",
+      "path": "https://feeds.megaphone.fm/ARB4213669399",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f1/48/6d/f1486ddd-0e67-f826-66a1-5a87e1e30e64/mza_13677181836688684814.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ラランドニシダの実家には帰らない",
+      "path": "https://feeds.megaphone.fm/bukiyoudeiijyanight",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9b/75/76/9b7576cd-4c00-0e28-e9b8-aaf3d885c676/mza_6077379640809328873.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "トータルテンボスのぬきさしならナイト！Season2 【NEW】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/f0488171-1793-4332-aa12-abb40169b4a0/23277493-dac7-4413-97d4-b2a000730db3/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f5/34/87/f5348773-e0c1-4d56-c786-858ee537b278/mza_6525121823114711123.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "チョコプラのポッドキャスト(仮)",
+      "path": "https://rss.listen.style/p/chocolate/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ee/e6/99/eee699ed-608d-0a8c-b995-be491b74d041/mza_4588030024773468888.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "髭男爵　ルネッサンスラジオ",
+      "path": "https://feeds.megaphone.fm/NCB9016446157",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c4/da/55/c4da5543-e79f-965c-f079-301b9debc646/mza_17588112686998350930.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ゆりやんレトリィバァの最近どう？",
+      "path": "https://feed.sonicbowl.cloud/rss/a2c553a7-aed3-4e8d-bef7-9f22d205392a/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/99/3d/cd/993dcdef-7bd8-c106-303e-49c1c00f3081/mza_17498050287006440943.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "島田秀平とオカルトさん！---",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/4ecf53f4-b9e7-4199-b6b7-acf6005ae634/b733e67a-d3e3-41bd-b877-b2a00074f4ee/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/0d/15/100d15dc-0386-e1c2-f527-bcf8f5b32920/mza_4172815201301067110.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ツギハギ月曜日～ヤーレンズのダダダ団！～",
+      "path": "https://www.omnycontent.com/d/playlist/7e360234-755c-43f9-8509-ae92005f0b89/cef7796b-02bc-4920-9d23-b35b0096d511/7d6a847d-4732-44d4-bb32-b35b0096d8df/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/92/da/1392dafb-4fab-e425-4528-c9a87da9c64b/mza_9893030222577931195.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "三遊間のほそ犬スピリッツ",
+      "path": "https://feeds.megaphone.fm/3uk",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/5a/53/2b5a53a6-39fe-1d6f-c723-39372aa95ab9/mza_12133101896971011060.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ネコニスズのねえねえ、あのさ",
+      "path": "https://anchor.fm/s/f6e2b0ac/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource211/v4/ce/b8/d3/ceb8d3bb-5a2d-3eda-fb32-1b74f6391cc0/2a8cfe62-5abc-4e2e-8673-12a3464ba087.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ビスケットブラザーズ × バッテリィズの金曜がっちゃんこ",
+      "path": "https://www.omnycontent.com/d/playlist/7e360234-755c-43f9-8509-ae92005f0b89/e4a8c18c-0dc6-4bb0-9315-b2a60047864b/4a462acb-067f-4120-ab27-b4170089933d/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c6/a8/4c/c6a84c76-1a22-b995-609e-53aa9b584311/mza_8251802352020456793.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "カラタチの最果てのセンセイ！",
+      "path": "https://feeds.megaphone.fm/TBS1798776830",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/05/69/9c0569d0-c60c-fac7-fc01-5f36964c12bd/mza_12667331543814181423.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "ライムギのMBSヤングタウンNEXT Podcast",
+      "path": "https://feeds.megaphone.fm/ynpra",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ef/e4/e9/efe4e9b9-932f-db93-52a1-265fa815e900/mza_10412707605120952217.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "かが屋の亀の間",
+      "path": "https://feeds.megaphone.fm/TBS1580150170",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/07/e5/1e/07e51e55-0469-f6a3-de0f-fb1bd9d9c63e/mza_13552744247990845292.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "エレキコミックのおーいエレマル",
+      "path": "https://feeds.megaphone.fm/TBS2752996527",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4c/bf/82/4cbf82da-d57b-91d7-4280-39266e4d7663/mza_17046670017774041852.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "渋谷凪咲と雨やどりラジオ",
+      "path": "https://feeds.megaphone.fm/TBS6664583216",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d2/bf/0c/d2bf0ca6-8ceb-a6fa-9fe5-78b312cc5d18/mza_13448840861492416152.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "男性ブランコのおしゃべりマレット［オールナイトニッポンPODCAST］【NEW】",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/bbe731a1-8259-43ec-b946-b1f200cb47c1/65d7e66c-22a4-4222-81ae-b2a0006fcfc3/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2e/a1/cd/2ea1cdb5-3be1-6caf-8a4e-f007233c3df7/mza_5186153812599046161.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "お互いさまっす",
+      "path": "https://feeds.megaphone.fm/HDYMP5472899783",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/00/6c/be/006cbe44-6bc5-a810-69a6-d1e8566fdff4/mza_13853841602896827126.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "kento fukayaのパニポニパパニプス ちょっと長いバ〜ジョン",
+      "path": "https://feed.sonicbowl.cloud/rss/b4d81b8e-82e4-4991-999e-c01489e84938/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/e4/05/2ae405c6-5b60-79e2-3447-639d2eeea081/mza_3779343241337299212.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "エルフのとりま集合ラジオ！",
+      "path": "https://feeds.megaphone.fm/JPFMN9833733896",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/54/f4/3e/54f43e11-3c17-2d15-32f2-6202b2009d13/mza_15359553664118985071.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "喋るズ「橋本・奥田の銀銀学学」",
+      "path": "https://feeds.megaphone.fm/TFM6674687926",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/85/86/09/858609ec-da8c-2497-b9a8-8545f9836ee9/mza_7504532473151569443.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "コサキン ポッドキャストDEワァオ！",
+      "path": "https://feeds.megaphone.fm/TBS2196888898",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/92/1a/cd/921acd7e-34bf-40ee-fc88-371478ad2265/mza_5864542300751213778.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "キョキョラジ",
+      "path": "https://stand.fm/rss/644719d29afdfc28ca9c1979",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c6/22/57/c62257d2-7140-b36b-2b54-93a0d23bf7f6/mza_6734193494075186711.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "水曜JUNK 山里亮太の不毛な議論",
+      "path": "https://feeds.megaphone.fm/TBS1935172691",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2d/87/96/2d8796fc-92f5-fa6f-a7db-bc28cd147f76/mza_2186526150339139873.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaComedy",
+      "name": "-黒川想矢のオールナイトニッポンPODCAST【月替り・7月担当】---",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/39fe881c-6500-4a38-94b2-adb70080cb6f/0a00f700-eefa-46cf-9df1-b2a000735555/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/7b/b9/f97bb946-566d-62bb-d674-bba90a1d02e5/mza_13779349672210071155.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "私より先に丁寧に暮らすな",
+      "path": "https://anchor.fm/s/f0b24c60/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e8/a6/60/e8a66048-8438-25fe-085e-86187a68dd2b/mza_7259764250030976477.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "日本一たのしい哲学ラジオ",
+      "path": "https://anchor.fm/s/e4d354fc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/db/5d/08/db5d08c5-f49d-0ff0-7814-a437266be72e/mza_11336628178319427123.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "大竹メインディッシュ - 大竹まことゴールデンラジオ！",
+      "path": "https://feeds.megaphone.fm/NCB5249365711",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/30/19/dc/3019dcc7-e703-414f-a526-b7fce4321085/mza_11819092764062384566.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "松浦弥太郎と小林孝延　あなたに話したいことがある",
+      "path": "https://anchor.fm/s/11452a9a8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9d/94/60/9d946088-2d11-0c9f-3425-fc8e9f05ae1d/mza_573136461838716495.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "佐伯ポインティの生き放題ラジオ！",
+      "path": "https://anchor.fm/s/f8b02edc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3b/2f/78/3b2f7887-c79b-4f8b-6d48-3ef7ed92fe1c/mza_12299377412862955484.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "大竹紳士交遊録 - 大竹まことゴールデンラジオ！",
+      "path": "https://feeds.megaphone.fm/NCB7274439885",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/08/b8/89/08b889d6-5092-61b8-d3e5-a29bcc3cfd56/mza_10611794016852142641.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "TMEIC presents 畑芽育とFUN Time",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/b97c8055-b29d-4369-9bfe-b2ae0025b00d/421e0bb4-0794-4f33-9d07-b2ae0025b332/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ca/6e/87/ca6e8785-d379-275b-1f23-6280e62798df/mza_212618626732481443.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "オープニング - 大竹まことゴールデンラジオ！",
+      "path": "https://feeds.megaphone.fm/NCB7215199310",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4b/aa/50/4baa500e-dd99-1429-a5c6-e7da48b16633/mza_9585689518336776880.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "ペーパードライブ【読書・哲学】",
+      "path": "https://feeds.megaphone.fm/TBS6699678642",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bb/06/f7/bb06f7b7-4820-32ef-1a0f-f5867fafb1e8/mza_14825924388831214469.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "武田砂鉄 ラジオマガジン　「ラジマガコラム」",
+      "path": "https://feeds.megaphone.fm/rm-column",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/dd/0f/20/dd0f20d7-0ba8-053a-dd89-9fd408a91bf1/mza_5033287756757067069.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "井上咲楽のキャベツは踊った",
+      "path": "https://anchor.fm/s/106269fec/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f2/92/83/f2928358-79cc-4153-575f-68d1c40d7344/mza_1441603642928233223.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "The Austin and Arthur Show｜生の英会話",
+      "path": "https://rss.libsyn.com/shows/361352/destinations/2964902.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/63/49/16/63491697-0564-27fd-c3cc-2eb233914385/mza_3791127990422026741.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "Stuff You Should Know",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "佐倉綾音 論理×ロンリー",
+      "path": "https://feeds.megaphone.fm/TBS8751451630",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3b/d1/5d/3bd15d9d-4463-5fbe-39bc-fd994e942564/mza_16200080071624177408.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "武田砂鉄 ラジオマガジン「ラジマガインタビュー」",
+      "path": "https://feeds.megaphone.fm/rm-nterview",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1d/e2/c8/1de2c821-794a-7658-88e1-23c6c5d52ce2/mza_868842235171499622.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "チャポンと行こう！",
+      "path": "https://feeds.megaphone.fm/KI3247812785",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d2/fd/df/d2fddf94-f283-e1f6-14a0-f2933516a845/mza_12044473839532556387.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "勉強人",
+      "path": "https://anchor.fm/s/11412473c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/19/58/45/1958450a-0fa7-b475-d8bf-f55250aa6cef/mza_11766558774784561484.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "ゆとりっ娘たちのたわごと",
+      "path": "https://anchor.fm/s/6e491dbc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/82/4a/d5/824ad539-2599-c5dd-e530-87f58ed06bee/mza_15138748943199808018.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "仏教伝道協会 presents 笑い飯 哲夫のサタデー・ナイト仏教",
+      "path": "https://feeds.soundcloud.com/users/soundcloud:users:452703354/sounds.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/c1/a9/9a/c1a99aae-13bf-c4d5-a603-77d06bcdf07d/mza_7964130337004079403.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "超相対性理論",
+      "path": "https://anchor.fm/s/57a9101c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/eb/c2/2d/ebc22d8e-9817-442b-1368-e70037c7b894/mza_5640653396011579961.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "桃山商事",
+      "path": "https://anchor.fm/s/4a4b16b8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/1d/b1/ae1db1a2-dc28-e01a-86fc-1096062492a6/mza_17270516739020161832.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "武田砂鉄のプレ金ナイト",
+      "path": "https://feeds.megaphone.fm/TBS9594254450",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b5/e4/17/b5e4170c-c6a9-3acb-8b74-22dae971fd45/mza_10320688832564883165.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "take me high(er)",
+      "path": "https://anchor.fm/s/1b7cca5c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/95/52/3c/95523c44-f9b9-b4d6-a0ca-c71032b2fbab/mza_16302449885122061199.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "紗羅マリーのひみつの小部屋",
+      "path": "https://anchor.fm/s/10f1fd0c8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/51/8e/fa/518efa4f-1d40-5753-5383-baf2c872e26e/mza_1069831045069901706.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "LIFESTYLE COLLEGE",
+      "path": "https://feed.sonicbowl.cloud/rss/b6ea47a2-f418-4f07-8a28-4744fef3c8c1/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/a0/a6/f8a0a69a-67d8-a9ec-e3a3-877166f9f72d/mza_2995959863187926840.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "武田砂鉄 ラジオマガジン「ラジマガエッセイ」",
+      "path": "https://feeds.megaphone.fm/rm-essay",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/70/27/45/7027454a-c097-0eda-e09f-0ffe9618d73e/mza_223341873720392756.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "ラジオやで☆モナキやねん☆しらんけど",
+      "path": "https://feeds.megaphone.fm/TBS9455891755",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a2/90/53/a29053fb-8cd0-8803-9841-334c5af7dddd/mza_14843267724488536493.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "松原タニシの恐味津々",
+      "path": "https://feeds.megaphone.fm/tanishi",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/23/d2/8823d23b-5a0a-9dbd-e71f-bd018f5681fe/mza_14617293332242342367.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "ちょっぴり賢くなれる夜｜世界史・哲学・宗教・科学の話",
+      "path": "https://anchor.fm/s/1040a40c4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/a2/b4/09a2b46e-8fc4-4480-0e3a-2ddef791829c/mza_7091736024466874544.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "大竹のもっと言いたい放題 - 大竹まこと ゴールデンラジオ！",
+      "path": "https://feeds.megaphone.fm/NCB2707824995",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7d/01/30/7d013026-d33e-2022-37b6-637d6d3ce347/mza_15663561777322726592.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "となりの芝生はソーブルー",
+      "path": "https://anchor.fm/s/e63c387c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a7/f6/61/a7f6611d-16c8-c4e7-3480-9ff2d7ff5eb7/mza_11701784304705046169.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "マダナイ",
+      "path": "https://anchor.fm/s/112c34bc4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b2/c1/e5/b2c1e515-0e40-44d0-73f9-4055de561184/mza_8936609441262233416.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "カメとキリギリス",
+      "path": "https://feeds.megaphone.fm/TBS9453294445",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b0/62/f7/b062f768-d6cb-814c-58a1-0b109a6f5f76/mza_18266395587683502161.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "原宿の今じゃない企画室",
+      "path": "https://feeds.megaphone.fm/SINC7918929758",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/ad/33/aead330d-cbbe-ddd5-0099-79027a427a37/mza_17085557197544045088.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "飯沼愛の沼ラジオ",
+      "path": "https://anchor.fm/s/1125f6398/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e1/f9/e0/e1f9e00e-91c5-a5ca-7365-8ab11efb0d3e/mza_11826952117637583941.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "トキトケトーク",
+      "path": "https://feeds.megaphone.fm/tokitoke",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/6f/d1/be6fd1c4-75a2-7394-7ada-7d2df8b2915a/mza_5687403616354593999.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "バービーとおしんり研究所",
+      "path": "https://feeds.megaphone.fm/TBS8961788246",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9d/e5/79/9de57991-6c12-839d-a9f4-f3088730d33b/mza_2370072646276862130.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "Bee's Tee with hannah",
+      "path": "https://api.robotstart.jp/api/v1/feeds/362a048d/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9f/d5/37/9fd53708-2a4c-129d-9849-76cc784425ca/mza_858222834042097712.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "No Stupid Questions",
+      "path": "https://feeds.simplecast.com/dfh_verV",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/50/a2/94/50a29418-2e25-60a1-ee30-de2c9a964d5e/mza_16758140357555725276.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "VAJA JAPON from 5点ラジオ【婚活編】",
+      "path": "https://anchor.fm/s/d04ae8d8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/d2/95/35/d2953563-3400-49bc-bb1e-bd5f21e67d92/mza_12000139638826871896.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "This American Life",
+      "path": "https://www.thisamericanlife.org/podcast/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/64/aa/3a/64aa3a66-a08a-947c-cf21-a5722a1b77ae/mza_11390421932467026234.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "修羅shushushu",
+      "path": "https://anchor.fm/s/10a5fdd30/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/76/65/83/76658305-ab40-b2ad-9366-8babd0dec9b2/mza_14155695604544854640.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "アラサー女子の人間観察",
+      "path": "https://anchor.fm/s/1b5c3238/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/b1/01/de/b101dec7-e16f-4228-800a-51e55120abab/mza_4757656752485940725.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "シットとシッポ",
+      "path": "https://feeds.megaphone.fm/SBCO4599786180",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/48/48/a4/4848a447-c139-bd42-d8b4-fce12dbfa3fa/mza_5408868833642186385.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "Safe Space",
+      "path": "https://anchor.fm/s/10819bd5c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1f/9d/53/1f9d53e0-c749-585b-c5a5-315601e9b54c/mza_8974306103940003630.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "The Documentary Podcast",
+      "path": "https://podcasts.files.bbci.co.uk/p02nq0lx.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a4/ad/16/a4ad16d3-f32b-2732-79ea-d3819906b505/mza_9553926258008356281.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "鈴木おさむ×古市憲寿 「日曜夜に、こっそり」",
+      "path": "https://feeds.megaphone.fm/TFM6714813621",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/60/c8/fa/60c8fa12-6e12-5469-3267-5554147d5eb8/mza_13323844705375930780.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "永井玲衣×長井優希乃『Wナガイと哲学対話』",
+      "path": "https://feed.sonicbowl.cloud/rss/eb8cdf54-d5e8-47c4-836b-0b2576c81572/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/32/58/e3/3258e324-3fcd-8d3c-bb09-73c64436029b/mza_6278203040515756214.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "我々は安心してエンタメが観たい",
+      "path": "https://feeds.megaphone.fm/TBS4079351661",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/65/3b/b1/653bb12e-a2de-f42c-a0d7-d0cd80dc4922/mza_3756641537017291130.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "文化系トークラジオ Life～社会時評＆カルチャー",
+      "path": "https://feeds.megaphone.fm/TBS8950694698",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/58/f5/b5/58f5b582-a146-1f4f-d7a1-5d265f2cd63f/mza_9655314773391981197.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "新内眞衣のまいどあり",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/62a1df99-e36b-4cfa-bdc8-b1c2009fd1d1/e505a96a-fa16-484c-ac26-b1c200a0fb79/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/90/ff/84/90ff8481-6b32-0222-3e99-cb7580d2330d/mza_7329630986756476257.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "海外ブラックロード",
+      "path": "https://anchor.fm/s/77d0a3b4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/5f/43/97/5f43971e-8803-f486-5fea-35dccc3e07d7/mza_2600042189179468337.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "AXA presents あしたはいい天気",
+      "path": "https://feeds.megaphone.fm/TFM5611748841",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e7/0d/e4/e70de4d4-44e8-fb91-158f-f61d8dcb8ad4/mza_15167567253652672360.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "What Now? with Trevor Noah",
+      "path": "https://feeds.simplecast.com/LNIsL2kT",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5e/66/c2/5e66c26a-9b53-3801-7c6b-040b88b82619/mza_1272792653532625285.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "近本光司の「チカブレンド」",
+      "path": "https://anchor.fm/s/fee9a314/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/af/0d/aeaf0d3b-a4eb-2c01-e8d2-5dde73e94637/mza_52475207028989306.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "岸田奈美のおばんそわ",
+      "path": "https://feeds.megaphone.fm/GI4319050272",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/38/a9/a4/38a9a457-f97c-888a-2364-8311fbfd9aa6/mza_14001513029511560073.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "速水健朗のこれはニュースではない",
+      "path": "https://feeds.megaphone.fm/TBS1624729971",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/33/2b/12/332b122c-d26f-022c-9879-bc4ab3a9f489/mza_8930293604385156826.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "恋愛体質女たちの等身大らじお",
+      "path": "https://anchor.fm/s/e8cac7ac/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/94/2f/e3/942fe33c-7532-0d49-4611-6e5effd78877/mza_13741565533446216330.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "地球の歩き方 　旅の雑談",
+      "path": "https://anchor.fm/s/10076fc90/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/64/26/2c/64262c75-24f3-0901-eb5d-5bdcabc89027/mza_5868897679231390258.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "ミドルの花園",
+      "path": "https://feeds.megaphone.fm/middle",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/dd/4b/ef/dd4befcd-a010-23b0-330f-4d3d1f0a46b5/mza_11619360141137795838.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "夜ふかしの読み明かし【読書・哲学】",
+      "path": "https://feeds.megaphone.fm/NCB3272912411",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/59/52/92/59529203-2d4c-88ed-7395-98063f9f1891/mza_12660691670974964317.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "GOLDNRUSH PODCAST",
+      "path": "https://anchor.fm/s/b76397fc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/70/21/26/7021260e-be68-81dc-7331-9f6ab9bb1bf4/mza_18061958009127319768.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "好味小姐開束縛我還你原形",
+      "path": "https://feeds.soundon.fm/podcasts/adf29720-e93b-4856-a09e-b73544147ec4.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/84/4a/ef/844aefba-e78b-0094-b833-cff2d909e0df/mza_11212217927980159612.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "Freakonomics Radio",
+      "path": "https://feeds.simplecast.com/Y8lFbOT4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f7/0c/c5/f70cc540-ce36-d96f-b111-c970aad5505c/mza_17703422762227531425.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaCulture",
+      "name": "The Girls Bathroom",
+      "path": "https://feeds.acast.com/public/shows/bd38ad29-6b25-4be0-8796-a310aded9b55",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e7/0f/d8/e70fd8ef-9880-b716-fd74-e6ca38e229c3/mza_15179731139974944632.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "VALTURE RADIO",
+      "path": "https://feed.sonicbowl.cloud/rss/2b466a42-08b9-4235-9ad9-bb3ea80aeeaf/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/96/c4/a5/96c4a523-ab20-c493-d865-b8ad46e4990a/mza_14920319999045184249.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "日経ビジネス　モーニングニュース",
+      "path": "https://feeds.megaphone.fm/NBP3303775005",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/18/b1/0a18b146-a3fa-92c7-9eb1-c37ac35fa96d/mza_10965601974259432343.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "『世界を解き明かす』 地政学ラジオ",
+      "path": "https://www.radionikkei.jp/podcast/chiseigaku/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/af/b3/95/afb39574-5f88-8478-f20a-8cea55d5c3c5/mza_14981825361840719091.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "きょうカブ！＠マーケット・テラス",
+      "path": "https://www.radionikkei.jp/podcast/kyoukabu/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9d/cc/04/9dcc04b6-d256-9fea-1138-0c8a4ae50220/mza_15713820797115389564.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "週刊 日経トレンディ＆クロストレンド",
+      "path": "https://xtrend.nikkei.com/rss/podcast_trend.rdf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/61/ea/e2/61eae2c5-6c14-0902-e8ea-06927d2262a2/mza_17025096904668109424.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "東京ビジネスハブ",
+      "path": "https://feeds.megaphone.fm/TBS6742412969",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d9/86/55/d98655fe-0b98-e478-e72a-0ed63f1286dc/mza_8277024532066474127.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "深井・けんすうのまぼろし会議",
+      "path": "https://anchor.fm/s/105fe6388/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bf/e5/c5/bfe5c5da-2117-c9bb-4cff-1d2d900bfc6c/mza_4148427085251035606.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "超実践的幸福論",
+      "path": "https://anchor.fm/s/fd13a904/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7d/b7/55/7db75538-e8dc-87e8-9f35-931311dbfd48/mza_9806940840707485431.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Beyond K-point",
+      "path": "https://feeds.megaphone.fm/TFM9986453764",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/00/33/e2/0033e207-6482-bdba-0672-6eb1c08c3723/mza_10104221901692854624.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "田村淳のNewsCLUB 今週のスゴい人",
+      "path": "https://www.omnycontent.com/d/playlist/92f07af0-df9c-498e-a68a-ab4201477bd9/f12d9b7c-196b-4569-8639-ac05007c89f1/1ef83b64-28e3-4550-bb71-ac05007eaa8d/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c8/3b/b0/c83bb0d2-dbed-78e5-2428-1140c2aa8d88/mza_13916866918101331289.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "聞く経済ニュース - 海外メディア超多読ラジオ",
+      "path": "https://anchor.fm/s/10e8a3784/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b7/c1/b9/b7c1b984-4f3f-db58-1942-363ffead90f1/mza_15567349456717002321.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "レイニー先生の今日から役立つ英会話",
+      "path": "https://rss.art19.com/AUALBqnggq",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9e/b6/60/9eb66000-54ef-c282-3250-018ac3b7ff19/mza_4559794812456219490.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Business English from All Ears English",
+      "path": "https://feeds.megaphone.fm/ALLE3395867426",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9e/99/2d/9e992db6-195b-b089-9a7c-3ec116bd2c41/mza_9806639323537372163.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "IGPI塩野誠の視点",
+      "path": "https://anchor.fm/s/e782e62c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d0/ef/0c/d0ef0c69-96ff-93c6-a0a1-4c307a1e6528/mza_3202739434499383386.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "コムギコ：資本主義をハックしろ!!",
+      "path": "https://feeds.megaphone.fm/TBS7609676437",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b8/60/1b/b8601b7a-831c-ad6e-0514-4211fdca8624/mza_8262851924404755084.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "日本IBM　誰かに話したくなる“〇〇”の話",
+      "path": "https://feeds.megaphone.fm/SBTI9826959868",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/44/b7/4c44b79d-e960-19a9-37f7-8c55f4cb88ac/mza_14857216797551704100.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "深夜1時の経営者ラジオ「インサイドビジョン」",
+      "path": "https://anchor.fm/s/6e3af778/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/0b/d9/67/0bd96786-8cf4-f0d6-4db9-61a23d4a58ad/mza_9268802532745476140.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "ザ・ニッポン・インベストメント",
+      "path": "https://www.radionikkei.jp/podcast/nipponinvestment/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2c/2b/c3/2c2bc34e-d9b1-b252-1a45-3114007fe4c6/mza_9636976261663893653.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "TBS CROSS DIG with Bloomberg",
+      "path": "https://feeds.megaphone.fm/TBS9521225357",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/48/0b/01/480b0156-0da1-7298-e25c-442069fdffaa/mza_1494875631536682232.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "入山章栄の経営理論でイシューを語ろう/Business Insider Japan",
+      "path": "https://anchor.fm/s/96c04af4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/33/be/73/33be736e-acd7-e994-1e9b-9d6b5b2fe50b/mza_18195702774067293888.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "経営中毒　〜だれにも言えない社長の孤独〜",
+      "path": "https://anchor.fm/s/9eb6f2a8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/f2/ce/48/f2ce48df-8af3-da25-52b1-285cf0a63e80/mza_17948448184173219755.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "The Diary Of A CEO with Steven Bartlett",
+      "path": "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/af/0d/69af0ddd-1e0f-7ae3-c84b-88f18e31ad0c/mza_14445920128472365296.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "CEREAL TALK / シリアルトーク",
+      "path": "https://anchor.fm/s/4f8170dc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/a9/ea/0e/a9ea0e50-f99a-8631-76cf-31e8c9bf654c/mza_7014011757532949133.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "ウェンズデイ・ホリデイ | WEDNESDAY HOLIDAY",
+      "path": "https://anchor.fm/s/9a31c780/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/9f/30/be/9f30be34-ae82-32ec-762c-9df9f0dc1fdd/mza_4872411761951626090.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "西山孝四郎のマーケットスクエア",
+      "path": "https://www.radionikkei.jp/podcast/fxms/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/75/50/8d/75508d0f-f328-0c06-faff-6bc61bfa31fc/mza_13619429040473761178.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "ぼくらの戦略論",
+      "path": "https://anchor.fm/s/104d584b4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/81/90/7b/81907b3d-7094-933b-d5ef-e209eb6fc0c7/mza_10724346337733513639.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "聴く講談社現代新書",
+      "path": "https://anchor.fm/s/54f4f4d0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/54/93/a1/5493a124-115e-c2df-2905-57243eab7ada/mza_1433860372273109453.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "いろはにマネーの「ながら学習」",
+      "path": "https://anchor.fm/s/4be0923c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/79/a1/9c79a1a8-e389-d17e-3750-d46b0f799fa1/mza_12644644825789743711.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Business Daily",
+      "path": "https://podcasts.files.bbci.co.uk/p002vsxs.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/a1/2b/0ca12b14-4682-a5e5-da3a-e79aa89e8b8f/mza_14965223976430597152.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Actual Investors 〜100年変わらない投資の話〜",
+      "path": "https://anchor.fm/s/11214225c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/62/3a/7f/623a7fd5-a025-702b-a27a-88ee93e94c59/mza_7206762836423637967.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "TABI SHIRO 〜足を運んで、見て、聴いて〜｜タビシロ",
+      "path": "https://anchor.fm/s/f45f081c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/33/91/68/339168d1-b9eb-f703-0f73-989b63b56cb8/mza_10031368309630422528.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "おとなのしごおわクラブ",
+      "path": "https://anchor.fm/s/101f6df90/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/52/f9/4c52f9c2-49da-4463-7b14-c3e836c0aff9/mza_13686107721757602299.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "おいしい組織 〜いま経営者にきいてほしい人事と事業の話〜",
+      "path": "https://anchor.fm/s/1049b5500/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e9/33/20/e93320c2-f306-04b3-607d-1b3b10e45bf4/mza_3776604181361907377.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "ひろゆき切り抜きポッドキャスト【公認】「ビジネス版」",
+      "path": "https://api.robotstart.jp/api/v1/feeds/36c40497/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d4/e7/8f/d4e78f58-4865-583b-32ba-6c6f0bbef508/mza_16377015794252391340.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "楽天証券PRESENTS 先取り★マーケットレビュー",
+      "path": "https://www.radionikkei.jp/podcast/marketreview/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/6f/6e/846f6edf-59e5-e76c-a016-f0ccc25afa02/mza_10750705773921834581.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "TED Business",
+      "path": "https://feeds.acast.com/public/shows/675727607205a5bc68e57057",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ab/11/06/ab11065a-57cd-8472-526e-d5799b2a8163/mza_13207937671651466185.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "マーケットマスターズ・マンデー",
+      "path": "https://www.radionikkei.jp/podcast/market_analyze/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/99/5b/f3/995bf3c7-ed97-b930-b99b-8afe2bd371b1/mza_445176689390427410.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "二番経営 〜組織を支えるNo.2の悲喜こもごも〜",
+      "path": "https://anchor.fm/s/f310a7b8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8f/f4/4e/8ff44e20-6623-0e2c-f062-ad272534917a/mza_5847770473638366708.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "深津貴之のGUILD TALK",
+      "path": "https://feeds.megaphone.fm/guildtalk",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0d/ee/19/0dee192c-0cfd-9e4d-de9c-d7fef7ad69b1/mza_11715988474984818933.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "人生後半どうする会議だ！（青木さやか、ビビる大木）",
+      "path": "https://feeds.megaphone.fm/TBS2567599371",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5a/34/3a/5a343aaf-93fc-0858-fdcc-2b35987404db/mza_6113438603882391067.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Beyond WOMANSHIP",
+      "path": "https://feeds.megaphone.fm/womanship",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/97/7e/19/977e19e7-b4d0-50b7-da15-3bf0e80aa203/mza_12445063037400198566.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "考えすぎフラグメンツ",
+      "path": "https://feeds.megaphone.fm/KI3422305335",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/72/b9/ad/72b9ad95-c7a3-be9f-e5be-3e30528531f1/mza_11630844975913907405.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "箕輪・けんすうのご神託ラジオ",
+      "path": "https://anchor.fm/s/10131e050/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a9/28/24/a92824c1-c8c9-29e9-af88-865aff6e5a17/mza_11898139950859366453.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "「米国株投資」の耳よりな話",
+      "path": "https://anchor.fm/s/106b060c4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/73/76/56/7376569f-0cea-7e78-4f95-e8237794979e/mza_8868942360181174285.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "フェルミ漫画大学",
+      "path": "https://anchor.fm/s/1028a47e4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource221/v4/a6/23/a4/a623a4a9-ec2b-a213-88e2-d2ae1c4a3ba1/acab1684-fd15-4ffc-89a2-7ff100bce5c2.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "米国株投資で幸せ作り",
+      "path": "https://anchor.fm/s/107f5acf0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2c/31/78/2c317897-37f9-5cae-5a61-a9ee7f9efbcd/mza_1357347048712429212.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "ハイパー起業ラジオ",
+      "path": "https://anchor.fm/s/ed32533c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/3b/c6/f7/3bc6f796-376e-f51e-e7a1-116b80912cc8/mza_14417154903775641521.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "声动早咖啡",
+      "path": "https://www.ximalaya.com/album/51076156.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/a9/7f/7a/a97f7a8f-4451-05bc-bacc-637773b1b06a/mza_16067595309054880476.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Gooaye 股癌",
+      "path": "https://feeds.soundon.fm/podcasts/954689a5-3096-43a4-a80b-7810b219cef3.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/04/b5/eb/04b5ebdf-7072-21fc-5876-e5feb5ba3dac/mza_7653733142335128691.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "HBR IdeaCast",
+      "path": "http://feeds.harvardbusiness.org/harvardbusiness/ideacast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/28/4b/4e/284b4e44-9a28-dabf-e853-e60c43e380ad/mza_6581779795008535928.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Investor's Sunday",
+      "path": "https://feeds.megaphone.fm/TFM8861680914",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/03/26/4d/03264da7-b27a-c300-124e-e959ff2ac72a/mza_15890509329994809929.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "SBI証券 presents 大橋ひろこ×水谷隼のマーケットウイニングショット",
+      "path": "https://www.radionikkei.jp/podcast/mws/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/78/22/6a/78226a1f-9099-439b-0993-47f591581469/mza_11585981877452498971.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "大江麻理子が聞く 次代を拓くリーダーたち",
+      "path": "https://www.radionikkei.jp/podcast/nikkei150pj/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9e/1a/e8/9e1ae8d2-4bc4-22fc-7bd0-66b2be99bacf/mza_11001806427715435105.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "社会人大学院ラジオ　働きながら院へ行く　",
+      "path": "https://anchor.fm/s/110fd6680/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2c/ca/f9/2ccaf97c-a1c3-7517-0111-4fffb4c0825c/mza_17725201470566988586.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "流行りモノ通信簿",
+      "path": "https://anchor.fm/s/7c3d780/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/9c/44/29/9c44293b-7d6a-b37c-fab6-f2e26f0adfc8/mza_3623953328467563625.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "ティモンディ前田裕太の学べばわかる！マネー大学",
+      "path": "https://www.radionikkei.jp/podcast/money_daigaku/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/52/99/4f/52994fb4-cd8c-6a56-3f3d-4f52a9ed3bde/mza_15911730929735173255.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "るるたん・おさむの欲望のKPI",
+      "path": "https://anchor.fm/s/10d397a70/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/16/64/dd/1664dd19-4613-f72d-9125-db64591264a4/mza_4655435972730629.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "誰もやらないビジネスのつくり方",
+      "path": "https://anchor.fm/s/101b5bbc8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/fe/79/0afe799f-0c29-f387-2acf-bc13492241f6/mza_3210615275320100012.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Planet Money",
+      "path": "https://feeds.npr.org/510289/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/df/53/85df5334-0fae-28a9-2bc4-b97b81061d0e/mza_10839245066228881011.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "日経ビジネス　ニュースの真相",
+      "path": "https://feeds.megaphone.fm/NBP8933008590",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d2/31/3e/d2313eec-4e2c-7eb2-f824-72c2fe4cbb8e/mza_1573482040138931027.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "Think Fast Talk Smart: Communication Techniques",
+      "path": "https://feeds.transistor.fm/think-fast-talk-smart-communication-techniques",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0e/a3/48/0ea34886-96c0-8299-e16c-d039cfaedc78/mza_5307345217675863813.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "学びの引き出しはるラジオ",
+      "path": "https://anchor.fm/s/f88f732c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/16/09/0e/16090e56-fc38-3c42-4805-e78aabf477c0/mza_15480802423939144558.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "伝説ラジオ",
+      "path": "https://feeds.megaphone.fm/densetsu",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/12/af/47/12af4724-17b4-34ab-b519-bd890c9a2804/mza_2481302981610840855.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "楽しいラジオ「ドングリFM」",
+      "path": "https://anchor.fm/s/76a89c80/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/d9/39/f1/d939f152-4386-8acb-bc97-f05918650a76/mza_5221450888446380268.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaBusiness",
+      "name": "本田健の人生相談 〜Dear Ken〜",
+      "path": "https://pod.kiqtas.jp/dear-ken/index.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ca/3d/28/ca3d282f-963b-3db8-2a8f-1758de345830/mza_8480337928062443962.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "さむいぼラジオ〜ニッポンのタブー〜",
+      "path": "https://api.robotstart.jp/api/v1/feeds/37d804aa/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e7/c2/71/e7c2712b-9e1f-3b07-6eac-06ae2488e49f/mza_12439134422006882652.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "丸山ゴンザレスの怖くて奇妙な物件の話",
+      "path": "https://anchor.fm/s/7723e958/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b9/3c/b5/b93cb523-c214-8bac-96e4-705a44b82f53/mza_4697971391327560833.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "うつせみの怪談朗読・怖い話",
+      "path": "https://api.robotstart.jp/api/v1/feeds/36e80497/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/f8/90/b7f89015-ee0b-25d8-0441-93d5f5bc135a/mza_1398660670760272436.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "わかちこ伝説〜事件・事故・不思議な話etc..",
+      "path": "https://anchor.fm/s/454950bc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/29/a8/ad/29a8ad34-8d6d-ec6a-3682-9ee36144e76a/mza_12556359931415165060.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "とりあえず今日も話すわ、都市伝説",
+      "path": "https://anchor.fm/s/110adfe60/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/db/e3/1b/dbe31bdc-fb8b-719e-c1f0-0446ce37fefc/mza_16309833948290542334.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "MrBallen Podcast: Strange, Dark & Mysterious Stories",
+      "path": "https://feeds.simplecast.com/dloY8UYJ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a5/9c/8a/a59c8a0a-0cb2-9862-e0d6-7b5ee4e9e157/mza_12554888833857337425.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Rotten Mango",
+      "path": "https://feeds.simplecast.com/6Qp23t6h",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/8f/fa/138ffad5-1aee-a955-b73b-6aea47b55197/mza_13457757566766616901.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "霓达播客",
+      "path": "https://feed.xyzfm.space/xlgejk3wbj8q",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/31/20/de/3120de83-d957-83de-8224-092c98de7189/mza_18215723817537101746.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Cyber Hack",
+      "path": "https://podcasts.files.bbci.co.uk/w13xtvg9.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3a/6c/97/3a6c97c7-2e5f-3927-beb8-4477ec52a514/mza_10976808998544260423.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Crime Junkie",
+      "path": "https://feeds.simplecast.com/qm_9xx0g",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Dateline NBC",
+      "path": "https://podcastfeeds.nbcnews.com/HL4TzgYC",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Casefile True Crime",
+      "path": "https://feeds.acast.com/public/shows/679acff465f74095106abfaa",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/32/81/a3/3281a345-6fa5-1d0d-b0bc-f02b0850a0ae/mza_17562537467118278179.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "ザ・犯罪心理学！",
+      "path": "https://feeds.megaphone.fm/YOKOHAMAFMBROADCASTINGCOLTD6938808684",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/02/26/19/0226192d-d809-7d35-51aa-5ff7c92cea91/mza_10226149234549728713.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "真羅怪談",
+      "path": "https://anchor.fm/s/463e8cd0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/26/18/5a261878-c6ed-0f79-55b5-619249bf712d/mza_13145659107660910855.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "The Last 12 Weeks",
+      "path": "https://feeds.simplecast.com/fho8oyc2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8b/cb/61/8bcb6179-38bd-0f94-a83e-75c99969f148/mza_1914265137006094689.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "My Favorite Murder with Karen Kilgariff and Georgia Hardstark",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/bdde8bb3-169d-43b1-91d3-b24c0047969c/f450d41f-16bc-4ecd-8f6c-b24c004796e2/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/80/b1/1b80b146-8608-f76f-97e7-7a2317549c35/mza_14115126871478479568.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "What to Carry, What to Burn",
+      "path": "https://feeds.acast.com/public/shows/69f8b83e3a143563ed7c9014",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9c/a3/0e/9ca30e40-dd9c-944e-5a60-23b76bdb3bed/mza_18405237449602805402.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "事件解明",
+      "path": "https://feeds.megaphone.fm/KRL5562796131",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/39/54/8e/39548e12-7e7b-ca9e-a732-196d3320c0a0/mza_16503070846736685984.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Morbid",
+      "path": "https://feeds.simplecast.com/ohmVlJZQ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Five Miles From Home",
+      "path": "https://feeds.simplecast.com/2RbGSoKZ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5f/26/79/5f267967-ef75-63dc-6958-59004d144c16/mza_3103516722400828111.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "我在案發現場",
+      "path": "https://feeds.soundon.fm/podcasts/77a014a2-7c0e-4abe-9178-8ee01a7c14f3.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/e6/de/91/e6de91a9-5e1f-07cb-6149-9b9f63dd0d1f/mza_17307558434112194797.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Love Trapped",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/20968bfe-1a62-450f-a762-b3de0110281c/1c0ae3b2-ec1e-4a0c-a144-b3de01102fb1/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/ad/82/b5ad82a9-b29a-1411-1506-05f9f3ad5d6b/mza_17395607531155205240.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "なんちゃらかんちゃら【都市伝説”系”ラジオ】",
+      "path": "https://anchor.fm/s/105dfb08c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/66/e7/1b/66e71b60-acbf-691c-649e-ff086dd929f7/mza_7947854319148973437.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "鈉含量過高",
+      "path": "https://feed.firstory.me/rss/user/ckghg5886axz50875tm1tle3p",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/59/7f/89/597f89a5-e269-c93b-3d59-feec96f64f87/mza_8587140639821697145.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "The Snare",
+      "path": "https://feeds.megaphone.fm/ESP6782400517",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/7b/1e/0a7b1e0e-56d7-9f22-c1d2-2be83d2fc9f3/mza_4354592459969619696.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "怪談作家・夕暮怪雨の怖い話を語らせて",
+      "path": "https://anchor.fm/s/10a94d8dc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/98/5a/76/985a7613-457e-9d6c-98f2-d9728c683637/mza_5905743395406161144.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "贝壳回音",
+      "path": "https://feed.xyzfm.space/m44qtmb4hmhh",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/52/d3/5f/52d35f71-b085-b981-6b64-a2b0984133f5/mza_9390741680922990800.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "不吱声",
+      "path": "https://feed.xyzfm.space/kqvyjmed9pj9",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/99/17/4b/99174bb0-ff64-4e06-1668-94a14cfb880b/mza_486936777968077276.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "灯下黑radio",
+      "path": "https://feed.xyzfm.space/brlbtvtur7fj",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/33/9c/f0/339cf07c-94c3-8f78-3554-7bbee9a926b6/mza_3209842164421267872.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Heart Starts Pounding: Horrors, Hauntings and Mysteries",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/heart-starts-pounding",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/dd/b0/55/ddb05525-67da-fe35-fe80-e753d4e9d8c2/mza_6650634973167583845.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "悬而已决",
+      "path": "https://feed.xyzfm.space/6w8ghb38c3tv",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/70/e0/3d/70e03d31-7f5d-7eef-d603-3d8edb2b7a13/mza_7642965464481930918.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "日谈物语",
+      "path": "https://feed.xyzfm.space/87x9n4x77fpy",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/39/18/33/391833ab-0b61-540c-28a5-52f501331ab6/mza_18248197710593374205.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Among The Missing",
+      "path": "https://feeds.megaphone.fm/amongthemissing",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/1d/48/721d4882-5156-b743-cba8-6c10f25ca1ed/mza_5284350702047280415.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "暗黑森林 The Dark Forest",
+      "path": "https://feed.firstory.me/rss/user/cle6toa3i05t401tjbrdmgvpf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/ab/44/3c/ab443cee-8143-1f83-af1c-de3aeb1561f8/mza_16058997796209998435.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "黑猫侦探社",
+      "path": "https://rss.buzzsprout.com/1825438.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b9/5b/1c/b95b1c6c-bdd5-9bcd-65fc-86b0904f89db/mza_5176470659683907143.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "真実の探求",
+      "path": "https://feeds.megaphone.fm/KRL7224611370",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9b/5f/9f/9b5f9f15-116a-fde9-741e-f1f431014400/mza_3898967234746094437.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Last Podcast On The Left",
+      "path": "https://feeds.simplecast.com/dCXMIpJz",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/25/c9/7f/25c97f36-41e7-38a9-7e95-4f87997024f4/mza_430481307357513215.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Dirtbag Climber",
+      "path": "https://www.cbc.ca/podcasting/includes/dirtbagclimber.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/50/ac/66/50ac669b-f3dc-6b57-b6b9-a95bcc828286/mza_14617058149856908088.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "阿善師鑑識實錄",
+      "path": "https://feeds.soundon.fm/podcasts/3dbafbf8-b792-4fe4-952f-34344933f2e6.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/03/89/58/03895840-ed32-a3bd-2b85-8f40f9792005/mza_4802928861890503832.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "百円で集めた怪談話",
+      "path": "https://anchor.fm/s/e50eaa70/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/47/32/71/473271b0-d255-288c-3421-47305286d015/mza_3557020567557750319.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Crime at Bedtime",
+      "path": "https://feeds.acast.com/public/shows/65f76cfb8c14020018a6b9ec",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ea/1d/e3/ea1de3f8-5e0d-64e7-5462-f4a85f5971b7/mza_1686264782578187815.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "松鼠大侦探",
+      "path": "https://feed.xyzfm.space/9483yrqbad98",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/35/0a/a3/350aa3fe-9dfb-704a-5abc-5b082a03a4cc/mza_5681863429850411627.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "O談 世界を騒がせた犯罪事件",
+      "path": "https://anchor.fm/s/efc0a70c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/02/ff/ac/02ffac96-5496-26f2-1eb1-d8cf23551658/mza_14681930473143955030.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "眠れぬ夜の怪奇譚",
+      "path": "https://anchor.fm/s/c86122cc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/49/75/d9/4975d97b-2244-5d4c-c107-548404fb75b6/mza_13789058012184259024.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Who Blew Up The Guidestones?",
+      "path": "https://feeds.megaphone.fm/CMGA5614749248",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/f5/a8/72f5a8c5-e39e-14c3-7f4f-e4435233ce8f/mza_13422238494094937285.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Blunt Force Trauma",
+      "path": "https://feeds.megaphone.fm/bluntforcetrauma",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8f/0b/c9/8f0bc958-91c4-38bc-b536-cd7b0ec7f25a/mza_12957442479390404433.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "De volksjury achter de crime scene",
+      "path": "https://www.omnycontent.com/d/playlist/c292b3ac-094e-4616-a956-a99800ed54e9/b2cd7db0-0433-41bf-a8a0-b38a00ea604d/1130bdea-68da-47e4-a212-b38a00ea6445/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7c/6f/0f/7c6f0f44-951b-5eb0-f7ec-1babb337381f/mza_207041434921352817.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "鲶鱼夜话",
+      "path": "https://www.ximalaya.com/album/66572833.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/18/98/4d/18984d11-31fc-8d4c-3d7b-58630ba5ede8/mza_18124726160908731226.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "The Kids of Rutherford County",
+      "path": "https://feeds.simplecast.com/Kr7O_C5R",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b6/bb/af/b6bbaf07-78ba-4e31-0f8c-e423011cfa17/mza_18294684127300677609.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "20/20",
+      "path": "https://feeds.megaphone.fm/ESP3456903052",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/81/6c/5d/816c5d57-7c3f-3df9-1557-08e17469dfe4/mza_1433648970787567135.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Criminal",
+      "path": "https://feeds.megaphone.fm/VMP7924981569",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/98/22/bd9822cc-b8e0-59de-5809-45926a0ee5f3/mza_2331604259390110897.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "犯罪の網",
+      "path": "https://feeds.megaphone.fm/KRL6467961817",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/08/bd/03/08bd0396-9316-48b8-6f9c-49087ba6af4b/mza_17811757642894032991.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "ハンニバル・レクチャー博士",
+      "path": "http://soratobujelly.seesaa.net/index20.rdf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/93/3a/58/933a581d-b0f1-a348-8d0b-b82eeaa32d83/mza_4282890024944759190.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Serialously with Annie Elise",
+      "path": "https://audioboom.com/channels/5100770.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b8/ae/ae/b8aeaee5-e289-54f0-c223-58334b88ddfb/mza_6406683089903069019.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "罪の追究",
+      "path": "https://feeds.megaphone.fm/KRL4353306481",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e7/5c/17/e75c175c-9b03-f3f9-feb8-a2f073e61d01/mza_5717331207136471284.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Untitled Case",
+      "path": "https://feeds.megaphone.fm/SHC6749074342",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/54/5c/35/545c35fb-037e-943d-6a0f-e49aa1f6bc4d/mza_11304398811921420376.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "オカルトパラダイス。",
+      "path": "https://anchor.fm/s/1008b06a4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/90/53/27/905327b5-1f02-6fbe-e2c5-bf86ad948087/mza_10787759271617196488.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "落日之后",
+      "path": "https://feed.xyzfm.space/9cpcu49mgt9h",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/93/b4/84/93b484d8-12a5-c8bf-8c59-0b9a66ebf036/mza_6931191804202650639.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "Extrasensory",
+      "path": "https://rss.art19.com/extrasensory",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/87/d1/f2/87d1f21b-303d-480c-2293-1ba0f300d18b/mza_12852650121927536558.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "RedHanded",
+      "path": "https://audioboom.com/channels/5166531.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/37/38/73/373873c6-ff52-d2de-945c-3a1aab729c6d/mza_18348784528713052513.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "M2檔案",
+      "path": "https://media.rss.com/m2/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/71/5e/59/715e591e-6cb4-dbc8-215a-5cf49b2bcafe/mza_2579327369526097283.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "殺人追跡",
+      "path": "https://feeds.megaphone.fm/KRL5743449082",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a7/8b/80/a78b8023-f24f-16f2-daf0-db9a13d2d710/mza_143866307921002505.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "British Murders with Stuart Blues",
+      "path": "https://feeds.acast.com/public/shows/67c198ecc003bff532f5476d",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/03/11/be031173-b48c-9b32-5943-559143348793/mza_15661434579759229870.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "TSP怪奇档案",
+      "path": "http://www.ximalaya.com/album/19206387.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/d8/83/04/d883044f-7b13-7d15-9270-ebd7027a8560/mza_8193832955662829579.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastJaTruecrime",
+      "name": "X調查",
+      "path": "https://anchor.fm/s/114bf8668/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/fd/e9/a4fde954-a627-6733-c7c5-b855c444d415/mza_5370664782779161665.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    }
+  ],
+  "popular": {
+    "path": "#dataIndex"
+  },
+  "search": {
+    "path": "#dataIndex"
+  }
+}

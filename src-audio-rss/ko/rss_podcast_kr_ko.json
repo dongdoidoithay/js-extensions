@@ -1,0 +1,4728 @@
+{
+  "id": "rss_podcast_kr_ko",
+  "name": "인기 팟캐스트 모음",
+  "lang": "ko",
+  "nameLang": "한국어 - RSS Podcast",
+  "baseUrl": "",
+  "version": "2.0.0",
+  "description": "한국 인기 RSS 팟캐스트 모음",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "isShowInfo": false,
+  "showSourceImages": true,
+  "sourceType": "rss",
+  "tags": [
+    {
+      "name": "인기 팟캐스트",
+      "id": "PodCastKoTop"
+    },
+    {
+      "name": "뉴스",
+      "id": "PodCastKoNews"
+    },
+    {
+      "name": "코미디",
+      "id": "PodCastKoComedy"
+    },
+    {
+      "name": "사회 및 문화",
+      "id": "PodCastKoCulture"
+    },
+    {
+      "name": "비즈니스",
+      "id": "PodCastKoBusiness"
+    },
+    {
+      "name": "실제 범죄",
+      "id": "PodCastKoTruecrime"
+    }
+  ],
+  "dataListTags": [
+    {
+      "key": "PodCastKoTop",
+      "name": "손에 잡히는 경제",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1000671100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c0/f2/c5/c0f2c54b-14d3-b2b6-b792-4ba8723167ad/mza_8259022283254013061.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Hey Tablo",
+      "path": "https://feeds.acast.com/public/shows/695a404ffcfcf09e55c577b1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/e5/93/b7e593a1-a84b-21ea-f699-6f00de79c33e/mza_13472372369916846064.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "송은이 김숙의 비밀보장",
+      "path": "https://anchor.fm/s/a354e144/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/c3/2a/1bc32a7e-cfbd-0251-64b3-9c6626747387/mza_6975309103988680752.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "6 Minute English",
+      "path": "https://podcasts.files.bbci.co.uk/p02pc9tn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ba/98/35/ba9835eb-1ef3-60e4-bf05-3d141b8d1c7a/mza_3844641997714022659.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "손석희의 12시",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1006915100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a5/1b/1c/a51b1c5d-41d6-91d4-dfdf-41b3a4791a6d/mza_6493824501653908407.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Culips Everyday English Podcast",
+      "path": "https://esl.culips.com/feed/podcast/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ca/bd/be/cabdbe46-9408-6ff9-dd4c-fa944d90d9f4/mza_9088968848133222748.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "민음사 라디오",
+      "path": "https://anchor.fm/s/10511b9fc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/48/47/cb/4847cbc4-27f0-c360-1a06-70f4eb4eacea/mza_3974988335089528390.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "컬투쇼 레전드 사연",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V0000364436.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/4b/a1/ca/4ba1caed-df1c-c8ab-6147-72ab305e2860/mza_2402368380880693438.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "CBS 박성태의 뉴스쇼",
+      "path": "https://www.omnycontent.com/d/playlist/53ac8cb6-b299-4f93-8280-af50012ddab0/cb1b4f42-acae-4db3-a7e0-af56000e0f71/b28168e2-c100-4ce4-92b3-af56000e0f7a/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/21/5d/4e/215d4ee3-fb07-19f6-df06-054ad431e78c/mza_1832586581505064775.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "여둘톡",
+      "path": "https://anchor.fm/s/91abdd94/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/6d/d1/43/6dd14301-bf7f-dcff-7d09-5026b89221dc/mza_2040389892221158379.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "리딩 케미스트리",
+      "path": "https://anchor.fm/s/fb655f1c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/85/c1/5a/85c15ae1-1ece-5c4e-cf45-b6150c980269/mza_11707063592824013374.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "김종배의 시선집중",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1000674100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c1/18/db/c118dbba-ecb5-f50c-e8b8-20c9b65f8acc/mza_15038789744444423608.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Learning Easy English",
+      "path": "https://podcasts.files.bbci.co.uk/p0hsrwv5.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ca/43/99/ca439923-ed6a-90a6-e3b3-056802b84c20/mza_6408114298553732245.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "All Ears English Podcast",
+      "path": "https://feeds.megaphone.fm/allearsenglish",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cb/a1/13/cba113a7-999d-3c3d-a594-900adb69624e/mza_7992161192502469150.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "삼프로TV (경제의신과함께)",
+      "path": "http://pod.ssenhosting.com/rss/geesik02/pbchannel_28905.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/2b/c2/9d/2bc29db7-5526-df73-4ac2-8717944d1982/mza_9743595908177842672.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "그것은 알기 싫다",
+      "path": "http://xsfm.co.kr/xml/idwk.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b0/89/e6/b089e62e-0f76-668f-3ce7-dd01bf888aa9/mza_1376747449331124361.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "두시탈출 컬투쇼",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V0000328482.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/ec/b8/5aecb85b-84c1-199e-a958-bdb462221d30/mza_13684965992720109367.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Global News Podcast",
+      "path": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/57/09/8457093f-677a-d6de-5666-6514cc588a7e/mza_17083078915388787537.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "TED Talks Daily",
+      "path": "https://feeds.acast.com/public/shows/67587e77c705e441797aff96",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2e/cf/99/2ecf996f-71f7-604f-b0a0-43116b9d6619/mza_10257768296573848480.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "anything goes with emma chamberlain",
+      "path": "https://feeds.megaphone.fm/stupid-genius",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c2/7d/91/c27d910f-f7b2-b143-49ec-10ce9e4cd60a/mza_8231276041295918906.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "영혼의 노숙자",
+      "path": "https://anchor.fm/s/ded8f3a4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/73/f6/c1/73f6c1ac-06b4-6a18-ba9f-a7a544acee91/mza_8450934042545141607.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "이강민의 잡지사",
+      "path": "https://www.omnycontent.com/d/playlist/53ac8cb6-b299-4f93-8280-af50012ddab0/b3cd37a2-ba49-4a32-9f35-af56000e11ef/c8e2aa40-eed9-41fd-82b7-af56000e11fd/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/7e/6d/70/7e6d706b-c858-fea8-3a07-e4037f976a9d/mza_13395646956450384491.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "김혜리의 필름클럽",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000010143.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/74/59/5d/74595dd1-b1cb-4cfc-d9e0-d4480dd397a7/mza_16638553524702883783.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "디바제시카 토요미스테리",
+      "path": "https://anchor.fm/s/98cdbaac/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/00/53/b6/0053b648-5ed9-a69c-7706-ff4f2d095622/mza_1878676328745555232.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "라플위클리",
+      "path": "https://anchor.fm/s/109729b4c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/54/a3/8d/54a38dbe-79dc-4ea8-465c-147a86caa31b/mza_7273946200773774845.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "JTBC 뉴스룸",
+      "path": "https://news-ex.jtbc.co.kr/v1/audio/podcast/NG10000002",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b1/cc/ba/b1ccba05-806a-93af-ced5-be2c2548d249/mza_14383280722140667835.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "배성재의 텐",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000009300.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/1b/16/6f/1b166fb1-db53-5e04-6dff-bd5cb802b5a5/mza_8347926449611414563.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "박연미의 목돈연구소",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/22000012034.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/30/0c/52/300c52ae-0cfb-b5bb-a7d3-bd33ab5a2274/mza_16902598239816237795.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "썬킴의 세계사 완전정복",
+      "path": "https://anchor.fm/s/99745ce0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/f3/91/b8/f391b866-21a2-e9d8-71a3-462983d4ed8e/mza_8295201745638377171.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "[KBS] 작은 서점",
+      "path": "https://static.api.kbs.co.kr/mediafactory/v1/podcast/rss/bookstore",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fa/ec/e7/faece7ff-245d-2523-16c3-76fbca95ebf7/mza_17922826682492195364.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Learning English Conversations",
+      "path": "https://podcasts.files.bbci.co.uk/p02pc9zn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9d/9f/9a/9d9f9ac2-18ed-fef1-6b5a-2370cb2d2eca/mza_16678796634995991769.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "No Stupid Questions",
+      "path": "https://feeds.simplecast.com/dfh_verV",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/50/a2/94/50a29418-2e25-60a1-ee30-de2c9a964d5e/mza_16758140357555725276.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "법륜스님의 즉문즉설",
+      "path": "https://rss.libsyn.com/shows/34389/destinations/81802.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts4/v4/80/c9/76/80c9761c-47af-f548-5a68-32e0ee615362/mza_7979581183535098772.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "세바시",
+      "path": "https://anchor.fm/s/e09cb02c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4f/07/e2/4f07e259-d632-1bf9-910c-d80d698ad4da/mza_11850332896909793441.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "썬킴의 한국사 완전정복",
+      "path": "https://anchor.fm/s/c05919e0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/07/16/76/071676bd-d38e-33b6-4f51-b3cd96b252d2/mza_11002869237564237384.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "라디오 북클럽 고아성입니다",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1000698100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5f/23/64/5f236428-74a8-f518-25cd-746672ea9751/mza_2217128404009904555.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "두말하면 잔소리",
+      "path": "https://anchor.fm/s/f1da801c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/73/66/95/736695a2-e030-350c-e1ca-350063917dda/mza_4716364281227278996.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "우울한 빵집옆 음반가게 (Melancholy, Bakery & Vinyl)",
+      "path": "https://feed.podbean.com/artshaker/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b2/ae/83/b2ae830e-bef7-9640-84ce-355caf5936fe/mza_16198151985719317091.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "The Daily",
+      "path": "https://feeds.simplecast.com/Sl5CSM3S",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/64/66/ab6466a9-9a7d-e20e-7a3d-bc5be37d29ce/mza_15084852813176276273.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "김영철,피터빈트의 진짜 영국식 영어（김영철의 파워FM）",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000010062.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/b9/98/76/b99876b6-dd6f-e133-8967-fb6aef52b37b/mza_12140526293819819972.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "우주먼지들의 하찮은 이야기",
+      "path": "https://anchor.fm/s/eb3910c0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/4e/0e/96/4e0e964b-55a2-9fd8-e01a-c6d2cecb2026/mza_15485544631574982123.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "NHKラジオニュース",
+      "path": "https://www.nhk.or.jp/s-media/news/podcast/list/v1/all.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/14/3e/01/143e0148-1d4a-197e-8db6-7c28f22fb70a/mza_1995634670380288253.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "월급쟁이부자들 [직장인 재테크 학교]",
+      "path": "http://pod.ssenhosting.com/rss/pb_24433/pbchannel_31840.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/76/8c/e8/768ce844-a316-b114-8c51-a11ba4f3011a/mza_18187724322396683092.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Learning English For Work",
+      "path": "https://podcasts.files.bbci.co.uk/p0h6ffwg.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/97/e3/71/97e3711e-dd33-9114-8944-2597478a4f5e/mza_5716563979489173010.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "[KBS] 경제쇼",
+      "path": "https://api.kbs.co.kr/mediafactory/v1/podcast/rss/I0000-2013-kbs-business",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ff/ea/0b/ffea0bbe-ad1c-6f34-8fd3-54aa9c171050/mza_10152895151018831248.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Keiko일본어수다 Learning Japanese in Korean",
+      "path": "https://anchor.fm/s/7234f108/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/08/7f/4e/087f4e88-663f-01de-dde1-0dbccf4ffad7/mza_7355029433953610506.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "무소속 생활자",
+      "path": "https://anchor.fm/s/f3044f90/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/e4/1f/cbe41fdf-edb2-b741-b24d-fe443481842e/mza_7737586634237143202.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Learning English from the News",
+      "path": "https://podcasts.files.bbci.co.uk/p05hw4bq.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0d/0d/f8/0d0df862-76cd-1779-953e-8e332ba0c946/mza_14074668406081675853.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "YUYUの日本語Podcast【Japanese Podcast】",
+      "path": "https://anchor.fm/s/cda85d4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/d4/3a/fe/d43afe57-d9d9-d4ee-7bf4-58c4e9b765a9/mza_14976061900079999822.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "영국영어, 전문가와 함께! 설레는 영국영어 브릿센트[BRITCENT]",
+      "path": "http://pod.ssenhosting.com/rss/pb_32465/pbchannel_46141.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3b/84/d4/3b84d4cf-9b55-c1ae-b261-90bacf7cad85/mza_5462352446076846553.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "The Mel Robbins Podcast",
+      "path": "https://feeds.simplecast.com/UCwaTX1J",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "과학하고 앉아있네",
+      "path": "https://anchor.fm/s/de2f3e54/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/36/91/7a/36917a04-6254-bbb0-add9-908f3a847165/mza_10814264664583612316.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "[KBS] 이은선의 영화관 정여울의 도서관",
+      "path": "https://api.kbs.co.kr/mediafactory/v1/podcast/rss/R2018-0248-moviebook",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8d/d3/c5/8dd3c5b8-c89f-ead2-37ce-9257dca1ca55/mza_16344778485123447280.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Korean. American. Podcast",
+      "path": "https://rss.buzzsprout.com/2224965.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/16/0d/c8/160dc82d-7113-1c0b-7e5b-971911a22204/mza_30754668156150901.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "씨네마운틴",
+      "path": "http://pod.ssenhosting.com/rss/vivo119/pbchannel_40457.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/5f/10/e3/5f10e38b-afac-1857-57c3-eec468593da4/mza_9583198698384049082.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Smosh Reads Reddit Stories",
+      "path": "https://rss.pdrl.fm/ff8ba6/audioboom.com/channels/5148149.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ea/e9/98/eae99878-5ee5-915b-0c0a-46cf2b275f91/mza_13860666952263637735.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "요즘은 팟캐스트시대",
+      "path": "http://xsfm.co.kr/xml/podera.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/f4/df/d7/f4dfd7be-bf91-9f04-8130-01b93a5b024c/mza_17544743467532252479.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "[쓸공언니] 경제 뉴스와 책 읽기",
+      "path": "https://anchor.fm/s/f97ac048/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/eb/15/1f/eb151f12-49f6-6e11-6d13-26f2a9e7664f/mza_6345477077669003405.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "일본어 무작정 따라하기",
+      "path": "https://vod.gilbut.co.kr/vod/podcast/muttagi_ilbono/eztok_muttagi_ilbono_podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/c7/1d/08/c71d0882-4a0b-5920-83c5-83a622dfcd56/mza_4610841430202704569.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "쉬운 뉴스로 배우는 일본어",
+      "path": "https://anchor.fm/s/f8aa1844/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/56/6a/d4/566ad474-be4d-4551-d369-15ddf9c87236/mza_8910510508150004279.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "잡스러운 연애",
+      "path": "http://pod.ssenhosting.com/rss/neomarx/jobsrun.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/c0/35/06/c0350611-d95d-f143-d57b-b5c2e1877dcc/mza_13718785582313764986.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Listening Time: English Practice",
+      "path": "https://feeds.simplecast.com/obaHfEr1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2e/24/87/2e248729-c61f-c9f4-5118-1c94120248a2/mza_11068340913129106664.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "American English Podcast",
+      "path": "https://rss.pdrl.fm/bce084/feeds.megaphone.fm/americanenglishpodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c1/b5/60/c1b560a1-585d-5f25-6ff5-195161e03f53/mza_8466093335227729312.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "[해커스톡] 영어회화 10분의 기적",
+      "path": "http://pod.ssenhosting.com/rss/research/hackerstalk.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/4f/42/9e/4f429eb9-1ed4-4b52-d625-f1916e406202/mza_5790669841489139952.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTop",
+      "name": "Call Her Daddy",
+      "path": "https://feeds.simplecast.com/mKn_QmLS",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/05/10/91/05109145-8c22-5464-1f20-aaedeab769f8/mza_10276081716633787086.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "김태현의 정치쇼",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000010280.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/5f/ab/cc/5fabcc20-ec84-98a6-b90c-e3497d23f0b2/mza_9062101512496388319.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "KBS 1라디오 오늘 세계는",
+      "path": "https://api.kbs.co.kr/mediafactory/v1/podcast/rss/todayworld",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/90/3b/42/903b4203-53a1-4802-0ea4-a41e45803d03/mza_14297687334473140055.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "CNN This Morning",
+      "path": "https://feeds.megaphone.fm/WMHY6944338691",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/62/7f/86627f49-cc69-d26c-3f65-ef338b792dba/mza_2539191479833462863.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "오늘 미국은",
+      "path": "https://anchor.fm/s/110339800/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/51/dd/fd/51ddfd19-53fe-0c1c-65d7-3ebf84d98be1/mza_10255892274917187636.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "이정민의 정치인싸",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1004741100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/57/c4/a057c42f-1d8f-82a6-c8f5-516c462ec7e7/mza_4060133656427244402.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "김지윤과 전은환의 롱테이크",
+      "path": "https://anchor.fm/s/75d27060/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/1b/46/791b46b7-1d0c-bba5-f6ae-89368e4a73f7/mza_750387996159428246.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "CNN 5 Things",
+      "path": "https://feeds.megaphone.fm/WMHY2007701094",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/60/d4/4a/60d44a35-70f9-67f0-8e67-8d601594fc4c/mza_16749620490453319754.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "한판승부",
+      "path": "https://www.omnycontent.com/d/playlist/53ac8cb6-b299-4f93-8280-af50012ddab0/64a0174e-5515-496e-9eaa-af56000e1386/84e596ab-3dba-422c-a943-af56000e13b1/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6b/6b/e6/6b6be69f-991a-57f4-d51a-6503766bfb15/mza_13530863268041651293.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "키움증권 주식, 글로벌 시황 투자전략",
+      "path": "http://pod.ssenhosting.com/rss/channelk/channelk.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8e/97/c3/8e97c391-68d6-25e5-36d0-bad1dd6144d3/mza_13755164988627416385.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "NPR News Now",
+      "path": "https://feeds.npr.org/500005/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/27/a0/ab/27a0abb7-817f-d80c-4fed-6fd04d424333/mza_16804553558295235422.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Economist Podcasts",
+      "path": "https://access.acast.com/rss/ec380acc-fe13-46a0-991f-a1e508d126f8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/92/68/ba/9268bae8-1bd5-2a15-7f1b-7e265d4773bd/mza_10204374987848109193.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "김용민 브리핑",
+      "path": "http://pod.ssenhosting.com/rss/funronga/funronga.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/84/ff/b2/84ffb269-4143-b8ef-ae48-d6d405d21a4b/mza_9880797067538977423.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "The Journal.",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/the-journal",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/91/0e/ca/910eca32-75a3-48b6-9be7-f45799ef5f2f/mza_9869666721903280546.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "World News Tonight with David Muir",
+      "path": "https://feeds.megaphone.fm/ESP4140596756",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/04/87/fc/0487fce8-f8e7-bd55-6ea7-8049ddc38283/mza_3571144145691234773.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "코리아헤럴드 팟캐스트",
+      "path": "https://anchor.fm/s/a38cc384/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f2/07/a2/f207a269-b78f-7f3c-a9a5-b37652cc4012/mza_11359686694821229289.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "WSJ What’s News",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/whats-news",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/7d/a7/657da78c-5043-57ae-bd81-fb5352479baa/mza_999814641005091524.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "SBS 낮 종합뉴스",
+      "path": "http://news.sbs.co.kr/news/VoicePodcast.do?prog_id=1000001001",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/be/aa/d4/beaad49c-0f83-4c93-4e3b-65411bd2cf7e/mza_8523569637116332813.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "아메리카노",
+      "path": "https://rss.libsyn.com/shows/241397/destinations/1804364.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/18/df/7818df44-1089-48aa-3427-0fd40e98b8e7/mza_17650354539065272688.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "ABC News Daily",
+      "path": "https://www.abc.net.au/feeds/9443166/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/db/20/08/db200897-1632-d525-b87e-2bb2b09aeea5/mza_11603454822632026969.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "고현준의 뉴스 브리핑",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000010540.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/b6/a8/2e/b6a82ea7-f309-652a-6cfc-6aec9859f453/mza_1349048737693114777.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "시사IN [시사인]",
+      "path": "http://pod.ssenhosting.com/rss/pb_25480/pbchannel_33592.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/e9/38/1c/e9381cce-c312-e3aa-7902-8046d5c3d2c2/mza_8318514234084754438.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "NBC Nightly News with Tom Llamas",
+      "path": "https://podcastfeeds.nbcnews.com/l7jK75d0",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/27/6f/30/276f303f-ba66-915a-7704-9f3e053614bc/mza_8179972483604136486.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "새날",
+      "path": "http://pod.ssenhosting.com/rss/birdfly/birdfly.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f2/8d/4c/f28d4c4f-a613-f766-d839-53f253a0d94a/mza_16748367492100698652.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Claude AI",
+      "path": "https://rss.art19.com/infamous-ai",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bb/6d/aa/bb6daa11-6190-d473-a2e9-a0d5ad51ce21/mza_29215563039164085.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Bloomberg Tech",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/41764a4f-fc64-4e11-89ba-ae7c0030ab5e/9caafc41-289c-4115-995d-ae7c0030ab75/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f5/9c/9f/f59c9f1f-cbc8-0e46-629d-2df7e6a18274/mza_3594252261487211794.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "World Business Report",
+      "path": "https://podcasts.files.bbci.co.uk/p00fvhj7.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/59/e5/4c59e58d-3705-07ae-8202-cd6dc0c1a775/mza_14776944308557775503.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "아침& 뉴스, 류수민입니다",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1003824100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8b/a5/f6/8ba5f641-1fc5-bcc0-4df3-fa0ca46eb6e9/mza_7011282472452722555.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "WSJ Minute Briefing",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/minute-briefing",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/21/16/ab/2116ab5c-956f-710e-9652-8f56bd406952/mza_15984819754947628088.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "FT News Briefing",
+      "path": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/60/fd/0c/60fd0c79-808e-cc79-e121-27527becbdc6/mza_1413179331890984538.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Up First from NPR",
+      "path": "https://feeds.npr.org/510318/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0e/35/25/0e352569-e694-81d9-ea55-5f935981c15a/mza_1788275989855583986.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Bloomberg Intelligence",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/7f534b8c-9e91-429a-b102-ae3c00090c6d/0ad812bf-fd15-4012-a18c-ae3c00090c76/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cd/3f/e6/cd3fe63c-5a08-7ff6-ff6c-32cdcd53411f/mza_15386103358990007192.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "SBS 뉴스 - 경제",
+      "path": "https://news.sbs.co.kr/news/SectionPodcast.do?sectionType=02&plink=APPLEPODCAST",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1e/5f/dd/1e5fdd55-7cd7-6cb5-db54-298bfbf204e1/mza_16558005360657899628.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "The Intelligence from The Economist",
+      "path": "https://access.acast.com/rss/d556eb54-6160-4c85-95f4-47d9f5216c49",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/13/a6/58/13a65875-b7c7-a663-9b40-0bb42f62bf74/mza_18066604315473996895.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "[KBS WORLD Radio] News",
+      "path": "http://world.kbs.co.kr/rss/Podcast_News_e.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/ff/d4/93/ffd4933a-da42-3b49-12be-dd5f310e8896/mza_5376376187400820795.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "The Opinions",
+      "path": "https://feeds.simplecast.com/kphrlDnb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2d/af/bf/2dafbf10-c118-d531-b43b-5c0e97878e29/mza_12716482502454917697.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Journal en français facile",
+      "path": "https://apis.fle.rfi.fr/products/get_product/fle_getpodcast_by_nid_author_rfi?token_application=applepodcast_fle&program.entrepriseId=WBMZ39-FLE-FR-20220627",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/81/15/23/8115239e-731b-e9eb-aeb4-bcc7bab89aae/mza_92410675554346166.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "The Headlines",
+      "path": "https://feeds.simplecast.com/ydACIPHO",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/8a/52/fc8a527d-8979-adf2-977b-06304a816969/mza_684749869280596722.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Newshour",
+      "path": "https://podcasts.files.bbci.co.uk/p002vsnk.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/60/6d/79/606d7992-2e59-3374-579f-83d3010f25bd/mza_15128963149149619329.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "The Global Story",
+      "path": "https://podcasts.files.bbci.co.uk/w13xtvsd.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/04/79/45/047945a2-bc30-0f9f-a4c2-9d27b1761fd2/mza_3986113186933533816.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Anderson Cooper 360",
+      "path": "https://feeds.megaphone.fm/WMHY1640189360",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/6a/ca/c16aca28-8409-fe88-42ea-a34ca07b7ce9/mza_10791453805987698187.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "CNN One Thing",
+      "path": "https://feeds.megaphone.fm/WMHY5177234123",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c1/54/ea/c154eae5-7b80-c869-5afa-0136a9c4bb04/mza_17584197773694428120.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "[KBS WORLD Radio] Korea 24",
+      "path": "http://world.kbs.co.kr/rss/Podcast_korea_24_e.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/21/3e/03/213e038b-0f4d-53d2-e0fc-baaa4a44a8b4/mza_15207312189168483908.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Australia Talks",
+      "path": "https://feed.podbean.com/AustraliaTalks/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/21/c7/1321c72b-f7e1-841e-04ad-825495f95666/mza_11416445094637581895.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "WSJ Your Money Briefing",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/your-money-matters",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/55/64/2d/55642de8-68a1-553b-ef87-c9c9af2a5a0d/mza_10243183073521647378.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "The New Yorker Radio Hour",
+      "path": "https://feeds.simplecast.com/TRuO_SRo",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/08/d7/f9/08d7f9be-6657-6ed8-f6a7-b1c2db243ca4/mza_1050541904651421683.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "성지영의 뉴스 바사삭",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1006106100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/a9/c2/c7/a9c2c77b-4b3c-ef56-f563-57cd397cf497/mza_17950835322859839825.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "The World in Brief from The Economist",
+      "path": "https://access.acast.com/rss/theeconomistmorningbriefing/default",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9e/21/b1/9e21b146-e5c1-232e-00a8-10c9ac3192d2/mza_16558186685278697640.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "WSJ Tech News Briefing",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/tech-news-briefing",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cd/0b/bb/cd0bbbae-acb2-1962-6653-6b4e0634db3c/mza_2669424987953808400.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Today in Focus",
+      "path": "https://www.theguardian.com/news/series/todayinfocus/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/f1/13/71/f113715f-56e4-f542-a08c-b5890c0841bc/mza_18228009703397905678.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Reuters World News",
+      "path": "https://feeds.megaphone.fm/reutersworldnews",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/37/79/ed/3779ed28-900c-fe28-3fd4-177873c3bba4/mza_6421898793909046859.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "L'Heure du Monde",
+      "path": "https://feeds.acast.com/public/shows/68db9d2509b1c365e44318ca",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/b4/9f/09b49f13-4c73-2e89-5bdd-117a5a787623/mza_10769402460129893157.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "ニュースの現場から",
+      "path": "https://www.omnycontent.com/d/playlist/1e3bd144-9b57-451a-93cf-ac0e00e74446/50382bb4-3af3-4250-8ddc-ac0f0033ceb5/684015f9-2396-4ac4-bc1f-ac0f0033d08c/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9c/fd/ed/9cfded62-7f04-d667-0f17-eaabd8e1e2ac/mza_2268667171157710248.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Wall Street Breakfast",
+      "path": "https://www.spreaker.com/show/5725002/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5b/e3/2d/5be32dd8-1641-3eb1-7947-a6d1967c0447/mza_14192425420296728391.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "김경일의 물음표",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1006874100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1d/d6/7d/1dd67da9-65c6-6a13-38b9-946714843e82/mza_16221913650017214195.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Money Talks from The Economist",
+      "path": "https://access.acast.com/rss/39fc4a99-8861-437d-81e2-684d13e48f92",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8f/b4/98/8fb4983c-4873-da05-599e-e528c85e4cf9/mza_13474228678195417545.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "어피티 온에어",
+      "path": "https://anchor.fm/s/f5b35038/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/46/9c/ee/469cee76-6479-399b-6ccb-9f943ab92df5/mza_12985930389122397373.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Keyword News",
+      "path": "https://anchor.fm/s/5e1628a4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f3/b9/25/f3b92521-c73c-30d6-2b83-2cfb1da92966/mza_15747249669756026649.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "WSJ's Take On the Week",
+      "path": "https://feeds.megaphone.fm/WSJ1258839475",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5e/af/a6/5eafa63f-043a-c09a-293a-58d4e9edc26f/mza_12859061676996644632.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "朝昼晩の最新ニュース　日テレNEWS NNN AUDIO",
+      "path": "https://feeds.megaphone.fm/NIPPONTELEVISIONNETWORKCORPORATION2532012091",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/46/f4/6c/46f46cb3-990e-142b-bfb0-ff435bbf0663/mza_7636607040198451513.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Nursing Standard Podcast",
+      "path": "https://feeds.acast.com/public/shows/nursing-standard-podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/0f/35/94/0f359441-2933-8664-8eb6-53cbb1c322eb/mza_10978935948014961853.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "김민하 공화국 AI 뉴스 브리핑",
+      "path": "https://rss.libsyn.com/shows/610410/destinations/5320345.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/13/b7/5d/13b75de3-6204-7680-8819-159743ddd3be/mza_6201416438104262533.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "ChinaTalk",
+      "path": "https://feeds.megaphone.fm/CHTAL4990341033",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/05/cd/9b/05cd9b6c-d890-395a-3046-0a0ea0adadbf/mza_3042838841482244952.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Today, Explained",
+      "path": "https://feeds.megaphone.fm/VMP5705694065",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/57/bc/e4/57bce477-b6e7-ba7d-5bca-6289f3f32e26/mza_17986217629149107841.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "tagesschau: Die 20 Uhr Nachrichten (Audio)",
+      "path": "https://www.tagesschau.de/multimedia/sendung/tagesschau_20_uhr/podcast-ts2000-audio-100~podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ec/df/07/ecdf075b-c158-adb3-b9d8-dc33a5518b01/mza_17864003101634814089.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoNews",
+      "name": "Bloomberg Daybreak: US Edition",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/d15648c4-cee0-4e99-a5ca-af80014d921d/65ce2954-d8a8-4c66-9f42-af80014d923e/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/e9/a2/53/e9a253d1-453e-a83a-3729-86b896ab26d8/mza_12238786190783814746.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "정선희, 문천식의 지금은 라디오시대",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1000669100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c8/59/e1/c859e150-13d7-2d72-d069-1dc521f139cf/mza_4805941734313106588.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Conan O’Brien Needs A Friend",
+      "path": "https://feeds.simplecast.com/dHoohVNH",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "The Joe Rogan Experience",
+      "path": "https://feeds.megaphone.fm/GLT1412515089",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/53/f9/1b/53f91b92-46f0-cf52-f65c-6b23343397c3/mza_9009835258120886668.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "밀림의 왕 : 미루는 사람들을 위한 팟캐스트",
+      "path": "http://pod.ssenhosting.com/rss/pb_31146/pbchannel_43965.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource115/v4/2c/b1/0d/2cb10ded-199d-4c3b-efdf-5a8dc491186d/1a37768d-7390-4ebd-a400-eca579eac940.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "大久保佳代子とらぶぶらLOVE",
+      "path": "https://feeds.megaphone.fm/TBS5907234265",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/62/0b/69620b26-b9a4-d295-6bb6-b20c52cf95a0/mza_16303464997215541275.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "역사 뇌피셜 \"그놈\"",
+      "path": "http://pod.ssenhosting.com/rss/neomarx/pbchannel_47234.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource122/v4/59/7a/be/597abe91-3650-da3e-3fab-21b9c617bfe1/29a48e80-c87b-49b3-a3e5-925610c76d44.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "생방송 여자가 좋다",
+      "path": "http://pod.ssenhosting.com/rss/pb_32720/pbchannel_46772.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/35/35/24/353524fd-b08b-125b-17b5-e8f6f69c9069/mza_6574719170645027424.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "김영철의 파워FM",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000009984.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/0f/ca/0f/0fca0fab-919c-ad81-cdeb-22285ce094ac/mza_5226421130571862969.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "굿모닝FM 테이입니다",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1000587100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1c/b1/3c/1cb13c77-810f-c8f5-bf74-6f5d187a5667/mza_2531001588088087952.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Good Hang with Amy Poehler",
+      "path": "https://feeds.megaphone.fm/good-hang-with-amy-poehler",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/94/bb/2b94bb6e-44f1-9d57-7748-b7456072806d/mza_1064202164981856225.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "독일언니들",
+      "path": "https://anchor.fm/s/db12ddac/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/67/91/b0/6791b027-1da3-d70b-f75a-001d9a9cff07/mza_10751617796108155451.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "두시의 데이트 안영미입니다",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1000586100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/36/11/b3/3611b3f4-3653-885e-c1f5-d450c8d282de/mza_11686048449306335979.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "지라시 '웃음이 묻어나는 편지'",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1003273100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/39/99/97/399997f0-5729-f72f-9129-2f392d62eb8f/mza_5124404482130842357.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "정오의 희망곡 김신영입니다",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1001919100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/a0/e7/85a0e77d-f1cc-e382-bc1a-106d451569a3/mza_855619347306593920.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Two Hot Takes",
+      "path": "https://feeds.megaphone.fm/GLT3561373177",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d7/7c/0d/d77c0d52-44a4-602d-5546-5bb4efe638e4/mza_3929223515890523957.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "정영진 최욱의 불금쇼",
+      "path": "http://pod.ssenhosting.com/rss/bgshow/bgshow2.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts7/v4/97/56/2c/97562c37-9e31-bfe9-5d08-c5082fac0d96/mza_7703639730845340173.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Bad Friends",
+      "path": "https://feeds.megaphone.fm/TPC1602991613",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b0/26/c8/b026c805-1a24-55ea-cff3-d0329d2338ce/mza_11376115143280052758.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "사랑의 체험수기 어느 날 사랑이...",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1004762100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/ea/9e/df/ea9edf9d-abd8-49da-2489-c3a6c15926d7/mza_9638748582546243684.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "The Tonight Show Starring Jimmy Fallon",
+      "path": "https://rss.art19.com/the-tonight-show-jimmy-fallon",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3d/e6/13/3de613fb-cce6-0084-b07d-da9b5649d0b3/mza_6201780621851303280.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Jimmy Carr: Crowd Work",
+      "path": "https://feeds.megaphone.fm/BARL2846380575",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/14/92/7d/14927dfe-5254-841d-e834-ce02902272e6/mza_6481324330579151823.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "중소 품은 아가씨들",
+      "path": "https://anchor.fm/s/104e4d568/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2d/a8/de/2da8de97-56dc-0531-77e5-ec8045d2c67b/mza_5004297967177687713.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "송은이, 김숙, 안영미의 전국지인자랑",
+      "path": "http://wizard2.sbs.co.kr/w3/podcast/V2000010535.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/a7/66/fa/a766fa7a-ce3d-a027-d0dd-db46199c19f1/mza_4859617467279512737.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "요팟시 좋게된 Greatest Hits",
+      "path": "http://xsfm.co.kr/xml/podera_GH.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/88/2c/00/882c007e-604c-d98d-2438-7047af4dad25/mza_5482820792856659965.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Armchair Expert with Dax Shepard",
+      "path": "https://rss.art19.com/armchair-expert",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f0/13/8f/f0138f4b-8bc3-0a64-2c11-ef566840f60f/mza_3062409012210474882.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "SmartLess",
+      "path": "https://feeds.simplecast.com/hNaFxXpO",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "凹凸电波",
+      "path": "http://www.ximalaya.com/album/19206382.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/30/24/93/302493e7-be1c-958c-366e-8d13c2fc698c/mza_10993420535667969042.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "박소현의 러브게임 ­- 러브, 게임의 법칙",
+      "path": "http://wizard2.sbs.co.kr/w3/podcast/22000014502.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/60/16/69/601669f6-5f9a-20db-5f56-8c0afbe09107/mza_8917322221394056821.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "유민상의 배고픈 라디오",
+      "path": "http://wizard2.sbs.co.kr/w3/podcast/22000014304.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/46/aa/70/46aa7061-d308-7935-6a0c-9388485e5c6e/mza_4754251954234644087.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "송은이, 김숙의 언니네 라디오",
+      "path": "http://wizard2.sbs.co.kr/w3/podcast/V2000008788.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/02/27/3d/02273d21-3365-6bef-122d-379f75ec6b19/mza_18401771184648569566.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "紅しょうがは好きズキ！",
+      "path": "https://feeds.megaphone.fm/RKL8555893481",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ad/86/51/ad8651a9-54ad-86ec-14af-8e9a46663c5d/mza_12561792167989660732.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "아차차 프렌즈",
+      "path": "https://anchor.fm/s/1124cf9ec/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4a/c1/fb/4ac1fb79-2182-60b9-b539-26e5a8c5b581/mza_3850734455423229362.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "[KBS] 윤정수 남창희의 미스터 라디오",
+      "path": "https://api.kbs.co.kr/mediafactory/v1/podcast/rss/A2019-0002-misterradio",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/f2/97/3e/f2973e8c-4161-9dee-86db-cfc80d3f1430/mza_8111719934554355142.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "島田秀平とオカルトさん！---",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/4ecf53f4-b9e7-4199-b6b7-acf6005ae634/b733e67a-d3e3-41bd-b877-b2a00074f4ee/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/0d/15/100d15dc-0386-e1c2-f527-bcf8f5b32920/mza_4172815201301067110.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Oddvice",
+      "path": "https://rss.art19.com/oddvice",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e5/6c/73/e56c7337-345c-93a0-634d-90b3565deb7e/mza_9162951223129204736.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "금개의 시도",
+      "path": "http://pod.ssenhosting.com/rss/pb_32720/pbchannel_49899.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/22/24/8f/22248fd2-4614-7cfe-267e-3139c3480a04/mza_1949309338844789210.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "No Such Thing As A Fish",
+      "path": "https://audioboom.com/channels/2399216.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6f/9b/4c/6f9b4c39-3c1a-d7c7-9264-b0ed14579e08/mza_7947053701740283670.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "マユリカのうなげろりん！！",
+      "path": "https://feeds.megaphone.fm/unagerorin",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/f6/26/b1/f626b11d-a5df-e1cc-c8e7-829696a76123/mza_11500113779975659331.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Office Ladies",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/office-ladies",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/ae/ae/7eaeae69-1b09-9aa1-b15c-b9b265d60703/mza_6388951927746251149.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "우당퉁탕 수해복구",
+      "path": "http://pod.ssenhosting.com/rss/neomarx/pbchannel_38305.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/3f/98/c9/3f98c991-fbcf-a9ea-795f-7395503ca331/mza_1327262956475859886.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "오늘 뜨거운 밤 - 오뜨밤",
+      "path": "http://pod.ssenhosting.com/rss/neomarx/pbchannel_49553.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/50/29/18/5029188f-7e06-c5dc-8d55-8c4956a68db9/mza_7441006373182763346.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "[지막스] 지구촌 기막힌 스토리",
+      "path": "https://anchor.fm/s/f1dde2e8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/51/4f/0f/514f0f94-6914-bac7-b289-09efbedf4840/mza_4094243542278725344.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "ダイアンのTOKYO STYLE",
+      "path": "https://feeds.megaphone.fm/TBS7715291070",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/42/73/794273a2-facf-93f7-9e36-8c8f0735ae2d/mza_8657772910591235587.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Бидний Нууц Подкаст",
+      "path": "https://feeds.soundcloud.com/users/soundcloud:users:19730714/sounds.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/cb/11/67/cb116745-9323-ea09-3bad-2a4235befc66/mza_1061239314975653502.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "This Past Weekend w/ Theo Von",
+      "path": "https://feeds.megaphone.fm/thispastweekend",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/f6/5a/9cf65abb-f8db-fb7b-984f-b4276a1e8c85/mza_2107148709996282347.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "肥话连篇",
+      "path": "http://www.ximalaya.com/album/56109512.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/12/08/74/1208744d-b065-1164-632b-82c97af39412/mza_14598067193335283885.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "날수의 무서운 라디오",
+      "path": "http://pod.ssenhosting.com/rss/pb_25562/pbchannel_33709.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cd/8f/8e/cd8f8e1d-c59b-ceb3-4772-887b111d34ae/mza_6435480142438982489.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "내편하자 시즌2",
+      "path": "https://anchor.fm/s/e342e224/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/7c/4b/df/7c4bdf72-59d2-cfd7-eb56-f8747def3c4d/mza_2367459999700584494.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "今ファミレスにいるんだけど隣の席の女子が話してる内容がジワジワきてるんだが共有して",
+      "path": "https://anchor.fm/s/8a1c8a38/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/cb/2b/b3/cb2bb30b-5808-97c7-098d-61f63da9ee47/mza_14591009606929064695.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "かが屋の亀の間",
+      "path": "https://feeds.megaphone.fm/TBS1580150170",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/07/e5/1e/07e51e55-0469-f6a3-de0f-fb1bd9d9c63e/mza_13552744247990845292.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Ted & Ed",
+      "path": "https://anchor.fm/s/1803d99c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3d/bb/17/3dbb17b6-99f3-4911-8828-2523ee131149/mza_6989038698953574552.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "本田響矢の今日、やってる？_【オールナイトニッポンPODCAST】[NEW]",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/e0bdd005-17d9-4c38-a084-b3b6001dfa3c/de8afbbc-ac3f-403c-96be-b3b6002937fe/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/2f/3e/ab2f3ee6-734f-6bb3-04d2-f3cff3c1e807/mza_8325502997855215423.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Off Menu with Ed Gamble and James Acaster",
+      "path": "https://feeds.acast.com/public/shows/b19ac1f5-6adf-4c8b-aa1a-2af2160f99e4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c4/dc/de/c4dcdec7-fbea-749e-7a03-bbe27db17137/mza_4311127974403693339.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "畑芽育&齊藤なぎさ「オフはこんな感じ」",
+      "path": "https://feeds.megaphone.fm/HDYMP8390642434",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/73/94/db/7394db0d-30ff-9f6e-81d9-895f074cc485/mza_11208527935247517752.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "都市伝説 オカンとボクと、時々、イルミナティ",
+      "path": "http://tosidennsetu02.seesaa.net/index20.rdf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/07/0d/af/070daf45-565f-cb4b-7e03-5cfeccee0c7a/mza_10634012658021732992.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "西田どらやきの怪研部",
+      "path": "https://feeds.megaphone.fm/kaikenbu",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9b/b5/f8/9bb5f8f9-0d8c-ef31-fc1f-3889b6313997/mza_17185973182542827486.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Help I Sexted My Boss",
+      "path": "https://access.acast.com/rss/82de067d-b294-48af-b986-6a14d549f6f4/default",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/33/51/a0/3351a035-aa38-a483-6324-3eb3efe72355/mza_7037053055252179817.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "요즘은 팟캐스트 시대",
+      "path": "http://old.ddanzi.com/appstream/nowdays.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts62/v4/86/33/93/863393dc-7b52-b978-47b4-a48e29751316/mza_4123960951421068598.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Three Bean Salad",
+      "path": "https://feeds.captivate.fm/three-bean-salad/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1f/7e/f9/1f7ef972-6a12-cad8-92ce-71dd8e52ddc4/mza_16918634316176320447.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Wait Wait... Don't Tell Me!",
+      "path": "https://feeds.npr.org/344098539/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e9/94/fe/e994fed6-50a1-6519-9b84-b0beaa205242/mza_2290751556169099993.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "박영진, 박지선의 명랑특급",
+      "path": "http://wizard2.sbs.co.kr/w3/podcast/V0000364036.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/45/e0/c6/45e0c600-07fa-97ad-e6f5-116f06fc4330/mza_4573471525349242856.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "우리가 남이가 시즌3",
+      "path": "http://pod.ssenhosting.com/rss/rheejiho/woonam.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts3/v4/42/41/ee/4241ee74-ad54-4da5-ad39-75084250cd0e/mza_1546856770573466392.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "The Matan Show",
+      "path": "https://feeds.megaphone.fm/TPC7210109796",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fb/af/56/fbaf561f-5f6c-1f60-c9fb-3e5a1953f4fd/mza_12296778732664199470.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "Королевские НеКорги",
+      "path": "https://cloud.mave.digital/33789",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/96/3a/bd/963abd28-8051-ddce-aa8f-5d0aac43670d/mza_4719340639628660142.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "La Pija y la Quinqui",
+      "path": "https://feeds.megaphone.fm/GLT1185080500",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/a1/13/bda113cd-c8ce-e7bc-f992-a451a272e24f/mza_12864388800202330401.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoComedy",
+      "name": "The Sebastian Maniscalco Show",
+      "path": "https://feeds.simplecast.com/MEylaxWP",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/88/a5/c988a5f9-03d5-7042-d0cf-d8e326cae8fc/mza_16462516047382188456.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "하와수의 커피챗",
+      "path": "https://anchor.fm/s/1130de6fc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f6/ec/ff/f6ecff2b-c16f-b507-07a0-f913d8a913a8/mza_17086688394170156837.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "비혼세: 본격 비혼라이프 가시화 방송",
+      "path": "https://anchor.fm/s/7780f094/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/55/9a/12/559a126a-e679-7e40-e7f1-42a9e5ab71f0/mza_7917788993521860636.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "B주류경제학",
+      "path": "https://anchor.fm/s/f69ee3a4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/43/7d/2a/437d2a55-5d2b-faa5-4d34-3df593e7a2bb/mza_6718189958019192979.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "조승원의 뉴스하이킥",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1005071100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5f/16/87/5f16876f-4a40-b667-bec8-b6ef7a32a2ca/mza_15071110836398641106.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Stuff You Should Know",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "까마귀의 모음: 스몰톡",
+      "path": "https://anchor.fm/s/10dc089d4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d2/e1/7b/d2e17bee-325e-00ec-d940-003cf90072b8/mza_17669879925054188033.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "HAHA Podcast",
+      "path": "https://feeds.simplecast.com/C8KWN7oI",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/9d/12/789d1261-d224-abe5-b641-4ab05ecc0a0d/mza_7511211403408741048.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "이박사와  이작가의 이이제이",
+      "path": "http://pod.ssenhosting.com/rss/vamp666.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/e7/bd/df/e7bddf05-5292-2161-b034-d1ff05d9961f/mza_9473375661373296164.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The Girls Bathroom",
+      "path": "https://feeds.acast.com/public/shows/bd38ad29-6b25-4be0-8796-a310aded9b55",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e7/0f/d8/e70fd8ef-9880-b716-fd74-e6ca38e229c3/mza_15179731139974944632.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "This American Life",
+      "path": "https://www.thisamericanlife.org/podcast/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/64/aa/3a/64aa3a66-a08a-947c-cf21-a5722a1b77ae/mza_11390421932467026234.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Bee's Tee with hannah",
+      "path": "https://api.robotstart.jp/api/v1/feeds/362a048d/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9f/d5/37/9fd53708-2a4c-129d-9849-76cc784425ca/mza_858222834042097712.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Philosophize This!",
+      "path": "https://feeds.megaphone.fm/QCD6036500916",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/b7/51/c1b751eb-ab38-f11c-d6c1-0a9de79b7061/mza_12134548126279202007.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "암과 책의 오디세이",
+      "path": "https://anchor.fm/s/105b820d0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f5/6d/de/f56dde5f-8545-2b30-0b5e-ee91ed6cfdb9/mza_15368799116163862003.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Eat Your Crust",
+      "path": "https://rss.buzzsprout.com/276729.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/6d/19/796d19b2-607f-a3d3-fddd-5edee430e612/mza_3403298581385349394.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "となりの雑談",
+      "path": "https://feeds.megaphone.fm/TBS6714057012",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/b5/2c/2bb52c4f-93bf-c1ed-40f2-ec00cec11be2/mza_359700605229109175.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Dua Lipa: At Your Service",
+      "path": "https://podcasts.files.bbci.co.uk/p0cgz10v.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/98/8e/e5/988ee511-3861-9b53-b671-7fbacf223b8c/mza_12843672963071374418.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Pretty Lonesome with Madeline Argy",
+      "path": "https://feeds.simplecast.com/hRqM4292",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d7/68/ee/d768eef2-e922-9dd9-aa5d-7869f09a3f57/mza_689928813129156103.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The Ezra Klein Show",
+      "path": "https://feeds.simplecast.com/kEKXbjuJ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9d/ca/35/9dca35d8-e7d2-7e4f-63b5-c2ff4973a3f5/mza_16891544429738729361.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Modern Wisdom",
+      "path": "https://feeds.megaphone.fm/SIXMSB5088139739",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7f/73/99/7f739968-f65e-f679-d1fd-c727118c69f0/mza_17156407142775783271.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The TED Interview",
+      "path": "https://feeds.acast.com/public/shows/67045b43aa9d704b1e952e88",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/06/9f/25/069f2595-7c4c-c0f3-bba4-7fbc0a8743e6/mza_12146987676499761547.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Freakonomics Radio",
+      "path": "https://feeds.simplecast.com/Y8lFbOT4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f7/0c/c5/f70cc540-ce36-d96f-b111-c970aad5505c/mza_17703422762227531425.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "생각의 미감",
+      "path": "https://anchor.fm/s/110f2680c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/02/64/2a/02642a6a-e24d-b821-310d-f300695faf40/mza_13294505037975560808.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "TED en Français",
+      "path": "https://feeds.acast.com/public/shows/6737ba65efa89af0b58e854e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e0/86/fd/e086fd3e-685d-1a4e-d491-ebaed531389b/mza_16558552561708503462.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "김치형의 뉴스 하이킥",
+      "path": "http://minicast.imbc.com/PodCast/pod.aspx?code=1005767100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b1/74/10/b1741091-17b7-5bb9-92a2-e46df3f4642d/mza_8752742207275517662.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "姜思达",
+      "path": "https://feed.xyzfm.space/tdjvf7vfnbqq",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/26/7a/4c/267a4c48-29b9-a86c-a1f8-03d23f386ae2/mza_15360284930671706473.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "kemioの言わせて言うだけEverything",
+      "path": "https://anchor.fm/s/f0e04264/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c0/ef/a5/c0efa5d5-3e62-0957-ca7e-5e40e26e54c1/mza_8005130533709999819.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "강소팟",
+      "path": "https://anchor.fm/s/e6f82ed8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c8/86/85/c88685e7-a49b-ca37-bc96-6238ef4f6971/mza_2560862145493323411.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "All There Is with Anderson Cooper",
+      "path": "https://feeds.megaphone.fm/WMHY6497875466",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/30/26/e6/3026e632-ce5a-5bc3-fc19-85fda4b4c495/mza_17744194216339624691.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The Documentary Podcast",
+      "path": "https://podcasts.files.bbci.co.uk/p02nq0lx.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a4/ad/16/a4ad16d3-f32b-2732-79ea-d3819906b505/mza_9553926258008356281.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "노중훈의 여행의 맛(종영)",
+      "path": "https://minicast.imbc.com/PodCast/pod.aspx?code=1000621100000100000",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4a/3c/21/4a3c2195-13cc-25ec-ce2c-0aa00c9481d1/mza_1704374926796068394.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Free Thinking",
+      "path": "https://podcasts.files.bbci.co.uk/b0144txn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/cf/03/c9/cf03c978-ba96-aeaf-091b-fea7f68fcbf4/mza_14511000951945966172.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "What's The Juice?",
+      "path": "https://feeds.redcircle.com/4c231222-6ce3-4899-921c-e25cc2f95973",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6d/8d/ce/6d8dce33-c21d-f938-a490-7e747eff4eb0/mza_16335381383940711387.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Modern Love",
+      "path": "https://feeds.simplecast.com/eHEJ08b1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/08/87/de/0887de16-2eb2-b99b-78b9-ca12fce8cf5d/mza_2798548197053957784.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The Shawn Ryan Show",
+      "path": "https://rss.pdrl.fm/ac69ac/feeds.megaphone.fm/WWO7410387571",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d0/b3/2d/d0b32d7f-ab2d-5791-83b0-854f698a9184/mza_13561258173056659752.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Coffee Break",
+      "path": "https://anchor.fm/s/102dc8180/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/df/ca/5f/dfca5f1a-a3bb-4582-a38e-1497932a8feb/mza_15738086368653829761.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "靈異錯別字",
+      "path": "https://feeds.soundon.fm/podcasts/722f82de-776a-4123-9710-799f28a08a90.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource211/v4/7c/c0/fd/7cc0fddb-0261-de9f-bb2b-543a211ecc3a/ada90f79-713b-477e-aa5f-06a0e19a7f3f.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "8 milliards de voisins",
+      "path": "https://apis.rfi.fr/products/get_product/rfi_getpodcast_by_nid?token_application=975d23b8-7a07-11e8-9f62-005056a90194&program.entrepriseId=WB288427-RFI-FR-20101025",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/87/3b/cf/873bcf7a-c7de-676a-684c-caa655e08b6d/mza_4387907437252454614.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "탁수다",
+      "path": "http://pod.ssenhosting.com/rss/lovepumsa/ttts2.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/d4/39/56/d439560f-cdab-6e90-cc60-94e74a00e076/mza_10474367298379897717.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Sistas, Let's Talk",
+      "path": "https://www.abc.net.au/feeds/13340790/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/29/34/08/29340865-1d4e-16b3-6f0f-40d26bd00962/mza_10699313645798519894.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "聊聊东西 - Talk to Me in Chinese",
+      "path": "https://feeds.simplecast.com/wy2qyesE",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0c/67/e8/0c67e8c8-87c3-1727-6d2a-ab7c1f7c165c/mza_18409894418419195799.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The Happiness Lab with Dr. Laurie Santos",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/96c5c41e-0bc8-4661-b184-ae32006cd726/d623ef0b-3fee-4c26-b815-ae32006cd739/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f9/14/47/f9144733-0019-9e7a-4f8f-21818eadb9d9/mza_1460301163065810614.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Love Life With Matthew Hussey",
+      "path": "https://feeds.acast.com/public/shows/68bee481b494ca82a27a3434",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/09/1e/4b/091e4b63-bf7b-fad5-731e-567be22f1a49/mza_18133659586775346003.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Le Cœur sur la table",
+      "path": "https://feeds.audiomeans.fr/feed/c15bf308-42a5-4cdc-9e89-38dce9113c6b.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/29/4c/aa/294caafa-3b54-8588-8e89-7e76f6e9ac6f/mza_18128857735663655603.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Australia Explained",
+      "path": "https://sbs-ondemand.streamguys1.com/settlement-guide/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/34/11/9a341168-2e3c-1d73-1043-cf03dd4c08c5/mza_13663510435693200077.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "밀떡",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000010181.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/6d/86/14/6d8614dd-0c9c-5f98-4380-c6a9a287f68e/mza_10456371324206322303.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Khloé in Wonder Land",
+      "path": "https://rss.art19.com/khloe-in-wonder-land",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/93/71/84/93718442-30c1-7ac4-2f60-aad04c2b917c/mza_4663150695155770153.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "On Being with Krista Tippett",
+      "path": "https://feeds.simplecast.com/AuAxH_Bf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/c6/53/0ac65311-3ff7-44f7-fd5e-652e84d34cf1/mza_10791381164333289979.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Il était une (première) fois : le podcast d'histoires d'amour de ELLE",
+      "path": "https://feeds.acast.com/public/shows/646b456aedf4b5001140663b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0a/0c/19/0a0c19a4-469b-1bbc-bb50-5d3e66ef2ec5/mza_7676623132521961678.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "토킹 헤즈 Talking Heads",
+      "path": "https://anchor.fm/s/108edfc20/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/04/8e/36/048e36a2-7e04-9e26-62aa-c0622d78ad1c/mza_14140506138014856002.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Oprah's Super Soul",
+      "path": "https://feeds.acast.com/public/shows/69ca82d28fc1c62479fa987b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/7a/a6/dd/7aa6ddb9-ba7c-e7df-fd29-a8e875be8871/mza_5854921686815900498.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "TMEIC presents 畑芽育とFUN Time",
+      "path": "https://www.omnycontent.com/d/playlist/67122501-9b17-4d77-84bd-a93d00dc791e/b97c8055-b29d-4369-9bfe-b2ae0025b00d/421e0bb4-0794-4f33-9d07-b2ae0025b332/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ca/6e/87/ca6e8785-d379-275b-1f23-6280e62798df/mza_212618626732481443.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "살살살기 운동본부",
+      "path": "https://anchor.fm/s/f8c38be4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ce/de/d2/ceded20b-9d03-909a-b005-ecdbb9d7ea8f/mza_13282175427216373516.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Dialogues: The David Zwirner Podcast",
+      "path": "https://feeds.megaphone.fm/dialogues",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ec/be/35/ecbe35eb-862c-4376-b282-50c96a0c800a/mza_3314704156762587689.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "사십춘기",
+      "path": "https://anchor.fm/s/ea60a3ac/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/ed/6c/dd/ed6cdd65-ba72-6734-1b84-19b10089aae0/mza_3396650122891488768.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The Receipts Podcast",
+      "path": "https://feeds.acast.com/public/shows/67dbd903782fc3c7c6b02a0b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0f/b8/f4/0fb8f4f6-5d33-916a-af03-1535c0aeaf4e/mza_604089966267837551.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "모여라",
+      "path": "https://anchor.fm/s/1019e477c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7a/f0/8d/7af08dac-4f1c-a3c6-2e83-621c039eff03/mza_10583416068346225179.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "여행본색",
+      "path": "https://wizard2.sbs.co.kr/w3/podcast/V2000009660.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cc/ea/97/ccea9762-6589-be04-0b7b-9ff6fee3bb4c/mza_11115994722678825038.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "구조론 방송국",
+      "path": "https://feeds.soundcloud.com/users/soundcloud:users:248268953/sounds.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ed/6c/a0/ed6ca061-8955-bb31-3857-f549282c902b/mza_12226493246625125362.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Critics at Large | The New Yorker",
+      "path": "https://feeds.megaphone.fm/CNE4835008151",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/b4/58/78b4583d-5d2e-b0ee-aada-37d8b16f724b/mza_13988372176959500119.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Banana Lab",
+      "path": "https://feeds.transistor.fm/banana-lab",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e6/37/ab/e637ab2c-0a2d-11b7-e364-c4f9b60d62da/mza_14146334239875790567.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "LIFESTYLE COLLEGE",
+      "path": "https://feed.sonicbowl.cloud/rss/b6ea47a2-f418-4f07-8a28-4744fef3c8c1/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/a0/a6/f8a0a69a-67d8-a9ec-e3a3-877166f9f72d/mza_2995959863187926840.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "서늘한 마음썰",
+      "path": "https://api.kbs.co.kr/mediafactory/v1/podcast/rss/I0000-1902-heart",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/f5/86/ad/f586ad1f-9ef1-bfef-9a25-d4a0ce8f06b0/mza_3798982941821458367.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "송작가TV",
+      "path": "http://pod.ssenhosting.com/rss/zzirracc/zzirracc.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/a1/95/f8/a195f87c-51c4-bd88-9387-952f07f1a7c7/mza_3431295478027560554.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "The Conversation",
+      "path": "https://podcasts.files.bbci.co.uk/p0290t8h.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a0/2b/9a/a02b9a44-d569-b99d-0c2a-5020164d4346/mza_18433829068883410052.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoCulture",
+      "name": "Becoming the People Podcast with Prentis Hemphill",
+      "path": "https://rss.buzzsprout.com/1108100.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4b/15/11/4b1511a8-a788-a83c-12b8-c436093b79dd/mza_8527508191410664543.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "슈카월드",
+      "path": "https://anchor.fm/s/ddaceaa8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/24/34/8b/24348b5d-87f7-11e6-9712-8340f8ea9575/mza_6124480666658863166.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "출근길 마케팅 트렌드",
+      "path": "https://anchor.fm/s/f177e0d8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/6a/5f/02/6a5f026f-65d0-1dc8-641e-90cf06ed68ba/mza_13768902658204621937.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Diary Of A CEO with Steven Bartlett",
+      "path": "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/af/0d/69af0ddd-1e0f-7ae3-c84b-88f18e31ad0c/mza_14445920128472365296.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "(돌아온) 이동형의 뉴스 정면승부",
+      "path": "https://radiochat.ytn.co.kr/podcast/program.php?m_cd=0263",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/ea/c8/85eac857-7e7c-6ce6-dae2-e73e8fbbc561/mza_17581370352180018916.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "[KBS] 성공예감 이대호입니다",
+      "path": "https://api.kbs.co.kr/mediafactory/v1/podcast/rss/R2018-0169-mightysuccess",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/61/eb/db/61ebdb7f-e854-6b15-6840-db05720c5829/mza_16467462455582959156.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Business Daily",
+      "path": "https://podcasts.files.bbci.co.uk/p002vsxs.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/a1/2b/0ca12b14-4682-a5e5-da3a-e79aa89e8b8f/mza_14965223976430597152.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Business English from All Ears English",
+      "path": "https://feeds.megaphone.fm/ALLE3395867426",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9e/99/2d/9e992db6-195b-b089-9a7c-3ec116bd2c41/mza_9806639323537372163.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "장성철의 뉴스명당",
+      "path": "https://radiochat.ytn.co.kr/podcast/program.php?m_cd=0214",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/70/f8/1c/70f81c40-582b-6925-f3cd-f108f2e1e3fa/mza_11889787856531014956.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Bloomberg Businessweek",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/3b082bbf-691d-443b-bc59-ae2b0012ff93/9222076a-d22a-4a9f-9d26-ae2b0012ffb4/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a1/6d/40/a16d4028-1fd8-abf0-cfd2-c59447c74c0a/mza_317399451927467704.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "증시각도기",
+      "path": "http://pod.ssenhosting.com/rss/pb_30669/pbchannel_42941.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PodcastSource221/v4/7d/d2/18/7dd218af-66df-8661-535e-18f621d25a37/b87280cd-8df7-4ed6-88f8-17dbd2aa440c.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "HBR IdeaCast",
+      "path": "http://feeds.harvardbusiness.org/harvardbusiness/ideacast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/28/4b/4e/284b4e44-9a28-dabf-e853-e60c43e380ad/mza_6581779795008535928.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Working Hard with Grace Beverley",
+      "path": "https://feeds.acast.com/public/shows/a8b08796-03e4-48c3-9531-3229de80d9ea",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/82/55/52/825552a3-71f3-13fb-2aec-a14761a2dd48/mza_17785446765192118919.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "日経ビジネス　モーニングニュース",
+      "path": "https://feeds.megaphone.fm/NBP3303775005",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/18/b1/0a18b146-a3fa-92c7-9eb1-c37ac35fa96d/mza_10965601974259432343.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "주식은 지금",
+      "path": "https://anchor.fm/s/fc34d800/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8e/00/ad/8e00adf8-7c89-4a43-d212-e8d7b20491e8/mza_98548449466749064.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Indicator from Planet Money",
+      "path": "https://feeds.npr.org/510325/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/52/43/7a/52437a60-2f82-5abd-e65a-77e1a4fc41c2/mza_16254826952631581399.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Planet Money",
+      "path": "https://feeds.npr.org/510289/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/df/53/85df5334-0fae-28a9-2bc4-b97b81061d0e/mza_10839245066228881011.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Tim Ferriss Show",
+      "path": "https://rss.art19.com/tim-ferriss-show",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/18/39/b4/1839b420-7aff-c501-5d0d-af2842fba013/mza_6255154260686997849.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Economics Show",
+      "path": "https://feeds.acast.com/public/shows/664394a442f6710013618119",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/90/62/4c9062e0-4914-7fc2-c12a-ce7e4107dff0/mza_3187692489049767548.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The McKinsey Podcast",
+      "path": "https://www.omnycontent.com/d/playlist/708664bd-6843-4623-8066-aede00ce0c8a/3f6f52af-fba1-496d-b11b-af040139456a/bfe0b44a-082f-495a-952a-af0401394590/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/43/d6/66/43d66611-8914-367e-4ee4-029dd76a27fe/mza_12033376682740379663.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "부자아빠 주식학교 (실전매매복기)",
+      "path": "http://pod.ssenhosting.com/rss/pb_20624/pbchannel_28325.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/c1/cd/fa/c1cdfa8d-86ed-01e9-71ac-d2251d4da64c/mza_2185818349040248719.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Morning Brew Daily",
+      "path": "https://feeds.megaphone.fm/MOBI8777994188",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/db/85/0b/db850bcb-d650-aab2-900f-31897e318d13/mza_1081398170013439534.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "직장인의 책읽기, 직책",
+      "path": "http://pod.ssenhosting.com/rss/pb_19132/pbchannel_27078.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/bf/42/8d/bf428d5f-f1d9-65c1-4a12-098cc8dbf77a/mza_583045010688938135.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Good Bad Billionaire",
+      "path": "https://podcasts.files.bbci.co.uk/p0g7xj36.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/5e/bd/f35ebdfd-0f58-5e38-c730-65af2e18b41b/mza_18173551939387628789.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "HBR On Strategy",
+      "path": "https://feeds.feedburner.com/harvardbusiness/on-strategy",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/ed/82/bbed822a-6c22-92ca-3ae5-3d0193c9868f/mza_2496486759509104887.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "TED中文",
+      "path": "https://feeds.acast.com/public/shows/64f74dde9a04ce0011863833",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/41/97/39/41973922-5524-7ff3-1cd5-2a654ccc19cc/mza_11980438909249136137.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Odd Lots",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "조태현의 생생경제",
+      "path": "https://radiochat.ytn.co.kr/podcast/program.php?m_cd=0206",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/51/7c/8f/517c8f44-1efb-5a51-8451-6904765c60db/mza_10791303726836714053.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "声动早咖啡",
+      "path": "https://www.ximalaya.com/album/51076156.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/a9/7f/7a/a97f7a8f-4451-05bc-bacc-637773b1b06a/mza_16067595309054880476.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Founders",
+      "path": "https://feeds.megaphone.fm/DSLLC6297708582",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Tiger Sisters",
+      "path": "https://rss.podscribe.ai/p/https://anchor.fm/s/f971e25c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b2/88/a9/b288a979-c29c-841e-cd49-640725e3c48b/mza_5144626021363856214.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "큰일은 여자가 해야지",
+      "path": "http://pod.ssenhosting.com/rss/pb_26781/pbchannel_36606.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b5/56/9b/b5569b51-380f-2970-7494-fb3bad5ed2f9/mza_3514988610676734462.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "考えすぎフラグメンツ",
+      "path": "https://feeds.megaphone.fm/KI3422305335",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/72/b9/ad/72b9ad95-c7a3-be9f-e5be-3e30528531f1/mza_11630844975913907405.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Cold Call",
+      "path": "http://feeds.harvardbusiness.org/harvardbusiness/cold-call",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fb/9c/96/fb9c967c-89af-f89c-3581-bcf3f809bdeb/mza_12222203797713235622.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Marketplace",
+      "path": "https://feeds.publicradio.org/public_feeds/marketplace",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/90/34/b4/9034b43b-0a18-3ed4-1f69-c18dc001c891/mza_2187886854309824642.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "TED Business",
+      "path": "https://feeds.acast.com/public/shows/675727607205a5bc68e57057",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ab/11/06/ab11065a-57cd-8472-526e-d5799b2a8163/mza_13207937671651466185.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Exchanges",
+      "path": "https://feeds.megaphone.fm/GLD9218176758",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c3/79/a4/c379a4a5-f7c8-4439-a0a2-cd29e4477057/mza_6867949465968852213.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Unhedged",
+      "path": "https://feeds.acast.com/public/shows/6478a825654260001190a7cb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fb/09/2f/fb092f08-da0a-bd9c-8732-884524e37f7c/mza_8928814384179438736.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Think Fast Talk Smart: Communication Techniques",
+      "path": "https://feeds.transistor.fm/think-fast-talk-smart-communication-techniques",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0e/a3/48/0ea34886-96c0-8299-e16c-d039cfaedc78/mza_5307345217675863813.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The So What from BCG",
+      "path": "https://feeds.captivate.fm/the-so-what-from-bcg/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/50/3d/a4503d02-9ea0-66ea-ad77-7d0ddcb47100/mza_5459453682588394744.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "知行小酒馆",
+      "path": "https://feed.xyzfm.space/j8yp8gxkmgqr",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/b3/96/fc/b396fcc5-6e2b-d34e-8d3d-c849c43b6215/mza_4090324763067558601.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Markets",
+      "path": "https://feeds.megaphone.fm/GLD9322922848",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bc/48/42/bc484266-2250-bace-4070-e5947711a47b/mza_1651720601948221354.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Business Wars",
+      "path": "https://rss.art19.com/business-wars",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/78/24/887824a1-8191-f922-a27e-499bb3f9e624/mza_2534133078841157643.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Build with Leila Hormozi",
+      "path": "https://rss2.flightcast.com/tqy28xwphexirbmvwo2x9b9s.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/82/16/e0/8216e047-f42a-b71d-43df-bf9a60b38676/mza_717264323612234291.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Motley Fool Hidden Gems Investing",
+      "path": "https://feeds.megaphone.fm/ARML8165884693",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/95/44/26/95442619-6449-7ba2-8eb6-9cc6e524fe0f/mza_15290212105948064764.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The $100 MBA Show",
+      "path": "https://feeds.simplecast.com/equXS9ic",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/8b/b4/058bb444-21ad-44bb-241c-a1c1d8131403/mza_15142895205498082348.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Harvard Business Review",
+      "path": "https://feeds.megaphone.fm/VG7900701114",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/23/f5/c1/23f5c1d7-3e1d-c47d-60bb-b34ecd50b89b/mza_3697340917064978563.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Worklife with Molly Graham",
+      "path": "https://feeds.acast.com/public/shows/67585d9cc705e441796ddaf6",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/42/9e/13/429e13c5-6109-0501-ae45-393498ee9672/mza_8552911192466246567.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Money Stuff: The Podcast",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/ee4336cb-155f-4488-90e0-b1400134e40e/77e6a3a7-290d-4a82-8164-b14001353ef2/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/56/af/be/56afbee7-0835-031e-6a09-82b6f0883295/mza_7872626685382669534.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "東京ビジネスハブ",
+      "path": "https://feeds.megaphone.fm/TBS6742412969",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d9/86/55/d98655fe-0b98-e478-e72a-0ed63f1286dc/mza_8277024532066474127.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "This Is Uncomfortable",
+      "path": "https://feeds.publicradio.org/public_feeds/this-is-uncomfortable",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/85/2e/fa/852efa96-9c97-ffbb-e51d-13899fb0f4e7/mza_2015858610523346880.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Marketing School - Digital Marketing and Online Marketing Tips",
+      "path": "https://feeds.megaphone.fm/ESHO5419936864",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8e/07/93/8e079362-34c2-d2bd-6944-0b2ca35e470f/mza_17827701165108339903.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Macro Voices",
+      "path": "https://feed.podbean.com/macrovoices/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/12/44/15/124415aa-c521-dba7-1f7c-c6aff7e3b0a5/mza_7790510939942107558.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Office Hours With Sohan & Hameda",
+      "path": "https://anchor.fm/s/107f594b8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/f7/7e/78f77eeb-61c4-51c2-2e5a-bb50905aa9fc/mza_18168750446853105099.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Masters in Business",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/4e4cd910-40a1-4619-a5f3-ae2b0012ffff/5873a3cb-298f-40bc-b71f-ae2b0013000d/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/34/d2/a0/34d2a06d-e4bd-4350-ade9-bc38a75d9077/mza_365911378155679487.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Masters of Scale",
+      "path": "https://rss.art19.com/masters-of-scale",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/4b/81/134b8173-d713-cbb2-2d3b-4a8692bd87c0/mza_996010941061703843.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "McKinsey Talks Talent",
+      "path": "https://www.omnycontent.com/d/playlist/708664bd-6843-4623-8066-aede00ce0c8a/2ddcbca6-6e69-4b20-ac4c-af040139463d/8e9f4e1d-4b0d-42a5-bbe8-af040139464b/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/6a/a0/c0/6aa0c04e-97d4-8c72-53b0-64baf08c0d2a/mza_5232567731532152380.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "Inside the Strategy Room",
+      "path": "https://www.omnycontent.com/d/playlist/708664bd-6843-4623-8066-aede00ce0c8a/a7ee33f2-d500-4226-b99c-af04013945d6/36587f70-89f9-4631-ac19-af04013945e0/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d3/30/fc/d330fc66-b883-3f33-d63d-91e30084e49e/mza_4837514125125701410.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Investor's Podcast (We Study Billionaires)  - The Investor’s Podcast Network",
+      "path": "https://feeds.megaphone.fm/PPLLC8974708240",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f7/8b/ab/f78bab41-ca54-ff6c-b351-8d60f13500bb/mza_7509818263305350160.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Diary Of A CEO with Steven Bartlett",
+      "path": "https://feeds.ivoox.com/feed_fg_f13129998_filtro_1.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ef/f1/d1/eff1d157-7962-c644-b480-3d562a5e8e87/mza_18116435171586643301.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "After Hours",
+      "path": "https://feeds.acast.com/public/shows/67573202e417dbfb211f744a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/96/df/24/96df24a3-14f1-fa4c-decb-e657eb66d0ab/mza_2113878810768404344.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "週刊 日経トレンディ＆クロストレンド",
+      "path": "https://xtrend.nikkei.com/rss/podcast_trend.rdf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/61/ea/e2/61eae2c5-6c14-0902-e8ea-06927d2262a2/mza_17025096904668109424.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "How I Built This with Guy Raz",
+      "path": "https://rss.art19.com/how-i-built-this",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "TBS CROSS DIG with Bloomberg",
+      "path": "https://feeds.megaphone.fm/TBS9521225357",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/48/0b/01/480b0156-0da1-7298-e25c-442069fdffaa/mza_1494875631536682232.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "The Bulletin with UBS",
+      "path": "https://www.omnycontent.com/d/playlist/e6127ab7-b81e-456b-893c-a8d600215365/4932ae86-c6fc-49a3-ad20-ab8a01117ea5/4d5ac9f8-0292-46fa-b21b-ab8a01117eae/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/f1/5e/14/f15e147e-4082-3536-f083-5aa292592d2b/mza_15176906704528854263.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoBusiness",
+      "name": "限界突破ライフハック",
+      "path": "https://anchor.fm/s/10d527f20/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a9/c8/34/a9c834eb-8be3-d198-376c-61ff1457f730/mza_10630730981758151080.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Rotten Mango",
+      "path": "https://feeds.simplecast.com/6Qp23t6h",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/8f/fa/138ffad5-1aee-a955-b73b-6aea47b55197/mza_13457757566766616901.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "왓섭! 공포라디오",
+      "path": "https://anchor.fm/s/c7f13e44/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/10/75/af/1075af10-260a-4d60-f0f4-a49218cc470b/mza_13847183182628147070.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Crime, Conspiracy, Cults and Murder",
+      "path": "https://feeds.megaphone.fm/QCD5880453128",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/ff/49/28ff49b1-685e-82e2-c245-28f07eacce21/mza_10403740379849390934.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Crime Station Podcast",
+      "path": "https://rss.buzzsprout.com/2161751.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/56/28/a1/5628a168-2f00-30da-7f93-7a858269d6e6/mza_16402725618467504592.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "기담 :이상하고 신비한 이야기",
+      "path": "https://anchor.fm/s/98ce15b0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/ef/79/e5/ef79e52e-ed9e-4acc-2bf2-edfe2f83e672/mza_8223327245923778421.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Love Trapped",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/20968bfe-1a62-450f-a762-b3de0110281c/1c0ae3b2-ec1e-4a0c-a144-b3de01102fb1/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/ad/82/b5ad82a9-b29a-1411-1506-05f9f3ad5d6b/mza_17395607531155205240.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "What to Carry, What to Burn",
+      "path": "https://feeds.acast.com/public/shows/69f8b83e3a143563ed7c9014",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9c/a3/0e/9ca30e40-dd9c-944e-5a60-23b76bdb3bed/mza_18405237449602805402.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Criminal",
+      "path": "https://feeds.megaphone.fm/VMP7924981569",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/98/22/bd9822cc-b8e0-59de-5809-45926a0ee5f3/mza_2331604259390110897.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Crime Junkie",
+      "path": "https://feeds.simplecast.com/qm_9xx0g",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "My Favorite Murder with Karen Kilgariff and Georgia Hardstark",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/bdde8bb3-169d-43b1-91d3-b24c0047969c/f450d41f-16bc-4ecd-8f6c-b24c004796e2/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/80/b1/1b80b146-8608-f76f-97e7-7a2317549c35/mza_14115126871478479568.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "さむいぼラジオ〜ニッポンのタブー〜",
+      "path": "https://api.robotstart.jp/api/v1/feeds/37d804aa/get-feeds/podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/e7/c2/71/e7c2712b-9e1f-3b07-6eac-06ae2488e49f/mza_12439134422006882652.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Fear Thy Neighbor",
+      "path": "https://feeds.acast.com/public/shows/62d8a1f077aecf0014da26d8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8c/0e/93/8c0e9382-18ef-8f6b-fa9e-4de542cd85ca/mza_16528106745930345664.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "わかちこ伝説〜事件・事故・不思議な話etc..",
+      "path": "https://anchor.fm/s/454950bc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/29/a8/ad/29a8ad34-8d6d-ec6a-3682-9ee36144e76a/mza_12556359931415165060.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "丸山ゴンザレスの怖くて奇妙な物件の話",
+      "path": "https://anchor.fm/s/7723e958/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b9/3c/b5/b93cb523-c214-8bac-96e4-705a44b82f53/mza_4697971391327560833.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Черные кошки в бамбуковых зарослях",
+      "path": "https://cloud.mave.digital/65307",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/85/17/b9/8517b9d5-5be2-28a0-a54b-ed8a918d16c7/mza_2138846656258145593.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "霓达播客",
+      "path": "https://feed.xyzfm.space/xlgejk3wbj8q",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/31/20/de/3120de83-d957-83de-8224-092c98de7189/mza_18215723817537101746.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Trace of Suspicion",
+      "path": "https://feeds.simplecast.com/zrOQEiWl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/2f/4d/892f4dec-f450-b166-2c2c-198f03d921b7/mza_15789624275893950972.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Murder: True Crime Stories",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/murdertruecrimestories",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9d/46/a8/9d46a814-b0da-c505-b91b-98a63869bb6d/mza_17767785710585664712.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Strangely",
+      "path": "https://feeds.acast.com/public/shows/699ec0f5e84fcb90f2145300",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/44/a5/f5/44a5f5ee-a320-666c-b39f-c8b577918a7f/mza_695948735812035800.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "꺼림칙한 이야기 괴곰",
+      "path": "https://anchor.fm/s/b12c1da0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/30/4c/13304cc2-5518-0ceb-274a-7554b1625efe/mza_11128667114116059752.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "DeevaJessica: True Crime Reports",
+      "path": "https://anchor.fm/s/10e5fd64c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/63/12/a063128c-b129-08fb-ddef-7430aa6bb72b/mza_12320348827710441416.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Casefile True Crime",
+      "path": "https://feeds.acast.com/public/shows/679acff465f74095106abfaa",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/32/81/a3/3281a345-6fa5-1d0d-b0bc-f02b0850a0ae/mza_17562537467118278179.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "20/20",
+      "path": "https://feeds.megaphone.fm/ESP3456903052",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/81/6c/5d/816c5d57-7c3f-3df9-1557-08e17469dfe4/mza_1433648970787567135.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Real Crime Profile",
+      "path": "https://rss.art19.com/real-crime-profile-wondery",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/ae/05/89/ae058968-8d14-e44f-1107-adfb79057e40/mza_3149060387677514283.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "我在案發現場",
+      "path": "https://feeds.soundon.fm/podcasts/77a014a2-7c0e-4abe-9178-8ee01a7c14f3.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/e6/de/91/e6de91a9-5e1f-07cb-6149-9b9f63dd0d1f/mza_17307558434112194797.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Dateline NBC",
+      "path": "https://podcastfeeds.nbcnews.com/HL4TzgYC",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "MrBallen Podcast: Strange, Dark & Mysterious Stories",
+      "path": "https://feeds.simplecast.com/dloY8UYJ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a5/9c/8a/a59c8a0a-0cb2-9862-e0d6-7b5ee4e9e157/mza_12554888833857337425.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Unicorn Girl",
+      "path": "https://rss.art19.com/unicorn-girl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ae/99/30/ae993072-6cb5-648d-277c-f37309e09674/mza_205416200248101336.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "True Crime All The Time Unsolved",
+      "path": "https://rss.art19.com/true-crime-all-the-time-unsolved-po",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e6/10/85/e610857f-20b2-9662-10db-287b3280a87a/mza_13236617835256842073.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "True Crime All The Time",
+      "path": "https://rss.art19.com/true-crime-all-the-time",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/77/6e/dd/776edd1e-90fc-cf89-16d9-99cc78021dcf/mza_183021745809317561.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Criminology",
+      "path": "https://rss.libsyn.com/shows/533242/destinations/4586497.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/22/9c/be229c8c-99b7-0000-ca21-580040975260/mza_200562459593438660.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "落日之后",
+      "path": "https://feed.xyzfm.space/9cpcu49mgt9h",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/93/b4/84/93b484d8-12a5-c8bf-8c59-0b9a66ebf036/mza_6931191804202650639.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Last Podcast On The Left",
+      "path": "https://feeds.simplecast.com/dCXMIpJz",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/25/c9/7f/25c97f36-41e7-38a9-7e95-4f87997024f4/mza_430481307357513215.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Let's Not Meet: A True Horror Podcast",
+      "path": "https://audioboom.com/channels/5037582.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cf/51/13/cf5113cb-9ca4-39ac-60c1-a2d58b533d93/mza_2315031096743596327.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "生人勿近",
+      "path": "http://www.ximalaya.com/album/38415596.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/be/8b/2a/be8b2a84-93bb-3818-1541-7a9d0996eb99/mza_8538694681404059184.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "犯罪浮世繪",
+      "path": "https://feed.firstory.me/rss/user/cme85cej7020m01sxea9pbdr7",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0d/bb/2d/0dbb2d32-59dc-f94a-85b2-7a813c83c9a0/mza_12330694974428974043.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Crime Next Door",
+      "path": "https://podcasts.files.bbci.co.uk/p0hvvqqr.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/48/d7/94/48d794d6-7cb7-edac-0768-df587638200a/mza_11382849657176367631.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "犯罪象限",
+      "path": "https://feed.xyzfm.space/8bmv3ctw8cd3",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/14/68/47/14684744-5f90-c994-61e2-dd984cf8cc1b/mza_17625575915301544920.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "The Idiot",
+      "path": "https://feeds.simplecast.com/KrIt3mGT",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e0/51/63/e0516361-1ae2-40fd-3d1c-fc4178969373/mza_10963835521218649303.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "案件成癮 Case Addict Podcast",
+      "path": "https://feed.firstory.me/rss/user/cly600g0b037a01vpdghj9194",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e7/2a/48/e72a480a-b1a2-c6dd-bb82-1f488826d4b9/mza_2201004530736807718.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "ザ・犯罪心理学！",
+      "path": "https://feeds.megaphone.fm/YOKOHAMAFMBROADCASTINGCOLTD6938808684",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/02/26/19/0226192d-d809-7d35-51aa-5ff7c92cea91/mza_10226149234549728713.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "True Crime with Kendall Rae",
+      "path": "https://audioboom.com/channels/5074524.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/08/83/ae088306-bdd2-d8e9-d7a0-8157876106ac/mza_3960900746207066868.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Morbid",
+      "path": "https://feeds.simplecast.com/ohmVlJZQ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Дела",
+      "path": "https://cloud.mave.digital/41948",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/27/bd/4b/27bd4bfd-9b30-f261-e097-6e0eb236542b/mza_7915020875937096436.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "People are the Worst",
+      "path": "https://feeds.megaphone.fm/peoplearetheworst",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/92/6e/02/926e026c-58b8-b91a-dcd9-bb5c67aaa3ba/mza_17136307650861074362.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Crime World",
+      "path": "https://feeds.acast.com/public/shows/6538ccdabc6f900012695107",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/38/5d/4c/385d4ccb-03ee-7601-2c03-0c3a32a9383e/mza_5005829771005827067.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "不吱声",
+      "path": "https://feed.xyzfm.space/kqvyjmed9pj9",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/99/17/4b/99174bb0-ff64-4e06-1668-94a14cfb880b/mza_486936777968077276.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Setgelzuinharaal",
+      "path": "https://anchor.fm/s/10e56e5a0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/23/27/b0/2327b0ce-576b-9bb1-e3e1-5ba7b4d9f15b/mza_16111816705957933589.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "True Crime на диване",
+      "path": "https://cloud.mave.digital/40476",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2b/72/bb/2b72bb32-8888-fafa-2a9f-40a14917ed06/mza_11350053355279115409.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Serialously with Annie Elise",
+      "path": "https://audioboom.com/channels/5100770.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b8/ae/ae/b8aeaee5-e289-54f0-c223-58334b88ddfb/mza_6406683089903069019.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "The Criminal Makeup",
+      "path": "https://feeds.megaphone.fm/ADV1613664658",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/75/6f/83/756f8382-6fdf-bbca-64ce-8f528b8bf541/mza_17755032712770536722.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Weird Darkness: Paranormal & True Crime Stories",
+      "path": "https://www.spreaker.com/show/3655291/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4e/c5/2b/4ec52b58-4dc8-28e5-5bb1-aab715bcc067/mza_200411158248999703.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Mistery มิศวง",
+      "path": "https://anchor.fm/s/4b44e83c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/f9/04/f9f904a1-0bbf-9538-4e01-46cd19370e76/mza_7380632293702293012.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "灯下黑radio",
+      "path": "https://feed.xyzfm.space/brlbtvtur7fj",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/33/9c/f0/339cf07c-94c3-8f78-3554-7bbee9a926b6/mza_3209842164421267872.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Criminopatía",
+      "path": "https://feeds.megaphone.fm/ASCCT6415418901",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fa/4f/a8/fa4fa872-18f8-136b-29e2-bf1d3ed8d81c/mza_5100316931390661597.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Scary Interesting Podcast",
+      "path": "https://www.spreaker.com/show/5945096/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e1/6f/3e/e16f3efd-4d3a-e202-d5cb-735ec130c461/mza_10732099162642693322.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Норд-Ост. 23.10.2002 - ∞",
+      "path": "https://cloud.mave.digital/69256",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/76/d9/41/76d9419c-0db4-7096-147d-418380acb103/mza_10741769305542304702.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Wo ist Lars?",
+      "path": "https://feeds.megaphone.fm/PDS6699251587",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/41/97/1d/41971d36-63d1-1acb-45dd-4f5647ee7db9/mza_5332062467526666689.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Missing",
+      "path": "https://rss.pdrl.fm/ec94f4/feeds.megaphone.fm/GLSS9533070472",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/27/91/70/279170f6-6987-b181-7bc6-c812fec3fa18/mza_4883208152956107061.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Дневники Лоры Палны",
+      "path": "https://cloud.mave.digital/70449",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/58/e2/9a/58e29a38-a1cd-c7d7-ce47-c8deffea75fc/mza_16474268946259744546.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "True Crime Obsessed",
+      "path": "https://rss.pdrl.fm/c5c471/audioboom.com/channels/4929680.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/69/54/32/69543251-63c2-b450-fd1d-4932b6f0238f/mza_10028551918162705040.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Home(icides)",
+      "path": "https://feeds.megaphone.fm/BABA3636667739",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d4/f7/8f/d4f78f3a-79af-942f-6ae6-ad3a97a4db65/mza_8586543808612477832.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Prime Crime: Solved Murders",
+      "path": "https://feeds.megaphone.fm/solvedmurders",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/ac/84/9b/ac849b77-90d5-c9d4-5ec5-6f002e272b94/mza_12607588075300412884.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "TSP怪奇档案",
+      "path": "http://www.ximalaya.com/album/19206387.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/d8/83/04/d883044f-7b13-7d15-9270-ebd7027a8560/mza_8193832955662829579.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastKoTruecrime",
+      "name": "Dark Asia with Megan",
+      "path": "https://rss.pdrl.fm/9de928/feeds.simplecast.com/hWnM9oo1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/2f/04/0a2f04e2-b235-fbcb-9987-ec2977a0ec1c/mza_14600726444819068532.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    }
+  ],
+  "popular": {
+    "path": "#dataIndex"
+  },
+  "search": {
+    "path": "#dataIndex"
+  }
+}

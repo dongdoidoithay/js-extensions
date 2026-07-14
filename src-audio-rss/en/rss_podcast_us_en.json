@@ -1,0 +1,4728 @@
+{
+  "id": "rss_podcast_us_en",
+  "name": "Podcasts English",
+  "lang": "en",
+  "nameLang": "English - RSS Podcast",
+  "baseUrl": "",
+  "version": "2.0.0",
+  "description": "Curated collection of popular English-language RSS podcasts",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "isShowInfo": false,
+  "showSourceImages": true,
+  "sourceType": "rss",
+  "tags": [
+    {
+      "name": "Top Podcasts",
+      "id": "PodCastEnTop"
+    },
+    {
+      "name": "News",
+      "id": "PodCastEnNews"
+    },
+    {
+      "name": "Comedy",
+      "id": "PodCastEnComedy"
+    },
+    {
+      "name": "Society & Culture",
+      "id": "PodCastEnCulture"
+    },
+    {
+      "name": "Business & Self-Improvement",
+      "id": "PodCastEnBusiness"
+    },
+    {
+      "name": "True Crime",
+      "id": "PodCastEnTruecrime"
+    }
+  ],
+  "dataListTags": [
+    {
+      "key": "PodCastEnTop",
+      "name": "The Daily",
+      "path": "https://feeds.simplecast.com/Sl5CSM3S",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/64/66/ab6466a9-9a7d-e20e-7a3d-bc5be37d29ce/mza_15084852813176276273.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Crime Junkie",
+      "path": "https://feeds.simplecast.com/qm_9xx0g",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Mick Unplugged",
+      "path": "https://rss.art19.com/mick-unplugged",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/38/94/43389483-6e9b-050f-09f1-f3f6f43b5146/mza_4898027400280038938.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Up First from NPR",
+      "path": "https://feeds.npr.org/510318/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0e/35/25/0e352569-e694-81d9-ea55-5f935981c15a/mza_1788275989855583986.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Dateline NBC",
+      "path": "https://podcastfeeds.nbcnews.com/HL4TzgYC",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/8c/00/7a/8c007a42-e550-0214-d4cb-b59cd7edf194/mza_5305664083935674472.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Pardon My Take",
+      "path": "https://mcsorleys.barstoolsports.com/feed/pardon-my-take",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/35/74/6a/35746a0c-7687-7dde-ff04-338d93e78303/mza_10377078556009223546.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Bill Simmons Podcast",
+      "path": "https://feeds.megaphone.fm/the-bill-simmons-podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d6/ec/33/d6ec332d-41b2-4f6e-3b26-26932d266089/mza_9745793819236520970.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Joe Rogan Experience",
+      "path": "https://feeds.megaphone.fm/GLT1412515089",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/53/f9/1b/53f91b92-46f0-cf52-f65c-6b23343397c3/mza_9009835258120886668.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Love Trapped",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/20968bfe-1a62-450f-a762-b3de0110281c/1c0ae3b2-ec1e-4a0c-a144-b3de01102fb1/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/ad/82/b5ad82a9-b29a-1411-1506-05f9f3ad5d6b/mza_17395607531155205240.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Morbid",
+      "path": "https://feeds.simplecast.com/ohmVlJZQ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Rest Is History",
+      "path": "https://feeds.megaphone.fm/GLT4787413333",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/ed/c7/20edc799-fdb3-e608-a164-0cdaaee63c6b/mza_16701966284979673066.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "This American Life",
+      "path": "https://www.thisamericanlife.org/podcast/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/64/aa/3a/64aa3a66-a08a-947c-cf21-a5722a1b77ae/mza_11390421932467026234.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Good Hang with Amy Poehler",
+      "path": "https://feeds.megaphone.fm/good-hang-with-amy-poehler",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/94/bb/2b94bb6e-44f1-9d57-7748-b7456072806d/mza_1064202164981856225.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Pod Save America",
+      "path": "https://audioboom.com/channels/5166624.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/44/dc/61/44dc6141-25e9-5bb3-e19e-a2337233d19e/mza_5506771870755587769.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Digital Social Hour",
+      "path": "https://feeds.simplecast.com/gVWKQwJq",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/c2/a2/b5c2a2d7-c4ff-41fe-fdf4-40c5f058e51b/mza_5124876125738057720.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Unblinded with Sean Callagy",
+      "path": "https://anchor.fm/s/10a340624/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fe/73/39/fe733903-aac9-857a-7e0d-97da75f26739/mza_7400622169884755798.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "20/20",
+      "path": "https://feeds.megaphone.fm/ESP3456903052",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/81/6c/5d/816c5d57-7c3f-3df9-1557-08e17469dfe4/mza_1433648970787567135.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Mel Robbins Podcast",
+      "path": "https://feeds.simplecast.com/UCwaTX1J",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/9f/c7/2a9fc792-c6a7-e159-0e10-a4442eec27d5/mza_5919882476720095362.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Five Miles From Home",
+      "path": "https://feeds.simplecast.com/2RbGSoKZ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5f/26/79/5f267967-ef75-63dc-6958-59004d144c16/mza_3103516722400828111.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The MeidasTouch Podcast",
+      "path": "https://feeds.megaphone.fm/PDR2572281095",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/73/32/80/733280d2-330a-2f24-c600-bc1088f9f899/mza_17833502176263457882.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Shawn Ryan Show",
+      "path": "https://rss.pdrl.fm/ac69ac/feeds.megaphone.fm/WWO7410387571",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/d0/b3/2d/d0b32d7f-ab2d-5791-83b0-854f698a9184/mza_13561258173056659752.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Stuff You Should Know",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/82/91/aa82912f-23ee-6f6a-583c-a4e993164d0e/mza_12111158076643383507.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "REAL AF with Andy Frisella",
+      "path": "https://rss.libsyn.com/shows/67940/destinations/278377.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/55/21/67/55216775-731a-1a0b-6c2a-81923902f058/mza_11706571282358600140.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "SmartLess",
+      "path": "https://feeds.simplecast.com/hNaFxXpO",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Bible in a Year (with Fr. Mike Schmitz)",
+      "path": "https://feeds.fireside.fm/bibleinayear/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/ca/87/e0/ca87e07d-9d97-a433-1dc9-55dcfbd54f17/mza_9875864189557480350.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "48 Hours",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/496099a4061493caac75b71a6c26b8fb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c8/4f/8f/c84f8fa2-074d-6023-7f31-9c781b80dedc/mza_7616553513239265555.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Megyn Kelly Show",
+      "path": "https://feeds.simplecast.com/RV1USAfC",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3e/9f/c1/3e9fc13c-8030-b57e-f29e-0f14dc8db10d/mza_602213930944272333.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "World War II with Tom Hanks",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/cc2b59fa44d0151fa8987e1b01e424bc",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ca/de/71/cade7141-30ec-5437-99aa-4b43a10564f0/mza_7246282932912745813.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Proven Podcast",
+      "path": "https://rss.libsyn.com/shows/526583/destinations/4528548.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/79/33/d2/7933d22b-9392-7d2c-714f-9a4c624003e5/mza_1012289391812617337.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Learning Leader Show With Ryan Hawk",
+      "path": "https://rss.libsyn.com/shows/65162/destinations/259291.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fb/3c/0e/fb3c0e91-f0a8-44ef-403f-1ec20bece9e0/mza_454404552678702443.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Level Up Podcast w/ Paul Alex",
+      "path": "https://rss.pdrl.fm/0c37ea/feeds.megaphone.fm/ARML5552075612",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1a/d1/9d/1ad19d61-11ce-03f4-f15a-9c14ec54dffd/mza_11670053566187562570.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "MrBallen Podcast: Strange, Dark & Mysterious Stories",
+      "path": "https://feeds.simplecast.com/dloY8UYJ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a5/9c/8a/a59c8a0a-0cb2-9862-e0d6-7b5ee4e9e157/mza_12554888833857337425.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Dylan Gemelli Podcast",
+      "path": "https://feed.podbean.com/dylangemelli/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/4a/f4/654af4a7-d5cd-2317-91a1-b5913de83e6f/mza_12950421134232165951.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Coffeez with Joe Shalaby",
+      "path": "https://feeds.redcircle.com/0e5cf124-6d7a-449e-8189-589a00fbf95a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/16/b1/d0/16b1d00a-50a8-2cdd-8a24-b6d36cc300af/mza_4046403334673274826.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Armchair Expert with Dax Shepard",
+      "path": "https://rss.art19.com/armchair-expert",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f0/13/8f/f0138f4b-8bc3-0a64-2c11-ef566840f60f/mza_3062409012210474882.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "My Favorite Murder with Karen Kilgariff and Georgia Hardstark",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/bdde8bb3-169d-43b1-91d3-b24c0047969c/f450d41f-16bc-4ecd-8f6c-b24c004796e2/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/80/b1/1b80b146-8608-f76f-97e7-7a2317549c35/mza_14115126871478479568.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Ramsey Show",
+      "path": "https://feeds.megaphone.fm/RM4031649020",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/52/5a/58/525a5881-56d7-af3a-b134-5917b08d6d0f/mza_1355546972903263890.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Diary Of A CEO with Steven Bartlett",
+      "path": "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/af/0d/69af0ddd-1e0f-7ae3-c84b-88f18e31ad0c/mza_14445920128472365296.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "This Past Weekend w/ Theo Von",
+      "path": "https://feeds.megaphone.fm/thispastweekend",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/f6/5a/9cf65abb-f8db-fb7b-984f-b4276a1e8c85/mza_2107148709996282347.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Habits and Hustle",
+      "path": "https://rss.libsyn.com/shows/624375/destinations/5495160.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ba/d2/09/bad209e9-7b0d-66b8-14fe-207a69d9397b/mza_12651442554869510823.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Wait Wait... Don't Tell Me!",
+      "path": "https://feeds.npr.org/344098539/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e9/94/fe/e994fed6-50a1-6519-9b84-b0beaa205242/mza_2290751556169099993.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Serialously with Annie Elise",
+      "path": "https://audioboom.com/channels/5100770.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b8/ae/ae/b8aeaee5-e289-54f0-c223-58334b88ddfb/mza_6406683089903069019.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Bred To Lead | With Dr. Jake Tayler Jacobs",
+      "path": "https://feed.podbean.com/bredtolead/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/00/8f/19/008f1985-36f9-571d-11a5-d02ea5c3a72f/mza_5189632502966038304.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Dr. Death",
+      "path": "https://rss.art19.com/dr-death",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/c5/84/79c584a0-727d-5c23-3223-9163a6e9d047/mza_4089194153421910651.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Money Rehab with Nicole Lapin",
+      "path": "https://feeds.megaphone.fm/TPG1669083856",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4f/50/41/4f50415c-330f-6be4-7ca1-30982e5cbbbe/mza_17349644131036885317.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Giggly Squad",
+      "path": "https://feeds.acast.com/public/shows/780a3042-864b-40fa-ae09-4557aec621c3",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b1/0a/29/b10a293d-31bf-0e82-dd54-50452336f4c1/mza_908601013238146456.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Tomorrow, Today",
+      "path": "https://feeds.simplecast.com/tj_igLD4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b2/b4/80/b2b48020-11e7-92a9-db46-b7d475a19757/mza_619091211434212889.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Jamie Kern Lima Show",
+      "path": "https://feeds.megaphone.fm/LIFEISLOVELLC4342849321",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/50/66/2e/50662e7d-1f7e-3d9f-1f87-562a90dbdb0c/mza_10576714993608979175.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Snapped: Women Who Murder",
+      "path": "https://rss.art19.com/snapped-women-who-murder",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/d4/ef/ff/d4efff91-8a69-ba8a-b5a8-634c029af6ff/mza_14265882527940743554.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Young and Profiting with Hala Taha (Entrepreneurship, Sales, Marketing)",
+      "path": "https://rss.introcast.io/1368888880/feeds.megaphone.fm/yap",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/80/c1/bd/80c1bd2c-eac4-bdb6-f8cb-ac980b4ad473/mza_16051863235006465622.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Team House",
+      "path": "https://www.spreaker.com/show/5960890/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/de/05/9cde05f7-8b77-a0a7-f19b-37d29a9dd6bc/mza_15442820465629580994.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Conan O’Brien Needs A Friend",
+      "path": "https://feeds.simplecast.com/dHoohVNH",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Vault Unlocked",
+      "path": "https://rss.libsyn.com/shows/591700/destinations/5140720.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d3/f9/28/d3f928ee-3a7f-0ac6-e841-342b3be2ba68/mza_15071551835075158095.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Sword and Scale",
+      "path": "https://www.spreaker.com/show/5895676/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/23/1d/66/231d66c8-fbc1-7b1f-3342-03c709291529/mza_15856950583949291523.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "NPR News Now",
+      "path": "https://feeds.npr.org/500005/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/27/a0/ab/27a0abb7-817f-d80c-4fed-6fd04d424333/mza_16804553558295235422.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Tim Dillon Show",
+      "path": "https://audioboom.com/channels/5093219.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b2/64/34/b264343a-cd58-e5d0-a77d-9d802d4e156a/mza_8004434530174910890.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Passion Struck with John R. Miles",
+      "path": "https://feeds.simplecast.com/XYHE1JPs",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/04/71/5b/04715bc6-422c-9b22-592d-fcc5991393ca/mza_15454631643363182823.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Ezra Klein Show",
+      "path": "https://feeds.simplecast.com/kEKXbjuJ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9d/ca/35/9dca35d8-e7d2-7e4f-63b5-c2ff4973a3f5/mza_16891544429738729361.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "path": "https://rss.libsyn.com/shows/254861/destinations/1928300.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/c7/d2/92/c7d292ea-44b3-47ff-2f5e-74fa5b23db6c/mza_7005270671777648882.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Morning Wire",
+      "path": "https://rss.pdrl.fm/3f8a3d/feeds.megaphone.fm/BVDWV8747925072",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c1/d1/84/c1d184f0-ee90-a43c-f5f7-88f21e8eeccf/mza_14163782799458392314.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Snare",
+      "path": "https://feeds.megaphone.fm/ESP6782400517",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/7b/1e/0a7b1e0e-56d7-9f22-c1d2-2be83d2fc9f3/mza_4354592459969619696.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "DOUBLE COVERAGE PODCAST",
+      "path": "https://feeds.megaphone.fm/YMH1796246858",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/29/fa/bc/29fabc3e-aa88-3cb6-ef90-66b899c49324/mza_16323468831280503063.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Founder's Story",
+      "path": "https://feeds.simplecast.com/NVPdHs07",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/1f/3e/45/1f3e45f9-7011-7bdf-6999-99c8d8643a65/mza_15402691122318060700.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "Rotten Mango",
+      "path": "https://feeds.simplecast.com/6Qp23t6h",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/8f/fa/138ffad5-1aee-a955-b73b-6aea47b55197/mza_13457757566766616901.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTop",
+      "name": "The Toast",
+      "path": "https://feeds.megaphone.fm/DEARMEDIALLC7892434789",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4e/3d/5e/4e3d5eb1-5b47-8723-f3c0-8ecf7e25d198/mza_14233415616171199300.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Tucker Carlson Show",
+      "path": "https://feeds.megaphone.fm/RSV1597324942",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1a/1f/9c/1a1f9c6d-67fd-0e33-cdf3-4b62617ea9a6/mza_9226157347267917930.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "IHIP News",
+      "path": "https://rss.art19.com/ihip-news",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/99/bb/c8/99bbc8a4-c35f-e408-70b0-6b830bfa545f/mza_4547072400750918608.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Serial",
+      "path": "https://feeds.simplecast.com/PpzWFGhg",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9a/fb/87/9afb8760-0e05-2b3e-24a2-7e14cce74570/mza_14816055607064169808.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Bulwark Podcast",
+      "path": "https://audioboom.com/channels/5114286.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e3/07/89/e30789af-e7d0-bb29-8cf8-ae3b9cfe4316/mza_2484307396739987098.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Global News Podcast",
+      "path": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/57/09/8457093f-677a-d6de-5666-6514cc588a7e/mza_17083078915388787537.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Today, Explained",
+      "path": "https://feeds.megaphone.fm/VMP5705694065",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/57/bc/e4/57bce477-b6e7-ba7d-5bca-6289f3f32e26/mza_17986217629149107841.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Letters from an American",
+      "path": "https://api.substack.com/feed/podcast/20533.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b8/79/98/b879989a-43d3-2ed3-7384-3cdfe77d5736/mza_3088248024937929702.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Journal.",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/the-journal",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/91/0e/ca/910eca32-75a3-48b6-9be7-f45799ef5f2f/mza_9869666721903280546.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Bulwark Takes",
+      "path": "https://audioboom.com/channels/5149464.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/04/cf/04/04cf0471-ef46-af11-9519-8f5f43a74897/mza_8455835125203898833.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Headlines",
+      "path": "https://feeds.simplecast.com/ydACIPHO",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/8a/52/fc8a527d-8979-adf2-977b-06304a816969/mza_684749869280596722.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "WSJ What’s News",
+      "path": "https://video-api.wsj.com/podcast/rss/wsj/whats-news",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/7d/a7/657da78c-5043-57ae-bd81-fb5352479baa/mza_999814641005091524.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Pivot",
+      "path": "https://feeds.megaphone.fm/pivot",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/13/22/39/1322397a-976e-3c8f-7764-91cc38d0dd70/mza_12130189257448841692.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Dan Bongino Show",
+      "path": "https://feeds.megaphone.fm/WWO3519750118",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5b/c5/91/5bc59191-e0fe-ea3d-2ea9-e93d764f0996/mza_17020828405094667327.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Consider This from NPR",
+      "path": "https://feeds.npr.org/510355/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6f/37/9b/6f379b19-bcb4-d8bb-101d-4142f45da94f/mza_13732710753041563227.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Glenn Beck Program",
+      "path": "https://feeds.megaphone.fm/BMDC3567910388",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/46/a0/12/46a0122e-5011-ffbd-cd2f-3c7a2d27777e/mza_6245367014521206082.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The New Yorker Radio Hour",
+      "path": "https://feeds.simplecast.com/TRuO_SRo",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/08/d7/f9/08d7f9be-6657-6ed8-f6a7-b1c2db243ca4/mza_1050541904651421683.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Victor Davis Hanson: In His Own Words",
+      "path": "https://feeds.megaphone.fm/THEDAILYSIGNAL2043100319",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/59/90/78/599078f3-5b9b-87a1-11f6-192a59326c73/mza_12134361784888768075.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The NPR Politics Podcast",
+      "path": "https://feeds.npr.org/510310/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/71/15/1d/71151d33-32e7-f0e1-2a6b-412bf4835c5d/mza_9550948332778108059.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The President's Daily Brief",
+      "path": "https://feeds.megaphone.fm/THFD6217271651",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/53/49/18/534918fe-0e88-5523-d9e0-56c02ffdc4ae/mza_5418178523264340498.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Lovett or Leave It",
+      "path": "https://audioboom.com/channels/5166622.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/39/5f/31/395f3109-67f6-1c6b-206e-828e313a01b3/mza_13713977145154429240.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The World and Everything In It",
+      "path": "https://feeds.blubrry.com/feeds/the_world_and_everything_in_it.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/eb/97/f3/eb97f380-8b07-e779-5a68-03a0f52307df/mza_17977818446845002899.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Candace",
+      "path": "https://feeds.megaphone.fm/candace",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/33/6f/c6/336fc616-d502-e275-2b71-7cb67da75009/mza_4089989466656231139.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Daily Beast Podcast",
+      "path": "https://feeds.megaphone.fm/QCD5580850161",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/95/0b/26/950b261d-3741-e9f7-e075-5e905d3b0344/mza_18428683356059909118.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Real Baron Podcast",
+      "path": "https://media.rss.com/real-baron-podcast/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3c/04/08/3c0408f0-2f04-8c3e-30df-6c0480223bd3/mza_12180408426065244276.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Verdict with Ted Cruz",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/2bee9419-43de-46ce-8996-af2a01167517/84cf551f-a33b-41d8-b112-af2a01167541/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/fd/28/36/fd28360d-8f45-c66f-3bcd-5b6e589f2c07/mza_750333212423213609.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Charlie Kirk Show",
+      "path": "https://www.omnycontent.com/d/playlist/5e27a451-e6e6-4c51-aa03-a7370003783c/c865b590-c84f-4f7e-a43e-ac64014b61d9/8978e846-cacd-4d65-b085-ac64014cd49f/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/ec/27/a4ec2744-0819-caea-f34a-98a9384b53a8/mza_198406029451208643.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "No Agenda Show",
+      "path": "https://feeds.noagendaassets.com/noagenda.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4e/9e/a9/4e9ea941-249b-df4d-2aa2-f9ee01144133/mza_14584877730047994378.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Matt Walsh Show",
+      "path": "https://rss.pdrl.fm/1fc256/feeds.megaphone.fm/BVDWV7762869899",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/45/40/6e/45406e30-1af5-f3e6-67c6-86aaffe9522e/mza_1644857351055524075.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Start Here",
+      "path": "https://feeds.megaphone.fm/ESP8447327256",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/2e/b5/e2/2eb5e266-1312-4e77-565d-5f7c28f61b24/mza_4079247101203743703.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Next Level",
+      "path": "https://audioboom.com/channels/5114287.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/65/c3/ca/65c3ca48-71d4-cf3f-84f5-d7847106e79c/mza_6132127499934224504.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Opinions",
+      "path": "https://feeds.simplecast.com/kphrlDnb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2d/af/bf/2dafbf10-c118-d531-b43b-5c0e97878e29/mza_12716482502454917697.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Creative Entrepreneur: A Podcast For Business Growth and Trending News",
+      "path": "https://feeds.simplecast.com/VfikYGJi",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/06/a0/7d/06a07d87-c190-9088-01ef-b112d372cd44/mza_459087320836949767.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "TRIGGERnometry",
+      "path": "https://feeds.megaphone.fm/AALT9618167458",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/15/72/c4/1572c4aa-0a61-4fab-ff39-688354ad5931/mza_13587565036420406085.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Fast Politics with Molly Jong-Fast",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/5900456b-1613-453b-b072-af1201655554/e44eee4e-0508-4c4d-bca4-af120165bf69/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7f/fa/ad/7ffaad06-512e-6ce7-c636-6f81a2312368/mza_11493862159505710824.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Fareed Zakaria GPS",
+      "path": "https://feeds.megaphone.fm/WMHY7703459968",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7b/6d/ec/7b6deca2-e1ef-bd33-6f8b-f9af9fbfe439/mza_3617658654711387260.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Necessary Conversation",
+      "path": "https://rss.buzzsprout.com/2035895.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2c/be/20/2cbe2050-696c-d51c-9986-9a874e527eb5/mza_2951829362180446906.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Armstrong & Getty On Demand",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/0516ff28-c0d6-492a-b264-ae3900375fc8/4db37684-c7ed-4964-843c-ae3900375fd7/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/d3/be/bdd3bec2-5c7a-a76d-1773-45c3193d0275/mza_15358514701081750643.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Meet the Press",
+      "path": "https://podcastfeeds.nbcnews.com/yf3E6y7x",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e5/d7/30/e5d73024-45ae-7def-dca3-a2ab28a35a70/mza_8536430571826965078.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Michael Knowles Show",
+      "path": "https://rss.pdrl.fm/34758b/feeds.megaphone.fm/BVDWV5810064903",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/eb/2b/49/eb2b49b3-16b9-8ddb-d73a-43f71d302e76/mza_18084327446382056995.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Daily Beans",
+      "path": "https://feeds.simplecast.com/bOogzwqU",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0e/e2/3c/0ee23c73-948f-644a-1b47-aa25b44f5b26/mza_13869271708769862724.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Fox News Hourly Update",
+      "path": "https://feeds.megaphone.fm/FOXM2252206613",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ca/5c/f5/ca5cf5f4-75d5-145e-94e9-927bfad28d9c/mza_4285544112961375075.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Curious by Nature",
+      "path": "https://anchor.fm/s/f5ba69cc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/de/5a/26/de5a261d-299b-3338-9d48-78c8523ad040/mza_2403433410606173953.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Ruthless Podcast",
+      "path": "https://feeds.megaphone.fm/FOXM5875505224",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/4b/5d/284b5d6b-91f7-1d31-01ce-43fb49c57630/mza_7602083115097454613.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Political Scene | The New Yorker",
+      "path": "https://feeds.megaphone.fm/CNE3630198409",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c3/f8/12/c3f81255-45c5-89b1-65d0-a644233cbe4a/mza_2090479420500153719.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Miss Understood with Rachel Uchitel",
+      "path": "https://feeds.simplecast.com/RvDGWRIs",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9f/e3/58/9fe3585e-3d12-4758-cb3e-0a293734691c/mza_3145161466870692032.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Bill O’Reilly’s No Spin News and Analysis",
+      "path": "https://feeds.megaphone.fm/RSV2429196838",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6f/34/ae/6f34aeb7-a3bb-a619-669b-682b008d03ec/mza_18188268795095744181.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Call Me Back - with Dan Senor",
+      "path": "https://feeds.simplecast.com/5gzMlOG1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d4/a9/4e/d4a94e88-5503-adea-7518-46273e1394ba/mza_9918457534096932067.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "UnJustified",
+      "path": "https://feeds.simplecast.com/4v0m0WEY",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e5/96/ad/e596ad15-4ec8-8ac3-ec97-c8bc1e019d42/mza_15959316032638751301.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Interesting Times with Ross Douthat",
+      "path": "https://feeds.simplecast.com/bS1LZG8m",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8c/58/6b/8c586bf2-a6cb-b585-fec9-ab95039c49b3/mza_7541535115834092105.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Rubin Report",
+      "path": "https://rss.libsyn.com/shows/576235/destinations/4990775.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ea/e9/fe/eae9fecc-7fea-d467-8b53-b2c23a1bb1aa/mza_6521149252441833359.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Clay Travis and Buck Sexton Show",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/57c236de-aec0-46c1-b141-ae3c00026d77/1776c4cc-50a1-410f-a2de-ae3c00026dfa/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/43/9e/82/439e8214-cfc9-d98b-73b2-525a36a135da/mza_5625174609442430083.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Morgan Stewart Show",
+      "path": "https://feeds.simplecast.com/BbxEWNSo",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/69/84/e7/6984e772-9e27-1d7c-b641-0d1ca2208028/mza_9843280263932663127.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Global Story",
+      "path": "https://podcasts.files.bbci.co.uk/w13xtvsd.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/04/79/45/047945a2-bc30-0f9f-a4c2-9d27b1761fd2/mza_3986113186933533816.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Economist Podcasts",
+      "path": "https://access.acast.com/rss/ec380acc-fe13-46a0-991f-a1e508d126f8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/92/68/ba/9268bae8-1bd5-2a15-7f1b-7e265d4773bd/mza_10204374987848109193.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "On the Media",
+      "path": "https://feeds.simplecast.com/o4jAFXaw",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5e/ba/12/5eba1288-e5e1-62f5-59df-4b36cb5fc5df/mza_3713685845546915811.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Runaway Country with Alex Wagner",
+      "path": "https://audioboom.com/channels/5166628.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/db/45/5a/db455a87-3133-9389-62c2-89ef2f4bfecd/mza_1497272084824272620.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Last Word with Lawrence O’Donnell",
+      "path": "https://feeds.simplecast.com/lQR7LFLn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d2/c1/8c/d2c18c76-5323-6215-8d33-7ea944445044/mza_1815708261480788103.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Raging Moderates with Scott Galloway and Jessica Tarlov",
+      "path": "https://feeds.megaphone.fm/VMP7229898872",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5b/38/0c/5b380c5a-9940-58cb-69ba-887cec632a85/mza_2735753364103225809.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Briefing with Jen Psaki",
+      "path": "https://feeds.simplecast.com/vA1gc2kQ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ae/33/9d/ae339d20-f39b-d857-8d8f-ff98b817f1f5/mza_17747654927270543014.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Mark Levin Podcast",
+      "path": "https://feeds.megaphone.fm/mark-levin-podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/46/bf/a0/46bfa07e-d13f-9635-445f-ac2578d5c755/mza_14035070316013714857.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Radio Atlantic",
+      "path": "https://feeds.megaphone.fm/radioatlantic",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/5e/41/135e41d6-dbc8-66b9-1367-460ac0f5e6c0/mza_2058775075235418486.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Sunday Sitdown with Willie Geist",
+      "path": "https://podcastfeeds.nbcnews.com/hPbHkaRH",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/21/0c/4f/210c4ff1-5f3c-0f05-d034-2ebda49b5c68/mza_8392368607737864406.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Legal AF by MeidasTouch",
+      "path": "https://feeds.megaphone.fm/legalaf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2f/a0/fc/2fa0fc6d-b032-326e-afae-96c2d78fa636/mza_1804932984234033575.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "The Chuck ToddCast",
+      "path": "https://rss.pdrl.fm/1f200e/www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/c749d540-b5b7-42b1-a855-b33100f844fa/8e017e60-9c2d-418d-97bb-b33100f84504/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6d/d2/b5/6dd2b587-f42b-33c6-c6ee-86a68feaac0d/mza_6699933283990984395.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnNews",
+      "name": "Morning Joe",
+      "path": "https://feeds.simplecast.com/5EFCkAYb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c6/c9/3b/c6c93b35-1f3f-79fb-20c0-fc26efae4863/mza_3156122001457171418.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Matt and Shane's Secret Podcast",
+      "path": "https://feeds.megaphone.fm/GLT1158789509",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/90/5c/5f/905c5f0c-1101-dbd1-5f32-99599cdfffaf/mza_412960982866733335.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Bad Friends",
+      "path": "https://feeds.megaphone.fm/TPC1602991613",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b0/26/c8/b026c805-1a24-55ea-cff3-d0329d2338ce/mza_11376115143280052758.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Call Her Daddy",
+      "path": "https://feeds.simplecast.com/mKn_QmLS",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/05/10/91/05109145-8c22-5464-1f20-aaedeab769f8/mza_10276081716633787086.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Smosh Reads Reddit Stories",
+      "path": "https://rss.pdrl.fm/ff8ba6/audioboom.com/channels/5148149.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ea/e9/98/eae99878-5ee5-915b-0c0a-46cf2b275f91/mza_13860666952263637735.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Small Town Murder",
+      "path": "https://rss.libsyn.com/shows/580095/destinations/5028715.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/24/84/f4/2484f48c-4321-ef18-10ef-ac164cc80272/mza_5585431776803613938.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Adam Carolla Show",
+      "path": "https://rss.pdrl.fm/c1114b/podcastone.com/podcast?categoryID2=313",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/02/83/42/028342dc-0471-f698-83c8-369bae7401b7/mza_16605990669344553550.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Weekly Show with Jon Stewart",
+      "path": "https://feeds.megaphone.fm/BVLLC2163264914",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f1/f3/f6/f1f3f6e9-71b2-2965-5b92-a294e04e9646/mza_12649236828332054745.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Bobby Bones Show",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a4a372db-132b-4b16-8f9c-ae27017c48cd/473a2576-d031-4145-922c-ae27017c48d6/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4f/3d/0b/4f3d0b7a-0522-509c-0295-f5f5bdaee131/mza_9059750032524482096.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Two Hot Takes",
+      "path": "https://feeds.megaphone.fm/GLT3561373177",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d7/7c/0d/d77c0d52-44a4-602d-5546-5bb4efe638e4/mza_3929223515890523957.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "KILL TONY",
+      "path": "https://feeds.simplecast.com/JZSQrle9",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a0/ad/df/a0addf99-adce-5a42-a138-81d9f8e4562e/mza_8301528492532104652.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Friends Keep Secrets",
+      "path": "https://www.omnycontent.com/d/playlist/685222fd-cb27-439e-9d8d-b42f0031c93c/9fd3cb4c-1728-4f0c-bd5a-b4340164edb4/686e1d40-cd99-4724-9c10-b4340164edcc/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/66/4c/0b/664c0b43-a04b-8114-68c0-59726320aded/mza_17105170738683158659.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Office Ladies",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/office-ladies",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/ae/ae/7eaeae69-1b09-9aa1-b15c-b9b265d60703/mza_6388951927746251149.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Handsome",
+      "path": "https://rss.art19.com/handsome",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/96/1b/e1961bc1-eae4-b488-3b0f-abdc52f06568/mza_18244201912816466457.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Basement Yard",
+      "path": "https://feeds.megaphone.fm/TPC9330816620",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/9e/b1/48/9eb148b2-3bf0-43d3-92b1-de45ab5f9a57/mza_9876685219532971117.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Daily Show: Ears Edition",
+      "path": "https://feeds.megaphone.fm/QCD2422844292",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3d/bf/f6/3dbff67a-363f-c208-22d7-201503efb0e2/mza_4137401921191106634.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "We Might Be Drunk",
+      "path": "https://feeds.megaphone.fm/YMH1251936023",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e1/2b/1d/e12b1dd7-4316-8336-49a1-c91f5c05b64d/mza_11777513484654496970.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Baby, this is Keke Palmer",
+      "path": "https://rss.art19.com/baby-this-is-keke-palmer",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5a/75/04/5a7504c9-2506-4036-2249-ed5f1d615e06/mza_18288503643505262600.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "How Did This Get Made?",
+      "path": "https://feeds.simplecast.com/Ao0C24M8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4b/06/00/4b06006c-8936-1653-fc82-132b64441f4f/mza_5523773122723324139.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Dumb Blonde",
+      "path": "https://rss.art19.com/dumb-blonde",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2a/a5/36/2aa536ed-251b-2be3-9b30-5a8a0ed57116/mza_8257891346298761723.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Las Culturistas with Matt Rogers and Bowen Yang",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/f6816727-c503-47ac-a7ac-ae2700391b1e/935c500f-8bb0-436b-ba7f-ae2700391b49/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/25/2e/88/252e88df-e96e-a264-7a32-456dce4a36dd/mza_13164992107952038598.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Mystery Boys w/ Kurt Metzger & Duncan Trussell",
+      "path": "https://feeds.megaphone.fm/YMH4929221439",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/90/6c/b9/906cb940-9bf7-4c4d-7859-d531047fd982/mza_10280789457207543860.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Funny You Ask with Ike Barinholtz",
+      "path": "https://feeds.megaphone.fm/UNDERSCORETALENTMANAGEMENT2466455927",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/04/b9/d5/04b9d570-d132-1384-2be2-21ca13f7efd4/mza_6646658297713732342.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "So True with Caleb Hearon",
+      "path": "https://feeds.megaphone.fm/BSN9169489914",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/a9/3d/eea93d1f-129f-df48-1354-74c02b41ca76/mza_13100592435110353492.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Dollop with Dave Anthony and Gareth Reynolds",
+      "path": "https://rss.art19.com/dollop",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/22/84/7e228423-fb89-7c85-d8ba-76681259ae38/mza_13537882303520625165.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Are You Garbage? Comedy Podcast",
+      "path": "https://feeds.megaphone.fm/TPC7413106767",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/93/c9/0c/93c90ccf-9dfb-f19a-caa1-ef4369a482de/mza_9056668377903699815.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Fly on the Wall with Dana Carvey and David Spade",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/fly-on-the-wall",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/16/f6/be16f6c2-197a-a104-652b-713890e9787c/mza_18253014141382501790.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Yak",
+      "path": "https://mcsorleys.barstoolsports.com/feed/the-yak",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9a/ca/5d/9aca5d4e-de4c-d0e9-e68c-007012ec469a/mza_16078035125065361867.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Juicy Scoop with Heather McDonald",
+      "path": "https://feeds.megaphone.fm/juicyscoopwithheathermcdonald",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/e5/c9/c9e5c981-40dd-705e-a17f-bbc1428ce79b/mza_7783987321010571004.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Therapuss with Jake Shane",
+      "path": "https://feeds.megaphone.fm/therapuss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/51/bf/e6/51bfe67b-a76c-5d5d-b220-2ee11c99b764/mza_7123720287029995599.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Distractible",
+      "path": "https://feeds.megaphone.fm/QCD8163454930",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/33/ea/c933eaed-1197-4ed3-d32a-9f83c9dd4271/mza_8974314570487078145.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "And That's Why We Drink",
+      "path": "https://rss.pdrl.fm/c5cefd/feeds.megaphone.fm/QCD7868197207",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/c1/1a/a4c11ab5-23b9-bc3a-2edc-df9877ce5823/mza_6469647794368335451.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "My Brother, My Brother And Me",
+      "path": "https://feeds.simplecast.com/wjQvYtdl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/a7/35/6ea7353b-0692-99b1-12a0-7b33fa475aa8/mza_13316954681377313409.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Club Random with Bill Maher",
+      "path": "https://rss.pdrl.fm/f10906/feeds.megaphone.fm/MCI6910680963",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b4/34/28/b434289d-5c5f-42f4-8f21-271cf53e6c3a/mza_12167764300564822942.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Stavvy's World",
+      "path": "https://feeds.simplecast.com/Fa0PP4fl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0e/ae/52/0eae52bf-5236-e283-7938-28d91e1820e0/mza_3099432660874981459.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Best of Car Talk",
+      "path": "https://feeds.npr.org/510208/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/aa/af/de/aaafdecf-bf55-45c7-119e-c5b11ecb80dd/mza_8529647458468463068.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Lonely Island and Seth Meyers Podcast",
+      "path": "https://feeds.acast.com/public/shows/6a47d3ed5ef16cb8040a8c6e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a4/9a/19/a49a1945-d52b-4f28-9ced-f9447b3f3ac0/mza_10728121607275949694.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "We're Here to Help",
+      "path": "https://rss.art19.com/were-here-to-help",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/0b/9d/9b/0b9d9b04-01f4-25f7-4b4d-d963d45701fd/mza_13328284303246490377.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Not Gonna Lie with Kylie Kelce",
+      "path": "https://feeds.megaphone.fm/BSN1511786771",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d7/79/40/d779403b-4019-2fe2-4a05-eca583bc2a1e/mza_17252209323035467677.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Breakfast Club",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a6620428-68fa-4b5d-a5af-ae33005f660f/0660e13d-8aa3-45f5-90ef-ae33005f6621/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b4/87/a4/b487a4c7-9fb5-0bb5-7c34-c3994472b3e1/mza_14676348544924988063.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Pour Minds Podcast",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/672528ae-8298-4880-baf5-b2db0110a1dd/f162049b-ceb2-4c6e-bbc9-b2db0110a1f4/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/41/5a/8d/415a8d99-64e3-95ff-0de7-0ba705ef9941/mza_4986224174914610359.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Read",
+      "path": "https://feeds.simplecast.com/hEYNk1fd",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ca/fc/49/cafc492d-7579-d240-bca0-35ed80a80304/mza_17985283270930714759.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Brooke and Jeffrey: Second Date Update",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/c34ba8ac-38d1-472d-92b3-afcf01701617/7a9ff3dd-781b-4698-98a8-afcf01701646/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/dc/e8/88/dce88885-c276-539c-4d15-f89d7d6d413b/mza_16519567441372792701.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Son of a Boy Dad",
+      "path": "https://mcsorleys.barstoolsports.com/podcasts/380590e1/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0b/73/7a/0b737a36-ae1a-7a3f-e577-980d415a4711/mza_3038837583474068267.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Comedy Saved Me",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/0983c15f-203c-4014-8579-b2e5014b59fa/b892f386-ce6e-4b4e-82cd-b2e5014b5fe6/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/56/de/97/56de971c-9e4e-1ecc-043b-4c592d990949/mza_5018187522879120357.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Wiser Than Me with Julia Louis-Dreyfus",
+      "path": "https://feeds.megaphone.fm/LEME2226086440",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d4/4f/9e/d44f9e19-bc2c-a92f-b4ea-841947e68488/mza_11909310472096105368.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "2 Bears, 1 Cave with Tom Segura & Bert Kreischer",
+      "path": "https://feeds.megaphone.fm/YMH8516456556",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2a/6b/83/2a6b830c-da57-31f3-9bc6-eb34b56aaaa7/mza_2112252473885241390.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "ok storytime",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/17515599-8cd7-442b-bd89-b24800ef12bf/5d344b80-8a14-47a1-8a84-b24800ef12d7/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6e/9a/18/6e9a181f-ed06-5fe3-c5b4-8ea8a888ca16/mza_13630995597067101005.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Brilliant Idiots",
+      "path": "https://feeds.megaphone.fm/APPI7124031987",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0f/0e/c2/0f0ec251-14a1-b5f8-ca0e-7d063afdb3b3/mza_2943727101095172226.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "No Such Thing As A Fish",
+      "path": "https://audioboom.com/channels/2399216.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6f/9b/4c/6f9b4c39-3c1a-d7c7-9264-b0ed14579e08/mza_7947053701740283670.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Comedy Bang Bang: The Podcast",
+      "path": "https://feeds.simplecast.com/byb4nhvN",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0b/ca/6e/0bca6ee0-0b2b-5df7-edee-4d9d1b2d4e8a/mza_10749952114435066299.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Your Mom's House with Christina P. and Tom Segura",
+      "path": "https://feeds.megaphone.fm/YMH5847489315",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/07/53/68/075368af-566e-c1d0-72ca-e17295475edd/mza_10702862278529769616.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Julian Dorey Podcast",
+      "path": "https://rss.pdrl.fm/59fdc5/feeds.megaphone.fm/QCD7565826865",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/87/29/86/87298666-edf1-fe2d-9d8f-662e29942e14/mza_9895523266798907039.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Timesuck with Dan Cummins",
+      "path": "https://feeds.simplecast.com/Llc7KL2K",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/44/8c/6c/448c6c66-f861-f5cf-4868-5473ef519f75/mza_3446616972736986026.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Girls Gotta Eat",
+      "path": "https://feeds.megaphone.fm/DEARMEDIALLC6497520465",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/29/15/d9/2915d96b-e966-855f-3c57-8c769f644ec9/mza_4650831060830083687.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Jeff Lewis Has Issues",
+      "path": "https://feeds.simplecast.com/RMlFaH7b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b1/99/58/b19958e2-f048-1cd1-9c6a-9163c0fa3d5c/mza_4561257513018045760.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Bald and the Beautiful with Trixie and Katya",
+      "path": "https://feeds.megaphone.fm/STU6959689584",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/e1/33/69e133cc-1261-59c9-86bc-05db91815396/mza_15934659469185667390.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Not Another D&D Podcast",
+      "path": "https://rss.art19.com/not-another-d-and-d-podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/6a/25/d0/6a25d0b6-4cb3-f993-1973-a39162c3c1e4/mza_3301734807835095822.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "ShxtsNGigs",
+      "path": "https://feeds.acast.com/public/shows/6477204262b0900011c3fb37",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7f/c8/c1/7fc8c1e7-2793-3dfb-755a-c4678ea4363b/mza_16359112044297367251.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Normal Gossip",
+      "path": "https://publicfeeds.net/f/3492/feed-rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b4/09/a1/b409a16a-1b98-9882-70b3-e3d4dda99bdd/mza_11832987991012673698.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Adam and Dr. Drew Show",
+      "path": "https://rss.pdrl.fm/796e2a/podcastone.com/podcast?categoryID2=311",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/05/c4/7e05c4b5-1fe5-a26e-f6ac-7f3053a2e23d/mza_5352634261302147085.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "The Drew Lane Show",
+      "path": "https://audioboom.com/channels/5111598.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/59/7a/34/597a3487-095d-ca28-5ba0-2812d2541c93/mza_4048667340820859087.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "VIEWS with David Dobrik & Jason Nash",
+      "path": "https://rss.pdrl.fm/aad407/feeds.simplecast.com/WnxY0J_V",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3e/c2/3b/3ec23b71-04c0-cd18-e7a0-421ddd405fe4/mza_2890469666169600192.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "Legion of Skanks Podcast",
+      "path": "https://rss.art19.com/legion-of-skanks",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/34/6d/3b/346d3b42-6ca9-4301-85e7-8a4275d83f6c/mza_16145849430656662283.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "This Is Important",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a41bd365-c6bc-4966-9ac2-ae28005326f5/6097c5b8-233a-45bf-8f11-ae2800532703/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/35/ea/31/35ea3184-d975-8ef1-40d9-c34aed6771e7/mza_10605296851508519282.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnComedy",
+      "name": "CumTown",
+      "path": "https://anchor.fm/s/10b4f9d5c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f2/0e/ed/f20eedef-9d63-dd58-b303-f02c9eeefa44/mza_17958781460146569789.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Way I Heard It with Mike Rowe",
+      "path": "https://rss.libsyn.com/shows/74011/destinations/323283.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a6/ae/97/a6ae972f-7a3c-d72b-5035-2f574bd583be/mza_13441619415709233309.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Behind the Bastards",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/e5f91208-cc7e-4726-a312-ae280140ad11/d64f756d-6d5e-4fae-b24f-ae280140ad36/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/82/58/ee8258d4-32a6-eae8-ddde-d13113a6baee/mza_2590417236454661582.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Why Files: Operation Podcast",
+      "path": "https://feeds.megaphone.fm/QCD2348265349",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d8/d5/56/d8d5569b-6431-c55a-509c-820b5bd1002b/mza_14117346978676539247.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Modern Wisdom",
+      "path": "https://feeds.megaphone.fm/SIXMSB5088139739",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7f/73/99/7f739968-f65e-f679-d1fd-c727118c69f0/mza_17156407142775783271.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Determined Society with Shawn French | Adversity & Mindset",
+      "path": "https://feeds.simplecast.com/0usR2qmx",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/dc/69/bedc6946-5cd6-2637-724a-912da9dafafb/mza_15530052631320977267.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Freakonomics Radio",
+      "path": "https://feeds.simplecast.com/Y8lFbOT4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/f7/0c/c5/f70cc540-ce36-d96f-b111-c970aad5505c/mza_17703422762227531425.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Dream Life Club",
+      "path": "https://feeds.captivate.fm/dreamlifeclubpodcast/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/dc/a7/c1/dca7c18a-9400-1bbe-8fdf-50dba9c82c06/mza_1622306291388302510.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Revisionist History: The Staten Island Problem",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/0e563f45-9d14-4ce8-8ef0-ae32006cd7e7/0d4cc74d-fff7-4b89-8818-ae32006cd7f0/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/75/9f/84759f65-4375-c660-149a-1202abe507c6/mza_8038583962796645034.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Telepathy Tapes",
+      "path": "https://rss.art19.com/the-telepathy-tapes",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a5/22/ad/a522ad93-57fd-71e4-fd9c-50d04fa2a4b7/mza_2180580833936889797.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "On with Kara Swisher",
+      "path": "https://feeds.megaphone.fm/VMP1684715893",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/19/31/db/1931db86-ed0a-e638-ced5-87c64f6e0959/mza_9202206376827126130.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Focus: Adults in the Room",
+      "path": "https://www.omnycontent.com/d/playlist/fa64d43e-1285-4f73-948e-aeae00546c65/720cb5cc-77e6-48bc-a7de-b31d0138ee62/b4342eb5-1524-43a8-9588-b31d0138ee72/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ee/de/b7/eedeb7a4-d963-91cf-6343-644018828dcc/mza_4779799693092523500.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Where Should We Begin? with Esther Perel",
+      "path": "https://feeds.megaphone.fm/ep-wswb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9f/80/bc/9f80bcc7-3890-b83d-825d-80bfce6540a1/mza_11092217466841030628.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Let's Be Honest with Kristin Cavallari",
+      "path": "https://rss.art19.com/lets-be-honest-with-kristin-cavallari",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d0/a9/0c/d0a90c62-a486-a4a9-9b6f-abb42a16b017/mza_11604573945160742738.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Two Girls One Ghost",
+      "path": "https://feeds.megaphone.fm/twogirlsoneghost",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/77/07/ee/7707ee37-5a35-63a9-f5c2-1f6c8df90300/mza_3178827590310487665.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Interview",
+      "path": "https://feeds.simplecast.com/HpGMoS4g",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5b/83/08/5b830874-2a38-e2bf-eafb-61c7efe6dee4/mza_1847005937748297273.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "CreepCast",
+      "path": "https://feeds.megaphone.fm/creepcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/74/db/44/74db4463-ce93-edb4-866d-5474d4a66cf5/mza_4057931750900664657.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Viall Files",
+      "path": "https://rss.libsyn.com/shows/455667/destinations/3834246.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/22/a9/46/22a94635-5607-cd66-5e5f-6f2d741b1801/mza_12538356473562979013.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "What Now? with Trevor Noah",
+      "path": "https://feeds.simplecast.com/LNIsL2kT",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5e/66/c2/5e66c26a-9b53-3801-7c6b-040b88b82619/mza_1272792653532625285.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "All There Is with Anderson Cooper",
+      "path": "https://feeds.megaphone.fm/WMHY6497875466",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/30/26/e6/3026e632-ce5a-5bc3-fc19-85fda4b4c495/mza_17744194216339624691.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Where the River Took Us",
+      "path": "https://www.spreaker.com/show/7010368/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9c/e9/79/9ce97943-7c57-b1cd-a1c8-cef29e4543ca/mza_17868315373624613860.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Diabolical Lies",
+      "path": "https://api.substack.com/feed/podcast/2836327.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/47/6c/ab/476cabe1-2f37-dcdc-49c3-e6d90447a0b1/mza_1132001286957844563.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Curiosity Shop with Brené Brown and Adam Grant",
+      "path": "https://feeds.megaphone.fm/daretolead",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/07/3d/a5/073da59b-6bfd-04ed-da1e-af2eca0ce7ed/mza_17777249888316424415.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Hysteria",
+      "path": "https://audioboom.com/channels/5166619.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/28/52/4b/28524b9e-a672-1d71-9471-d6574e3dcc0b/mza_11414728533025452468.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Talk Easy with Sam Fragoso",
+      "path": "https://rss.art19.com/talk-easy-with-sam-fragoso",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/55/5a/0a/555a0ad4-5dbf-9f9d-b205-08e629cc35dd/mza_17473463849753207729.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "If Books Could Kill",
+      "path": "https://rss.buzzsprout.com/2040953.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e3/d3/48/e3d34893-d1ac-8840-cb95-f753773bc10f/mza_1644670244607841438.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Best People with Nicolle Wallace",
+      "path": "https://feeds.simplecast.com/a_oJqxkb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/71/b9/a2/71b9a281-ef14-3317-3407-317b2c86feda/mza_2951453104086058545.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "So Supernatural",
+      "path": "https://feeds.simplecast.com/kC8PV5p6",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/64/18/78/6418787e-81c2-c8e0-1fa1-f23ce0d15ad7/mza_17753266621966864966.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Scamfluencers",
+      "path": "https://rss.art19.com/scamfluencers",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e9/37/7b/e9377be4-7bc5-7cc7-cc5d-0a789bb4cd90/mza_326816473163950853.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Against The Odds",
+      "path": "https://rss.art19.com/against-the-odds",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/26/29/cb26294b-c1b7-6ee4-5dae-9deb30dd5003/mza_16381543883000469770.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Timcast IRL",
+      "path": "https://rss.libsyn.com/shows/574450/destinations/4973860.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c7/27/38/c72738ee-43f2-d816-1c44-99161bed0bdc/mza_17410452897616772447.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Paper Trail",
+      "path": "https://publicfeeds.net/f/16890/feed-rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7a/8f/15/7a8f15de-dd03-da38-954c-804f9d0db5e3/mza_15825585973900367281.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "I've Had It",
+      "path": "https://rss.art19.com/ive-had-it",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e3/93/b1/e393b186-0847-cb61-5712-90c22254fa7c/mza_16751736398298051605.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "TED Talks Daily",
+      "path": "https://feeds.acast.com/public/shows/67587e77c705e441797aff96",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2e/cf/99/2ecf996f-71f7-604f-b0a0-43116b9d6619/mza_10257768296573848480.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Nerve with Maureen Callahan",
+      "path": "https://feeds.simplecast.com/hI8ChenK",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3e/88/3f/3e883f67-7e0b-618e-ca0a-fd204ce3248f/mza_2058904712559184903.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Radio Rental",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/radio-rental",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/87/e3/ec/87e3ec2b-3961-dae3-0649-0850dfee75d6/mza_12556682867779372846.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Town with Matthew Belloni",
+      "path": "https://feeds.megaphone.fm/the-town-with-matthew-belloni",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/31/f8/a8/31f8a820-68cf-d536-d4d1-6ad9cdc2f715/mza_8869367206888613297.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "This Is Actually Happening",
+      "path": "https://rss.art19.com/this-is-actually-happening-podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c0/8d/6b/c08d6bd1-96af-9b0c-7eb3-8a72c4e8f6e6/mza_11317121403892111889.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Person Who Believed In Me",
+      "path": "https://rss2.flightcast.com/au8xi1zc2nsj66h2yf2oyrkj.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c3/60/15/c3601517-0586-cd0c-b08c-4ea95727da44/mza_8768441501299510340.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Chicks in the Office",
+      "path": "https://mcsorleys.barstoolsports.com/feed/chicks-in-the-office",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/22/7f/88/227f8834-cbeb-4aef-776e-117d9792ddf3/mza_14830498967062502317.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Girls Next Level",
+      "path": "https://rss.libsyn.com/shows/592500/destinations/5149195.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c6/22/34/c62234c9-e23d-b42d-2a69-62a84e8f3626/mza_13400756344166786034.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Oprah Podcast",
+      "path": "https://feeds.megaphone.fm/theoprahpodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/29/4c/6a/294c6af9-99d2-0bdf-3462-31fe4969349d/mza_12961162025245665300.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Dating Detectives",
+      "path": "https://rss.art19.com/the-dating-detectives",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/8b/6b/b78b6b9f-0024-cd07-7122-dc7fcc105b07/mza_5809589405838159704.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Happiness Lab with Dr. Laurie Santos",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/96c5c41e-0bc8-4661-b184-ae32006cd726/d623ef0b-3fee-4c26-b815-ae32006cd739/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f9/14/47/f9144733-0019-9e7a-4f8f-21818eadb9d9/mza_1460301163065810614.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Danny Jones Podcast",
+      "path": "https://feeds.megaphone.fm/QCD2752074976",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/1f/4d/28/1f4d28c2-1e4a-05d4-39f8-05986f24f7f9/mza_5055984422784658924.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Everybody Knows But Me",
+      "path": "https://feeds.megaphone.fm/everybodyknowsbutme",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/91/07/ae/9107ae3b-875f-b231-4d32-4e93e1fc2a39/mza_11826506650063515195.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Hey Jonas!",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/e1bf9c31-b143-4cab-9326-b435011facc4/207c15f2-8abc-4ee3-af74-b435011fb18c/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/aa/5a/2baa5aed-5eab-dc1d-95ad-5620f502b9a2/mza_2934007108515108068.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Cleared Hot - Powered By BRCC",
+      "path": "https://rss.pdrl.fm/9cf902/feeds.libsyn.com/122928/rss/?redirect=false",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c2/ec/52/c2ec521e-c6f2-f61a-d1b4-7e700d5e853e/mza_15613658736785340312.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Chrisley Confessions 2.0",
+      "path": "https://rss.art19.com/chrisley-confessions-podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4e/69/1a/4e691aef-d320-3a5f-f3c8-18ba0f1bb444/mza_3225566617864974216.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Dan Taberski's Manifesto",
+      "path": "https://rss.art19.com/dan-taberskis-manifesto",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4c/61/45/4c61456f-59c1-6a4f-5751-0c5c2234a9cc/mza_5096787883210338475.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Simply Relational",
+      "path": "https://feeds.podetize.com/rss/1reTyn9aw4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/28/5e/bf/285ebf63-3b1a-f0fc-bc8c-1a23f3d0a86e/mza_1743930142041104573.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Lights Out Library: Sleep Documentaries",
+      "path": "https://feeds.megaphone.fm/GSGP3700210220",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bc/11/b6/bc11b6ea-d058-7d03-2901-67983d06aee3/mza_7461138965417808385.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "OnlyFantasy",
+      "path": "https://rss.art19.com/think-twice-michael-jackson",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/12/7e/d5/127ed58a-84b5-2304-5d54-81655135d8ba/mza_6299382161170729738.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "A Bit Fruity with Matt Bernstein",
+      "path": "https://feeds.megaphone.fm/AAA7921763663",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/98/d3/c1/98d3c124-7fbb-aa42-d5b2-28a596f25a3b/mza_14052923922847099016.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Khloé in Wonder Land",
+      "path": "https://rss.art19.com/khloe-in-wonder-land",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/93/71/84/93718442-30c1-7ac4-2f60-aad04c2b917c/mza_4663150695155770153.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "We Can Do Hard Things",
+      "path": "https://feeds.megaphone.fm/wcdht",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/25/04/1c/25041c54-a94b-4c84-3d79-129f8f0bdc27/mza_10132198868361967560.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Otherworld",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/otherworld",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f7/35/cb/f735cb74-7a9f-6cec-bd8e-0779797c8d24/mza_7958025317909683287.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Where Everybody Knows Your Name with Ted Danson and Woody Harrelson (sometimes)",
+      "path": "https://feeds.simplecast.com/0T4plG50",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6e/00/57/6e0057ab-f807-6e0a-25c2-06c4f99ac9d9/mza_8030524839434661393.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Heavyweight",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/afbd76b8-eff2-442a-b938-b28e0126edad/d08826cd-f888-4cd3-b700-b28e0126edbb/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a7/f4/11/a7f411fa-7d05-708c-b9e6-fbb79f16687f/mza_5278700449379998361.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Brand Safe",
+      "path": "https://audioboom.com/channels/5170518.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0f/f2/ad/0ff2ad36-95fd-53a1-9c0a-6a692c9646bc/mza_17082365403550282755.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Stuff They Don't Want You To Know",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/2e824128-fbd5-4c9e-9a57-ae2f0056b0c4/66d98a23-900c-44b0-a40b-ae2f0056b0db/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b3/f6/d7/b3f6d733-0924-1923-d33e-c0e0a8b6486d/mza_12499946169636574274.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Good Guys",
+      "path": "https://feeds.megaphone.fm/DEARMEDIALLC8184076413",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/07/09/68/070968e5-25cb-719a-c3a0-ec3456cedde6/mza_15382478228535915122.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Adrift",
+      "path": "https://rss.art19.com/adrift",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4d/fa/ca/4dfaca28-d1af-75a9-e1a3-80758095ff9e/mza_6587373527288087178.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Offline with Jon Favreau",
+      "path": "https://audioboom.com/channels/5166623.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/3f/f7/2b3ff70d-c5fb-fb7f-300d-8d571c014b5a/mza_14169312541081581870.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "Lemme Say This",
+      "path": "https://rss.art19.com/lemme-say",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cc/89/0c/cc890c00-c6c3-66a3-9205-a8390c5ac0aa/mza_12077434506205819624.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnCulture",
+      "name": "The Gray Area with Sean Illing",
+      "path": "https://feeds.megaphone.fm/theezrakleinshow",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/84/25/f5/8425f5c3-ce22-db1a-3e55-1a6698cc7f03/mza_3273078451247345185.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "3 Takeaways™",
+      "path": "https://rss.buzzsprout.com/1236866.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fa/0f/52/fa0f52a1-b4b7-f8cc-3504-cfb00fdf8668/mza_8714663391479120517.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Money Mondays",
+      "path": "https://anchor.fm/s/d9265370/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a8/60/49/a860491e-a48a-2016-55c4-5426c7998dc9/mza_12477201885067188723.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Home Service Expert Podcast",
+      "path": "https://rss.libsyn.com/shows/105472/destinations/567121.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4a/61/3d/4a613d98-7530-ac40-a8df-79f0c08bd64a/mza_17092466455454967949.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Planet Money",
+      "path": "https://feeds.npr.org/510289/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/df/53/85df5334-0fae-28a9-2bc4-b97b81061d0e/mza_10839245066228881011.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Mello Millionaire with Tommy Mello",
+      "path": "https://anchor.fm/s/1057c44fc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e6/a5/e1/e6a5e15a-b5af-7ebc-0968-f125ddf29be5/mza_1493911042366893346.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Cast Nexa Show",
+      "path": "https://feeds.acast.com/public/shows/6a498ade0069388b7abc4882",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/71/bd/a3/71bda36b-0053-b629-67c5-2c096e6f0826/mza_14534207097952410322.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Prof G Markets",
+      "path": "https://feeds.megaphone.fm/profgmarkets",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7a/23/3b/7a233bad-e655-5d9a-e9a4-532b2ad03f2f/mza_14391801209796191046.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Code To Winning",
+      "path": "https://feed.podbean.com/kagiso4/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b9/7b/1d/b97b1d1f-73e3-aa27-3ce5-6897b3fe93e9/mza_5919177687288152632.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Embracing Marketing Mistakes",
+      "path": "https://rss.buzzsprout.com/2206375.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/15/02/fb/1502fb99-6c37-8145-4724-df43dd8e41d4/mza_11216235737175056417.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Financial Audit",
+      "path": "https://rss.pdrl.fm/243632/feeds.megaphone.fm/ROOSTER4571910246",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b9/e8/c1/b9e8c18d-6db9-e2db-5fbb-02c9b88bcfed/mza_11588913954898061535.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Prof G Pod with Scott Galloway",
+      "path": "https://feeds.megaphone.fm/WWO6655869236",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/06/46/c906468e-11b3-4864-38ae-302c042c3b9b/mza_4417741141265378429.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Marketplace",
+      "path": "https://feeds.publicradio.org/public_feeds/marketplace",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/90/34/b4/9034b43b-0a18-3ed4-1f69-c18dc001c891/mza_2187886854309824642.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Your Next Dollar: Money Management for High Earners",
+      "path": "https://feeds.megaphone.fm/ARML1979794369",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e7/ae/5b/e7ae5ba8-95a6-4a84-803e-cb92afe6a6f3/mza_7531700733786162152.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Founders",
+      "path": "https://feeds.megaphone.fm/DSLLC6297708582",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "How I Invest with David Weisburd",
+      "path": "https://feeds.podcastai.com/LaVYz9xBOj9Q4toB4HfKrC.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6e/4e/94/6e4e9440-b7d9-4a48-ba9d-ec3977e1d29a/mza_8529512521674770076.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Wake Up to Wealth",
+      "path": "https://feeds.simplecast.com/4wH1d4qr",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/55/b6/50/55b650eb-b2e8-a7e4-ea7c-6c9f814e5015/mza_9381873150450931403.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Omni Talk Retail",
+      "path": "https://feeds.captivate.fm/omnitalkretail/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/11/08/0c/11080c8d-d28b-1bf5-a999-33165a9c538c/mza_11512537809618017879.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Amplify Speakers Podcast",
+      "path": "https://api.riverside.fm/hosting/epK2AGaU.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f1/35/25/f135250f-0265-ebee-39f6-17f4661f1486/mza_6828594278373014598.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "From Underdog to Entrepreneur: Building Dreams with Pat Miller",
+      "path": "https://rss.libsyn.com/shows/601400/destinations/5233530.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fe/42/ca/fe42cad9-85fd-e14f-7133-5e00eaf03560/mza_7772767828948237949.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Indicator from Planet Money",
+      "path": "https://feeds.npr.org/510325/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/52/43/7a/52437a60-2f82-5abd-e65a-77e1a4fc41c2/mza_16254826952631581399.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Paul Morris Podcast",
+      "path": "https://feeds.megaphone.fm/ARML8189616381",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4b/e4/3b/4be43b37-c900-23b9-d726-61c958c1ca19/mza_1554667701595532256.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Morning Brew Daily",
+      "path": "https://feeds.megaphone.fm/MOBI8777994188",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/db/85/0b/db850bcb-d650-aab2-900f-31897e318d13/mza_1081398170013439534.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "We Fixed It, You're Welcome",
+      "path": "https://feeds.megaphone.fm/RHAPSODYVOICES4270090158",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f4/48/8f/f4488fc1-0a7e-8708-de74-037adb94c814/mza_12133068273087875781.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "How I Built This with Guy Raz",
+      "path": "https://rss.art19.com/how-i-built-this",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "James Reed: all about business",
+      "path": "https://feeds.captivate.fm/james-reed-all-about-business/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3c/e3/3b/3ce33b54-433d-aa33-4c6b-7ca528f61482/mza_6597508493664614695.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "BILFPOD",
+      "path": "https://feed.podbean.com/bilfpod/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/04/81/6b/04816b97-1635-d092-6327-e77e01bd0734/mza_17815533757189561823.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The $100 MBA Show",
+      "path": "https://feeds.simplecast.com/equXS9ic",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/8b/b4/058bb444-21ad-44bb-241c-a1c1d8131403/mza_15142895205498082348.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Money Guy Show",
+      "path": "https://feeds.megaphone.fm/moneyguyshow",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/af/e8/bdafe8ff-a67c-8580-bdd8-33207d5a7df3/mza_6955685324627963771.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Fuel Your Drive by Josh York",
+      "path": "https://feeds.blubrry.com/feeds/fuelyourdrive.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ee/57/69/ee576955-83af-4e07-8f93-3bd4e2489227/mza_15527619891366108780.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Odd Lots",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Motley Fool Hidden Gems Investing",
+      "path": "https://feeds.megaphone.fm/ARML8165884693",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/95/44/26/95442619-6449-7ba2-8eb6-9cc6e524fe0f/mza_15290212105948064764.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Daily Mastermind",
+      "path": "https://feeds.podetize.com/rss/pqysOwkmh",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3f/1d/ba/3f1dbaab-d502-66e3-c4e5-2bb137ac9051/mza_366829108785386174.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "How Much Can I Make? — Real Jobs. Real Stories. Career Insights",
+      "path": "https://rss.buzzsprout.com/2426515.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d0/0c/3b/d00c3be2-ea2c-cdc3-37ab-e96ae1986bbb/mza_1905385498804472063.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "B2B Vault: The Biz To Biz Podcast",
+      "path": "https://feeds.podetize.com/rss/7UhuJAdFUL",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ff/76/e4/ff76e4d2-07a6-9498-8eda-3520b1bbfe30/mza_2882551082274885509.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "SharkPreneur",
+      "path": "https://rss.pdrl.fm/31848a/feeds.megaphone.fm/sharkpreneur",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/25/87/81/25878172-6220-fe01-4a39-3be817927e1d/mza_15881316463553072689.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Money Hungry",
+      "path": "https://rss.podengine.io/money-hungry",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8a/e6/71/8ae67102-28ba-9868-6210-5ef9523fa36b/mza_12694558468703378664.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "PBD Podcast",
+      "path": "https://anchor.fm/s/2fa50a94/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ad/7e/74/ad7e7422-47fe-fe86-e2d1-eaba6323650a/mza_10077304312086458683.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "NerdWallet's Smart Money Podcast",
+      "path": "https://rss.pdrl.fm/3c99ea/feeds.megaphone.fm/NRD2548999404",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c5/62/a7/c562a785-4edf-d22b-dbb7-994037c9f2d6/mza_149898594603054178.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Think Fast Talk Smart: Communication Techniques",
+      "path": "https://feeds.transistor.fm/think-fast-talk-smart-communication-techniques",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0e/a3/48/0ea34886-96c0-8299-e16c-d039cfaedc78/mza_5307345217675863813.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The David Guttman Podcast",
+      "path": "https://feeds.megaphone.fm/PITXL5620747500",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ae/1c/b1/ae1cb107-42ea-1226-3fb7-e55bbdac87fc/mza_11996816763816475092.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Expert Intelligence with Paul Estes",
+      "path": "https://feed.podbean.com/ExpertIntelligence/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ec/8a/4b/ec8a4b05-cd3d-e592-cd58-1389d8e6e91f/mza_8274981410789171532.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "All the Hacks: Money, Points & Life",
+      "path": "https://feeds.transistor.fm/all-the-hacks",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4e/25/ce/4e25ce8a-998f-197d-fca7-98f624434d7f/mza_13655246230400093108.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Jocko Podcast",
+      "path": "https://feeds.redcircle.com/64a89f88-a245-4098-8d8d-496325ec4f74",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e8/d9/54/e8d95480-c500-9306-89c1-9503a8eca007/mza_17025325643591784610.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "BigDeal",
+      "path": "https://feeds.megaphone.fm/bigdeal",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/50/8e/e2/508ee229-299d-029e-e15f-1badbd2d9d0d/mza_16110783689643991005.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Economics of Everyday Things",
+      "path": "https://feeds.simplecast.com/ob9OSBIN",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/56/0f/30/560f30b6-5f70-00f3-a82e-424ec64fd75d/mza_2541150986098223055.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Your Money Guide on the Side",
+      "path": "https://feeds.megaphone.fm/TCL9866893823",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6f/c6/cc/6fc6cc54-225c-0c8e-03a3-82b79505b349/mza_10328218197860091939.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Coffee N° 5 with Lara Schmoisman",
+      "path": "https://rss.buzzsprout.com/676701.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c4/a0/37/c4a03716-e98d-215f-809b-2bfd4aa09808/mza_12629479800899427909.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Clark Howard Podcast",
+      "path": "https://feeds.megaphone.fm/clarkhoward",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c5/09/b8/c509b831-f5e8-93cc-fdbb-37c8a63d2759/mza_2611808289636395584.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Entrepreneur DNA",
+      "path": "https://feeds.simplecast.com/crLWzuvK",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/82/a6/da/82a6da8c-6229-79ed-974d-139d6fffb7c0/mza_6955358061968093581.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The MORE Show",
+      "path": "https://feeds.simplecast.com/FCDyBJAN",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/09/f9/f7/09f9f7fc-1a7b-1b3d-2ee8-4232885d1c33/mza_7973610489632326779.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Aspire with Emma Grede",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/emma-grede",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b5/69/31/b569316b-55c7-a7f7-c586-bc3ee0b3b440/mza_17045015706295888832.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Business Wars",
+      "path": "https://rss.art19.com/business-wars",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/88/78/24/887824a1-8191-f922-a27e-499bb3f9e624/mza_2534133078841157643.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Knowledge Project",
+      "path": "https://feeds.megaphone.fm/FSMI7575968096",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4a/9c/e2/4a9ce2fd-ddf6-0d00-8760-4e7167378ecf/mza_16600443422050351456.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Living The Red Life",
+      "path": "https://feeds.captivate.fm/rudymawer/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts113/v4/72/8e/e3/728ee3e4-b30c-f177-2f2c-6c3e25818eff/mza_2631932327073599541.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Growth Triggers: Content Marketing & AI",
+      "path": "https://rss2.flightcast.com/di5pwpbsuvdgq7jmizfdqvvu.xml/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/4c/ee/cb4cee65-9744-c590-08e7-413c7ee62323/mza_11424694778286883494.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Compound and Friends",
+      "path": "https://feeds.megaphone.fm/TCP4771071679",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ec/24/9b/ec249b4b-de37-6119-9a20-abee7f026747/mza_15439318216231701568.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Money For Couples with Ramit Sethi",
+      "path": "https://feeds.megaphone.fm/IWTYB6912370287/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/14/e8/32/14e8324f-fa49-894b-ea9a-e6c7caf241b4/mza_11012089900512866427.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "One Part Lion - One Part Lamb with Stephen Scoggins",
+      "path": "https://rss.pdrl.fm/e71ab4/feeds.libsyn.com/305318/rss/?redirect=false",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/db/68/5c/db685ca1-e41e-e54c-2b45-a569aac2ec8b/mza_1243788689561025167.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Total Disruption Podcast",
+      "path": "https://feeds.simplecast.com/s2cuPj_3",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/47/40/10/474010b1-9a0f-c560-640e-3fa63a6d2f5a/mza_778432870061704157.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "A Bit of Optimism",
+      "path": "https://rss2.flightcast.com/mbqbwjr8ssv2vt5jgwcv3w20.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/69/f3/0c/69f30c74-d45b-bbca-a756-11aaf092ac3e/mza_8637948344782580934.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Best One Yet",
+      "path": "https://feeds.acast.com/public/shows/69545da8cb029db7575279fc",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/04/ea/53/04ea5351-9a69-6650-ac69-d6351bfd95da/mza_16931716041146167328.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "Quest for Success",
+      "path": "https://rss.libsyn.com/shows/509328/destinations/4368138.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4e/c0/a0/4ec0a09b-e09e-8c07-7420-2d8f3e0bafd1/mza_8422815415627781536.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "BiggerPockets Real Estate Podcast",
+      "path": "https://feeds.megaphone.fm/BIGPOC7198720365",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/db/ed/28/dbed2847-f9bd-10bd-3a9d-a0909ad74e52/mza_4889391905538213367.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Tim Ferriss Show",
+      "path": "https://rss.art19.com/tim-ferriss-show",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/18/39/b4/1839b420-7aff-c501-5d0d-af2842fba013/mza_6255154260686997849.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnBusiness",
+      "name": "The Download",
+      "path": "https://media.heymato.com/the-download/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/38/11/c8/3811c8fa-477f-9abc-3d62-f8e1d8b8c3d5/mza_3660142041717403231.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Last Podcast On The Left",
+      "path": "https://feeds.simplecast.com/dCXMIpJz",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/25/c9/7f/25c97f36-41e7-38a9-7e95-4f87997024f4/mza_430481307357513215.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Betrayal Weekly",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/7b1f0895-f595-4c38-afb6-ae6001531610/f1aae979-82f6-402c-8906-ae6001537b33/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5a/26/69/5a266933-839c-c4de-f0b6-e2f03e2289d6/mza_17463161178032816484.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Casefile True Crime",
+      "path": "https://feeds.acast.com/public/shows/679acff465f74095106abfaa",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/32/81/a3/3281a345-6fa5-1d0d-b0bc-f02b0850a0ae/mza_17562537467118278179.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Park Predators",
+      "path": "https://feeds.simplecast.com/T0BOyX6l",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/eb/95/39/eb9539bf-2d25-8928-9274-11f1d3364e98/mza_9186932073749396122.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Dateline Originals",
+      "path": "https://podcastfeeds.nbcnews.com/2E7hl2MC",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c5/0b/04/c50b0460-8686-0a6c-d941-2776e6774824/mza_4034755818837964809.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Deck",
+      "path": "https://feeds.simplecast.com/ZH32N6UM",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/39/70/89/3970894c-87fc-e9b1-2bf3-f8c1f7d362d0/mza_7224143132000797712.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Criminal",
+      "path": "https://feeds.megaphone.fm/VMP7924981569",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/98/22/bd9822cc-b8e0-59de-5809-45926a0ee5f3/mza_2331604259390110897.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Murder With My Husband",
+      "path": "https://feeds.megaphone.fm/HSW2364749129",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f7/11/ee/f711eec8-724f-355d-7f9a-c741694f5094/mza_13083627678721826690.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Last 12 Weeks",
+      "path": "https://feeds.simplecast.com/fho8oyc2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8b/cb/61/8bcb6179-38bd-0f94-a83e-75c99969f148/mza_1914265137006094689.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Binge Crimes: The Poet",
+      "path": "https://rss.pdrl.fm/ca33ec/feeds.megaphone.fm/witnessed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d1/e6/a5/d1e6a5a7-7572-a419-a071-46e550fb5faa/mza_4610811899227368257.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "True Crime with Kendall Rae",
+      "path": "https://audioboom.com/channels/5074524.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/08/83/ae088306-bdd2-d8e9-d7a0-8157876106ac/mza_3960900746207066868.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "True Crime All The Time",
+      "path": "https://rss.art19.com/true-crime-all-the-time",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/77/6e/dd/776edd1e-90fc-cf89-16d9-99cc78021dcf/mza_183021745809317561.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "What to Carry, What to Burn",
+      "path": "https://feeds.acast.com/public/shows/69f8b83e3a143563ed7c9014",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9c/a3/0e/9ca30e40-dd9c-944e-5a60-23b76bdb3bed/mza_18405237449602805402.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Something Was Wrong",
+      "path": "https://audioboom.com/channels/5012888.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/29/75/652975a8-8872-dce4-7b28-b677b5cb4ffe/mza_8990056980811501622.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Betrayal Seasons 1, 2, 3, 4, 5",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/7b1f0895-f595-4c38-afb6-ae6001531610/33b438a8-ea42-45ab-a95b-b1b6012147e9/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/00/5d/42/005d42b9-75da-d1b7-af6a-e659657ad79b/mza_10313693725470975043.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Bone Valley",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/2b18f6f0-09c0-471e-b663-aeed010410fa/da6eda02-def2-4de4-a1c2-aeed010456a1/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/aa/72/2f/aa722ff2-7e96-dfbd-fd98-d23d36d035b3/mza_9383434172737455327.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "10 to Life",
+      "path": "https://audioboom.com/channels/5159889.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/99/19/1e/99191e2f-915e-9320-db9c-4ae1a51f7d77/mza_5381004304104260262.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Dark Downeast",
+      "path": "https://feeds.simplecast.com/LqfhW4oK",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/f3/bf/2a/f3bf2a4e-db16-5abf-725a-17ccf5a5d689/mza_13268994355032467766.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Binge Cases: U R NEXT",
+      "path": "https://rss.pdrl.fm/c6e873/feeds.megaphone.fm/fakepriest",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/b8/0e/31b80eca-fb03-d7e5-c384-80627d8a8e55/mza_17631010085641476666.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Criminology",
+      "path": "https://rss.libsyn.com/shows/533242/destinations/4586497.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/22/9c/be229c8c-99b7-0000-ca21-580040975260/mza_200562459593438660.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Trace of Suspicion",
+      "path": "https://feeds.simplecast.com/zrOQEiWl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/89/2f/4d/892f4dec-f450-b166-2c2c-198f03d921b7/mza_15789624275893950972.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Cold Case Files",
+      "path": "https://rss.pdrl.fm/ae0c22/podcastone.com/podcast?categoryID2=1119",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1e/9c/69/1e9c69bf-c17f-0db5-4725-e58b6a08defb/mza_13232965948556492967.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "True Crime All The Time Unsolved",
+      "path": "https://rss.art19.com/true-crime-all-the-time-unsolved-po",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e6/10/85/e610857f-20b2-9662-10db-287b3280a87a/mza_13236617835256842073.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Generation Why: True Crime",
+      "path": "https://rss.art19.com/generation-why-podcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/39/1c/a5/391ca518-c5e3-8d7d-82d0-bd81e7797991/mza_18277870937113959359.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "RedHanded",
+      "path": "https://audioboom.com/channels/5166531.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/37/38/73/373873c6-ff52-d2de-945c-3a1aab729c6d/mza_18348784528713052513.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Small Town Dicks",
+      "path": "https://feeds.megaphone.fm/QCD6075320091",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/41/f2/48/41f248d2-6183-7f88-8538-deaf464741e3/mza_12698562100499838980.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Murder In America",
+      "path": "https://feeds.megaphone.fm/BDA3927678471",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/55/e9/c6/55e9c6f1-8979-062d-08f6-ee914a961d89/mza_659151186392598997.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Homicide 360",
+      "path": "https://feeds.megaphone.fm/QCD3773901459",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/36/00/3d3600ce-bd7b-04dd-e865-edde5e5f0c40/mza_3812397853671478117.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Crime Stories with Nancy Grace",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/2dbb83f5-53f6-4048-84fa-ae510011dbf6/d8d2d357-5feb-4992-8bb3-ae510011dc04/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fa/27/3e/fa273ec2-3831-cf94-35f6-d666b70246bc/mza_16185472179132251992.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Going West: True Crime",
+      "path": "https://feeds.simplecast.com/Z2Ui5wFW",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/63/35/ed/6335ed70-fbd5-4cd7-cf6b-27a840e6de1c/mza_7594978556350503829.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "True Crime Garage",
+      "path": "https://feeds.simplecast.com/zatU8XEL",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/e2/e1/78/e2e1788b-e584-7338-5561-f45f54d24fac/mza_11079836307425036802.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Deep Cover",
+      "path": "https://rss.pdrl.fm/daa18e/www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/909992ef-65aa-487b-ab34-ae32006cd6c4/9ba7a5cf-2d80-4ab2-84c4-ae32006cd6e0/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4d/a7/60/4da76084-8ea1-4f03-1730-5499cdeab8a3/mza_10228564514706457371.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "True Crime Obsessed",
+      "path": "https://rss.pdrl.fm/c5c471/audioboom.com/channels/4929680.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/69/54/32/69543251-63c2-b450-fd1d-4932b6f0238f/mza_10028551918162705040.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "National Park After Dark",
+      "path": "https://feeds.megaphone.fm/ADL5623813745",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d7/08/cf/d708cfd7-82d5-fe94-831e-3aee68caf198/mza_86948320990325036.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Heart Starts Pounding: Horrors, Hauntings and Mysteries",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/heart-starts-pounding",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/dd/b0/55/ddb05525-67da-fe35-fe80-e753d4e9d8c2/mza_6650634973167583845.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Blood and Water",
+      "path": "https://feeds.megaphone.fm/ESP3700629806",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/40/e2/a8/40e2a8a5-b863-714b-ada0-f6d55563a8bb/mza_11817457951602042890.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Unicorn Girl",
+      "path": "https://rss.art19.com/unicorn-girl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ae/99/30/ae993072-6cb5-648d-277c-f37309e09674/mza_205416200248101336.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Long Buried",
+      "path": "https://feeds.megaphone.fm/SFO2269278311",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f7/37/44/f7374418-9f41-3171-2cb4-a7cd22be9d6d/mza_9160539491936410226.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Forensic Files",
+      "path": "https://rss.introcast.io/1358793371/feeds.megaphone.fm/WMHY3539948338",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/61/43/18/614318dc-6f36-d89a-7271-eee403cb4c8e/mza_7647283452626873635.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Your Own Backyard",
+      "path": "https://rss.libsyn.com/shows/173939/destinations/1171880.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/90/24/36/90243638-a0ce-1268-2c4e-c34761253812/mza_17261943949558976257.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Lets Read Podcast",
+      "path": "https://audioboom.com/channels/4968276.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/54/09/c7/5409c75a-d38a-8c7d-03e7-ececb21fec4d/mza_2259702031232949882.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Crime Weekly",
+      "path": "https://feeds.simplecast.com/lxQZ9byz",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/26/08/0b/26080b07-75c3-9076-9206-6d12e27796c6/mza_23574107627465680.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "In The Dark",
+      "path": "https://publicfeeds.net/f/5770/apple/feed-rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/ce/d9/72ced9bc-ce68-c56b-5194-c743c55b46b7/mza_13873143646731532957.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Who Blew Up The Guidestones?",
+      "path": "https://feeds.megaphone.fm/CMGA5614749248",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/f5/a8/72f5a8c5-e39e-14c3-7f4f-e4435233ce8f/mza_13422238494094937285.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Vanished Podcast",
+      "path": "https://rss.art19.com/the-vanished-podcast-wondery",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/74/29/1074293b-5efe-af27-9f36-9e04d2c5bef0/mza_6652279297924166737.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Matthew Cox | Inside True Crime Podcast",
+      "path": "https://feeds.megaphone.fm/RHAPSODYVOICES9767353659",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9b/8c/77/9b8c77f9-8182-2312-cc6e-77821878ea55/mza_4923796149193464933.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Let's Not Meet: A True Horror Podcast",
+      "path": "https://audioboom.com/channels/5037582.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cf/51/13/cf5113cb-9ca4-39ac-60c1-a2d58b533d93/mza_2315031096743596327.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Anatomy of Murder",
+      "path": "https://feeds.simplecast.com/GdzgJRQH",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/9e/36/d1/9e36d108-2b76-cd96-4db8-da4c18740466/mza_16871784055227800584.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "America's Most Infamous Crimes with Katie Ring",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/b32fa24f4cd6312ace5c6c6b8edf7e19",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/f2/a7/85f2a7f5-bba7-32ef-3abe-313762e2892a/mza_17082361268051325838.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Murder, Mystery & Makeup",
+      "path": "https://audioboom.com/channels/5063197.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b4/e5/ed/b4e5edbf-bba3-4253-66bb-586360e17758/mza_2647529800897623010.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Buried Bones - a historical true crime podcast with Kate Winkler Dawson and Paul Holes",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/976825e3-37d8-4387-a0cd-b24b002d91e5/3df02c7c-f75a-4bea-abe8-b24b002d91ff/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2c/f5/50/2cf55081-3af7-4b6c-2ba8-90dd921d1ad6/mza_17758811220937239397.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Murder: True Crime Stories",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/murdertruecrimestories",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9d/46/a8/9d46a814-b0da-c505-b91b-98a63869bb6d/mza_17767785710585664712.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Minds of Madness - True Crime Stories",
+      "path": "https://audioboom.com/channels/5096973.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/a2/fb/05a2fb4f-659b-2bbe-d6d9-acb8d2e4de14/mza_110413281482931553.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Deadly Engagement",
+      "path": "https://feeds.simplecast.com/kDtzORa8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/21/1b/5f/211b5fed-6c14-f9f9-d6be-724a5091123e/mza_1234506885577987813.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Mile Higher",
+      "path": "https://audioboom.com/channels/5011925.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e9/cf/f2/e9cff2ae-b06a-4fe0-6157-ed48fbcc210d/mza_18385476908051414588.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Bear Brook",
+      "path": "https://feeds.megaphone.fm/TPG7540613670",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a5/fe/98/a5fe9817-5b2d-aad9-46f6-fb130a2a4570/mza_6952306081654209574.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Someone Knows Something",
+      "path": "https://www.cbc.ca/podcasting/includes/sks.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fe/88/73/fe8873a4-1e13-3f4f-4baa-9b122e980292/mza_198116530583839230.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "I Think Not!",
+      "path": "https://rss.pdrl.fm/e9d738/feeds.megaphone.fm/SBP9722839795",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/88/dd/0f/88dd0f9d-66dc-fabc-ec1c-2f6ff7cda73b/mza_15629572776050870040.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Just Creepy: Scary Stories",
+      "path": "https://anchor.fm/s/cb11d70/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/ab/03/6e/ab036e92-d400-ac70-9bb4-7cf780b4f9fd/mza_4998497495646275807.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "I Survived",
+      "path": "https://rss.pdrl.fm/37e95a/podcastone.com/podcast?categoryID2=2061",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e2/a0/6f/e2a06f57-cfa2-8d47-4044-d6bee8e6428f/mza_7369040238243896400.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Chameleon",
+      "path": "https://feeds.simplecast.com/3axToC1p",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/69/21/af/6921af18-5d04-7e96-49c8-62f00dd202de/mza_14293798668143431687.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "The Expert Witness from Uncover",
+      "path": "https://www.cbc.ca/podcasting/includes/uncover.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/3a/c3/133ac395-0741-73b6-0929-b660648fa7c7/mza_16067063217184027757.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Into The Dark",
+      "path": "https://feeds.megaphone.fm/ADL9211854799",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/59/bf/9f/59bf9fd4-43fa-8eb5-4b6a-6d4b679ae85b/mza_7863396481069245622.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Cold",
+      "path": "https://feed.cdnstream1.com/zjb/feed/download/87/b7/29/87b729c2-017f-43cb-bb5a-be3d8ff5aaf6.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a5/32/25/a5322553-e279-ce81-7095-f59c0cdabd1e/mza_6864620435701807236.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastEnTruecrime",
+      "name": "Hide and Seek",
+      "path": "https://anchor.fm/s/29c4e540/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/7f/21/b57f21d4-ad3f-a07c-955a-0b2f280b817b/mza_16947817723198329365.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    }
+  ],
+  "popular": {
+    "path": "#dataIndex"
+  },
+  "search": {
+    "path": "#dataIndex"
+  }
+}

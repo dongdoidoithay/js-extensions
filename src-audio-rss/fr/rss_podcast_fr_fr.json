@@ -1,0 +1,4716 @@
+{
+  "id": "rss_podcast_fr_fr",
+  "name": "Podcasts Français",
+  "lang": "fr",
+  "nameLang": "Français - RSS Podcast",
+  "baseUrl": "",
+  "version": "2.0.0",
+  "description": "Collection des podcasts français les plus populaires",
+  "isNsfw": false,
+  "supportsLatest": true,
+  "isShowInfo": false,
+  "showSourceImages": true,
+  "sourceType": "rss",
+  "tags": [
+    {
+      "name": "Podcasts Populaires",
+      "id": "PodCastFrTop"
+    },
+    {
+      "name": "Actualités",
+      "id": "PodCastFrNews"
+    },
+    {
+      "name": "Humour",
+      "id": "PodCastFrComedy"
+    },
+    {
+      "name": "Société et culture",
+      "id": "PodCastFrCulture"
+    },
+    {
+      "name": "Entrepreneuriat",
+      "id": "PodCastFrBusiness"
+    },
+    {
+      "name": "True crime",
+      "id": "PodCastFrTruecrime"
+    }
+  ],
+  "dataListTags": [
+    {
+      "key": "PodCastFrTop",
+      "name": "LEGEND",
+      "path": "https://feeds.acast.com/public/shows/646cbb0bb160e00011df3980",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f7/6d/29/f76d2923-87f9-a3e0-6f5e-7525fabd394d/mza_1280667782715215121.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Grosses Têtes",
+      "path": "https://feeds.audiomeans.fr/feed/d7c6111b-04c1-46bc-b74c-d941a90d37fb.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fe/04/9f/fe049f64-d03c-3995-f7ed-ecd5c7bfa3fb/mza_10862868553998545135.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "L'After Foot",
+      "path": "https://feeds.simplecast.com/VVMraBM_",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f9/b8/28/f9b828d8-87d0-bf4e-e305-491f2fd90c9e/mza_6544868585653880864.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Hondelatte Raconte",
+      "path": "https://feeds.audiomeans.fr/feed/7773697e-dd5d-4650-808b-158712520883.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9e/3a/52/9e3a52e1-31e2-7616-6329-1c376e9243da/mza_137985806042307432.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "La dernière",
+      "path": "https://feeds.audiomeans.fr/feed/9f8626d5-a57f-475d-8c0b-43c20fa2e696.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d8/17/1e/d8171e07-f286-73dc-5604-80d62208efa7/mza_298763196767147289.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "CHRONIQUES CRIMINELLES",
+      "path": "https://feeds.audiomeans.fr/feed/65e18b16-20cf-4a4b-8c2d-6ba7547671cf.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c0/35/6c/c0356c50-2cfe-7003-cf37-802e2c3153d7/mza_7700008697478933172.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Entrez dans l'Histoire",
+      "path": "https://feeds.audiomeans.fr/feed/971b31f2-42d6-4d41-95ee-1c0554528483.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/08/ea/63/08ea63fe-95da-648c-bdcc-a5b8d194bd10/mza_634527514977132492.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "L'Heure Du Crime",
+      "path": "https://feeds.audiomeans.fr/feed/de5ba943-e720-4988-a518-40404f231ff3.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/06/93/a2/0693a211-5cef-a5ce-c788-e3e897964785/mza_9139408145449524526.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "C dans l'air",
+      "path": "https://api.octopus.saooti.com/rss/playlist/500.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/be/6d/b0/be6db039-e02a-4963-fae1-f2d139b2141f/mza_9586600214643436705.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "HugoDécrypte - Actus et interviews",
+      "path": "https://feeds.acast.com/public/shows/95497e34-ecc2-596a-b910-bb3342918621",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/99/8f/f2/998ff2e2-df8b-3569-4624-13843d12c9e3/mza_14083435330052627150.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les grands dossiers de l'Histoire par Franck Ferrand",
+      "path": "https://feeds.audiomeans.fr/feed/1e1146ca-6d5d-4a7c-a1a2-0735872d9b07.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6a/a3/6f/6aa36fc5-1aba-02c8-73f8-a08559fe1d8a/mza_13732621007390675886.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Transfert",
+      "path": "https://feeds.360.audion.fm/EZqjvOzZXgWIKWg0EETBQ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3a/34/1f/3a341fd1-41ac-401b-2721-50e2245be56d/mza_7797341130086209673.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Small Talk - Konbini",
+      "path": "https://feeds.audiomeans.fr/feed/f57a29ac-5ce1-423d-8ca2-82369d9ca230.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7c/3a/22/7c3a22da-7419-2deb-6b5a-e22eda94700f/mza_11554841400277924103.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Lueurs",
+      "path": "https://feeds.podcastics.com/podcastics/podcasts/rss/5697_a59f1749b640068f2d54338141e262a0.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/12/3a/a4/123aa4d2-f84f-7278-f1ca-a2809619f411/mza_727212681931131656.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Crime story",
+      "path": "https://feeds.acast.com/public/shows/638f63106c074700101c2e1f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6a/73/47/6a73474b-8f4a-f458-f6dc-836ac9b4924f/mza_5937514766638679082.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Métamorphose, éveille ta conscience !",
+      "path": "https://feeds.acast.com/public/shows/b47f5d26-e558-472e-9760-61ac69de0a9e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/37/a5/f337a5cd-1e3b-eda0-acfc-e041724ff161/mza_14045277408673768146.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "L'Heure du Monde",
+      "path": "https://feeds.acast.com/public/shows/68db9d2509b1c365e44318ca",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/b4/9f/09b49f13-4c73-2e89-5bdd-117a5a787623/mza_10769402460129893157.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Enquêtes criminelles",
+      "path": "https://feeds.audiomeans.fr/feed/5acd2982-4c2c-495f-a3a8-5a25d79cf0b4.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/71/0d/ee/710dee32-38a2-67ef-2013-ddd5e125ece6/mza_2228807721967325244.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Ça commence aujourd'hui",
+      "path": "https://api.octopus.saooti.com/rss/playlist/510.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/29/59/3f/29593fdc-e675-47fd-7572-fc066afa2e23/mza_14581155191169061898.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "EX...",
+      "path": "https://feeds.acast.com/public/shows/5e6a404cd22bfc26784b114c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/30/37/7e/30377e64-6375-4593-a137-aa447b53b95c/mza_17612518702580378384.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Bliss Stories - Maternité sans filtre",
+      "path": "https://feeds.audiomeans.fr/feed/db1d65c9-8548-4bc6-aab2-897b1ba43156.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/aa/5a/15/aa5a150b-afea-45af-3e80-37f668c397dc/mza_12267418672606217178.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Secrets d'Histoire",
+      "path": "https://feeds.audiomeans.fr/feed/6054dcbc-e621-4922-9639-ce9dc00a8a93.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/61/3a/11/613a116d-d013-6f1d-97aa-8737fde2e65d/mza_679663832358408913.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les collections de l'heure du crime",
+      "path": "https://feeds.audiomeans.fr/feed/5401ff29-bb88-4ca3-b5c9-9a36e3afc76e.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/f1/fa/e8/f1fae805-593a-18ca-6b70-02b6853e357c/mza_14975720002720985897.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Au Coeur du Crime",
+      "path": "https://feeds.audiomeans.fr/feed/0b81db9c-9ba5-4faa-921c-3ae8ab7d15e2.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/36/df/3d/36df3d01-d518-a87b-e983-84985856bce4/mza_10916289766765414836.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "L'œil de Philippe Caverivière",
+      "path": "https://feeds.audiomeans.fr/feed/01a5bd92-d6c8-4572-8092-88e4c9953cc9.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/30/a6/ca/30a6ca9a-6b86-753a-c170-e52f52457726/mza_3419079146812471169.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "En apparence",
+      "path": "https://feeds.acast.com/public/shows/6992e4438dc5f2047a71d132",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bd/e4/6e/bde46e99-93d2-253d-f1dd-e3e72b14b1d7/mza_9255033512826530236.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Cahier de Brouillon",
+      "path": "https://feeds.acast.com/public/shows/6a2fe587685069f99ffcc455",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/43/c0/26/43c026f4-fd5c-e26a-466c-5b5a9a351308/mza_11431593206417607279.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Intégrale Coupe du Monde de la FIFA",
+      "path": "https://feeds.simplecast.com/UQkLRqMU",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ba/f9/43/baf9436d-ec9b-ceee-d271-891916fff8b7/mza_14144284059149487020.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Génération Do It Yourself",
+      "path": "https://feeds.audiomeans.fr/feed/b4a5ee3a-9230-4f9f-988d-2ae156a2d5a9.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ac/ae/d6/acaed639-e5d9-f3e4-b24d-34d5d74d29e5/mza_17356055326707219285.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Home(icides)",
+      "path": "https://feeds.megaphone.fm/BABA3636667739",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d4/f7/8f/d4f78f3a-79af-942f-6ae6-ad3a97a4db65/mza_8586543808612477832.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Happy End Le Podcast",
+      "path": "https://feeds.acast.com/public/shows/6982fc8fe362226981122563",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fd/63/c5/fd63c5dc-db5e-aa81-139c-cd7c71defd84/mza_17525212312935494773.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Passages, le podcast d'histoires vraies de Louie Media",
+      "path": "https://feeds.acast.com/public/shows/a7277f6f-bb0c-49df-ac44-80cf3167a59b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/16/5b/84/165b844c-d30d-a9ea-a162-c97e139b0610/mza_6332193258797033708.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "WINAMAX FOOTBALL CLUB",
+      "path": "https://feeds.podcastics.com/podcastics/podcasts/rss/1049_ea6163c54bc5e626b6115fc5a4888afe.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/cf/cd/fd/cfcdfdd1-0f1f-ce55-b4de-35b4b8371f43/mza_15510037799317435524.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Choses à Savoir - Culture générale",
+      "path": "https://feeds.acast.com/public/shows/66057de88268a800162cadf2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/31/55/a8/3155a807-e878-0453-86f7-1842cd32a186/mza_12348316116145026782.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Un Bon Moment avec Kyan KHOJANDI et NAVO",
+      "path": "https://feeds.acast.com/public/shows/81a0b207-ecb9-4da6-b08a-64d929b67b6b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/55/e6/16/55e616f8-abde-eafd-55ff-0ea9503abe19/mza_3829214994138626524.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Au Cœur de l'Histoire",
+      "path": "https://feeds.audiomeans.fr/feed/7c44ef0d-1d1c-4230-9da1-b2e4f839108c.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6d/75/2f/6d752f0b-c93d-54b6-e3e1-8c7677700b0e/mza_2456918523513474110.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Code source",
+      "path": "https://feeds.acast.com/public/shows/9f905938-baf3-4214-bd26-65999b4899d7",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2d/bd/be/2dbdbe02-b943-39f8-adbc-d20aaf3f4e4f/mza_1309018953031858526.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "HVF - Histoires Vraies et Flippantes",
+      "path": "https://feeds.acast.com/public/shows/6335d2ad559a970014e27ded",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/cb/2a/93/cb2a9363-1baa-af9e-9fe6-b37efe6470d9/mza_3929657763822927098.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Spin Off",
+      "path": "https://feeds.acast.com/public/shows/6a39a05b00998a7fc8602590",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9b/1a/7e/9b1a7e39-c4ad-cb96-a4e6-e8bdb63f548a/mza_5784302020786330077.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Récits extraordinaires de Pierre Bellemare",
+      "path": "https://feeds.audiomeans.fr/feed/b4435ec9-eb84-4363-9f0a-f71678dadfe4.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c4/b3/ff/c4b3fff6-465e-0ad3-7c22-3fde16f011fa/mza_6897481829258005978.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Scandales",
+      "path": "https://feed.ausha.co/B4W44cp5eq67",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/26/d8/62/26d862d5-36a8-73fc-d27b-436399e1988d/mza_534874521723062884.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "La riposte",
+      "path": "https://feeds.audiomeans.fr/feed/e7e41b26-3a4e-4a58-a4b9-222ff1cdbf51.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/12/c1/09/12c109de-841e-82f9-60ff-3c49a32c62df/mza_5252376359264985802.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les nuits du Cazarre enchaîné",
+      "path": "https://feeds.simplecast.com/qk1PjxaZ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9d/9b/1e/9d9b1e08-de99-97a3-08bf-b86cc61d8f6a/mza_6478472675934085112.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "100% HONDELATTE",
+      "path": "https://feeds.acast.com/public/shows/68d3a6b5b6dc789b27ff236c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b4/00/2f/b4002f1a-48f7-defe-ac53-883994abeb05/mza_1365085901059294329.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Le Collimateur",
+      "path": "https://feeds.audiomeans.fr/feed/64ee3763-1a46-44c2-8640-3a69405a3ad8.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/47/93/f2/4793f27b-a446-bddc-8ecd-412897249e20/mza_4377126082050666835.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Baladeurs",
+      "path": "https://feed.ausha.co/B6vDeTGznqD7",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/e3/37/bee337ed-956b-9826-253b-c60ce383fc71/mza_18436086854532731770.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "L'Équipe du Mondial, le podcast foot de L'Équipe pour la Coupe du monde 2026",
+      "path": "https://feed.ausha.co/BDdGmt0q1rDj",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/40/af/de/40afde88-eebe-c310-50e9-dc976ea1e837/mza_14652832741397529964.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Laurent Gerra",
+      "path": "https://feeds.audiomeans.fr/feed/b799ffaa-ccee-4a9a-a75f-0137a5787288.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/21/bf/1321bff3-77cf-aab7-d68b-761a2edd2f84/mza_12458040933458668832.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Émotions, un podcast pour mettre des mots sur vos émotions, présenté par Marie Misset",
+      "path": "https://feeds.acast.com/public/shows/8fb79794-2f6a-41f0-9ae1-d7766f4e4092",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/c6/8b/f1/c68bf162-537d-a361-db8b-dffb624f2ef5/mza_11628092127487380555.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Encore une histoire",
+      "path": "https://feeds.acast.com/public/shows/670d1795df4dd6f896655670",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts124/v4/db/13/5b/db135b07-e412-6e53-3452-1982d16a418e/mza_1897048046164948370.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Criminels",
+      "path": "https://feeds.audiomeans.fr/feed/608a1bbd-05bb-4019-b787-3431951e321d.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a5/08/a5/a508a5e2-53d6-e0a0-5a68-fc9264a679b3/mza_11263194289637187883.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Grandes Gueules",
+      "path": "https://feeds.simplecast.com/MBdw4Qrw",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/8f/4f/7c/8f4f7cf9-0fb2-c15c-78b9-3bbc5c5e7414/mza_4573819581429540002.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Le grand récit",
+      "path": "https://feeds.audiomeans.fr/feed/4eca7c15-3bb8-47b0-bbb2-4cfd35dd5cc1.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/39/4c/c6/394cc667-8a03-b352-d410-5b4b43f54b08/mza_14641787123627626979.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "SAFE PACE - Le podcast des sports d'endurance, présenté par Hugo Clément",
+      "path": "https://feed.ausha.co/qnmdwhp5YKdO",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/10/7b/ed107b88-9e6f-ac3a-3b38-9038ff045535/mza_14395774652848254011.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "FloodCast",
+      "path": "https://feeds.acast.com/public/shows/5ffe3facad3e633276e9ea57",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/ee/3e/5b/ee3e5b9c-c278-aadf-89ad-822ba2819da3/mza_3496687179233588433.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Couilles sur la table",
+      "path": "https://feeds.audiomeans.fr/feed/d9cd7538-7491-4873-b0c4-90ccba60ccf6.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/64/54/cc/6454cc87-0850-d90a-c470-55069b7b8873/mza_2115463562888213548.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Vraiment Riches",
+      "path": "https://feeds.acast.com/public/shows/6a03312837a1e7308dfcf309",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/16/10/60/16106063-b1b1-5a2b-03ad-bee37761d7d3/mza_5143662680996020167.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Grosses Têtes - Les archives de Philippe Bouvard",
+      "path": "https://feeds.audiomeans.fr/feed/07213585-abe7-4f28-a95b-37545b65c76f.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/33/8a/04/338a0429-bdad-992f-58ce-e2039f191bfe/mza_973310547982972475.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Storiavoce, un podcast d'Histoire & Civilisations",
+      "path": "https://feeds.acast.com/public/shows/62c823b8f93e7c0012e9b303",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/27/cd/3d/27cd3dca-7f60-11c7-141b-e2bfbaf4f942/mza_3524109277524822960.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Les Maîtres du mystère",
+      "path": "https://api.octopus.saooti.com/rss/emission/15183.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/81/77/04/81770410-ce6c-a828-0241-5743563004d0/mza_17384620009335666868.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "COUCH by Lena Situations",
+      "path": "https://feeds.megaphone.fm/GLT7402601566",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/88/1f/8b/881f8bdd-9d40-bb57-9a76-8f1504791e44/mza_16510706109208559186.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Petit Vulgaire",
+      "path": "https://feeds.acast.com/public/shows/c77a97df-0a1c-4600-921c-c3e87b6486cd",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/06/cd/08/06cd0862-1f34-6aac-e3bc-ad38cd164537/mza_10130818871363080270.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "La Traque",
+      "path": "https://feeds.megaphone.fm/latraque",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/7c/b1/d37cb1f8-5ed1-e256-f436-0851d9fa050c/mza_4796641037664067839.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "Profils : des récits uniques",
+      "path": "https://www.arteradio.com/xml_flux?fluxname=%22Profils%22&partner=applepodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/a2/7e/eda27e24-c52e-55b8-e4b6-83e4aa0f51ef/mza_3147196269598423328.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTop",
+      "name": "InPower par Louise Aubery",
+      "path": "https://feeds.acast.com/public/shows/65294b6074eb720012379a6a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/05/b7/52/05b75263-c11d-e8e5-48b1-42211c75c1b9/mza_1922659926952981892.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Global News Podcast",
+      "path": "https://podcasts.files.bbci.co.uk/p02nq0gn.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/57/09/8457093f-677a-d6de-5666-6514cc588a7e/mza_17083078915388787537.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "La Story",
+      "path": "https://feeds.acast.com/public/shows/07b210dd-7af5-5b41-b04d-e4eb2a19e708",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/17/d2/2b/17d22b7f-f543-0247-5b69-2413a9428706/mza_17392971206644611221.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "FIGURES",
+      "path": "https://feeds.acast.com/public/shows/6a1590086ee822cbfbf41da0",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/18/a5/ae/18a5ae0f-5cc8-a203-ab64-5c432c66afa5/mza_14930484660775070098.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "The Daily",
+      "path": "https://feeds.simplecast.com/Sl5CSM3S",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/64/66/ab6466a9-9a7d-e20e-7a3d-bc5be37d29ce/mza_15084852813176276273.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Carla Ghebali",
+      "path": "https://feeds.acast.com/public/shows/6a102cfb2912aeb1d0930c5c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/cd/92/44/cd92443b-f5f8-bf16-abc9-038528865d76/mza_16736980079356457052.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "L'angle éco de François Lenglet",
+      "path": "https://feeds.audiomeans.fr/feed/2c0f0853-d472-44bf-a920-baaa0bcd4c35.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b4/69/b3/b469b36c-4a2d-664d-34a4-2121d74065f6/mza_10636436463771866520.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Sur un fil",
+      "path": "https://feeds.audiomeans.fr/feed/a4dcd605-4f91-4532-b302-32d92f90b3b1.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b2/52/5e/b2525ee3-8d46-3c1e-d0eb-de2e0360cb81/mza_11950585738613945119.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Le podcast BasketSession",
+      "path": "https://feeds.acast.com/public/shows/67ebdac502e789100f7f411e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/15/f2/41/15f24101-b1b8-79de-8463-6bfec1ed72d2/mza_5650432372725446187.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Le Nouvel Esprit Public",
+      "path": "https://feeds.audiomeans.fr/feed/d4c07330-3c16-409d-af1c-d51699fd233b.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/a8/24/a0/a824a00d-c82b-9d7a-51bb-76a7e942e2ed/mza_513484927330489177.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Chaleur Humaine",
+      "path": "https://feeds.acast.com/public/shows/68db9a016d92c33f9c2eff83",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8f/cb/aa/8fcbaa56-d4f2-4cb6-d150-a2d1129ac912/mza_111923857358256148.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Zack en Roue Libre by Zack Nani",
+      "path": "https://feeds.360.audion.fm/Wmd7d5HyZ8wJGI3zZVaUq",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/39/63/2d/39632dae-2c6d-8533-2bb1-ef218336681d/mza_10998644656449342831.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "L'Entretien géopolitique",
+      "path": "https://feeds.acast.com/public/shows/68df983a5f95c3d4193c05f8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/fd/e7/03/fde70357-4b98-715c-d802-95fb33e04813/mza_3038756984941292871.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Face à Face",
+      "path": "https://feeds.simplecast.com/0H53ly_3",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3e/9b/2c/3e9b2c89-fb43-89e4-aba9-e81cd4e93c61/mza_3429109371319883767.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "28 Minutes",
+      "path": "https://www.arteradio.com/xml_sound_emission?emissionname=%2228%20Minutes%22&partner=applepodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/64/f3/9c/64f39c82-5535-7177-053b-5dd736934025/mza_16923239880361309667.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Géopolitique",
+      "path": "https://apis.rfi.fr/products/get_product/rfi_getpodcast_by_nid?token_application=975d23b8-7a07-11e8-9f62-005056a90194&program.entrepriseId=WB1294-RFI-FR-20090930",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/98/ee/ea/98eeea22-85e5-5c6f-217f-fb7c4e286d05/mza_16645382511020718594.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Le monde devant soi",
+      "path": "https://feeds.360.audion.fm/6vYrdDyXh5Atl8U_u-eyu",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/38/63/96/386396ea-97e0-9ca3-0381-e0bd8d2c6eb9/mza_8302212704414384359.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Economist Podcasts",
+      "path": "https://access.acast.com/rss/ec380acc-fe13-46a0-991f-a1e508d126f8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/92/68/ba/9268bae8-1bd5-2a15-7f1b-7e265d4773bd/mza_10204374987848109193.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "L’invité de la matinale",
+      "path": "https://feeds.audiomeans.fr/feed/cd0adf86-2502-4d13-820e-a0fcb873fd2b.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/43/86/b9/4386b9ed-886e-a947-bf6e-603c765c9991/mza_15381989203719122521.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Contre Soirée par AnnaRvr",
+      "path": "https://feeds.acast.com/public/shows/6234700f7849430013a516af",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/56/5b/43/565b43c7-f549-403d-3c88-87f182042990/mza_12603762450670190092.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "L'Heure des Pros",
+      "path": "https://feeds.acast.com/public/shows/61308a906d38e90019a4bdd1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6f/c0/d9/6fc0d94e-0076-0e0d-0154-7a1a4fcc6380/mza_14728200549027959628.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "C à vous",
+      "path": "https://api.octopus.saooti.com/rss/playlist/508.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/de/61/e4/de61e4fa-d598-d756-7b2e-4c83f615df8b/mza_9626441758217923831.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "On a du nouveau",
+      "path": "https://feeds.audiomeans.fr/feed/9e21dfda-27c7-4431-9ff5-c892b7d47487.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/24/31/83/24318334-794f-b92b-8767-fac16b2b8a8e/mza_8111919570061766981.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Les histoires d'amour extraordinaires",
+      "path": "https://feeds.audiomeans.fr/feed/5799f0c0-d531-402b-8c09-14671fcccfb7.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9b/7a/55/9b7a556d-0fb9-7dda-ea11-165f63dc0c7c/mza_1974649868172344397.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Le grand rendez-vous",
+      "path": "https://feeds.audiomeans.fr/feed/ac193b03-3b95-435b-8c37-a01d5eda5d1d.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a6/70/c7/a670c7f0-0829-9cb5-ef3a-53ebf158cb18/mza_10176405322697375272.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Programme B",
+      "path": "https://feeds.audiomeans.fr/feed/b3be03c6-fcb3-4052-8d10-a1ecb0e13266.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6d/7e/df/6d7edfea-6d30-65db-5b0a-2d0770c9d0b4/mza_12818546826737824017.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "À l’air libre",
+      "path": "https://feeds.audiomeans.fr/feed/ce559f3f-f8fa-48cb-9dd1-682d177d55d8.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/65/f8/f7/65f8f747-b619-594e-e12d-e2cc83dd0e1b/mza_3359002860415621228.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "GÉOPOLITIQUE PROFONDE (www.geopolitique-profonde.com)",
+      "path": "https://media.rss.com/geopolitique-profonde/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b8/c4/fe/b8c4fec8-2fe9-087a-5ddc-97624cae2847/mza_10583472810446764301.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Patrick Bruel, la chute d'une idole",
+      "path": "https://feeds.audiomeans.fr/feed/be6f2033-46e2-4878-bf38-898c957a6e51.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3a/c3/e4/3ac3e439-f552-5581-334a-bd72d0ff0b40/mza_2160705746793844788.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Esprits Libres",
+      "path": "https://feeds.audiomeans.fr/feed/f464dfe4-189a-4277-bcd9-bb4ab5f333ae.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7f/33/4c/7f334c3c-25ae-3c92-87c8-1c467c6e83cc/mza_17597812409930060736.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "La Grande interview Europe 1 - CNews",
+      "path": "https://feeds.audiomeans.fr/feed/7dd2a532-d19a-46bb-9ac7-a5eefff10b62.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/75/fe/2c/75fe2c30-3e19-2b1b-a1c4-8c054c060009/mza_6111429018267905690.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Face à Michel Onfray",
+      "path": "https://feeds.acast.com/public/shows/65dd8f68c54eb600189ca689",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/99/72/fd/9972fded-9526-e7f9-5ad7-5d4ce0697dea/mza_10339249034063419624.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Les Echos de l'IA",
+      "path": "https://feeds.acast.com/public/shows/40489ff3-d67b-5c00-9908-2430e3cc26db",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/7e/34/9e/7e349e97-aba4-d0a2-c392-e783eaec11ea/mza_2679667187142681520.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Monde Numérique - Actu tech & IA",
+      "path": "https://feeds.audiomeans.fr/feed/6feb767b-f765-4505-a945-a5b78a1f2972.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/70/ce/2b70cef5-7a0c-35ec-59da-c5e4c99612f9/mza_17803722404703403807.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Quelle Histoire",
+      "path": "https://feed.ausha.co/YX7mRFwq1PaO",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/b6/88/cbb688f7-6930-7600-edd9-a3b41e7fa58e/mza_10118827564121037785.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "C ce soir",
+      "path": "https://api.octopus.saooti.com/rss/playlist/502.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/42/1c/be421c62-39f0-efac-950d-efc7193667b7/mza_15219058458253319710.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "FT News Briefing",
+      "path": "https://feeds.acast.com/public/shows/73fe3ede-5c5c-4850-96a8-30db8dbae8bf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/60/fd/0c/60fd0c79-808e-cc79-e121-27527becbdc6/mza_1413179331890984538.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "C'est arrivé cette semaine - Frédéric Taddeï",
+      "path": "https://feeds.audiomeans.fr/feed/691fc01d-2fb7-45af-8f16-867dad59650e.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/49/87/0a/49870a73-7243-6fe5-a73b-1ce89b721961/mza_9682370154028519722.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Quid Juris ?",
+      "path": "https://feeds.simplecast.com/5GkXTG__",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/51/c6/40/51c64017-6746-36de-065e-6068e95de18b/mza_12541191218693970815.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "The Rest Is Politics",
+      "path": "https://feeds.megaphone.fm/GLT9190936013",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d0/a7/d6/d0a7d6a3-e1d3-52ba-60fd-d788ceb7d559/mza_17193364103373697567.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Blast - L’actualité",
+      "path": "https://feeds.transistor.fm/l-actualite",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/87/62/80/87628056-fdb5-ee56-5df5-bac99f447a8a/mza_9988168137200084802.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Les podcasts du Média",
+      "path": "https://anchor.fm/s/16a93754/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4b/f1/5a/4bf15a6f-f5e1-30db-b2c5-99ce21690306/mza_10037158784276134247.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "C'est arrivé demain - Frédéric Taddeï",
+      "path": "https://feeds.audiomeans.fr/feed/82152ddf-dc87-4e94-9825-d2b1765b4bcd.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f3/36/79/f3367950-a146-10ad-456d-b51c68e2e48c/mza_17025753008186343595.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "DONNE-MOI TOUT",
+      "path": "https://anchor.fm/s/1121417d0/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f0/ca/c0/f0cac0d1-f2a8-5dfe-56f6-a494d5feb13d/mza_5043486369784255896.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Blast - La politique",
+      "path": "https://feeds.transistor.fm/la-politique",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/38/fe/98/38fe981b-ed29-a0bf-4f9d-0615735be9cf/mza_15615660541838643452.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Blast - Les idées",
+      "path": "https://feeds.transistor.fm/les-idees-saison-1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/95/88/0e/95880ee7-3044-9e0c-c608-c590df30599f/mza_1897591593713266569.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Blast - L’économie",
+      "path": "https://feeds.transistor.fm/l-economie-saison-1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/23/55/10/23551059-1b50-3be8-04ad-879da3b461ce/mza_18072525563933002307.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "The Rest Is Politics: US",
+      "path": "https://feeds.megaphone.fm/GLT5336643697",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3a/f4/51/3af451dd-f500-9c3e-8834-839d86076411/mza_11954146268283790758.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Comprendre le monde - par Pascal Boniface",
+      "path": "https://feed.ausha.co/qrElvi4GZRAr",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/fa/63/03/fa630341-a4a9-f2aa-66b3-3f6a3356b9e4/mza_4396499205721808405.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Nid d'espions",
+      "path": "https://feeds.acast.com/public/shows/647a08fcd035fa00113e74ce",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a4/40/ea/a440ea16-7fd0-5c00-9090-86d318e74eb9/mza_17090929769104940002.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Conflits, géopolitique",
+      "path": "https://feeds.acast.com/public/shows/634d80ce406c2a001118ac79",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9c/00/f9/9c00f970-d6a8-79e0-92b6-5f44d5c21149/mza_6590997929297610562.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "LES INCORRECTIBLES",
+      "path": "https://api.substack.com/feed/podcast/5737370.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9d/2c/99/9d2c9910-e149-fddb-596e-49066aea3aac/mza_3617809242813086166.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Today in Focus",
+      "path": "https://www.theguardian.com/news/series/todayinfocus/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/f1/13/71/f113715f-56e4-f542-a08c-b5890c0841bc/mza_18228009703397905678.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "BFM Politique",
+      "path": "https://feeds.simplecast.com/jGeeHPr8",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/05/19/44/05194435-cdc9-d3ee-099e-8ba7bd9e3f09/mza_6526109117693792226.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "C politique",
+      "path": "https://api.octopus.saooti.com/rss/emission/14548.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ab/a5/6c/aba56c03-5cf1-f2bf-95c0-ca3ac7acfaaf/mza_4632811648207110959.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "L'édito politique",
+      "path": "https://feeds.audiomeans.fr/feed/c6189407-9571-43c4-b3f6-2de3630b066d.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/13/d9/ca/13d9cad7-f34a-3f20-a39f-e64dbe87a560/mza_18417289753675798475.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Gaspard G",
+      "path": "https://anchor.fm/s/10b923054/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d6/c6/c6/d6c6c6ea-5bd6-5afa-f691-9715d27e9819/mza_9143753626857231011.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Coup d'œil à l'étranger",
+      "path": "https://feeds.audiomeans.fr/feed/6b9f30c8-cdf9-4ede-aada-aec380317df1.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f1/ef/a2/f1efa215-591d-9d2e-8fcb-378519917beb/mza_6510760339716723665.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Suis-je mauvais ?",
+      "path": "https://anchor.fm/s/10722682c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/70/3c/14/703c14bd-cbc9-9567-343e-7f7e28c6d23a/mza_9550682011658440755.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Le Crayon",
+      "path": "https://feeds.acast.com/public/shows/6929ae46a443330de9a91585",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d1/fc/78/d1fc789b-aa35-235d-8a30-3b0e61a01104/mza_4111539898055702498.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "The Rest Is Politics: Leading",
+      "path": "https://feeds.megaphone.fm/GLT9029505120",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/39/fb/9f/39fb9f6d-a443-5667-38f8-9baa8a6bdcd4/mza_13045446392846167658.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Face à Michel Onfray",
+      "path": "https://feeds.audiomeans.fr/feed/3f623a0b-f338-4e18-ba74-c194e0e6e8bf.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/11/0e/17/110e172e-c8c6-b5c1-a927-2f9311e87f2c/mza_8150361211066982295.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "L'interview Brut. des gens connus",
+      "path": "https://feeds.360.audion.fm/f5x8TZFXmNcSjwvv3scyK",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/94/ef/b6/94efb665-4bf5-cd5b-2155-d91ac844cae4/mza_2824703575764616428.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Le Monde selon l'Ifri",
+      "path": "https://feed.ausha.co/RdRaWTQ9LQ4Q",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/bc/18/df/bc18df87-a398-8bd5-4632-3a243462324b/mza_17346437074699344089.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrNews",
+      "name": "Greenletter Club, l'écologie décortiquée",
+      "path": "https://feed.ausha.co/bPRKpsJEPv6e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/82/ba/30/82ba30dc-d601-7996-5a85-11271f26790f/mza_3152932747532391012.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Entre Meufs",
+      "path": "https://feeds.acast.com/public/shows/67756ee6c82b0a6413cbcf4a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/16/09/13/160913a8-2bf3-4174-0856-70e29f76aef6/mza_4021216964110943909.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "À moitié plein",
+      "path": "https://feeds.acast.com/public/shows/67bc8455b628e470d3f787f7",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/bb/2b/bdbb2b6f-bbc7-cd21-c6d6-a6b62f04ac10/mza_18319289144368697925.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Alice Underground",
+      "path": "https://feeds.audiomeans.fr/feed/2a077c12-a605-462c-be1e-b7b3e29ca9da.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/89/d5/0c/89d50c66-14ae-a882-e342-e7866e795eb2/mza_13154765870417449933.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "À bientôt de te revoir",
+      "path": "https://feeds.acast.com/public/shows/a8879bdf-de58-4537-8dab-a3bb13948786",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/79/51/c1/7951c1e7-b3fe-8a43-7b5c-1e71efc8b109/mza_8939863995673503412.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Laurent Baffie",
+      "path": "https://feeds.acast.com/public/shows/666c0c0c899a1b0012f9d564",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/73/62/55/7362558f-a9d6-8e4c-60ca-0ccd5a76bd22/mza_10919477329776395536.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "La chronique de Pierre-Emmanuel Barré",
+      "path": "https://feeds.audiomeans.fr/feed/2654307c-90d2-4394-a438-90c92ef369e9.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/4d/6d/b9/4d6db9df-feed-a1b3-050e-3f18022efcaf/mza_13518898455943844630.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "La chronique d'Aymeric Lompret",
+      "path": "https://feeds.audiomeans.fr/feed/d76ed85b-40cf-4634-998e-842f9cce9453.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a9/ee/da/a9eedaef-017d-00ee-37fa-7aaa15dfbb5d/mza_7927833746901351634.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "SAFE PLACE",
+      "path": "https://feeds.acast.com/public/shows/69123e817728b8766cb5c633",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e4/32/77/e432775f-915f-70d7-1458-22c8ce963269/mza_14576991876591278359.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "La chronique de Guillaume Meurice",
+      "path": "https://feeds.audiomeans.fr/feed/c93fc680-2aac-4c87-880b-611da0d643f4.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/63/66/56/63665606-5607-13c2-8160-184cae99bd8d/mza_11853678682448396381.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "4 Quarts d'Heure",
+      "path": "https://feeds.acast.com/public/shows/632090bb4d259900133e31a5",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/75/59/8b/75598b27-c9e2-dd46-1be2-8a0f20f030c7/mza_3176867528948294216.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "La Chute de Lapinville - Une fiction quotidienne",
+      "path": "https://www.arteradio.com/xml_sound_emission?emissionname=%22La%20Chute%20de%20Lapinville%22&partner=applepodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/51/7e/44/517e448b-5063-edef-ed56-af71c37a319f/mza_4448504950932210596.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Les Gens Qui Doutent",
+      "path": "https://feeds.acast.com/public/shows/607d9b352cb1e944565f052c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5e/17/0e/5e170eb2-20d8-36ad-bc69-f5d2de8c3e33/mza_8549224258153182685.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Cauet sur Europe 2",
+      "path": "https://feeds.audiomeans.fr/feed/a04c843b-3e68-4928-80e7-27f7617db91b.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ae/33/d6/ae33d606-d7e4-84cf-5c7d-9c64cd28b5e3/mza_13447368963829553706.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "300% Plaisir",
+      "path": "https://feeds.acast.com/public/shows/67c8298f48f26a4bcae4324e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5e/59/88/5e5988c7-fa43-5b8e-a4b6-e8e18ad44e72/mza_11744525618598502434.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "L'histoire dingue",
+      "path": "https://feeds.audiomeans.fr/feed/82443457-3b11-434e-99cc-9de8338c8a57.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d6/16/88/d61688c3-67ef-c28c-93de-91fc3001401c/mza_14300996230009516856.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Les grands remplaçants",
+      "path": "https://feeds.audiomeans.fr/feed/6272b80f-85d9-4dfe-9425-60523550ff67.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/39/fe/20/39fe20da-a534-b8af-9cad-8b0a66296146/mza_15569222471423630835.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Montreux Comedy Edition Audio",
+      "path": "https://feeds.acast.com/public/shows/6566189f-8c8a-5dfd-9d40-4a247db5f5ce",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/15/8f/8c/158f8c80-0b33-e390-e64c-1e075810f011/mza_17646040712385488406.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "L'oeil d'Alex Vizorek",
+      "path": "https://feeds.audiomeans.fr/feed/6847967a-7b59-4e52-9c8d-f442b4e37f40.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/2b/1a/f6/2b1af6a0-8086-5e1f-a8c4-65334217400d/mza_11911209430936480994.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Manu sur NRJ : Le best-of",
+      "path": "https://aod.nrjaudio.fm/xml/130.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0b/99/ca/0b99cadc-47bb-bd9e-b3b2-11f67bfab216/mza_2481041142279783079.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Camille Combal sur NRJ",
+      "path": "https://aod.nrjaudio.fm/xml/2455.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ef/a5/cd/efa5cda5-a30d-eace-d2f3-9959fb461609/mza_12669542569942642149.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Plutôt Caustique",
+      "path": "https://feeds.acast.com/public/shows/66eb2575bbcf745f11ae1097",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/08/6b/ad/086baddc-c771-00dc-e7f4-091fce2fe014/mza_960554291050985668.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Game of Roles",
+      "path": "https://feeds.acast.com/public/shows/cabcdc65-9f15-5900-a971-d6d96f16ed31",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/90/c4/3e/90c43e6c-d465-b42c-4989-623a7825c847/mza_2713116134401004203.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Absolument fabuleuses",
+      "path": "https://feeds.acast.com/public/shows/645baa813699f60011351eec",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/67/b3/5a/67b35a4f-f016-2dd4-8c46-a676f68c7524/mza_537346199596476107.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "L'appel trop con",
+      "path": "https://aod.nrjaudio.fm/xml/169.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/10/7c/78/107c7877-3ba0-1f52-19e3-1add6a3a64e9/mza_14587952612276897182.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Ça m'a soulé",
+      "path": "https://anchor.fm/s/101136d00/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d9/5e/2c/d95e2cee-76d7-5a73-15ac-3128fa269715/mza_7494802475921853181.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Radio Libre - L'intégrale",
+      "path": "https://feeds.audiomeans.fr/feed/2a0c61b7-a0b3-45d7-b09a-e60bf64f2bd0.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ff/64/67/ff646796-06d6-2da0-abe5-c1e73d8e203a/mza_968781699245020272.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Boum Boum - Alexandra Roost",
+      "path": "https://feeds.acast.com/public/shows/68da856a86008eb23050509c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/17/2f/11/172f11d5-a5ee-06d6-5293-68a2527c7391/mza_18436381079712448679.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "La matinale de la nuit",
+      "path": "https://feeds.audiomeans.fr/feed/9a12cead-cae4-4450-806a-ec7ebfbd14af.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/48/d4/47/48d44712-43eb-a127-16fb-04ad4a3b5319/mza_702575545241665288.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Podkassos",
+      "path": "https://feeds.acast.com/public/shows/66f91bc5b696dfdc6dce0a01",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/cc/16/2e/cc162ed0-52cb-d07c-b7aa-9a5cffa5f2ac/mza_2249836781296264944.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Radio Paillettes",
+      "path": "https://feeds.acast.com/public/shows/6380bdb5915c6a0011bf0666",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0d/fe/df/0dfedfe5-1227-9050-d7d8-128290379a36/mza_3550436463229894374.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "La Chute de Lapinville : les intégrales",
+      "path": "https://www.arteradio.com/xml_sound_emission?emissionname=la-chute-de-lapinville-les-integrales",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/36/47/fe/3647feec-248a-05d5-d2e7-2a406c524dc5/mza_12178574639578750054.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Good Hang with Amy Poehler",
+      "path": "https://feeds.megaphone.fm/good-hang-with-amy-poehler",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2b/94/bb/2b94bb6e-44f1-9d57-7748-b7456072806d/mza_1064202164981856225.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "The Joe Rogan Experience",
+      "path": "https://feeds.megaphone.fm/GLT1412515089",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/53/f9/1b/53f91b92-46f0-cf52-f65c-6b23343397c3/mza_9009835258120886668.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Chat VDB",
+      "path": "https://feeds.audiomeans.fr/feed/73cfd9df-259b-44fd-9f62-7246bbfcf4c5.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b7/1b/ed/b71beda6-b5e2-d494-38f6-9d54033de4ba/mza_15464272261293163476.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Call Her Daddy",
+      "path": "https://feeds.simplecast.com/mKn_QmLS",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/05/10/91/05109145-8c22-5464-1f20-aaedeab769f8/mza_10276081716633787086.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Les chroniques d'Arnaud Demanche",
+      "path": "https://feeds.simplecast.com/c9Euty5j",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8a/f8/53/8af85396-916e-ec38-2f3d-72abfec46e64/mza_91610813322249564.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Tenez, goûtez, c'est délicieux",
+      "path": "https://feeds.acast.com/public/shows/680e31a650eb1025285246b5",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d3/22/4d/d3224db6-5961-8e74-3652-2aca9949e728/mza_16136622359183343584.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Le Potes Cast de Yacine et Dedo",
+      "path": "https://feeds.acast.com/public/shows/687ea5fc498abee416817643",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/33/04/79/33047945-93cf-eacb-80a4-8385ef75cb41/mza_6149392957180283743.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Pardon GPT",
+      "path": "https://feeds.acast.com/public/shows/645a2f1921ff900011823028",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/80/0e/f1/800ef1f1-f386-be70-9c30-c6d9b85b4d28/mza_10805382085931075716.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Bruno sur Fun Radio",
+      "path": "https://feeds.audiomeans.fr/feed/8b8f61e9-93be-433e-a7fd-f2c87d9e9566.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/46/c2/d1/46c2d10b-db84-31c2-8f55-ece6c2bae5b3/mza_287072916430270564.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Moralité",
+      "path": "https://feeds.acast.com/public/shows/64c8e082cf5d1e0011d0fa03",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/94/c1/06/94c1068b-0901-ad17-51a5-4cb442f0eb08/mza_8958117334982786076.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Pour le Seigneur et la Terre !",
+      "path": "https://media.rss.com/pour-le-seigneur-et-la-terre/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ae/b3/1d/aeb31d69-74d9-0a5c-5d7d-ed2dffc9a002/mza_10251102742215889289.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Les audios ASMR - BehindTheMoons",
+      "path": "https://feeds.acast.com/public/shows/686a68843b5dc9fc229a3f41",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/3f/e0/313fe079-c1c2-7960-0ec6-2e1407d9c766/mza_16217077134912083977.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Le Mythe de la Taverne",
+      "path": "https://feeds.acast.com/public/shows/6465ee6cd4dd0e0011944855",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a0/de/8b/a0de8b79-783b-95d7-ba8c-2fcc76589a44/mza_16825777615041315820.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Les Crapules du Showbiz",
+      "path": "https://feeds.acast.com/public/shows/6880a2a94d38ffe5f5b513ee",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7c/b5/90/7cb590fd-3a35-96c5-6851-bfdf9dfae81e/mza_14077643097932653644.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Conan O’Brien Needs A Friend",
+      "path": "https://feeds.simplecast.com/dHoohVNH",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/c6/02/8a/c6028ab7-bffd-db83-53e4-34a4ea9bef21/mza_16944101310108746053.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Face à Canteloup",
+      "path": "https://feeds.simplecast.com/UOIgRpiY",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/73/35/29/733529fc-7f0c-4d5c-a535-f55db3fff3e3/mza_5749256197550426152.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Ton Quotidien avec Pablo Mira",
+      "path": "https://feeds.audiomeans.fr/feed/e12fc7ad-2a27-4205-905a-ff3731e5143a.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/04/f7/6a/04f76ac7-5ef8-8d7e-7bd8-e3e03e7e41c2/mza_15747398603655247610.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Friday Night Comedy from BBC Radio 4",
+      "path": "https://podcasts.files.bbci.co.uk/p02pc9pj.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/66/d0/d4/66d0d4f8-23b7-a581-736e-c1c48dae7fcc/mza_14435714918247227642.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Le Pigeonnier",
+      "path": "https://feeds.acast.com/public/shows/68baf7294629f1c6beb95905",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/19/7d/87/197d87d3-4188-b1fb-3c56-beb6f8c79e2c/mza_6251122460247348054.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "No Such Thing As A Fish",
+      "path": "https://audioboom.com/channels/2399216.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6f/9b/4c/6f9b4c39-3c1a-d7c7-9264-b0ed14579e08/mza_7947053701740283670.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Laisse-Moi Kéfir La Vibe Avec",
+      "path": "https://feed.ausha.co/APrwMf9NwJKw",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/09/b7/6a/09b76a6f-ed03-5a0b-542c-4e3d46733ecf/mza_11798864727586870954.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Le debrief de l'été",
+      "path": "https://feeds.acast.com/public/shows/670a3c0312827abd27ec0dcd",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/45/0f/f2/450ff2a5-f2b1-b9cc-0e68-c435d0f26cdf/mza_15994629351869810038.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Cyril Hanouna sur Fun Radio",
+      "path": "https://feeds.audiomeans.fr/feed/dadf9377-8277-4e9a-b7ee-8d775ca9809d.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/71/1b/be/711bbe4c-27f3-2c84-ee88-dd546abaaddc/mza_7800846039790782998.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Jason Brokerss - Podcast avec l'Épouse",
+      "path": "https://feeds.acast.com/public/shows/podcast-avec-lepouse",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e7/52/3f/e7523fcc-0b78-bc9f-e545-7ae579b5bc71/mza_9760494101246231816.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Chez Kevin Razy",
+      "path": "https://feeds.acast.com/public/shows/656e2a91f95cc600124ae18c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/05/ba/d8/05bad8eb-c006-4cfb-b215-618465b7d9c2/mza_3304140386061212359.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Therapuss with Jake Shane",
+      "path": "https://feeds.megaphone.fm/therapuss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/51/bf/e6/51bfe67b-a76c-5d5d-b220-2ee11c99b764/mza_7123720287029995599.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "La Bonne Auberge",
+      "path": "https://feeds.acast.com/public/shows/a45bd35d-cc94-48ab-b225-cd6fd58d572e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/01/88/fc/0188fcfe-976b-e1a5-009c-7a15ecddb741/mza_12680458692547222950.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Smosh Reads Reddit Stories",
+      "path": "https://rss.pdrl.fm/ff8ba6/audioboom.com/channels/5148149.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ea/e9/98/eae99878-5ee5-915b-0c0a-46cf2b275f91/mza_13860666952263637735.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Amour, Gloire & Dragons",
+      "path": "https://feeds.acast.com/public/shows/642efa5c262714001041b7b2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/fe/b8/dc/feb8dc10-a50e-97e1-715a-296d015beb5c/mza_13826861850158262716.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Les impostures de Jean-Yves Lafesse",
+      "path": "https://aod.nrjaudio.fm/xml/2172.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/01/86/c2/0186c2b0-5778-4906-ce35-c7b377e318f6/mza_6904120054359259711.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "SmartLess",
+      "path": "https://feeds.simplecast.com/hNaFxXpO",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b1/93/5f/b1935f9f-35be-9144-e813-626bd8dabfb4/mza_4132654708551836825.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Off Menu with Ed Gamble and James Acaster",
+      "path": "https://feeds.acast.com/public/shows/b19ac1f5-6adf-4c8b-aa1a-2af2160f99e4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c4/dc/de/c4dcdec7-fbea-749e-7a03-bbe27db17137/mza_4311127974403693339.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "Madame Meuf",
+      "path": "https://feeds.megaphone.fm/BABA9473728671",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/78/51/12/785112dd-5fce-ba2f-182f-94108c09b667/mza_16003316645892858872.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrComedy",
+      "name": "J'ai rêvé trop fort",
+      "path": "https://feeds.megaphone.fm/jairevetropfort",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/b1/e0/0cb1e0c4-70bd-e26e-ea12-739eb4f8c865/mza_2079686599616380997.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Sip & Gossip",
+      "path": "https://feeds.acast.com/public/shows/67d1639af397b75dff3f53fb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/47/11/1d/47111d0c-731a-2345-1cd2-5b2f80517a59/mza_9914056582731342670.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Thinkerview",
+      "path": "https://www.thinkerview.com/feed/podcast/",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts125/v4/b4/00/fd/b400fdfa-6253-875e-f58d-715d994e9c4d/mza_17830958679990196098.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Le Café Rhétorique",
+      "path": "https://feeds.acast.com/public/shows/66a7f76ab0c58fe7a24f4796",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/63/eb/62/63eb6247-c6c9-1a4e-a817-f40f504a18e8/mza_7645475563861542189.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Continue tu m'intéresses",
+      "path": "https://feeds.acast.com/public/shows/67fd565089f827a873487345",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d1/65/a8/d165a8e3-c0f2-cb26-a011-255b68540df6/mza_15294319483103864531.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Philosophie pour tous",
+      "path": "https://feeds.audiomeans.fr/feed/aced395e-6351-498a-9397-144bb12e80d6.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4c/fd/63/4cfd63d9-2f07-b99e-a535-6a58167e2340/mza_8076800718023399355.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Aura",
+      "path": "https://feeds.audiomeans.fr/feed/b78ac9fb-2457-43c1-8830-597a4fcffb62.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f4/46/d8/f446d880-e02c-4c51-e0e6-94521fbf6510/mza_1005387608276973608.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Hot Girls Only",
+      "path": "https://feeds.acast.com/public/shows/663111c1f1e60600138dbe11",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ef/a2/f6/efa2f6e2-0253-00a0-23c9-d49afbfd427b/mza_4520273277813532098.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Parlons-nous",
+      "path": "https://feeds.audiomeans.fr/feed/7e5dee37-6b34-44f9-8fa0-ad39b5f0282b.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/76/1c/ee/761cee84-e74e-278c-3e0f-2b4b2e9f509f/mza_11577452047907459663.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Le Cœur sur la table",
+      "path": "https://feeds.audiomeans.fr/feed/c15bf308-42a5-4cdc-9e89-38dce9113c6b.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/29/4c/aa/294caafa-3b54-8588-8e89-7e76f6e9ac6f/mza_18128857735663655603.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "10000 PAS - SAISON 4",
+      "path": "https://media.rss.com/10000-pas-saison-4/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/67/36/0d/67360d9b-ee71-49e7-9fa7-2702180f6612/mza_11630318187825767746.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Vlan!",
+      "path": "https://feeds.audiomeans.fr/feed/8ca7aac1-479f-471c-b3a4-8b487e552bff.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/c4/aa/ee/c4aaee92-1125-4ab8-af04-9868d76cf724/mza_15556838180734526445.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Libre antenne week-end",
+      "path": "https://feeds.audiomeans.fr/feed/22ed053d-cd0c-4598-babe-8da182bfd557.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/88/c0/a7/88c0a74a-e435-d6c3-6f94-04a7a481e7be/mza_9991405601310730631.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Les Pachas",
+      "path": "https://feeds.acast.com/public/shows/639362b667814f00114adfdf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/10/42/00/1042003b-6957-c17c-0b18-01145bcc24fe/mza_1190127283526738908.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Women Stories - Récits de vie",
+      "path": "https://feeds.audiomeans.fr/feed/888371f6-f11b-4592-8962-ad791e7a8830.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/00/db/2d/00db2d12-73b0-d8dc-5d2c-a86f9b3898fd/mza_11158808550665936683.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Sismique - Où va le monde ?",
+      "path": "https://feeds.acast.com/public/shows/9851446c-d9b9-47a2-99a9-26d0a4968cc3",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/2a/64/c4/2a64c411-ff63-b4de-66e4-434e9976ccaf/mza_1824297463251251756.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Une philosophie, le podcast de Charles Pépin",
+      "path": "https://feed.ausha.co/RzeaeTXqRrZD",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a3/98/7b/a3987ba5-4696-57f6-304c-25883a2f5d2a/mza_6345465675229902307.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Niche",
+      "path": "https://feeds.audiomeans.fr/feed/cbfcfac6-3085-4921-9088-2690ebe069a8.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/78/be/22/78be22cb-95b7-a6df-cc6a-f5da5c7e1a6d/mza_1475493195175152979.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "BANGERZ - CONVERSATION",
+      "path": "https://anchor.fm/s/114ae3ef8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7d/6e/0c/7d6e0c4e-46b5-2ea9-d8c8-d46370468a7f/mza_5181280263782668241.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "L'Équipe du Soir",
+      "path": "https://feed.ausha.co/yXADQCgVlXGY",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/c1/9a/e8/c19ae846-02ad-2979-052e-9a0c698af130/mza_1308252387494690703.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Le goût de M",
+      "path": "https://feeds.acast.com/public/shows/68db85df6d92c33f9c27f75f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1f/bd/88/1fbd8887-6bbb-a485-e03f-621ddf4e4f08/mza_4181475321053387336.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Un jour, une vie",
+      "path": "https://feeds.audiomeans.fr/feed/a8b59eda-172d-48a3-8323-2556b0af6aa2.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b0/e2/71/b0e2711b-b78e-196d-b635-291375059e23/mza_59131757511294028.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "EX... Vitro",
+      "path": "https://feeds.acast.com/public/shows/64178b7f2dec4d0011029544",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d5/4b/05/d54b05c6-01a6-d8b4-f716-55a32f3197df/mza_16051466281923167219.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Star System",
+      "path": "https://feeds.acast.com/public/shows/674ef0d65e1cc0fabeec0e06",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ec/30/41/ec30413f-a66b-ec37-3c20-ec9e4d5530f8/mza_9245915610961594430.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "La Bibliothèque des Rêves: Documentaires pour s'endormir",
+      "path": "https://feeds.megaphone.fm/labibliothequedesreves",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/44/7b/1f/447b1fa4-5089-10e9-8471-0ebdcf660534/mza_2407506214129337988.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "LOVECARE, en consultation avec Thérèse.",
+      "path": "https://feed.ausha.co/nrRGLIljJW8w",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/47/24/5b/47245bd1-eb28-dcfe-5f70-e920a004e4be/mza_9538092593916922470.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Renverser la table",
+      "path": "https://feeds.360.audion.fm/uFqU7Zwv9LookBrNWhuS6",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3d/d8/39/3dd8399b-66da-eb72-3ebe-a67230791a9a/mza_16475035073301257954.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Ça peut vous arriver",
+      "path": "https://feeds.audiomeans.fr/feed/83e1fa2e-e2dd-4716-9422-21d0b60a18b0.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/40/e1/39/40e13971-1c5f-ed47-c9e1-629d1d584989/mza_7827115657192172284.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "SPHERE5",
+      "path": "https://feeds.acast.com/public/shows/69d26aeaf57702d2d967e69c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cd/bb/de/cdbbde1d-a97d-4d86-0920-99a52832c090/mza_18155068476686491717.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Crush - les premiers jours des histoires d'amour",
+      "path": "https://feeds.360.audion.fm/ShA-UZRnNHAmy_A-NNSdw",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bf/44/f9/bf44f9c0-9b8d-f154-7ad8-7c815c4ae2fa/mza_13470840953345169430.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Chroniques Obscures",
+      "path": "https://anchor.fm/s/1028aaa54/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/fc/62/4e/fc624e5f-ed82-27fd-a299-4e19eba6849f/mza_18005920709822728142.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Elles vous parlent d'un temps",
+      "path": "https://feeds.audiomeans.fr/feed/6710c9f0-6024-413a-9c62-569abbe0e908.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/03/45/bf/0345bfe2-9fba-e991-f987-2cd0416080e0/mza_9312331288408522530.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Panorama",
+      "path": "https://feeds.acast.com/public/shows/6232fdb94c00e20013fc615c",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/df/43/80/df43803a-94ca-96ba-fb8b-dd1f68efdca9/mza_3147059944622501264.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Les histoires incroyables de Pierre Bellemare",
+      "path": "https://feeds.audiomeans.fr/feed/6012abf4-b18f-4e96-bc77-8cd23f620ae5.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/38/75/a8/3875a8b3-75d2-4542-3daa-673843856b99/mza_11009094449620719651.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Mourir Moins Con",
+      "path": "https://feeds.360.audion.fm/DvTHxYW1zFrtJE_EcJJWs",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d9/0f/2b/d90f2bc1-646d-9fc1-3469-7156adcbc619/mza_2329295484406006732.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "JAMAIS DIT ! le podcast d'Isabelle Farrugia",
+      "path": "https://feeds.acast.com/public/shows/699584de3ba25772fe1174cf",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ac/dc/20/acdc2052-d410-0a91-9229-0e24f33b91bc/mza_113882801238021078.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Philosophy is Sexy",
+      "path": "https://feeds.acast.com/public/shows/6823013168999864d68e2b96",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/45/8b/9b/458b9bb9-130c-e48d-d51a-5ac74d131f40/mza_14308593673890867412.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Le bureau des complots",
+      "path": "https://feeds.audiomeans.fr/feed/bec4fe22-f7c1-467b-ac54-2d8cd298afb5.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/76/5c/c6/765cc6a9-4715-0383-ca1c-bec1d868aaef/mza_128859893388973717.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Confidentiel",
+      "path": "https://feeds.audiomeans.fr/feed/0901b76f-e445-4814-a574-cd5dd0c9ebd3.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/87/e4/bf/87e4bffd-518e-27c3-c4d3-0265b6002434/mza_7807580897937280185.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "A suivre : histoires et séries à binger",
+      "path": "https://www.arteradio.com/xml_flux?fluxname=%22A%20suivre%22&partner=applepodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/df/1e/af/df1eaf40-0fe2-923c-cc06-c8c74a941340/mza_6801879419315611874.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Estelle Midi",
+      "path": "https://feeds.simplecast.com/dsB4V81t",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/52/e6/c952e6bb-0a79-187e-87d0-7dfcaf363268/mza_3784110270455698231.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Les Fabuleux Destins",
+      "path": "https://feeds.megaphone.fm/BABA8011696838",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/08/cb/81/08cb8103-be2b-e721-5b35-b6e92fdacb1c/mza_4725347245412744549.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Il était une (première) fois : le podcast d'histoires d'amour de ELLE",
+      "path": "https://feeds.acast.com/public/shows/646b456aedf4b5001140663b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/0a/0c/19/0a0c19a4-469b-1bbc-bb50-5d3e66ef2ec5/mza_7676623132521961678.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Piquantes, by Alexandra Guerain et Camille Farrugia",
+      "path": "https://feeds.acast.com/public/shows/66b3a257129e9b2ef69daf0f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d2/c5/db/d2c5dbd0-78ef-8d32-30df-ae385406ab3b/mza_12323867119137939690.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Fifty States — un Podcast Quotidien",
+      "path": "https://feeds.audiomeans.fr/feed/fa79dc24-5b09-4f81-ba14-2b8229bcb817.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/b2/14/13b214d9-c5e4-55e6-12f7-5e35557aff79/mza_2105559681436608130.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "PARANORMAL • Histoires Vraies",
+      "path": "https://feeds.360.audion.fm/x7J03xmiXrNVIvikQ-yP0",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d5/ec/54/d5ec5446-6689-d5d3-9fe1-7096c0fc1fe7/mza_18189773711411398269.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "SOS BFF, par JUJU, 12 ans",
+      "path": "https://feed.ausha.co/bVPDAt8vz4D4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9b/c3/18/9bc318b2-893b-1968-6b6d-84b2c0fbae54/mza_7588965945852063104.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Libre antenne",
+      "path": "https://feeds.audiomeans.fr/feed/0f9366c9-ea8d-43d8-a7a0-135ca0c05a1d.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/41/03/04/41030471-561a-2622-38a4-71fcef531887/mza_11172332712811898856.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "La vie en rose",
+      "path": "https://feeds.acast.com/public/shows/65a520d295e53d00164a534a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cd/97/5c/cd975ca5-02e0-4044-f92c-e3d5333c8df0/mza_17287340299458411666.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Tchatcheuse",
+      "path": "https://feeds.acast.com/public/shows/6213b8ac3aa14a00143e183e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/f9/f8/68/f9f86885-dd58-49ad-6f4b-9761d7a25d15/mza_15251937056127900695.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "On vit dans une saucisse",
+      "path": "https://anchor.fm/s/10aed7ab4/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/37/14/75/371475b2-b8c0-9e87-ca3f-c9fc3947aa06/mza_14254164027397816168.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "BURGER RING",
+      "path": "https://media.rss.com/burgerring/feed.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/93/f2/d3/93f2d3b2-5711-3c80-e5bf-d37570f632b6/mza_15089639095071438348.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "La Grande Librairie",
+      "path": "https://api.octopus.saooti.com/rss/emission/14523.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/4b/4f/844b4f06-5ce3-41ec-e32a-5fc294107c6d/mza_3710073729602366541.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "À Contre-Jour",
+      "path": "https://feed.ausha.co/K8rEAH765Mjn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e3/02/49/e30249ff-4415-3467-1732-a9cb9565366e/mza_2810385426388908683.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Les saisons de Rosa",
+      "path": "https://feeds.acast.com/public/shows/f8497bf1-815c-5ed1-9d0a-ffca06c848ad",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/2f/be/5a/2fbe5ad1-73a9-ee64-0148-382ae189cfc4/mza_8870053401619181461.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "La fabrique du mensonge",
+      "path": "https://api.octopus.saooti.com/rss/emission/14550.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3f/0e/68/3f0e681f-b2de-b145-67e0-a9a3db1e7693/mza_12868847381001836804.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Bip sonore - Shera",
+      "path": "https://feeds.acast.com/public/shows/63b810ccd490b6001149a339",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/ce/55/1d/ce551d30-c735-c9a3-2c00-0ef2937e8cb5/mza_15397934842963506501.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Clique",
+      "path": "https://anchor.fm/s/100c17374/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b7/d2/37/b7d2374a-007b-5fb9-bd40-4c3689cc36dd/mza_17001895388725082879.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "EN VRAI",
+      "path": "https://feeds.acast.com/public/shows/6a0f2708294da705c353c3ed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/0f/73/84/0f7384f1-1754-d6d3-8249-d39d11d4596f/mza_13454286392225290811.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Garce Therapy",
+      "path": "https://feed.ausha.co/bV4wrI7w5ZRz",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/e1/03/bee103b2-e2c8-a317-cc87-dfc3d2439b25/mza_17541736503540310984.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Au coeur de l’histoire - Stéphane Bern - l’intégrale",
+      "path": "https://feeds.audiomeans.fr/feed/e81060fb-ff0c-45b3-bfcb-2e87b9b1f9f7.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d8/56/30/d856309a-d0b5-346d-4bfb-cefeb64eef7e/mza_17900330710809151472.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "C'est pas toi, c'est moi.",
+      "path": "https://feeds.audiomeans.fr/feed/c1c51120-9a81-4899-9df2-1246f84df442.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f4/a8/b7/f4a8b71d-e321-7b2d-cc57-3ed3ab13a65e/mza_16646819453149047445.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Beau Voyage",
+      "path": "https://feeds.acast.com/public/shows/67a36d3381e6fa80bb5b57b4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9b/5f/ba/9b5fba67-779b-eddb-e594-dd6a51751bf5/mza_8798249300986989476.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Dans les yeux d'Olivier Delacroix",
+      "path": "https://feeds.audiomeans.fr/feed/12da158a-b9eb-49d9-a64b-82f9c717e37e.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/40/41/70/40417025-a61f-8020-241a-3190654c1a09/mza_3513672790684582785.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "Le Phil d'Actu - Philosophie et Actualité",
+      "path": "https://feed.ausha.co/jnO5XSXR49wn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d9/21/e2/d921e292-97c7-877d-56ac-34e2794a2059/mza_4153542283491587741.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrCulture",
+      "name": "DÉBORDÉE",
+      "path": "https://feeds.acast.com/public/shows/6a0482bd3eb645235606dbbb",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/92/8d/fe/928dfe06-8b13-ea02-ad21-ef7ff6a20819/mza_10459969696751441559.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "A Poil et Sans Filet",
+      "path": "https://feed.ausha.co/jMrmeUxzL9d7",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e2/ec/97/e2ec97ad-22b6-bc8b-3fcc-0edd2799ce04/mza_1424558594825694859.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Richissime",
+      "path": "https://feeds.audiomeans.fr/feed/236c1d74-6d8a-46a2-97a2-55e410e45277.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/29/0c/a7/290ca7db-69d5-8ffa-7a02-f1a2d5ce45a2/mza_14936019423229570643.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Le Podcast de Pauline Laigneau",
+      "path": "https://feeds.audiomeans.fr/feed/777bf367-c336-48d1-a304-f0f6cc685a8e.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/62/f7/0b/62f70b3c-05f2-6a05-d4c3-1d2ce9dc7fec/mza_16480031126283525810.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "La Martingale",
+      "path": "https://feeds.audiomeans.fr/feed/647b907b-5a2f-4a11-94cb-591d604cb1b9.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5f/f7/ad/5ff7ad4f-8218-c9c9-c5d0-d15b05c9757d/mza_4765272428608991403.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Finary",
+      "path": "https://anchor.fm/s/dbb2bc3c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b5/a9/08/b5a9083a-24b2-a8ce-5f8d-a35277085117/mza_6122718093977797328.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "The Diary Of A CEO with Steven Bartlett",
+      "path": "https://rss2.flightcast.com/xmsftuzjjykcmqwolaqn6mdn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/69/af/0d/69af0ddd-1e0f-7ae3-c84b-88f18e31ad0c/mza_14445920128472365296.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Ressentir",
+      "path": "https://feeds.audiomeans.fr/feed/6bbd87a1-7f2c-4492-9687-317f49168207.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2f/7d/ad/2f7dadf5-3e70-8cdf-80b1-8d63a3871046/mza_5761184733701333768.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Le plaisir de partager",
+      "path": "https://podcast.lokan.fr//le-plaisir-de-partager/rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0c/45/fe/0c45fe7c-878b-b9f1-db6d-313b97b671cd/mza_4114138011312743880.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Fleurons",
+      "path": "https://feeds.audiomeans.fr/feed/cca73448-1aad-4dc1-8b0b-0d491b64c768.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4f/16/23/4f16234a-2cd2-ca76-6f32-7af673b35567/mza_7189246740020992965.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Femmes d'Actions",
+      "path": "https://feeds.acast.com/public/shows/6a1ed1e0d610a774037f1b21",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/94/aa/5e/94aa5e82-7928-0c59-eb80-992dbde439a3/mza_6693721047966933263.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "C'est votre argent",
+      "path": "https://feeds.simplecast.com/xSl5jbxn",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/34/3e/a4343ebd-067f-c9a3-8db3-2a56a85c9cf3/mza_7759722403554242666.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "From Messy to Merci",
+      "path": "https://feeds.podcastics.com/podcastics/podcasts/rss/7949_e48847a2d536bd0cd2b22a56426853c0.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/76/0f/60/760f60b8-06e4-d837-8a18-51e00601c3d1/mza_12659374708338774891.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Romain Lanéry",
+      "path": "https://feeds.acast.com/public/shows/65e1a01ed3026b00179a9e6d",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/86/08/6e/86086e99-0a4e-a6f4-807e-4fd99782f1fa/mza_16694344546537570664.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Good Morning Business",
+      "path": "https://feeds.simplecast.com/GwKPZCN1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3c/33/75/3c337515-3bc6-9ddd-3358-a7e7d849ab45/mza_15422136554517370189.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Combien ça gagne",
+      "path": "https://feeds.audiomeans.fr/feed/085c8635-d7bf-493b-87b9-76e75bf83e6b.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/72/be/53/72be5337-9a3d-5697-b25d-fc227d1a9de4/mza_8192087440481482182.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Investir avec Xavier",
+      "path": "https://feed.ausha.co/mVZJEh1GwPL7",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3a/3e/bf/3a3ebffe-f49a-c869-16cd-6e44f2b524f6/mza_13918905455285348736.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Matthieu Louvet - S'investir",
+      "path": "https://feed.ausha.co/KwqWvcdN8WZa",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b2/f5/bb/b2f5bb5d-7c37-a629-695c-c3b273189fab/mza_2541590241696014311.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Les experts",
+      "path": "https://feeds.simplecast.com/NBt25pxR",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/da/f9/5f/daf95f22-66be-4cc9-151e-1be13af9e297/mza_15597466941495794366.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "J'peux Pas J'ai Business par TheBBoost",
+      "path": "https://feed.ausha.co/blDjes1L9aWL",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/3d/d6/63/3dd6634d-5e2c-d468-5f43-2483b6884d3f/mza_16527134991898338610.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "How I Built This with Guy Raz",
+      "path": "https://rss.art19.com/how-i-built-this",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/64/45/06/644506b5-c44f-f661-f74e-f63a4b2511bc/mza_14892199991035639268.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Matthias Baccino",
+      "path": "https://feeds.acast.com/public/shows/6a12eb57294da705c31d3351",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f9/34/92/f934928c-9a20-3612-0945-b356506e1488/mza_17976197249653617129.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "TheBoldWay",
+      "path": "https://feeds.audiomeans.fr/feed/6d4dc5b7-7f85-45f6-82a0-21ce90d45098.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/73/c6/5b/73c65b3a-fb0f-e650-f804-913d8088104b/mza_5346959945447400853.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Le Déclic | Podcast par Alec Henry",
+      "path": "https://feed.ausha.co/zYqxNTqWVMOR",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/84/96/0d/84960d77-4730-65ac-362a-a04890fb9823/mza_11544603609526674050.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "L'économie expliquée par mon père",
+      "path": "https://feeds.castos.com/xwz11",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/74/fe/60/74fe602a-9ebe-52c9-7b6d-4e72e77dff27/mza_3336402657224494163.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Franck Lahoui - Hacker son Futur",
+      "path": "https://feeds.acast.com/public/shows/67d54a8134deae95a5a2658b",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d8/a8/65/d8a8658a-cf8e-a4d0-366d-b49bce09b85b/mza_7690703627887536442.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Les Financiers",
+      "path": "https://feeds.acast.com/public/shows/69e10e61d2febdbec93723f5",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/9d/d9/b0/9dd9b0ea-1e0a-5f45-b40f-7b23ed7ae272/mza_7509848696458318522.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Grands Leaders, les leçons de l'Histoire",
+      "path": "https://feeds.audiomeans.fr/feed/bec92977-2e3e-48fe-b970-0967a1a880aa.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/4b/2e/f84b2ecb-0c1f-24f4-2633-6f28392fe020/mza_6895880065179999456.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "OuiHustle",
+      "path": "https://feed.ausha.co/odRLjTv6r0RQ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/79/d9/7e/79d97e96-9f09-b743-f8df-6ebf1371fed4/mza_17336012245828379859.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Thune",
+      "path": "https://feeds.acast.com/public/shows/6569d320c27dae001249cf18",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b9/2e/73/b92e73d3-b7c6-17a7-27de-d4fe800d7307/mza_9211016997181110728.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "BFM Bourse",
+      "path": "https://feeds.simplecast.com/dCzX0hyl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/31/80/78/3180787a-fc47-9437-c7e2-452d88190d19/mza_4193998614812459487.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Émotions (au travail)",
+      "path": "https://feeds.acast.com/public/shows/a36b5d2a-020f-478e-a88f-dd70bd93c620",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/d0/3e/7a/d03e7a01-1fb3-1468-72c7-c4e4dc7714a3/mza_3611405740970781314.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Think Fast Talk Smart: Communication Techniques",
+      "path": "https://feeds.transistor.fm/think-fast-talk-smart-communication-techniques",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0e/a3/48/0ea34886-96c0-8299-e16c-d039cfaedc78/mza_5307345217675863813.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Fracture",
+      "path": "https://feed.ausha.co/VMRPETgexMnk",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/22/f1/44/22f14401-da94-4b2f-80b6-a070ec84cbdf/mza_1500703200504197179.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Marketing Square : Les secrets Growth Marketing ⚡️",
+      "path": "https://feed.ausha.co/bWDwDfZ4XnGR",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/a1/41/b2/a141b2cf-91da-cd83-1d1b-f1d32333eb81/mza_6826869993385560106.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "La Chronique Bourse",
+      "path": "https://feeds.audiomeans.fr/feed/0a5d40f2-7ce9-4d45-8d62-b559765460e8.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c6/f5/f4/c6f5f417-9142-0eb8-a36d-8325a8ed5cbe/mza_2407474753071975381.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Vivement la reprise",
+      "path": "https://feeds.audiomeans.fr/feed/223ec964-5ce3-4174-962e-f24f604e9c1d.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/77/37/ae/7737aed9-b9b8-dd9e-1158-ad62940b3118/mza_10544385994758688052.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Les Investisseurs 4.0",
+      "path": "https://feeds.audiomeans.fr/feed/2fc14427-f16b-4cfb-b1bb-3e4237da8e51.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f6/fd/5f/f6fd5fa9-d784-7855-2b69-81229108cbf3/mza_5948549642903078925.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Founders",
+      "path": "https://feeds.megaphone.fm/DSLLC6297708582",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ed/71/4f/ed714f67-f095-a4ef-f38e-d8c02300666a/mza_11432355988627368701.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Bourseko MOAT",
+      "path": "https://feed.ausha.co/XEkMrs2J016L",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e5/5f/5a/e55f5a01-bb55-5acb-fafc-06e8c81a294d/mza_6350541190422099741.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Planet Money",
+      "path": "https://feeds.npr.org/510289/podcast.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/85/df/53/85df5334-0fae-28a9-2bc4-b97b81061d0e/mza_10839245066228881011.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Histoires d'Argent",
+      "path": "https://feeds.acast.com/public/shows/619664442c557e00121610c4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/ad/23/3dad2381-884e-fb89-0f43-ddd5a69b883f/mza_14708774264399592327.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Anatomie d'une décision",
+      "path": "https://feeds.acast.com/public/shows/1d0e62b5-9dc8-4f78-92b9-219c240e56a2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b6/b8/5e/b6b85e3b-527d-bf96-2411-dbb4acb96f87/mza_11527810617442763663.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "L'Art de la Gestion Patrimoniale",
+      "path": "https://anchor.fm/s/da821470/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/6d/26/ba/6d26ba9b-6ec1-192e-7385-69ffac7d8955/mza_14762794694444769172.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Investir Simple",
+      "path": "https://feed.ausha.co/N8lQ8IrMxO7M",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/be/27/b6/be27b6bd-215f-a327-0110-9053b715a1b2/mza_11460965447446755771.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "L'Art de la Gestion Financière",
+      "path": "https://anchor.fm/s/fc1be868/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9e/19/e7/9e19e727-aa16-c3d3-e1aa-ebd8519a623d/mza_9814293882599508298.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "The Knowledge Project",
+      "path": "https://feeds.megaphone.fm/FSMI7575968096",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/4a/9c/e2/4a9ce2fd-ddf6-0d00-8760-4e7167378ecf/mza_16600443422050351456.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Aspire with Emma Grede",
+      "path": "https://rss.amperwave.net/v2/feed/audacynetwork/emma-grede",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b5/69/31/b569316b-55c7-a7f7-c586-bc3ee0b3b440/mza_17045015706295888832.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Take off",
+      "path": "https://anchor.fm/s/10c4c531c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/eb/86/84eb8698-4b8c-08ae-455e-a69c81d61e8b/mza_17452078631959133867.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Comment t'as fait ?® Les entrepreneurs expliquent leur business",
+      "path": "https://feed.ausha.co/B6EYWTGNrkQq",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e1/a3/af/e1a3af66-44d8-5734-c6b0-52993c862fad/mza_15961944990274477301.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "HBR IdeaCast",
+      "path": "http://feeds.harvardbusiness.org/harvardbusiness/ideacast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/28/4b/4e/284b4e44-9a28-dabf-e853-e60c43e380ad/mza_6581779795008535928.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Dans la tête d'un CEO par Yacine Sqalli",
+      "path": "https://anchor.fm/s/108e87354/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/e6/88/21/e688211e-fd49-b834-8322-c01406368384/mza_5008572540528135865.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Le Podcast du Marketing - stratégie digitale, marketing digital, CMO, persona, emailing, inbound marketing, webinaire, lead",
+      "path": "https://feed.ausha.co/b59E1Ual12P1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/c9/f2/ff/c9f2ff3d-c748-e87f-7935-78f2f909526a/mza_10934101502610998004.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "ÇA FAIT UN BAIL ! Podcast Immobilier",
+      "path": "https://feeds.audiomeans.fr/feed/730cd14a-b0d7-4a5c-82da-3f8eaf41cebb.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts123/v4/66/b1/9a/66b19a47-fb18-48e2-e777-ae8ddfce1382/mza_10630612726652953426.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Vlan! Leadership",
+      "path": "https://feeds.audiomeans.fr/feed/ad30997f-b8b0-4e7a-b52d-78b804b85b73.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/3d/58/7f/3d587f91-093c-ec03-c8d8-5e578a26e5ab/mza_15436427060266275915.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Affaires de business",
+      "path": "https://feeds.acast.com/public/shows/66068f9b743327001678861a",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a0/09/6e/a0096e55-1346-cbec-1d6b-276e96b3c7eb/mza_3543556658685367131.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Le BazCast - par Bazinga",
+      "path": "https://anchor.fm/s/59a3e16c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/2d/f2/ea/2df2eab4-e5b6-8809-eea5-9d585c5af6c2/mza_393649712873084248.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "path": "https://feeds.megaphone.fm/CLS2859450455",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/61/ae/be/61aebe7a-06e8-7390-3ae5-f2fc5889e36c/mza_10827489189939068066.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Just Focus",
+      "path": "https://feeds.podcastics.com/podcastics/podcasts/rss/6651_cb27268b937e0ad273e50f4238d98874.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/cf/2d/e8/cf2de862-394d-a54f-83e7-36fcf52f57c0/mza_3756369797550804977.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Culture IA",
+      "path": "https://feeds.simplecast.com/yRFCMe21",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a0/72/0e/a0720ed7-565b-211c-f12b-fe75f517e211/mza_9461745383400992775.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Tout pour investir",
+      "path": "https://feeds.simplecast.com/o9f2X2zv",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/22/d4/57/22d457da-5564-359e-d663-c6f4f095c54a/mza_5521176265829301149.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "HBR On Leadership",
+      "path": "https://feeds.feedburner.com/harvardbusiness/on-leadership",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/19/46/69/19466969-73b3-262d-d24e-bcef3191b98c/mza_11559252757970620521.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Build with Leila Hormozi",
+      "path": "https://rss2.flightcast.com/tqy28xwphexirbmvwo2x9b9s.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/82/16/e0/8216e047-f42a-b71d-43df-bf9a60b38676/mza_717264323612234291.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Odd Lots",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/8a94442e-5a74-4fa2-8b8d-ae27003a8d6b/982f5071-765c-403d-969d-ae27003a8d83/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f3/99/6a/f3996a52-e4a4-bf0d-b7d6-e376c4058568/mza_15550359494736224565.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "La Comète",
+      "path": "https://anchor.fm/s/ffa6c764/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/cb/52/c8/cb52c871-e467-d014-2fea-cd6236989678/mza_7167954849553993445.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrBusiness",
+      "name": "Les Investisseurs Sereins - Investissement Immobilier Rentable",
+      "path": "https://feeds.audiomeans.fr/feed/d4094bb3-94dd-4747-9273-27b3c7e4b184.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ce/8b/9b/ce8b9bd5-ee3a-cbf1-e64c-eb4d82887304/mza_1416811692543937827.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Flippe & Go Sleep",
+      "path": "https://feeds.acast.com/public/shows/67d164295bc6ae751ff7af18",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bf/2f/8d/bf2f8d8e-5291-dbcf-96b0-d6e0979ba293/mza_6725280785153269731.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "L’heure du crime : les archives de Jacques Pradel",
+      "path": "https://feeds.audiomeans.fr/feed/56755f83-e92e-4b98-a282-b7abc8eae68c.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/b3/f0/8f/b3f08f2b-83be-1228-b56d-42cdb4aa0cbf/mza_7924445834932857183.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Affaires criminelles avec Cogiteur Stories",
+      "path": "https://anchor.fm/s/1078b376c/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/da/68/7d/da687d4b-278b-db83-b507-09135a1b2b70/mza_5698654768861886896.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "CERNO L'anti-enquête",
+      "path": "https://feeds.audiomeans.fr/feed/75986ede-214c-4a89-bbb9-79f77ecc879f.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b3/5d/05/b35d05c6-f923-7470-d238-3368f471a62e/mza_9406266111292413405.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Les voix du crime",
+      "path": "https://feeds.audiomeans.fr/feed/ff5d679f-7715-44f3-840a-08858189e727.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts116/v4/ed/38/51/ed38510d-8f70-4d6c-4d07-96a2bfc6035c/mza_11865040766657440296.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "CRIMES • Histoires Vraies",
+      "path": "https://feeds.360.audion.fm/xvIsy9ocf_LpI4UMhiBOU",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7f/f6/a9/7ff6a995-66a7-cafd-272e-8ffc445d2de7/mza_13243238098666423710.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Faites entrer l'accusé",
+      "path": "https://feeds.simplecast.com/qyoua0GI",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/20/5e/1a/205e1a8a-c4c3-449c-c70b-621869ccb907/mza_14112288925394124836.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Affaire suivante",
+      "path": "https://feeds.simplecast.com/WeoIxV5o",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/27/f8/b8/27f8b823-2682-6c1a-1b04-6a3dba7afd0c/mza_5437373032587448587.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "À Regarder Après Minuit, le podcast true crime",
+      "path": "https://anchor.fm/s/107add074/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/d8/87/1c/d8871c1f-9b24-fc98-c037-68cacddcab0c/mza_7333541402544006066.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Jérôme Pierrat",
+      "path": "https://feeds.acast.com/public/shows/6a103bea11eba3cf15a2681e",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/71/af/56/71af5664-165f-c488-2d12-4128a9be6f8c/mza_3534078679894083186.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Feu de camp",
+      "path": "https://feeds.audiomeans.fr/feed/278c8c9f-2297-44cc-8674-65e285cb80c1.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/64/3b/ed/643bed2e-6651-e2ac-880d-4f8a7c10d820/mza_15890020199712322066.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "HISTOIRES D'HORREUR",
+      "path": "https://anchor.fm/s/ec110200/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/28/51/c3/2851c378-3909-f1b6-055a-45375b3c288e/mza_12981039330933376469.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Le Coin Du Crime",
+      "path": "https://feeds.acast.com/public/shows/209bfc59-351f-591c-b786-36f65f0adad9",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/2a/31/9f/2a319fb4-e5f3-ecb2-36e4-5b456ac9a270/mza_433844743415804315.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Justices",
+      "path": "https://feeds.audiomeans.fr/feed/658ca4f4-58be-4a7f-9248-1b402e316fa4.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1e/78/c0/1e78c0c6-ecd5-ecfe-9b2e-b30948de9b86/mza_8283036701771026209.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Disparus : des affaires de disparitions irrésolues",
+      "path": "https://anchor.fm/s/f7bc6004/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a6/c6/f0/a6c6f0e7-80ae-a7ac-94f8-cc70bb52f5dc/mza_167266047834970447.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Over n Out",
+      "path": "https://feeds.acast.com/public/shows/624deb18ba967f0012b9d467",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/b8/64/c2/b864c27f-6fa9-9ae1-40b6-87b4d79d8081/mza_6869739378514410195.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Fenêtre sur cour : enquêtes, justice, affaires criminelles",
+      "path": "https://www.arteradio.com/xml_sound_emission?emissionname=%22FEN%C3%8ATRE%20SUR%20COUR%22&partner=applepodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/1b/6c/49/1b6c49d6-8b3f-f50a-2690-a99dc7481c1c/mza_8688042601582116975.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Distorsion",
+      "path": "https://feeds.acast.com/public/shows/68403a9a44362f4720e86145",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/65/1b/ea/651beabf-75d2-b5aa-b462-b056fd110a79/mza_11321005938698247000.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Les braqueurs",
+      "path": "https://www.arteradio.com/xml_sound_serie?seriename=%22LES%20BRAQUEURS%22&partner=applepodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/98/31/5a/98315a24-17ce-2a88-c344-9a244de27ff5/mza_2880098959418379587.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Les dossiers du FBI",
+      "path": "https://feeds.audiomeans.fr/feed/ceceb05f-c18b-480b-8c18-702c47fad22c.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/f2/00/b1/f200b1ad-51d7-a2f2-7c01-fd685b1fc0b9/mza_3168233070056822700.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "True Crime avec Rafu",
+      "path": "https://feeds.acast.com/public/shows/691da7a0295fc6e848091fde",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/bb/ac/ef/bbacef80-83b9-5c87-7b80-3e52e8032fca/mza_9851615364803303362.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Hondelatte Raconte - Cote B",
+      "path": "https://feeds.audiomeans.fr/feed/cc046be0-171d-4426-bd28-53bd852a441c.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e6/93/bf/e693bf07-bf7f-810d-3679-89949c13e6f9/mza_4303036741818959777.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Rotten Mango",
+      "path": "https://feeds.simplecast.com/6Qp23t6h",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/13/8f/fa/138ffad5-1aee-a955-b73b-6aea47b55197/mza_13457757566766616901.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Du Temps à Tuer",
+      "path": "https://feeds.audiomeans.fr/feed/b68e98bf-8619-4d2e-8ee3-5ca513d3590d.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/42/2e/e4/422ee4c9-eb3f-b95e-9029-6a0d8df2012e/mza_5026879376760269393.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Crimes Oubliés",
+      "path": "https://feeds.acast.com/public/shows/6a54d188420a266ecbc41b57",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/99/ed/a4/99eda493-4bd3-a62f-1d15-ade606e72b86/mza_126642419277798623.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "CRIMES",
+      "path": "https://feeds.audiomeans.fr/feed/665294b9-16a6-4b20-b3da-d16dee95444f.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/f8/5b/14/f85b14e2-2fba-a629-8fd6-d9e61bec553a/mza_11752192643765507646.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "BOUKASIN : TRUE CRIME ET AFFAIRES CONTROVERSÉES",
+      "path": "https://anchor.fm/s/107e34bdc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts112/v4/e6/86/2c/e6862c3d-64bc-a13e-6b78-86d2ffd9f725/mza_1453611292362005020.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Casefile True Crime",
+      "path": "https://feeds.acast.com/public/shows/679acff465f74095106abfaa",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/32/81/a3/3281a345-6fa5-1d0d-b0bc-f02b0850a0ae/mza_17562537467118278179.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Côté Sombre",
+      "path": "https://feeds.redcircle.com/f12473d3-f4b4-4fd2-afc9-e5087e09a892",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts122/v4/71/9e/c6/719ec699-e7bf-f192-54f5-342973010ec6/mza_11450295431622356547.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Crime Junkie",
+      "path": "https://feeds.simplecast.com/qm_9xx0g",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/8c/35/04/8c350430-2fbf-98d0-0a25-00b76550ffeb/mza_13445204151221888086.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Morbid",
+      "path": "https://feeds.simplecast.com/ohmVlJZQ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/a4/69/a6/a469a64c-580d-938a-53f1-893d968e1332/mza_11675757052043432554.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Crimes suisses ‐ RTS",
+      "path": "https://feeds.audiomeans.fr/feed/c0990da1-30b2-4a9d-8121-c4aaece8e6c0.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/84/b0/2b/84b02b0b-4f33-fce5-7664-1166bd418991/mza_5804635782160706827.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Le nouveau détective / Dans les coulisses du crime",
+      "path": "https://feeds.audiomeans.fr/feed/d3215090-2fa1-483f-bd6f-83761c1abcc4.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/7a/71/bc/7a71bc25-5700-db08-a82f-5991d12a6132/mza_10468240316851705620.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "True Crime Mystérieux",
+      "path": "https://www.spreaker.com/show/6678714/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/6a/7b/15/6a7b152e-f770-ce89-bbdb-28bd4a6ad07f/mza_5209493671160963450.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Crimes pour les Somnambules - True Crime",
+      "path": "https://anchor.fm/s/108b221dc/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/a6/79/9d/a6799d0e-a120-d519-5fb1-43769d592219/mza_3725827381034193715.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "HOSTILES PODCAST",
+      "path": "https://feeds.acast.com/public/shows/678e2e2f16bc7a8545ca31fa",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5b/1e/24/5b1e2414-d613-3cc2-4d6e-9d9e4abdccc1/mza_2340324519364543117.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "What to Carry, What to Burn",
+      "path": "https://feeds.acast.com/public/shows/69f8b83e3a143563ed7c9014",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/9c/a3/0e/9ca30e40-dd9c-944e-5a60-23b76bdb3bed/mza_18405237449602805402.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Les Archives du crime",
+      "path": "https://api.octopus.saooti.com/rss/emission/15162.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/90/68/4a/90684aca-b8d1-390e-d638-a9ac0801915e/mza_13650361443153414413.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "True Crime : L'Heure du Crime",
+      "path": "https://www.spreaker.com/show/6906243/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/f2/f7/e8f2f706-a2ce-9b91-cd27-997526bd093c/mza_8042703596167121194.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Cactus Théorie - le podcast d'enquêtes piquantes et de true crime",
+      "path": "https://feed.ausha.co/nReMdtwaJO8x",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e8/b0/78/e8b0788e-ed80-660b-f9fe-214dac3f809a/mza_7977602480391724295.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "The Last 12 Weeks",
+      "path": "https://feeds.simplecast.com/fho8oyc2",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8b/cb/61/8bcb6179-38bd-0f94-a83e-75c99969f148/mza_1914265137006094689.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Intérieur crime",
+      "path": "https://feeds.audiomeans.fr/feed/67e39016-94d7-4173-80d8-e3b5983805b0.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b9/2d/9d/b92d9d88-8204-53cb-4dfd-7d105fab1337/mza_12248636011216249663.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "RTL Stories",
+      "path": "https://feeds.audiomeans.fr/feed/fc84db51-aaad-40cd-93ad-f76c33596393.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts126/v4/fa/96/c4/fa96c4e4-5bca-71dc-d7ac-7578c58fa30e/mza_15782106048270761797.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "The Snare",
+      "path": "https://feeds.megaphone.fm/ESP6782400517",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/0a/7b/1e/0a7b1e0e-56d7-9f22-c1d2-2be83d2fc9f3/mza_4354592459969619696.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Cyber Hack",
+      "path": "https://podcasts.files.bbci.co.uk/w13xtvg9.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/3a/6c/97/3a6c97c7-2e5f-3927-beb8-4477ec52a514/mza_10976808998544260423.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "RedHanded",
+      "path": "https://audioboom.com/channels/5166531.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/37/38/73/373873c6-ff52-d2de-945c-3a1aab729c6d/mza_18348784528713052513.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Love Trapped",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/20968bfe-1a62-450f-a762-b3de0110281c/1c0ae3b2-ec1e-4a0c-a144-b3de01102fb1/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/b5/ad/82/b5ad82a9-b29a-1411-1506-05f9f3ad5d6b/mza_17395607531155205240.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Le fantôme de Jeffrey Epstein",
+      "path": "https://feeds.audiomeans.fr/feed/1abe9e46-be9f-4eba-830d-5e2c91a56100.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/44/d3/c6/44d3c607-ba0f-be63-73fe-a553bfa6e053/mza_6755829208447330649.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "McSkyz",
+      "path": "https://feeds.soundcloud.com/users/soundcloud:users:939983704/sounds.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts115/v4/dc/b8/cf/dcb8cf6b-6734-3eae-20a8-0edcd3f62d9c/mza_14978318010781759909.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Enquête Exclusive",
+      "path": "https://www.spreaker.com/show/6815972/episodes/feed",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/8d/ce/2e/8dce2e40-680f-102d-8275-91a545c5ed93/mza_9103983729401652280.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Intrigue",
+      "path": "https://podcasts.files.bbci.co.uk/m0000nfh.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ba/20/f3/ba20f382-3561-2107-6553-68cda967cae8/mza_18094860596110858695.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Nuits Sombres",
+      "path": "https://feeds.acast.com/public/shows/69ea3f0b0b4baf3bf2c211a4",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/77/0b/d2/770bd26b-0c39-8bc1-1577-1f24b83a0186/mza_3985370868301384545.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "C'est creepy - serial killers, paranormal, mystères",
+      "path": "https://feeds.acast.com/public/shows/62e7c7c5a182b10014300c4f",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d0/6f/79/d06f7998-9d8b-df82-b623-82550e5cf242/mza_11660566371092371120.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Délits mineurs : chroniques d’audiences",
+      "path": "https://www.arteradio.com/xml_sound_emission?emissionname=%22D%C3%A9lits%20mineurs%22",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/87/d5/ba/87d5bae8-7212-9138-68a0-168134c7bc7e/mza_5245710193406475602.png/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Five Miles From Home",
+      "path": "https://feeds.simplecast.com/2RbGSoKZ",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/5f/26/79/5f267967-ef75-63dc-6958-59004d144c16/mza_3103516722400828111.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Nuit Blanche ‐ RTS",
+      "path": "https://feeds.audiomeans.fr/feed/e52a2d92-98aa-4d2b-9f72-ac926fdf7c19.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/de/47/27/de4727dc-c3e1-7d93-d7b1-766167732379/mza_6739160605618414154.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Affaires Criminelles / True crime de Mogota",
+      "path": "https://anchor.fm/s/103d931c8/podcast/rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/81/1b/ff/811bffae-4f4b-13b4-deb2-fcfcf18fc5fd/mza_3611611362804868294.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Unicorn Girl",
+      "path": "https://rss.art19.com/unicorn-girl",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/ae/99/30/ae993072-6cb5-648d-277c-f37309e09674/mza_205416200248101336.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "In The Dark",
+      "path": "https://publicfeeds.net/f/5770/apple/feed-rss.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/72/ce/d9/72ced9bc-ce68-c56b-5194-c743c55b46b7/mza_13873143646731532957.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "My Favorite Murder with Karen Kilgariff and Georgia Hardstark",
+      "path": "https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/bdde8bb3-169d-43b1-91d3-b24c0047969c/f450d41f-16bc-4ecd-8f6c-b24c004796e2/podcast.rss",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/1b/80/b1/1b80b146-8608-f76f-97e7-7a2317549c35/mza_14115126871478479568.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Histoires Criminelles",
+      "path": "https://feeds.audiomeans.fr/feed/d3dac41a-569b-4cee-811e-bbba8699dad7.xml",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/e9/89/ea/e989eab4-b22a-971c-7e31-25a1a1683252/mza_12330237551406453265.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Crackopolis",
+      "path": "https://www.arteradio.com/xml_sound_serie?seriename=%22CRACKOPOLIS%22&partner=applepodcast",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts114/v4/38/60/c2/3860c249-7b3b-be97-9ee5-d5eaf288fd72/mza_15408790357338351785.jpg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Le rendez-vous de l'étrange",
+      "path": "https://feeds.acast.com/public/shows/62de94f82a33df00123b69b1",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/64/14/fd/6414fdcd-338b-99d1-4952-a4f58121e0cb/mza_11635435815458664551.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Criminal",
+      "path": "https://feeds.megaphone.fm/VMP7924981569",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/bd/98/22/bd9822cc-b8e0-59de-5809-45926a0ee5f3/mza_2331604259390110897.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    },
+    {
+      "key": "PodCastFrTruecrime",
+      "name": "Scamtown",
+      "path": "https://rss.art19.com/scamtown",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5b/4d/83/5b4d834b-7d67-73b6-f54c-ad8722dc5d0a/mza_12778752719038456598.jpeg/600x600bb.jpg",
+      "pageList": {
+        "listSelector": "item",
+        "urlSelector": "enclosure",
+        "urlAttribute": "url",
+        "nameSelector": "title"
+      }
+    }
+  ],
+  "popular": {
+    "path": "#dataIndex"
+  },
+  "search": {
+    "path": "#dataIndex"
+  }
+}
